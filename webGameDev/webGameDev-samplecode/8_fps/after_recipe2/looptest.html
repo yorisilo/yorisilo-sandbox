@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8" />
+    <title>ループテスト</title>
+    <script>
+    	var map = [	["1","2","3"],
+    							["4","5","6"],
+    							["7","8","9"] ];
+      var cellsDown = map.length;
+      var cellsAcross = map[0].length;
+      for(var y = 0; y < cellsDown; y++){
+      	for(var x = 0; x < cellsAcross; x++){
+        	var cell = map[y][x];
+        	console.log(y + "行めの" + x +"番めは :" + map[y][x]);
+     		}
+      }
+      
+    </script>
+	</head>
+  <body>
+    
+  </body>
+</html>

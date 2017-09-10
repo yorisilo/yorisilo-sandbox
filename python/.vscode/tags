@@ -1,0 +1,759 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AND	../deep-learning-from-scratch/ch02/and_gate.py	/^def AND(x1, x2):$/;"	kind:function	line:5
+AND	../deep-learning-from-scratch/ch02/xor_gate.py	/^from and_gate import AND$/;"	kind:namespace	line:2
+AdaGrad	../deep-learning-from-scratch/common/optimizer.py	/^class AdaGrad:$/;"	kind:class	line:58
+Adam	../deep-learning-from-scratch/ch06/batch_norm_test.py	/^from common.optimizer import SGD, Adam$/;"	kind:namespace	line:8
+Adam	../deep-learning-from-scratch/common/optimizer.py	/^class Adam:$/;"	kind:class	line:98
+AddLayer	../deep-learning-from-scratch/ch05/layer_naive.py	/^class AddLayer:$/;"	kind:class	line:23
+Affine	../deep-learning-from-scratch/common/layers.py	/^class Affine:$/;"	kind:class	line:40
+Axes3D	../deep-learning-from-scratch/ch04/gradient_2d.py	/^from mpl_toolkits.mplot3d import Axes3D$/;"	kind:namespace	line:5
+BatchNormalization	../deep-learning-from-scratch/common/layers.py	/^class BatchNormalization:$/;"	kind:class	line:114
+Convolution	../deep-learning-from-scratch/ch07/apply_filter.py	/^from common.layers import Convolution$/;"	kind:namespace	line:8
+Convolution	../deep-learning-from-scratch/common/layers.py	/^class Convolution:$/;"	kind:class	line:198
+DeepConvNet	../deep-learning-from-scratch/ch08/deep_convnet.py	/^class DeepConvNet:$/;"	kind:class	line:10
+DeepConvNet	../deep-learning-from-scratch/ch08/half_float_network.py	/^from deep_convnet import DeepConvNet$/;"	kind:namespace	line:6
+DeepConvNet	../deep-learning-from-scratch/ch08/misclassified_mnist.py	/^from deep_convnet import DeepConvNet$/;"	kind:namespace	line:6
+DeepConvNet	../deep-learning-from-scratch/ch08/train_deepnet.py	/^from deep_convnet import DeepConvNet$/;"	kind:namespace	line:7
+Dropout	../deep-learning-from-scratch/common/layers.py	/^class Dropout:$/;"	kind:class	line:95
+Image	../deep-learning-from-scratch/ch03/mnist_show.py	/^from PIL import Image$/;"	kind:namespace	line:6
+Man	../deep-learning-from-scratch/ch01/man.py	/^class Man:$/;"	kind:class	line:2
+Momentum	../deep-learning-from-scratch/common/optimizer.py	/^class Momentum:$/;"	kind:class	line:16
+MulLayer	../deep-learning-from-scratch/ch05/layer_naive.py	/^class MulLayer:$/;"	kind:class	line:4
+MultiLayerNet	../deep-learning-from-scratch/ch06/hyperparameter_optimization.py	/^from common.multi_layer_net import MultiLayerNet$/;"	kind:namespace	line:7
+MultiLayerNet	../deep-learning-from-scratch/ch06/optimizer_compare_mnist.py	/^from common.multi_layer_net import MultiLayerNet$/;"	kind:namespace	line:8
+MultiLayerNet	../deep-learning-from-scratch/ch06/overfit_weight_decay.py	/^from common.multi_layer_net import MultiLayerNet$/;"	kind:namespace	line:9
+MultiLayerNet	../deep-learning-from-scratch/ch06/weight_init_compare.py	/^from common.multi_layer_net import MultiLayerNet$/;"	kind:namespace	line:10
+MultiLayerNet	../deep-learning-from-scratch/common/multi_layer_net.py	/^class MultiLayerNet:$/;"	kind:class	line:10
+MultiLayerNetExtend	../deep-learning-from-scratch/ch06/batch_norm_gradient_check.py	/^from common.multi_layer_net_extend import MultiLayerNetExtend$/;"	kind:namespace	line:6
+MultiLayerNetExtend	../deep-learning-from-scratch/ch06/batch_norm_test.py	/^from common.multi_layer_net_extend import MultiLayerNetExtend$/;"	kind:namespace	line:7
+MultiLayerNetExtend	../deep-learning-from-scratch/ch06/overfit_dropout.py	/^from common.multi_layer_net_extend import MultiLayerNetExtend$/;"	kind:namespace	line:8
+MultiLayerNetExtend	../deep-learning-from-scratch/common/multi_layer_net_extend.py	/^class MultiLayerNetExtend:$/;"	kind:class	line:9
+NAND	../deep-learning-from-scratch/ch02/nand_gate.py	/^def NAND(x1, x2):$/;"	kind:function	line:5
+NAND	../deep-learning-from-scratch/ch02/xor_gate.py	/^from nand_gate import NAND$/;"	kind:namespace	line:4
+Nesterov	../deep-learning-from-scratch/common/optimizer.py	/^class Nesterov:$/;"	kind:class	line:36
+OR	../deep-learning-from-scratch/ch02/or_gate.py	/^def OR(x1, x2):$/;"	kind:function	line:5
+OR	../deep-learning-from-scratch/ch02/xor_gate.py	/^from or_gate import OR$/;"	kind:namespace	line:3
+OrderedDict	../deep-learning-from-scratch/ch05/two_layer_net.py	/^from collections import OrderedDict$/;"	kind:namespace	line:7
+OrderedDict	../deep-learning-from-scratch/ch06/optimizer_compare_naive.py	/^from collections import OrderedDict$/;"	kind:namespace	line:6
+OrderedDict	../deep-learning-from-scratch/ch07/simple_convnet.py	/^from collections import OrderedDict$/;"	kind:namespace	line:6
+OrderedDict	../deep-learning-from-scratch/ch08/deep_convnet.py	/^from collections import OrderedDict$/;"	kind:namespace	line:6
+OrderedDict	../deep-learning-from-scratch/common/multi_layer_net.py	/^from collections import OrderedDict$/;"	kind:namespace	line:5
+OrderedDict	../deep-learning-from-scratch/common/multi_layer_net_extend.py	/^from collections import OrderedDict$/;"	kind:namespace	line:5
+Pooling	../deep-learning-from-scratch/common/layers.py	/^class Pooling:$/;"	kind:class	line:246
+RMSprop	../deep-learning-from-scratch/common/optimizer.py	/^class RMSprop:$/;"	kind:class	line:77
+ReLU	../deep-learning-from-scratch/ch06/weight_init_activation_histogram.py	/^def ReLU(x):$/;"	kind:function	line:10
+Relu	../deep-learning-from-scratch/common/layers.py	/^class Relu:$/;"	kind:class	line:7
+SGD	../deep-learning-from-scratch/ch06/batch_norm_test.py	/^from common.optimizer import SGD, Adam$/;"	kind:namespace	line:8
+SGD	../deep-learning-from-scratch/ch06/overfit_weight_decay.py	/^from common.optimizer import SGD$/;"	kind:namespace	line:10
+SGD	../deep-learning-from-scratch/ch06/weight_init_compare.py	/^from common.optimizer import SGD$/;"	kind:namespace	line:11
+SGD	../deep-learning-from-scratch/common/optimizer.py	/^class SGD:$/;"	kind:class	line:4
+Sigmoid	../deep-learning-from-scratch/common/layers.py	/^class Sigmoid:$/;"	kind:class	line:25
+SimpleConvNet	../deep-learning-from-scratch/ch07/apply_filter.py	/^from simple_convnet import SimpleConvNet$/;"	kind:namespace	line:6
+SimpleConvNet	../deep-learning-from-scratch/ch07/gradient_check.py	/^from simple_convnet import SimpleConvNet$/;"	kind:namespace	line:3
+SimpleConvNet	../deep-learning-from-scratch/ch07/simple_convnet.py	/^class SimpleConvNet:$/;"	kind:class	line:11
+SimpleConvNet	../deep-learning-from-scratch/ch07/train_convnet.py	/^from simple_convnet import SimpleConvNet$/;"	kind:namespace	line:7
+SimpleConvNet	../deep-learning-from-scratch/ch07/visualize_filter.py	/^from simple_convnet import SimpleConvNet$/;"	kind:namespace	line:4
+SoftmaxWithLoss	../deep-learning-from-scratch/common/layers.py	/^class SoftmaxWithLoss:$/;"	kind:class	line:70
+T	../deep-learning-from-scratch/ch07/gradient_check.py	/^T = np.array([1]).reshape((1,1))$/;"	kind:variable	line:10
+Trainer	../deep-learning-from-scratch/ch06/hyperparameter_optimization.py	/^from common.trainer import Trainer$/;"	kind:namespace	line:9
+Trainer	../deep-learning-from-scratch/ch06/overfit_dropout.py	/^from common.trainer import Trainer$/;"	kind:namespace	line:9
+Trainer	../deep-learning-from-scratch/ch07/train_convnet.py	/^from common.trainer import Trainer$/;"	kind:namespace	line:8
+Trainer	../deep-learning-from-scratch/ch08/train_deepnet.py	/^from common.trainer import Trainer$/;"	kind:namespace	line:8
+Trainer	../deep-learning-from-scratch/common/trainer.py	/^class Trainer:$/;"	kind:class	line:7
+TwoLayerNet	../deep-learning-from-scratch/ch04/train_neuralnet.py	/^from two_layer_net import TwoLayerNet$/;"	kind:namespace	line:7
+TwoLayerNet	../deep-learning-from-scratch/ch04/two_layer_net.py	/^class TwoLayerNet:$/;"	kind:class	line:8
+TwoLayerNet	../deep-learning-from-scratch/ch05/gradient_check.py	/^from two_layer_net import TwoLayerNet$/;"	kind:namespace	line:6
+TwoLayerNet	../deep-learning-from-scratch/ch05/train_neuralnet.py	/^from two_layer_net import TwoLayerNet$/;"	kind:namespace	line:7
+TwoLayerNet	../deep-learning-from-scratch/ch05/two_layer_net.py	/^class TwoLayerNet:$/;"	kind:class	line:10
+X	../deep-learning-from-scratch/ch03/sigmoid.py	/^X = np.arange(-5.0, 5.0, 0.1)$/;"	kind:variable	line:9
+X	../deep-learning-from-scratch/ch03/step_function.py	/^X = np.arange(-5.0, 5.0, 0.1)$/;"	kind:variable	line:9
+X	../deep-learning-from-scratch/ch04/gradient_2d.py	/^    X = X.flatten()$/;"	kind:variable	line:56
+X	../deep-learning-from-scratch/ch07/gradient_check.py	/^X = np.random.rand(100).reshape((1, 1, 10, 10))$/;"	kind:variable	line:9
+XOR	../deep-learning-from-scratch/ch02/xor_gate.py	/^def XOR(x1, x2):$/;"	kind:function	line:7
+Y	../deep-learning-from-scratch/ch03/sigmoid.py	/^Y = sigmoid(X)$/;"	kind:variable	line:10
+Y	../deep-learning-from-scratch/ch03/step_function.py	/^Y = step_function(X)$/;"	kind:variable	line:10
+Y	../deep-learning-from-scratch/ch04/gradient_2d.py	/^    Y = Y.flatten()$/;"	kind:variable	line:57
+__backward	../deep-learning-from-scratch/common/layers.py	/^    def __backward(self, dout):$/;"	kind:member	line:181
+__forward	../deep-learning-from-scratch/common/layers.py	/^    def __forward(self, x, train_flg):$/;"	kind:member	line:145
+__init__	../deep-learning-from-scratch/ch01/man.py	/^    def __init__(self, name):$/;"	kind:member	line:5
+__init__	../deep-learning-from-scratch/ch04/gradient_simplenet.py	/^    def __init__(self):$/;"	kind:member	line:10
+__init__	../deep-learning-from-scratch/ch04/two_layer_net.py	/^    def __init__(self, input_size, hidden_size, output_size, weight_init_std=0.01):$/;"	kind:member	line:10
+__init__	../deep-learning-from-scratch/ch05/layer_naive.py	/^    def __init__(self):$/;"	kind:member	line:24
+__init__	../deep-learning-from-scratch/ch05/layer_naive.py	/^    def __init__(self):$/;"	kind:member	line:5
+__init__	../deep-learning-from-scratch/ch05/two_layer_net.py	/^    def __init__(self, input_size, hidden_size, output_size, weight_init_std = 0.01):$/;"	kind:member	line:12
+__init__	../deep-learning-from-scratch/ch07/simple_convnet.py	/^    def __init__(self, input_dim=(1, 28, 28), $/;"	kind:member	line:26
+__init__	../deep-learning-from-scratch/ch08/deep_convnet.py	/^    def __init__(self, input_dim=(1, 28, 28),$/;"	kind:member	line:19
+__init__	../deep-learning-from-scratch/common/layers.py	/^    def __init__(self):$/;"	kind:member	line:26
+__init__	../deep-learning-from-scratch/common/layers.py	/^    def __init__(self):$/;"	kind:member	line:71
+__init__	../deep-learning-from-scratch/common/layers.py	/^    def __init__(self):$/;"	kind:member	line:8
+__init__	../deep-learning-from-scratch/common/layers.py	/^    def __init__(self, W, b):$/;"	kind:member	line:41
+__init__	../deep-learning-from-scratch/common/layers.py	/^    def __init__(self, W, b, stride=1, pad=0):$/;"	kind:member	line:199
+__init__	../deep-learning-from-scratch/common/layers.py	/^    def __init__(self, dropout_ratio=0.5):$/;"	kind:member	line:99
+__init__	../deep-learning-from-scratch/common/layers.py	/^    def __init__(self, gamma, beta, momentum=0.9, running_mean=None, running_var=None):$/;"	kind:member	line:118
+__init__	../deep-learning-from-scratch/common/layers.py	/^    def __init__(self, pool_h, pool_w, stride=1, pad=0):$/;"	kind:member	line:247
+__init__	../deep-learning-from-scratch/common/multi_layer_net.py	/^    def __init__(self, input_size, hidden_size_list, output_size,$/;"	kind:member	line:24
+__init__	../deep-learning-from-scratch/common/multi_layer_net_extend.py	/^    def __init__(self, input_size, hidden_size_list, output_size,$/;"	kind:member	line:28
+__init__	../deep-learning-from-scratch/common/optimizer.py	/^    def __init__(self, lr=0.001, beta1=0.9, beta2=0.999):$/;"	kind:member	line:102
+__init__	../deep-learning-from-scratch/common/optimizer.py	/^    def __init__(self, lr=0.01):$/;"	kind:member	line:62
+__init__	../deep-learning-from-scratch/common/optimizer.py	/^    def __init__(self, lr=0.01):$/;"	kind:member	line:8
+__init__	../deep-learning-from-scratch/common/optimizer.py	/^    def __init__(self, lr=0.01, decay_rate = 0.99):$/;"	kind:member	line:81
+__init__	../deep-learning-from-scratch/common/optimizer.py	/^    def __init__(self, lr=0.01, momentum=0.9):$/;"	kind:member	line:20
+__init__	../deep-learning-from-scratch/common/optimizer.py	/^    def __init__(self, lr=0.01, momentum=0.9):$/;"	kind:member	line:40
+__init__	../deep-learning-from-scratch/common/trainer.py	/^    def __init__(self, network, x_train, t_train, x_test, t_test,$/;"	kind:member	line:10
+__init__.py	../deep-learning-from-scratch/common/__init__.py	1;"	kind:file	line:1
+__init__.py	../deep-learning-from-scratch/dataset/__init__.py	1;"	kind:file	line:1
+__init_weight	../deep-learning-from-scratch/common/multi_layer_net.py	/^    def __init_weight(self, weight_init_std):$/;"	kind:member	line:50
+__init_weight	../deep-learning-from-scratch/common/multi_layer_net_extend.py	/^    def __init_weight(self, weight_init_std):$/;"	kind:member	line:64
+__train	../deep-learning-from-scratch/ch06/batch_norm_test.py	/^def __train(weight_init_std):$/;"	kind:function	line:22
+__train	../deep-learning-from-scratch/ch06/hyperparameter_optimization.py	/^def __train(lr, weight_decay, epocs=50):$/;"	kind:function	line:27
+_change_ont_hot_label	../deep-learning-from-scratch/dataset/mnist.py	/^def _change_ont_hot_label(X):$/;"	kind:function	line:82
+_convert_numpy	../deep-learning-from-scratch/dataset/mnist.py	/^def _convert_numpy():$/;"	kind:function	line:65
+_download	../deep-learning-from-scratch/dataset/mnist.py	/^def _download(file_name):$/;"	kind:function	line:30
+_load_img	../deep-learning-from-scratch/dataset/mnist.py	/^def _load_img(file_name):$/;"	kind:function	line:54
+_load_label	../deep-learning-from-scratch/dataset/mnist.py	/^def _load_label(file_name):$/;"	kind:function	line:44
+_numerical_gradient_1d	../deep-learning-from-scratch/common/gradient.py	/^def _numerical_gradient_1d(f, x):$/;"	kind:function	line:4
+_numerical_gradient_no_batch	../deep-learning-from-scratch/ch04/gradient_2d.py	/^def _numerical_gradient_no_batch(f, x):$/;"	kind:function	line:8
+acc	../deep-learning-from-scratch/ch08/misclassified_mnist.py	/^acc = 0.0$/;"	kind:variable	line:22
+acc	../deep-learning-from-scratch/ch08/misclassified_mnist.py	/^acc = acc \/ x_test.shape[0]$/;"	kind:variable	line:33
+accuracy	../deep-learning-from-scratch/ch04/two_layer_net.py	/^    def accuracy(self, x, t):$/;"	kind:member	line:35
+accuracy	../deep-learning-from-scratch/ch05/two_layer_net.py	/^    def accuracy(self, x, t):$/;"	kind:member	line:39
+accuracy	../deep-learning-from-scratch/ch07/simple_convnet.py	/^    def accuracy(self, x, t, batch_size=100):$/;"	kind:member	line:74
+accuracy	../deep-learning-from-scratch/ch08/deep_convnet.py	/^    def accuracy(self, x, t, batch_size=100):$/;"	kind:member	line:86
+accuracy	../deep-learning-from-scratch/common/multi_layer_net.py	/^    def accuracy(self, x, t):$/;"	kind:member	line:97
+accuracy	../deep-learning-from-scratch/common/multi_layer_net_extend.py	/^    def accuracy(self, X, T):$/;"	kind:member	line:105
+accuracy_cnt	../deep-learning-from-scratch/ch03/neuralnet_mnist.py	/^accuracy_cnt = 0$/;"	kind:variable	line:37
+accuracy_cnt	../deep-learning-from-scratch/ch03/neuralnet_mnist_batch.py	/^accuracy_cnt = 0$/;"	kind:variable	line:39
+activations	../deep-learning-from-scratch/ch06/weight_init_activation_histogram.py	/^activations = {}  # ここにアクティベーションの結果を格納する$/;"	kind:variable	line:20
+add_apple_orange_layer	../deep-learning-from-scratch/ch05/buy_apple_orange.py	/^add_apple_orange_layer = AddLayer()$/;"	kind:variable	line:13
+all_price	../deep-learning-from-scratch/ch05/buy_apple_orange.py	/^all_price = add_apple_orange_layer.forward(apple_price, orange_price)  # (3)$/;"	kind:variable	line:19
+and_gate.py	../deep-learning-from-scratch/ch02/and_gate.py	1;"	kind:file	line:1
+apple	../deep-learning-from-scratch/ch05/buy_apple.py	/^apple = 100$/;"	kind:variable	line:5
+apple	../deep-learning-from-scratch/ch05/buy_apple_orange.py	/^apple = 100$/;"	kind:variable	line:4
+apple_num	../deep-learning-from-scratch/ch05/buy_apple.py	/^apple_num = 2$/;"	kind:variable	line:6
+apple_num	../deep-learning-from-scratch/ch05/buy_apple_orange.py	/^apple_num = 2$/;"	kind:variable	line:5
+apple_price	../deep-learning-from-scratch/ch05/buy_apple.py	/^apple_price = mul_apple_layer.forward(apple, apple_num)$/;"	kind:variable	line:13
+apple_price	../deep-learning-from-scratch/ch05/buy_apple_orange.py	/^apple_price = mul_apple_layer.forward(apple, apple_num)  # (1)$/;"	kind:variable	line:17
+apply_filter.py	../deep-learning-from-scratch/ch07/apply_filter.py	1;"	kind:file	line:1
+awesome_net.py	../deep-learning-from-scratch/ch08/awesome_net.py	1;"	kind:file	line:1
+ax	../deep-learning-from-scratch/ch07/apply_filter.py	/^    ax = fig.add_subplot(4, 4, i+1, xticks=[], yticks=[])$/;"	kind:variable	line:51
+ax	../deep-learning-from-scratch/ch08/misclassified_mnist.py	/^        ax = fig.add_subplot(4, 5, current_view, xticks=[], yticks=[])$/;"	kind:variable	line:48
+b	../deep-learning-from-scratch/ch07/apply_filter.py	/^    b = 0  # network.params['b1'][i]$/;"	kind:variable	line:43
+backward	../deep-learning-from-scratch/ch05/layer_naive.py	/^    def backward(self, dout):$/;"	kind:member	line:16
+backward	../deep-learning-from-scratch/ch05/layer_naive.py	/^    def backward(self, dout):$/;"	kind:member	line:32
+backward	../deep-learning-from-scratch/common/layers.py	/^    def backward(self, dout):$/;"	kind:member	line:110
+backward	../deep-learning-from-scratch/common/layers.py	/^    def backward(self, dout):$/;"	kind:member	line:171
+backward	../deep-learning-from-scratch/common/layers.py	/^    def backward(self, dout):$/;"	kind:member	line:18
+backward	../deep-learning-from-scratch/common/layers.py	/^    def backward(self, dout):$/;"	kind:member	line:232
+backward	../deep-learning-from-scratch/common/layers.py	/^    def backward(self, dout):$/;"	kind:member	line:273
+backward	../deep-learning-from-scratch/common/layers.py	/^    def backward(self, dout):$/;"	kind:member	line:34
+backward	../deep-learning-from-scratch/common/layers.py	/^    def backward(self, dout):$/;"	kind:member	line:61
+backward	../deep-learning-from-scratch/common/layers.py	/^    def backward(self, dout=1):$/;"	kind:member	line:83
+batch_mask	../deep-learning-from-scratch/ch04/train_neuralnet.py	/^    batch_mask = np.random.choice(train_size, batch_size)$/;"	kind:variable	line:26
+batch_mask	../deep-learning-from-scratch/ch05/train_neuralnet.py	/^    batch_mask = np.random.choice(train_size, batch_size)$/;"	kind:variable	line:26
+batch_mask	../deep-learning-from-scratch/ch06/optimizer_compare_mnist.py	/^    batch_mask = np.random.choice(train_size, batch_size)$/;"	kind:variable	line:39
+batch_mask	../deep-learning-from-scratch/ch06/overfit_weight_decay.py	/^    batch_mask = np.random.choice(train_size, batch_size)$/;"	kind:variable	line:39
+batch_mask	../deep-learning-from-scratch/ch06/weight_init_compare.py	/^    batch_mask = np.random.choice(train_size, batch_size)$/;"	kind:variable	line:36
+batch_norm_gradient_check.py	../deep-learning-from-scratch/ch06/batch_norm_gradient_check.py	1;"	kind:file	line:1
+batch_norm_test.py	../deep-learning-from-scratch/ch06/batch_norm_test.py	1;"	kind:file	line:1
+batch_size	../deep-learning-from-scratch/ch03/neuralnet_mnist_batch.py	/^batch_size = 100 # バッチの数$/;"	kind:variable	line:38
+batch_size	../deep-learning-from-scratch/ch04/train_neuralnet.py	/^batch_size = 100$/;"	kind:variable	line:16
+batch_size	../deep-learning-from-scratch/ch05/train_neuralnet.py	/^batch_size = 100$/;"	kind:variable	line:16
+batch_size	../deep-learning-from-scratch/ch06/batch_norm_test.py	/^batch_size = 100$/;"	kind:variable	line:18
+batch_size	../deep-learning-from-scratch/ch06/optimizer_compare_mnist.py	/^batch_size = 128$/;"	kind:variable	line:16
+batch_size	../deep-learning-from-scratch/ch06/overfit_weight_decay.py	/^batch_size = 100$/;"	kind:variable	line:29
+batch_size	../deep-learning-from-scratch/ch06/weight_init_compare.py	/^batch_size = 128$/;"	kind:variable	line:18
+batch_size	../deep-learning-from-scratch/ch08/misclassified_mnist.py	/^batch_size = 100$/;"	kind:variable	line:23
+buy_apple.py	../deep-learning-from-scratch/ch05/buy_apple.py	1;"	kind:file	line:1
+buy_apple_orange.py	../deep-learning-from-scratch/ch05/buy_apple_orange.py	1;"	kind:file	line:1
+classified_ids	../deep-learning-from-scratch/ch08/misclassified_mnist.py	/^classified_ids = []$/;"	kind:variable	line:20
+classified_ids	../deep-learning-from-scratch/ch08/misclassified_mnist.py	/^classified_ids = classified_ids.flatten()$/;"	kind:variable	line:37
+classified_ids	../deep-learning-from-scratch/ch08/misclassified_mnist.py	/^classified_ids = np.array(classified_ids)$/;"	kind:variable	line:36
+col2im	../deep-learning-from-scratch/common/layers.py	/^from common.util import im2col, col2im$/;"	kind:namespace	line:4
+col2im	../deep-learning-from-scratch/common/util.py	/^def col2im(col, input_shape, filter_h, filter_w, stride=1, pad=0):$/;"	kind:function	line:71
+col_num	../deep-learning-from-scratch/ch06/hyperparameter_optimization.py	/^col_num = 5$/;"	kind:variable	line:57
+conv_layer	../deep-learning-from-scratch/ch07/apply_filter.py	/^    conv_layer = Convolution(w, b) $/;"	kind:variable	line:47
+conv_output_size	../deep-learning-from-scratch/common/util.py	/^def conv_output_size(input_size, filter_size, stride=1, pad=0):$/;"	kind:function	line:35
+conv_param	../deep-learning-from-scratch/ch07/apply_filter.py	/^                        conv_param = {'filter_num':30, 'filter_size':5, 'pad':0, 'stride':1},$/;"	kind:variable	line:26
+conv_param	../deep-learning-from-scratch/ch07/gradient_check.py	/^                        conv_param = {'filter_num':10, 'filter_size':3, 'pad':0, 'stride':1},$/;"	kind:variable	line:6
+conv_param	../deep-learning-from-scratch/ch07/train_convnet.py	/^                        conv_param = {'filter_num': 30, 'filter_size': 5, 'pad': 0, 'stride': 1},$/;"	kind:variable	line:20
+cross_entropy_error	../deep-learning-from-scratch/ch04/gradient_simplenet.py	/^from common.functions import softmax, cross_entropy_error$/;"	kind:namespace	line:5
+cross_entropy_error	../deep-learning-from-scratch/common/functions.py	/^def cross_entropy_error(y, t):$/;"	kind:function	line:46
+current_view	../deep-learning-from-scratch/ch08/misclassified_mnist.py	/^current_view = 1$/;"	kind:variable	line:40
+dW	../deep-learning-from-scratch/ch04/gradient_simplenet.py	/^dW = numerical_gradient(f, net.W)$/;"	kind:variable	line:29
+dataset_dir	../deep-learning-from-scratch/dataset/mnist.py	/^dataset_dir = os.path.dirname(os.path.abspath(__file__))$/;"	kind:variable	line:21
+deep_convnet.py	../deep-learning-from-scratch/ch08/deep_convnet.py	1;"	kind:file	line:1
+df	../deep-learning-from-scratch/ch06/optimizer_compare_naive.py	/^def df(x, y):$/;"	kind:function	line:14
+diff	../deep-learning-from-scratch/ch05/gradient_check.py	/^    diff = np.average( np.abs(grad_backprop[key] - grad_numerical[key]) )$/;"	kind:variable	line:20
+diff	../deep-learning-from-scratch/ch06/batch_norm_gradient_check.py	/^    diff = np.average( np.abs(grad_backprop[key] - grad_numerical[key]) )$/;"	kind:variable	line:22
+download_mnist	../deep-learning-from-scratch/dataset/mnist.py	/^def download_mnist():$/;"	kind:function	line:40
+dprice	../deep-learning-from-scratch/ch05/buy_apple.py	/^dprice = 1$/;"	kind:variable	line:17
+dprice	../deep-learning-from-scratch/ch05/buy_apple_orange.py	/^dprice = 1$/;"	kind:variable	line:23
+dropout_ratio	../deep-learning-from-scratch/ch06/overfit_dropout.py	/^dropout_ratio = 0.2$/;"	kind:variable	line:19
+epoch_cnt	../deep-learning-from-scratch/ch06/overfit_weight_decay.py	/^epoch_cnt = 0$/;"	kind:variable	line:36
+evaluate_sample_num_per_epoch	../deep-learning-from-scratch/ch07/train_convnet.py	/^                  evaluate_sample_num_per_epoch=1000)$/;"	kind:variable	line:26
+evaluate_sample_num_per_epoch	../deep-learning-from-scratch/ch08/train_deepnet.py	/^                  evaluate_sample_num_per_epoch=1000)$/;"	kind:variable	line:16
+f	../deep-learning-from-scratch/ch04/gradient_simplenet.py	/^f = lambda w: net.loss(x, t)$/;"	kind:variable	line:28
+f	../deep-learning-from-scratch/ch06/optimizer_compare_naive.py	/^def f(x, y):$/;"	kind:function	line:10
+fig	../deep-learning-from-scratch/ch07/apply_filter.py	/^fig = plt.figure()$/;"	kind:variable	line:37
+fig	../deep-learning-from-scratch/ch08/misclassified_mnist.py	/^fig = plt.figure()$/;"	kind:variable	line:42
+filter_show	../deep-learning-from-scratch/ch07/apply_filter.py	/^def filter_show(filters, nx=4, show_num=16):$/;"	kind:function	line:10
+filter_show	../deep-learning-from-scratch/ch07/visualize_filter.py	/^def filter_show(filters, nx=8, margin=3, scale=10):$/;"	kind:function	line:6
+forward	../deep-learning-from-scratch/ch05/layer_naive.py	/^    def forward(self, x, y):$/;"	kind:member	line:27
+forward	../deep-learning-from-scratch/ch05/layer_naive.py	/^    def forward(self, x, y):$/;"	kind:member	line:9
+forward	../deep-learning-from-scratch/common/layers.py	/^    def forward(self, x):$/;"	kind:member	line:11
+forward	../deep-learning-from-scratch/common/layers.py	/^    def forward(self, x):$/;"	kind:member	line:214
+forward	../deep-learning-from-scratch/common/layers.py	/^    def forward(self, x):$/;"	kind:member	line:256
+forward	../deep-learning-from-scratch/common/layers.py	/^    def forward(self, x):$/;"	kind:member	line:29
+forward	../deep-learning-from-scratch/common/layers.py	/^    def forward(self, x):$/;"	kind:member	line:51
+forward	../deep-learning-from-scratch/common/layers.py	/^    def forward(self, x, t):$/;"	kind:member	line:76
+forward	../deep-learning-from-scratch/common/layers.py	/^    def forward(self, x, train_flg=True):$/;"	kind:member	line:103
+forward	../deep-learning-from-scratch/common/layers.py	/^    def forward(self, x, train_flg=True):$/;"	kind:member	line:135
+function_1	../deep-learning-from-scratch/ch04/gradient_1d.py	/^def function_1(x):$/;"	kind:function	line:11
+function_2	../deep-learning-from-scratch/ch04/gradient_2d.py	/^def function_2(x):$/;"	kind:function	line:38
+function_2	../deep-learning-from-scratch/ch04/gradient_method.py	/^def function_2(x):$/;"	kind:function	line:20
+functions.py	../deep-learning-from-scratch/common/functions.py	1;"	kind:file	line:1
+get_data	../deep-learning-from-scratch/ch03/neuralnet_mnist.py	/^def get_data():$/;"	kind:function	line:10
+get_data	../deep-learning-from-scratch/ch03/neuralnet_mnist_batch.py	/^def get_data():$/;"	kind:function	line:10
+goodbye	../deep-learning-from-scratch/ch01/man.py	/^    def goodbye(self):$/;"	kind:member	line:12
+grad	../deep-learning-from-scratch/ch04/gradient_2d.py	/^    grad = numerical_gradient(function_2, np.array([X, Y]) )$/;"	kind:variable	line:59
+grad	../deep-learning-from-scratch/ch04/train_neuralnet.py	/^    grad = network.gradient(x_batch, t_batch)$/;"	kind:variable	line:32
+grad	../deep-learning-from-scratch/ch05/train_neuralnet.py	/^    grad = network.gradient(x_batch, t_batch)$/;"	kind:variable	line:32
+grad	../deep-learning-from-scratch/ch07/gradient_check.py	/^grad = network.gradient(X, T)$/;"	kind:variable	line:13
+grad_backprop	../deep-learning-from-scratch/ch05/gradient_check.py	/^grad_backprop = network.gradient(x_batch, t_batch)$/;"	kind:variable	line:17
+grad_backprop	../deep-learning-from-scratch/ch06/batch_norm_gradient_check.py	/^grad_backprop = network.gradient(x_batch, t_batch)$/;"	kind:variable	line:17
+grad_num	../deep-learning-from-scratch/ch07/gradient_check.py	/^grad_num = network.numerical_gradient(X, T)$/;"	kind:variable	line:12
+grad_numerical	../deep-learning-from-scratch/ch05/gradient_check.py	/^grad_numerical = network.numerical_gradient(x_batch, t_batch)$/;"	kind:variable	line:16
+grad_numerical	../deep-learning-from-scratch/ch06/batch_norm_gradient_check.py	/^grad_numerical = network.numerical_gradient(x_batch, t_batch)$/;"	kind:variable	line:18
+gradient	../deep-learning-from-scratch/ch04/two_layer_net.py	/^    def gradient(self, x, t):$/;"	kind:member	line:55
+gradient	../deep-learning-from-scratch/ch05/two_layer_net.py	/^    def gradient(self, x, t):$/;"	kind:member	line:59
+gradient	../deep-learning-from-scratch/ch07/simple_convnet.py	/^    def gradient(self, x, t):$/;"	kind:member	line:111
+gradient	../deep-learning-from-scratch/ch08/deep_convnet.py	/^    def gradient(self, x, t):$/;"	kind:member	line:100
+gradient	../deep-learning-from-scratch/common/multi_layer_net.py	/^    def gradient(self, x, t):$/;"	kind:member	line:128
+gradient	../deep-learning-from-scratch/common/multi_layer_net_extend.py	/^    def gradient(self, x, t):$/;"	kind:member	line:140
+gradient.py	../deep-learning-from-scratch/common/gradient.py	1;"	kind:file	line:1
+gradient_1d.py	../deep-learning-from-scratch/ch04/gradient_1d.py	1;"	kind:file	line:1
+gradient_2d.py	../deep-learning-from-scratch/ch04/gradient_2d.py	1;"	kind:file	line:1
+gradient_check.py	../deep-learning-from-scratch/ch05/gradient_check.py	1;"	kind:file	line:1
+gradient_check.py	../deep-learning-from-scratch/ch07/gradient_check.py	1;"	kind:file	line:1
+gradient_descent	../deep-learning-from-scratch/ch04/gradient_method.py	/^def gradient_descent(f, init_x, lr=0.01, step_num=100):$/;"	kind:function	line:7
+gradient_method.py	../deep-learning-from-scratch/ch04/gradient_method.py	1;"	kind:file	line:1
+gradient_simplenet.py	../deep-learning-from-scratch/ch04/gradient_simplenet.py	1;"	kind:file	line:1
+grads	../deep-learning-from-scratch/ch06/optimizer_compare_mnist.py	/^        grads = networks[key].gradient(x_batch, t_batch)$/;"	kind:variable	line:44
+grads	../deep-learning-from-scratch/ch06/optimizer_compare_naive.py	/^grads = {}$/;"	kind:variable	line:20
+grads	../deep-learning-from-scratch/ch06/overfit_weight_decay.py	/^    grads = network.gradient(x_batch, t_batch)$/;"	kind:variable	line:43
+grads	../deep-learning-from-scratch/ch06/weight_init_compare.py	/^        grads = networks[key].gradient(x_batch, t_batch)$/;"	kind:variable	line:41
+graph_draw_num	../deep-learning-from-scratch/ch06/hyperparameter_optimization.py	/^graph_draw_num = 20$/;"	kind:variable	line:56
+gzip	../deep-learning-from-scratch/dataset/mnist.py	/^import gzip$/;"	kind:namespace	line:7
+half_float_network.py	../deep-learning-from-scratch/ch08/half_float_network.py	1;"	kind:file	line:1
+hello	../deep-learning-from-scratch/ch01/man.py	/^    def hello(self):$/;"	kind:member	line:9
+hidden_layer_size	../deep-learning-from-scratch/ch06/weight_init_activation_histogram.py	/^hidden_layer_size = 5  # 隠れ層が5層$/;"	kind:variable	line:19
+hungry.py	../deep-learning-from-scratch/ch01/hungry.py	1;"	kind:file	line:1
+hyperparameter_optimization.py	../deep-learning-from-scratch/ch06/hyperparameter_optimization.py	1;"	kind:file	line:1
+i	../deep-learning-from-scratch/ch06/hyperparameter_optimization.py	/^i = 0$/;"	kind:variable	line:59
+identity_function	../deep-learning-from-scratch/common/functions.py	/^def identity_function(x):$/;"	kind:function	line:5
+idx	../deep-learning-from-scratch/ch06/optimizer_compare_naive.py	/^idx = 1$/;"	kind:variable	line:30
+im2col	../deep-learning-from-scratch/common/layers.py	/^from common.util import im2col, col2im$/;"	kind:namespace	line:4
+im2col	../deep-learning-from-scratch/common/util.py	/^def im2col(input_data, filter_h, filter_w, stride=1, pad=0):$/;"	kind:function	line:39
+img	../deep-learning-from-scratch/ch01/img_show.py	/^img = imread('..\/dataset\/lena.png') # 画像の読み込み$/;"	kind:variable	line:5
+img	../deep-learning-from-scratch/ch03/mnist_show.py	/^img = img.reshape(28, 28)  # 形状を元の画像サイズに変形$/;"	kind:variable	line:20
+img	../deep-learning-from-scratch/ch03/mnist_show.py	/^img = x_train[0]$/;"	kind:variable	line:15
+img	../deep-learning-from-scratch/ch07/apply_filter.py	/^img = img.reshape(1, 1, *img.shape)$/;"	kind:variable	line:35
+img	../deep-learning-from-scratch/ch07/apply_filter.py	/^img = imread('..\/dataset\/lena_gray.png')$/;"	kind:variable	line:34
+img_dim	../deep-learning-from-scratch/dataset/mnist.py	/^img_dim = (1, 28, 28)$/;"	kind:variable	line:26
+img_show	../deep-learning-from-scratch/ch03/mnist_show.py	/^def img_show(img):$/;"	kind:function	line:9
+img_show.py	../deep-learning-from-scratch/ch01/img_show.py	1;"	kind:file	line:1
+img_size	../deep-learning-from-scratch/dataset/mnist.py	/^img_size = 784$/;"	kind:variable	line:27
+imread	../deep-learning-from-scratch/ch01/img_show.py	/^from matplotlib.image import imread$/;"	kind:namespace	line:3
+imread	../deep-learning-from-scratch/ch07/apply_filter.py	/^from matplotlib.image import imread$/;"	kind:namespace	line:7
+init_mnist	../deep-learning-from-scratch/dataset/mnist.py	/^def init_mnist():$/;"	kind:function	line:74
+init_network	../deep-learning-from-scratch/ch03/neuralnet_mnist.py	/^def init_network():$/;"	kind:function	line:15
+init_network	../deep-learning-from-scratch/ch03/neuralnet_mnist_batch.py	/^def init_network():$/;"	kind:function	line:15
+init_pos	../deep-learning-from-scratch/ch06/optimizer_compare_naive.py	/^init_pos = (-7.0, 2.0)$/;"	kind:variable	line:17
+init_x	../deep-learning-from-scratch/ch04/gradient_method.py	/^init_x = np.array([-3.0, 4.0])    $/;"	kind:variable	line:23
+input_data	../deep-learning-from-scratch/ch06/weight_init_activation_histogram.py	/^input_data = np.random.randn(1000, 100)  # 1000個のデータ$/;"	kind:variable	line:17
+iter_per_epoch	../deep-learning-from-scratch/ch04/train_neuralnet.py	/^iter_per_epoch = max(train_size \/ batch_size, 1)$/;"	kind:variable	line:23
+iter_per_epoch	../deep-learning-from-scratch/ch05/train_neuralnet.py	/^iter_per_epoch = max(train_size \/ batch_size, 1)$/;"	kind:variable	line:23
+iter_per_epoch	../deep-learning-from-scratch/ch06/overfit_weight_decay.py	/^iter_per_epoch = max(train_size \/ batch_size, 1)$/;"	kind:variable	line:35
+iters_num	../deep-learning-from-scratch/ch04/train_neuralnet.py	/^iters_num = 10000  # 繰り返しの回数を適宜設定する$/;"	kind:variable	line:14
+iters_num	../deep-learning-from-scratch/ch05/train_neuralnet.py	/^iters_num = 10000$/;"	kind:variable	line:14
+key	../deep-learning-from-scratch/ch06/hyperparameter_optimization.py	/^    key = "lr:" + str(lr) + ", weight decay:" + str(weight_decay)$/;"	kind:variable	line:50
+key_file	../deep-learning-from-scratch/dataset/mnist.py	/^key_file = {$/;"	kind:variable	line:14
+label	../deep-learning-from-scratch/ch03/mnist_show.py	/^label = t_train[0]$/;"	kind:variable	line:16
+layer_naive.py	../deep-learning-from-scratch/ch05/layer_naive.py	1;"	kind:file	line:1
+layers.py	../deep-learning-from-scratch/common/layers.py	1;"	kind:file	line:1
+learning_rate	../deep-learning-from-scratch/ch04/train_neuralnet.py	/^learning_rate = 0.1$/;"	kind:variable	line:17
+learning_rate	../deep-learning-from-scratch/ch05/train_neuralnet.py	/^learning_rate = 0.1$/;"	kind:variable	line:17
+learning_rate	../deep-learning-from-scratch/ch06/batch_norm_test.py	/^learning_rate = 0.01$/;"	kind:variable	line:19
+load_mnist	../deep-learning-from-scratch/ch03/mnist_show.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:5
+load_mnist	../deep-learning-from-scratch/ch03/neuralnet_mnist.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:6
+load_mnist	../deep-learning-from-scratch/ch03/neuralnet_mnist_batch.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:6
+load_mnist	../deep-learning-from-scratch/ch04/train_neuralnet.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:6
+load_mnist	../deep-learning-from-scratch/ch05/gradient_check.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:5
+load_mnist	../deep-learning-from-scratch/ch05/train_neuralnet.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:6
+load_mnist	../deep-learning-from-scratch/ch06/batch_norm_gradient_check.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:5
+load_mnist	../deep-learning-from-scratch/ch06/batch_norm_test.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:6
+load_mnist	../deep-learning-from-scratch/ch06/hyperparameter_optimization.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:6
+load_mnist	../deep-learning-from-scratch/ch06/optimizer_compare_mnist.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:6
+load_mnist	../deep-learning-from-scratch/ch06/overfit_dropout.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:7
+load_mnist	../deep-learning-from-scratch/ch06/overfit_weight_decay.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:8
+load_mnist	../deep-learning-from-scratch/ch06/weight_init_compare.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:8
+load_mnist	../deep-learning-from-scratch/ch07/train_convnet.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:6
+load_mnist	../deep-learning-from-scratch/ch08/half_float_network.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:7
+load_mnist	../deep-learning-from-scratch/ch08/misclassified_mnist.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:7
+load_mnist	../deep-learning-from-scratch/ch08/train_deepnet.py	/^from dataset.mnist import load_mnist$/;"	kind:namespace	line:6
+load_mnist	../deep-learning-from-scratch/dataset/mnist.py	/^def load_mnist(normalize=True, flatten=True, one_hot_label=False):$/;"	kind:function	line:90
+load_params	../deep-learning-from-scratch/ch07/simple_convnet.py	/^    def load_params(self, file_name="params.pkl"):$/;"	kind:member	line:152
+load_params	../deep-learning-from-scratch/ch08/deep_convnet.py	/^    def load_params(self, file_name="params.pkl"):$/;"	kind:member	line:128
+loss	../deep-learning-from-scratch/ch04/gradient_simplenet.py	/^    def loss(self, x, t):$/;"	kind:member	line:16
+loss	../deep-learning-from-scratch/ch04/train_neuralnet.py	/^    loss = network.loss(x_batch, t_batch)$/;"	kind:variable	line:38
+loss	../deep-learning-from-scratch/ch04/two_layer_net.py	/^    def loss(self, x, t):$/;"	kind:member	line:30
+loss	../deep-learning-from-scratch/ch05/train_neuralnet.py	/^    loss = network.loss(x_batch, t_batch)$/;"	kind:variable	line:38
+loss	../deep-learning-from-scratch/ch05/two_layer_net.py	/^    def loss(self, x, t):$/;"	kind:member	line:35
+loss	../deep-learning-from-scratch/ch06/optimizer_compare_mnist.py	/^            loss = networks[key].loss(x_batch, t_batch)$/;"	kind:variable	line:53
+loss	../deep-learning-from-scratch/ch06/optimizer_compare_mnist.py	/^        loss = networks[key].loss(x_batch, t_batch)$/;"	kind:variable	line:47
+loss	../deep-learning-from-scratch/ch06/weight_init_compare.py	/^            loss = networks[key].loss(x_batch, t_batch)$/;"	kind:variable	line:50
+loss	../deep-learning-from-scratch/ch06/weight_init_compare.py	/^        loss = networks[key].loss(x_batch, t_batch)$/;"	kind:variable	line:44
+loss	../deep-learning-from-scratch/ch07/simple_convnet.py	/^    def loss(self, x, t):$/;"	kind:member	line:67
+loss	../deep-learning-from-scratch/ch08/deep_convnet.py	/^    def loss(self, x, t):$/;"	kind:member	line:82
+loss	../deep-learning-from-scratch/common/multi_layer_net.py	/^    def loss(self, x, t):$/;"	kind:member	line:76
+loss	../deep-learning-from-scratch/common/multi_layer_net_extend.py	/^    def loss(self, x, t, train_flg=False):$/;"	kind:member	line:92
+lr	../deep-learning-from-scratch/ch04/gradient_method.py	/^lr = 0.1$/;"	kind:variable	line:25
+lr	../deep-learning-from-scratch/ch06/hyperparameter_optimization.py	/^    lr = 10 ** np.random.uniform(-6, -2)$/;"	kind:variable	line:45
+m	../deep-learning-from-scratch/ch01/man.py	/^m = Man("David")$/;"	kind:variable	line:15
+man.py	../deep-learning-from-scratch/ch01/man.py	1;"	kind:file	line:1
+markers	../deep-learning-from-scratch/ch04/train_neuralnet.py	/^markers = {'train': 'o', 'test': 's'}$/;"	kind:variable	line:49
+markers	../deep-learning-from-scratch/ch06/optimizer_compare_mnist.py	/^markers = {"SGD": "o", "Momentum": "x", "AdaGrad": "s", "Adam": "D"}$/;"	kind:variable	line:58
+markers	../deep-learning-from-scratch/ch06/overfit_dropout.py	/^markers = {'train': 'o', 'test': 's'}$/;"	kind:variable	line:32
+markers	../deep-learning-from-scratch/ch06/overfit_weight_decay.py	/^markers = {'train': 'o', 'test': 's'}$/;"	kind:variable	line:60
+markers	../deep-learning-from-scratch/ch07/train_convnet.py	/^markers = {'train': 'o', 'test': 's'}$/;"	kind:variable	line:34
+matplotlib	../deep-learning-from-scratch/ch01/img_show.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
+matplotlib	../deep-learning-from-scratch/ch01/simple_graph.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+matplotlib	../deep-learning-from-scratch/ch01/sin_cos_graph.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+matplotlib	../deep-learning-from-scratch/ch01/sin_graph.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+matplotlib	../deep-learning-from-scratch/ch03/relu.py	/^import matplotlib.pylab as plt$/;"	kind:namespace	line:3
+matplotlib	../deep-learning-from-scratch/ch03/sig_step_compare.py	/^import matplotlib.pylab as plt$/;"	kind:namespace	line:3
+matplotlib	../deep-learning-from-scratch/ch03/sigmoid.py	/^import matplotlib.pylab as plt$/;"	kind:namespace	line:3
+matplotlib	../deep-learning-from-scratch/ch03/step_function.py	/^import matplotlib.pylab as plt$/;"	kind:namespace	line:3
+matplotlib	../deep-learning-from-scratch/ch04/gradient_1d.py	/^import matplotlib.pylab as plt$/;"	kind:namespace	line:3
+matplotlib	../deep-learning-from-scratch/ch04/gradient_2d.py	/^import matplotlib.pylab as plt$/;"	kind:namespace	line:4
+matplotlib	../deep-learning-from-scratch/ch04/gradient_method.py	/^import matplotlib.pylab as plt$/;"	kind:namespace	line:3
+matplotlib	../deep-learning-from-scratch/ch04/train_neuralnet.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:5
+matplotlib	../deep-learning-from-scratch/ch06/batch_norm_test.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:5
+matplotlib	../deep-learning-from-scratch/ch06/hyperparameter_optimization.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:5
+matplotlib	../deep-learning-from-scratch/ch06/optimizer_compare_mnist.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:5
+matplotlib	../deep-learning-from-scratch/ch06/optimizer_compare_naive.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:5
+matplotlib	../deep-learning-from-scratch/ch06/overfit_dropout.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:6
+matplotlib	../deep-learning-from-scratch/ch06/overfit_weight_decay.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:7
+matplotlib	../deep-learning-from-scratch/ch06/weight_init_activation_histogram.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+matplotlib	../deep-learning-from-scratch/ch06/weight_init_compare.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:7
+matplotlib	../deep-learning-from-scratch/ch07/apply_filter.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:5
+matplotlib	../deep-learning-from-scratch/ch07/train_convnet.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:5
+matplotlib	../deep-learning-from-scratch/ch07/visualize_filter.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+matplotlib	../deep-learning-from-scratch/ch08/half_float_network.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:5
+matplotlib	../deep-learning-from-scratch/ch08/misclassified_mnist.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:5
+matplotlib	../deep-learning-from-scratch/ch08/train_deepnet.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:5
+max_epochs	../deep-learning-from-scratch/ch06/batch_norm_test.py	/^max_epochs = 20$/;"	kind:variable	line:16
+max_epochs	../deep-learning-from-scratch/ch06/overfit_weight_decay.py	/^max_epochs = 201$/;"	kind:variable	line:27
+max_epochs	../deep-learning-from-scratch/ch07/train_convnet.py	/^max_epochs = 20$/;"	kind:variable	line:17
+max_iterations	../deep-learning-from-scratch/ch06/optimizer_compare_mnist.py	/^max_iterations = 2000$/;"	kind:variable	line:17
+max_iterations	../deep-learning-from-scratch/ch06/weight_init_compare.py	/^max_iterations = 2000$/;"	kind:variable	line:19
+max_view	../deep-learning-from-scratch/ch08/misclassified_mnist.py	/^max_view = 20$/;"	kind:variable	line:39
+mean_squared_error	../deep-learning-from-scratch/common/functions.py	/^def mean_squared_error(y, t):$/;"	kind:function	line:42
+mis_pairs	../deep-learning-from-scratch/ch08/misclassified_mnist.py	/^mis_pairs = {}$/;"	kind:variable	line:45
+misclassified_mnist.py	../deep-learning-from-scratch/ch08/misclassified_mnist.py	1;"	kind:file	line:1
+mnist.py	../deep-learning-from-scratch/dataset/mnist.py	1;"	kind:file	line:1
+mnist_show.py	../deep-learning-from-scratch/ch03/mnist_show.py	1;"	kind:file	line:1
+mul_apple_layer	../deep-learning-from-scratch/ch05/buy_apple.py	/^mul_apple_layer = MulLayer()$/;"	kind:variable	line:9
+mul_apple_layer	../deep-learning-from-scratch/ch05/buy_apple_orange.py	/^mul_apple_layer = MulLayer()$/;"	kind:variable	line:11
+mul_orange_layer	../deep-learning-from-scratch/ch05/buy_apple_orange.py	/^mul_orange_layer = MulLayer()$/;"	kind:variable	line:12
+mul_tax_layer	../deep-learning-from-scratch/ch05/buy_apple.py	/^mul_tax_layer = MulLayer()$/;"	kind:variable	line:10
+mul_tax_layer	../deep-learning-from-scratch/ch05/buy_apple_orange.py	/^mul_tax_layer = MulLayer()$/;"	kind:variable	line:14
+multi_layer_net.py	../deep-learning-from-scratch/common/multi_layer_net.py	1;"	kind:file	line:1
+multi_layer_net_extend.py	../deep-learning-from-scratch/common/multi_layer_net_extend.py	1;"	kind:file	line:1
+nand_gate.py	../deep-learning-from-scratch/ch02/nand_gate.py	1;"	kind:file	line:1
+net	../deep-learning-from-scratch/ch04/gradient_simplenet.py	/^net = simpleNet()$/;"	kind:variable	line:26
+network	../deep-learning-from-scratch/ch03/neuralnet_mnist.py	/^network = init_network()$/;"	kind:variable	line:36
+network	../deep-learning-from-scratch/ch03/neuralnet_mnist_batch.py	/^network = init_network()$/;"	kind:variable	line:36
+network	../deep-learning-from-scratch/ch04/train_neuralnet.py	/^network = TwoLayerNet(input_size=784, hidden_size=50, output_size=10)$/;"	kind:variable	line:12
+network	../deep-learning-from-scratch/ch05/gradient_check.py	/^network = TwoLayerNet(input_size=784, hidden_size=50, output_size=10)$/;"	kind:variable	line:11
+network	../deep-learning-from-scratch/ch05/train_neuralnet.py	/^network = TwoLayerNet(input_size=784, hidden_size=50, output_size=10)$/;"	kind:variable	line:12
+network	../deep-learning-from-scratch/ch06/batch_norm_gradient_check.py	/^network = MultiLayerNetExtend(input_size=784, hidden_size_list=[100, 100], output_size=10,$/;"	kind:variable	line:11
+network	../deep-learning-from-scratch/ch06/overfit_dropout.py	/^network = MultiLayerNetExtend(input_size=784, hidden_size_list=[100, 100, 100, 100, 100, 100],$/;"	kind:variable	line:22
+network	../deep-learning-from-scratch/ch06/overfit_weight_decay.py	/^network = MultiLayerNet(input_size=784, hidden_size_list=[100, 100, 100, 100, 100, 100], output_size=10,$/;"	kind:variable	line:23
+network	../deep-learning-from-scratch/ch07/apply_filter.py	/^network = SimpleConvNet(input_dim=(1,28,28), $/;"	kind:variable	line:25
+network	../deep-learning-from-scratch/ch07/gradient_check.py	/^network = SimpleConvNet(input_dim=(1,10, 10), $/;"	kind:variable	line:5
+network	../deep-learning-from-scratch/ch07/train_convnet.py	/^network = SimpleConvNet(input_dim=(1,28,28), $/;"	kind:variable	line:19
+network	../deep-learning-from-scratch/ch07/visualize_filter.py	/^network = SimpleConvNet()$/;"	kind:variable	line:22
+network	../deep-learning-from-scratch/ch08/half_float_network.py	/^network = DeepConvNet()$/;"	kind:variable	line:12
+network	../deep-learning-from-scratch/ch08/misclassified_mnist.py	/^network = DeepConvNet()$/;"	kind:variable	line:12
+network	../deep-learning-from-scratch/ch08/train_deepnet.py	/^network = DeepConvNet()  $/;"	kind:variable	line:12
+networks	../deep-learning-from-scratch/ch06/optimizer_compare_mnist.py	/^networks = {}$/;"	kind:variable	line:28
+networks	../deep-learning-from-scratch/ch06/weight_init_compare.py	/^networks = {}$/;"	kind:variable	line:26
+neuralnet_mnist.py	../deep-learning-from-scratch/ch03/neuralnet_mnist.py	1;"	kind:file	line:1
+neuralnet_mnist_batch.py	../deep-learning-from-scratch/ch03/neuralnet_mnist_batch.py	1;"	kind:file	line:1
+node_num	../deep-learning-from-scratch/ch06/weight_init_activation_histogram.py	/^node_num = 100  # 各隠れ層のノード（ニューロン）の数$/;"	kind:variable	line:18
+np	../deep-learning-from-scratch/ch01/simple_graph.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../deep-learning-from-scratch/ch01/sin_cos_graph.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../deep-learning-from-scratch/ch01/sin_graph.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../deep-learning-from-scratch/ch02/and_gate.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../deep-learning-from-scratch/ch02/nand_gate.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../deep-learning-from-scratch/ch02/or_gate.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../deep-learning-from-scratch/ch03/mnist_show.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	../deep-learning-from-scratch/ch03/neuralnet_mnist.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	../deep-learning-from-scratch/ch03/neuralnet_mnist_batch.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	../deep-learning-from-scratch/ch03/relu.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../deep-learning-from-scratch/ch03/sig_step_compare.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../deep-learning-from-scratch/ch03/sigmoid.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../deep-learning-from-scratch/ch03/step_function.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../deep-learning-from-scratch/ch04/gradient_1d.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../deep-learning-from-scratch/ch04/gradient_2d.py	/^import numpy as np$/;"	kind:namespace	line:3
+np	../deep-learning-from-scratch/ch04/gradient_method.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../deep-learning-from-scratch/ch04/gradient_simplenet.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	../deep-learning-from-scratch/ch04/train_neuralnet.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	../deep-learning-from-scratch/ch05/gradient_check.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	../deep-learning-from-scratch/ch05/train_neuralnet.py	/^import numpy as np$/;"	kind:namespace	line:5
+np	../deep-learning-from-scratch/ch05/two_layer_net.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	../deep-learning-from-scratch/ch06/batch_norm_gradient_check.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	../deep-learning-from-scratch/ch06/batch_norm_test.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	../deep-learning-from-scratch/ch06/hyperparameter_optimization.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	../deep-learning-from-scratch/ch06/optimizer_compare_naive.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	../deep-learning-from-scratch/ch06/overfit_dropout.py	/^import numpy as np$/;"	kind:namespace	line:5
+np	../deep-learning-from-scratch/ch06/overfit_weight_decay.py	/^import numpy as np$/;"	kind:namespace	line:6
+np	../deep-learning-from-scratch/ch06/weight_init_activation_histogram.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../deep-learning-from-scratch/ch06/weight_init_compare.py	/^import numpy as np$/;"	kind:namespace	line:6
+np	../deep-learning-from-scratch/ch07/apply_filter.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	../deep-learning-from-scratch/ch07/gradient_check.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../deep-learning-from-scratch/ch07/simple_convnet.py	/^import numpy as np$/;"	kind:namespace	line:5
+np	../deep-learning-from-scratch/ch07/train_convnet.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	../deep-learning-from-scratch/ch07/visualize_filter.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../deep-learning-from-scratch/ch08/deep_convnet.py	/^import numpy as np$/;"	kind:namespace	line:5
+np	../deep-learning-from-scratch/ch08/half_float_network.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	../deep-learning-from-scratch/ch08/misclassified_mnist.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	../deep-learning-from-scratch/ch08/train_deepnet.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	../deep-learning-from-scratch/common/functions.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../deep-learning-from-scratch/common/gradient.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../deep-learning-from-scratch/common/layers.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../deep-learning-from-scratch/common/multi_layer_net.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	../deep-learning-from-scratch/common/multi_layer_net_extend.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	../deep-learning-from-scratch/common/optimizer.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../deep-learning-from-scratch/common/trainer.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	../deep-learning-from-scratch/common/util.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../deep-learning-from-scratch/dataset/mnist.py	/^import numpy as np$/;"	kind:namespace	line:10
+numerical_diff	../deep-learning-from-scratch/ch04/gradient_1d.py	/^def numerical_diff(f, x):$/;"	kind:function	line:6
+numerical_gradient	../deep-learning-from-scratch/ch04/gradient_2d.py	/^def numerical_gradient(f, X):$/;"	kind:function	line:26
+numerical_gradient	../deep-learning-from-scratch/ch04/gradient_method.py	/^from gradient_2d import numerical_gradient$/;"	kind:namespace	line:4
+numerical_gradient	../deep-learning-from-scratch/ch04/gradient_simplenet.py	/^from common.gradient import numerical_gradient$/;"	kind:namespace	line:6
+numerical_gradient	../deep-learning-from-scratch/ch04/two_layer_net.py	/^    def numerical_gradient(self, x, t):$/;"	kind:member	line:44
+numerical_gradient	../deep-learning-from-scratch/ch04/two_layer_net.py	/^from common.gradient import numerical_gradient$/;"	kind:namespace	line:5
+numerical_gradient	../deep-learning-from-scratch/ch05/two_layer_net.py	/^    def numerical_gradient(self, x, t):$/;"	kind:member	line:48
+numerical_gradient	../deep-learning-from-scratch/ch05/two_layer_net.py	/^from common.gradient import numerical_gradient$/;"	kind:namespace	line:6
+numerical_gradient	../deep-learning-from-scratch/ch07/simple_convnet.py	/^    def numerical_gradient(self, x, t):$/;"	kind:member	line:88
+numerical_gradient	../deep-learning-from-scratch/ch07/simple_convnet.py	/^from common.gradient import numerical_gradient$/;"	kind:namespace	line:8
+numerical_gradient	../deep-learning-from-scratch/common/gradient.py	/^def numerical_gradient(f, x):$/;"	kind:function	line:34
+numerical_gradient	../deep-learning-from-scratch/common/multi_layer_net.py	/^    def numerical_gradient(self, x, t):$/;"	kind:member	line:105
+numerical_gradient	../deep-learning-from-scratch/common/multi_layer_net.py	/^from common.gradient import numerical_gradient$/;"	kind:namespace	line:7
+numerical_gradient	../deep-learning-from-scratch/common/multi_layer_net_extend.py	/^    def numerical_gradient(self, X, T):$/;"	kind:member	line:113
+numerical_gradient	../deep-learning-from-scratch/common/multi_layer_net_extend.py	/^from common.gradient import numerical_gradient$/;"	kind:namespace	line:7
+numerical_gradient_2d	../deep-learning-from-scratch/common/gradient.py	/^def numerical_gradient_2d(f, X):$/;"	kind:function	line:22
+optimization_trial	../deep-learning-from-scratch/ch06/hyperparameter_optimization.py	/^optimization_trial = 100$/;"	kind:variable	line:39
+optimizer	../deep-learning-from-scratch/ch06/overfit_weight_decay.py	/^optimizer = SGD(lr=0.01)$/;"	kind:variable	line:25
+optimizer	../deep-learning-from-scratch/ch06/weight_init_compare.py	/^optimizer = SGD(lr=0.01)$/;"	kind:variable	line:24
+optimizer.py	../deep-learning-from-scratch/common/optimizer.py	1;"	kind:file	line:1
+optimizer_compare_mnist.py	../deep-learning-from-scratch/ch06/optimizer_compare_mnist.py	1;"	kind:file	line:1
+optimizer_compare_naive.py	../deep-learning-from-scratch/ch06/optimizer_compare_naive.py	1;"	kind:file	line:1
+optimizers	../deep-learning-from-scratch/ch06/optimizer_compare_mnist.py	/^optimizers = {}$/;"	kind:variable	line:21
+optimizers	../deep-learning-from-scratch/ch06/optimizer_compare_naive.py	/^optimizers = OrderedDict()$/;"	kind:variable	line:24
+or_gate.py	../deep-learning-from-scratch/ch02/or_gate.py	1;"	kind:file	line:1
+orange	../deep-learning-from-scratch/ch05/buy_apple_orange.py	/^orange = 150$/;"	kind:variable	line:6
+orange_num	../deep-learning-from-scratch/ch05/buy_apple_orange.py	/^orange_num = 3$/;"	kind:variable	line:7
+orange_price	../deep-learning-from-scratch/ch05/buy_apple_orange.py	/^orange_price = mul_orange_layer.forward(orange, orange_num)  # (2)$/;"	kind:variable	line:18
+os	../deep-learning-from-scratch/ch03/mnist_show.py	/^import sys, os$/;"	kind:namespace	line:2
+os	../deep-learning-from-scratch/ch03/neuralnet_mnist.py	/^import sys, os$/;"	kind:namespace	line:2
+os	../deep-learning-from-scratch/ch03/neuralnet_mnist_batch.py	/^import sys, os$/;"	kind:namespace	line:2
+os	../deep-learning-from-scratch/ch04/gradient_simplenet.py	/^import sys, os$/;"	kind:namespace	line:2
+os	../deep-learning-from-scratch/ch04/train_neuralnet.py	/^import sys, os$/;"	kind:namespace	line:2
+os	../deep-learning-from-scratch/ch04/two_layer_net.py	/^import sys, os$/;"	kind:namespace	line:2
+os	../deep-learning-from-scratch/ch05/gradient_check.py	/^import sys, os$/;"	kind:namespace	line:2
+os	../deep-learning-from-scratch/ch05/train_neuralnet.py	/^import sys, os$/;"	kind:namespace	line:2
+os	../deep-learning-from-scratch/ch05/two_layer_net.py	/^import sys, os$/;"	kind:namespace	line:2
+os	../deep-learning-from-scratch/ch06/batch_norm_gradient_check.py	/^import sys, os$/;"	kind:namespace	line:2
+os	../deep-learning-from-scratch/ch06/batch_norm_test.py	/^import sys, os$/;"	kind:namespace	line:2
+os	../deep-learning-from-scratch/ch06/hyperparameter_optimization.py	/^import sys, os$/;"	kind:namespace	line:2
+os	../deep-learning-from-scratch/ch06/optimizer_compare_mnist.py	/^import os$/;"	kind:namespace	line:2
+os	../deep-learning-from-scratch/ch06/optimizer_compare_naive.py	/^import sys, os$/;"	kind:namespace	line:2
+os	../deep-learning-from-scratch/ch06/overfit_dropout.py	/^import os$/;"	kind:namespace	line:2
+os	../deep-learning-from-scratch/ch06/overfit_weight_decay.py	/^import os$/;"	kind:namespace	line:2
+os	../deep-learning-from-scratch/ch06/weight_init_compare.py	/^import os$/;"	kind:namespace	line:2
+os	../deep-learning-from-scratch/ch07/apply_filter.py	/^import sys, os$/;"	kind:namespace	line:2
+os	../deep-learning-from-scratch/ch07/simple_convnet.py	/^import sys, os$/;"	kind:namespace	line:2
+os	../deep-learning-from-scratch/ch07/train_convnet.py	/^import sys, os$/;"	kind:namespace	line:2
+os	../deep-learning-from-scratch/ch08/deep_convnet.py	/^import sys, os$/;"	kind:namespace	line:2
+os	../deep-learning-from-scratch/ch08/half_float_network.py	/^import sys, os$/;"	kind:namespace	line:2
+os	../deep-learning-from-scratch/ch08/misclassified_mnist.py	/^import sys, os$/;"	kind:namespace	line:2
+os	../deep-learning-from-scratch/ch08/train_deepnet.py	/^import sys, os$/;"	kind:namespace	line:2
+os	../deep-learning-from-scratch/common/multi_layer_net.py	/^import sys, os$/;"	kind:namespace	line:2
+os	../deep-learning-from-scratch/common/multi_layer_net_extend.py	/^import sys, os$/;"	kind:namespace	line:2
+os	../deep-learning-from-scratch/common/trainer.py	/^import sys, os$/;"	kind:namespace	line:2
+os	../deep-learning-from-scratch/dataset/mnist.py	/^import os$/;"	kind:namespace	line:9
+os	../deep-learning-from-scratch/dataset/mnist.py	/^import os.path$/;"	kind:namespace	line:6
+out	../deep-learning-from-scratch/ch07/apply_filter.py	/^    out = conv_layer.forward(img)$/;"	kind:variable	line:48
+out	../deep-learning-from-scratch/ch07/apply_filter.py	/^    out = out.reshape(out.shape[2], out.shape[3])$/;"	kind:variable	line:49
+output_size	../deep-learning-from-scratch/ch06/optimizer_compare_mnist.py	/^        output_size=10)$/;"	kind:variable	line:33
+overfit_dropout.py	../deep-learning-from-scratch/ch06/overfit_dropout.py	1;"	kind:file	line:1
+overfit_weight_decay.py	../deep-learning-from-scratch/ch06/overfit_weight_decay.py	1;"	kind:file	line:1
+p	../deep-learning-from-scratch/ch03/neuralnet_mnist.py	/^    p= np.argmax(y) # 最も確率の高い要素のインデックスを取得$/;"	kind:variable	line:40
+p	../deep-learning-from-scratch/ch03/neuralnet_mnist_batch.py	/^    p = np.argmax(y_batch, axis=1)$/;"	kind:variable	line:44
+params	../deep-learning-from-scratch/ch06/optimizer_compare_naive.py	/^params = {}$/;"	kind:variable	line:18
+path	../deep-learning-from-scratch/dataset/mnist.py	/^import os.path$/;"	kind:namespace	line:6
+pickle	../deep-learning-from-scratch/ch03/neuralnet_mnist.py	/^import pickle$/;"	kind:namespace	line:5
+pickle	../deep-learning-from-scratch/ch03/neuralnet_mnist_batch.py	/^import pickle$/;"	kind:namespace	line:5
+pickle	../deep-learning-from-scratch/ch07/simple_convnet.py	/^import pickle$/;"	kind:namespace	line:4
+pickle	../deep-learning-from-scratch/ch08/deep_convnet.py	/^import pickle$/;"	kind:namespace	line:4
+pickle	../deep-learning-from-scratch/dataset/mnist.py	/^import pickle$/;"	kind:namespace	line:8
+plt	../deep-learning-from-scratch/ch01/img_show.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
+plt	../deep-learning-from-scratch/ch01/simple_graph.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+plt	../deep-learning-from-scratch/ch01/sin_cos_graph.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+plt	../deep-learning-from-scratch/ch01/sin_graph.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+plt	../deep-learning-from-scratch/ch03/relu.py	/^import matplotlib.pylab as plt$/;"	kind:namespace	line:3
+plt	../deep-learning-from-scratch/ch03/sig_step_compare.py	/^import matplotlib.pylab as plt$/;"	kind:namespace	line:3
+plt	../deep-learning-from-scratch/ch03/sigmoid.py	/^import matplotlib.pylab as plt$/;"	kind:namespace	line:3
+plt	../deep-learning-from-scratch/ch03/step_function.py	/^import matplotlib.pylab as plt$/;"	kind:namespace	line:3
+plt	../deep-learning-from-scratch/ch04/gradient_1d.py	/^import matplotlib.pylab as plt$/;"	kind:namespace	line:3
+plt	../deep-learning-from-scratch/ch04/gradient_2d.py	/^import matplotlib.pylab as plt$/;"	kind:namespace	line:4
+plt	../deep-learning-from-scratch/ch04/gradient_method.py	/^import matplotlib.pylab as plt$/;"	kind:namespace	line:3
+plt	../deep-learning-from-scratch/ch04/train_neuralnet.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:5
+plt	../deep-learning-from-scratch/ch06/batch_norm_test.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:5
+plt	../deep-learning-from-scratch/ch06/hyperparameter_optimization.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:5
+plt	../deep-learning-from-scratch/ch06/optimizer_compare_mnist.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:5
+plt	../deep-learning-from-scratch/ch06/optimizer_compare_naive.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:5
+plt	../deep-learning-from-scratch/ch06/overfit_dropout.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:6
+plt	../deep-learning-from-scratch/ch06/overfit_weight_decay.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:7
+plt	../deep-learning-from-scratch/ch06/weight_init_activation_histogram.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+plt	../deep-learning-from-scratch/ch06/weight_init_compare.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:7
+plt	../deep-learning-from-scratch/ch07/apply_filter.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:5
+plt	../deep-learning-from-scratch/ch07/train_convnet.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:5
+plt	../deep-learning-from-scratch/ch07/visualize_filter.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+plt	../deep-learning-from-scratch/ch08/half_float_network.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:5
+plt	../deep-learning-from-scratch/ch08/misclassified_mnist.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:5
+plt	../deep-learning-from-scratch/ch08/train_deepnet.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:5
+predict	../deep-learning-from-scratch/ch03/neuralnet_mnist.py	/^def predict(network, x):$/;"	kind:function	line:21
+predict	../deep-learning-from-scratch/ch03/neuralnet_mnist_batch.py	/^def predict(network, x):$/;"	kind:function	line:21
+predict	../deep-learning-from-scratch/ch04/gradient_simplenet.py	/^    def predict(self, x):$/;"	kind:member	line:13
+predict	../deep-learning-from-scratch/ch04/two_layer_net.py	/^    def predict(self, x):$/;"	kind:member	line:18
+predict	../deep-learning-from-scratch/ch05/two_layer_net.py	/^    def predict(self, x):$/;"	kind:member	line:28
+predict	../deep-learning-from-scratch/ch07/simple_convnet.py	/^    def predict(self, x):$/;"	kind:member	line:61
+predict	../deep-learning-from-scratch/ch08/deep_convnet.py	/^    def predict(self, x, train_flg=False):$/;"	kind:member	line:74
+predict	../deep-learning-from-scratch/common/multi_layer_net.py	/^    def predict(self, x):$/;"	kind:member	line:70
+predict	../deep-learning-from-scratch/common/multi_layer_net_extend.py	/^    def predict(self, x, train_flg=False):$/;"	kind:member	line:83
+price	../deep-learning-from-scratch/ch05/buy_apple.py	/^price = mul_tax_layer.forward(apple_price, tax)$/;"	kind:variable	line:14
+price	../deep-learning-from-scratch/ch05/buy_apple_orange.py	/^price = mul_tax_layer.forward(all_price, tax)  # (4)$/;"	kind:variable	line:20
+relu	../deep-learning-from-scratch/ch03/relu.py	/^def relu(x):$/;"	kind:function	line:6
+relu	../deep-learning-from-scratch/common/functions.py	/^def relu(x):$/;"	kind:function	line:21
+relu.py	../deep-learning-from-scratch/ch03/relu.py	1;"	kind:file	line:1
+relu_grad	../deep-learning-from-scratch/common/functions.py	/^def relu_grad(x):$/;"	kind:function	line:25
+request	../deep-learning-from-scratch/dataset/mnist.py	/^    import urllib.request$/;"	kind:namespace	line:3
+results_train	../deep-learning-from-scratch/ch06/hyperparameter_optimization.py	/^results_train = {}$/;"	kind:variable	line:41
+results_val	../deep-learning-from-scratch/ch06/hyperparameter_optimization.py	/^results_val = {}$/;"	kind:variable	line:40
+row_num	../deep-learning-from-scratch/ch06/hyperparameter_optimization.py	/^row_num = int(np.ceil(graph_draw_num \/ col_num))$/;"	kind:variable	line:58
+sampled	../deep-learning-from-scratch/ch08/half_float_network.py	/^sampled = 10000 # 高速化のため$/;"	kind:variable	line:15
+save_file	../deep-learning-from-scratch/dataset/mnist.py	/^save_file = dataset_dir + "\/mnist.pkl"$/;"	kind:variable	line:22
+save_params	../deep-learning-from-scratch/ch07/simple_convnet.py	/^    def save_params(self, file_name="params.pkl"):$/;"	kind:member	line:145
+save_params	../deep-learning-from-scratch/ch08/deep_convnet.py	/^    def save_params(self, file_name="params.pkl"):$/;"	kind:member	line:121
+shuffle_dataset	../deep-learning-from-scratch/ch06/hyperparameter_optimization.py	/^from common.util import shuffle_dataset$/;"	kind:namespace	line:8
+shuffle_dataset	../deep-learning-from-scratch/common/util.py	/^def shuffle_dataset(x, t):$/;"	kind:function	line:17
+sig_step_compare.py	../deep-learning-from-scratch/ch03/sig_step_compare.py	1;"	kind:file	line:1
+sigmoid	../deep-learning-from-scratch/ch03/neuralnet_mnist.py	/^from common.functions import sigmoid, softmax$/;"	kind:namespace	line:7
+sigmoid	../deep-learning-from-scratch/ch03/neuralnet_mnist_batch.py	/^from common.functions import sigmoid, softmax$/;"	kind:namespace	line:7
+sigmoid	../deep-learning-from-scratch/ch03/sig_step_compare.py	/^def sigmoid(x):$/;"	kind:function	line:6
+sigmoid	../deep-learning-from-scratch/ch03/sigmoid.py	/^def sigmoid(x):$/;"	kind:function	line:6
+sigmoid	../deep-learning-from-scratch/ch06/weight_init_activation_histogram.py	/^def sigmoid(x):$/;"	kind:function	line:6
+sigmoid	../deep-learning-from-scratch/common/functions.py	/^def sigmoid(x):$/;"	kind:function	line:13
+sigmoid.py	../deep-learning-from-scratch/ch03/sigmoid.py	1;"	kind:file	line:1
+sigmoid_grad	../deep-learning-from-scratch/common/functions.py	/^def sigmoid_grad(x):$/;"	kind:function	line:17
+simpleNet	../deep-learning-from-scratch/ch04/gradient_simplenet.py	/^class simpleNet:$/;"	kind:class	line:9
+simple_convnet.py	../deep-learning-from-scratch/ch07/simple_convnet.py	1;"	kind:file	line:1
+simple_graph.py	../deep-learning-from-scratch/ch01/simple_graph.py	1;"	kind:file	line:1
+sin_cos_graph.py	../deep-learning-from-scratch/ch01/sin_cos_graph.py	1;"	kind:file	line:1
+sin_graph.py	../deep-learning-from-scratch/ch01/sin_graph.py	1;"	kind:file	line:1
+smooth_curve	../deep-learning-from-scratch/ch06/optimizer_compare_mnist.py	/^from common.util import smooth_curve$/;"	kind:namespace	line:7
+smooth_curve	../deep-learning-from-scratch/ch06/weight_init_compare.py	/^from common.util import smooth_curve$/;"	kind:namespace	line:9
+smooth_curve	../deep-learning-from-scratch/common/util.py	/^def smooth_curve(x):$/;"	kind:function	line:5
+softmax	../deep-learning-from-scratch/ch03/neuralnet_mnist.py	/^from common.functions import sigmoid, softmax$/;"	kind:namespace	line:7
+softmax	../deep-learning-from-scratch/ch03/neuralnet_mnist_batch.py	/^from common.functions import sigmoid, softmax$/;"	kind:namespace	line:7
+softmax	../deep-learning-from-scratch/ch04/gradient_simplenet.py	/^from common.functions import softmax, cross_entropy_error$/;"	kind:namespace	line:5
+softmax	../deep-learning-from-scratch/common/functions.py	/^def softmax(x):$/;"	kind:function	line:31
+softmax_loss	../deep-learning-from-scratch/common/functions.py	/^def softmax_loss(X, t):$/;"	kind:function	line:59
+step_function	../deep-learning-from-scratch/ch03/sig_step_compare.py	/^def step_function(x):$/;"	kind:function	line:10
+step_function	../deep-learning-from-scratch/ch03/step_function.py	/^def step_function(x):$/;"	kind:function	line:6
+step_function	../deep-learning-from-scratch/common/functions.py	/^def step_function(x):$/;"	kind:function	line:9
+step_function.py	../deep-learning-from-scratch/ch03/step_function.py	1;"	kind:file	line:1
+step_num	../deep-learning-from-scratch/ch04/gradient_method.py	/^step_num = 20$/;"	kind:variable	line:26
+sys	../deep-learning-from-scratch/ch03/mnist_show.py	/^import sys, os$/;"	kind:namespace	line:2
+sys	../deep-learning-from-scratch/ch03/neuralnet_mnist.py	/^import sys, os$/;"	kind:namespace	line:2
+sys	../deep-learning-from-scratch/ch03/neuralnet_mnist_batch.py	/^import sys, os$/;"	kind:namespace	line:2
+sys	../deep-learning-from-scratch/ch04/gradient_simplenet.py	/^import sys, os$/;"	kind:namespace	line:2
+sys	../deep-learning-from-scratch/ch04/train_neuralnet.py	/^import sys, os$/;"	kind:namespace	line:2
+sys	../deep-learning-from-scratch/ch04/two_layer_net.py	/^import sys, os$/;"	kind:namespace	line:2
+sys	../deep-learning-from-scratch/ch05/gradient_check.py	/^import sys, os$/;"	kind:namespace	line:2
+sys	../deep-learning-from-scratch/ch05/train_neuralnet.py	/^import sys, os$/;"	kind:namespace	line:2
+sys	../deep-learning-from-scratch/ch05/two_layer_net.py	/^import sys, os$/;"	kind:namespace	line:2
+sys	../deep-learning-from-scratch/ch06/batch_norm_gradient_check.py	/^import sys, os$/;"	kind:namespace	line:2
+sys	../deep-learning-from-scratch/ch06/batch_norm_test.py	/^import sys, os$/;"	kind:namespace	line:2
+sys	../deep-learning-from-scratch/ch06/hyperparameter_optimization.py	/^import sys, os$/;"	kind:namespace	line:2
+sys	../deep-learning-from-scratch/ch06/optimizer_compare_mnist.py	/^import sys$/;"	kind:namespace	line:3
+sys	../deep-learning-from-scratch/ch06/optimizer_compare_naive.py	/^import sys, os$/;"	kind:namespace	line:2
+sys	../deep-learning-from-scratch/ch06/overfit_dropout.py	/^import sys$/;"	kind:namespace	line:3
+sys	../deep-learning-from-scratch/ch06/overfit_weight_decay.py	/^import sys$/;"	kind:namespace	line:3
+sys	../deep-learning-from-scratch/ch06/weight_init_compare.py	/^import sys$/;"	kind:namespace	line:3
+sys	../deep-learning-from-scratch/ch07/apply_filter.py	/^import sys, os$/;"	kind:namespace	line:2
+sys	../deep-learning-from-scratch/ch07/simple_convnet.py	/^import sys, os$/;"	kind:namespace	line:2
+sys	../deep-learning-from-scratch/ch07/train_convnet.py	/^import sys, os$/;"	kind:namespace	line:2
+sys	../deep-learning-from-scratch/ch08/deep_convnet.py	/^import sys, os$/;"	kind:namespace	line:2
+sys	../deep-learning-from-scratch/ch08/half_float_network.py	/^import sys, os$/;"	kind:namespace	line:2
+sys	../deep-learning-from-scratch/ch08/misclassified_mnist.py	/^import sys, os$/;"	kind:namespace	line:2
+sys	../deep-learning-from-scratch/ch08/train_deepnet.py	/^import sys, os$/;"	kind:namespace	line:2
+sys	../deep-learning-from-scratch/common/multi_layer_net.py	/^import sys, os$/;"	kind:namespace	line:2
+sys	../deep-learning-from-scratch/common/multi_layer_net_extend.py	/^import sys, os$/;"	kind:namespace	line:2
+sys	../deep-learning-from-scratch/common/trainer.py	/^import sys, os$/;"	kind:namespace	line:2
+t	../deep-learning-from-scratch/ch04/gradient_simplenet.py	/^t = np.array([0, 0, 1])$/;"	kind:variable	line:24
+t_batch	../deep-learning-from-scratch/ch04/train_neuralnet.py	/^    t_batch = t_train[batch_mask]$/;"	kind:variable	line:28
+t_batch	../deep-learning-from-scratch/ch05/gradient_check.py	/^t_batch = t_train[:3]$/;"	kind:variable	line:14
+t_batch	../deep-learning-from-scratch/ch05/train_neuralnet.py	/^    t_batch = t_train[batch_mask]$/;"	kind:variable	line:28
+t_batch	../deep-learning-from-scratch/ch06/batch_norm_gradient_check.py	/^t_batch = t_train[:1]$/;"	kind:variable	line:15
+t_batch	../deep-learning-from-scratch/ch06/optimizer_compare_mnist.py	/^    t_batch = t_train[batch_mask]$/;"	kind:variable	line:41
+t_batch	../deep-learning-from-scratch/ch06/overfit_weight_decay.py	/^    t_batch = t_train[batch_mask]$/;"	kind:variable	line:41
+t_batch	../deep-learning-from-scratch/ch06/weight_init_compare.py	/^    t_batch = t_train[batch_mask]$/;"	kind:variable	line:38
+t_test	../deep-learning-from-scratch/ch08/half_float_network.py	/^t_test = t_test[:sampled]$/;"	kind:variable	line:17
+t_train	../deep-learning-from-scratch/ch06/batch_norm_test.py	/^t_train = t_train[:1000]$/;"	kind:variable	line:14
+t_train	../deep-learning-from-scratch/ch06/hyperparameter_optimization.py	/^t_train = t_train[:500]$/;"	kind:variable	line:15
+t_train	../deep-learning-from-scratch/ch06/hyperparameter_optimization.py	/^t_train = t_train[validation_num:]$/;"	kind:variable	line:24
+t_train	../deep-learning-from-scratch/ch06/overfit_dropout.py	/^t_train = t_train[:300]$/;"	kind:variable	line:15
+t_train	../deep-learning-from-scratch/ch06/overfit_weight_decay.py	/^t_train = t_train[:300]$/;"	kind:variable	line:16
+t_val	../deep-learning-from-scratch/ch06/hyperparameter_optimization.py	/^t_val = t_train[:validation_num]$/;"	kind:variable	line:22
+tangent_line	../deep-learning-from-scratch/ch04/gradient_1d.py	/^def tangent_line(f, x):$/;"	kind:function	line:15
+tangent_line	../deep-learning-from-scratch/ch04/gradient_2d.py	/^def tangent_line(f, x):$/;"	kind:function	line:45
+tanh	../deep-learning-from-scratch/ch06/weight_init_activation_histogram.py	/^def tanh(x):$/;"	kind:function	line:14
+tax	../deep-learning-from-scratch/ch05/buy_apple.py	/^tax = 1.1$/;"	kind:variable	line:7
+tax	../deep-learning-from-scratch/ch05/buy_apple_orange.py	/^tax = 1.1$/;"	kind:variable	line:8
+test	../temp/test.py	/^def test():$/;"	kind:function	line:6
+test.py	../temp/test.py	1;"	kind:file	line:1
+test_acc	../deep-learning-from-scratch/ch04/train_neuralnet.py	/^        test_acc = network.accuracy(x_test, t_test)$/;"	kind:variable	line:43
+test_acc	../deep-learning-from-scratch/ch05/train_neuralnet.py	/^        test_acc = network.accuracy(x_test, t_test)$/;"	kind:variable	line:43
+test_acc	../deep-learning-from-scratch/ch06/overfit_weight_decay.py	/^        test_acc = network.accuracy(x_test, t_test)$/;"	kind:variable	line:48
+test_acc_list	../deep-learning-from-scratch/ch04/train_neuralnet.py	/^test_acc_list = []$/;"	kind:variable	line:21
+test_acc_list	../deep-learning-from-scratch/ch05/train_neuralnet.py	/^test_acc_list = []$/;"	kind:variable	line:21
+test_acc_list	../deep-learning-from-scratch/ch06/overfit_weight_decay.py	/^test_acc_list = []$/;"	kind:variable	line:33
+test_num	../deep-learning-from-scratch/dataset/mnist.py	/^test_num = 10000$/;"	kind:variable	line:25
+tf	../deep-learning-from-scratch/ch04/gradient_1d.py	/^tf = tangent_line(function_1, 5)$/;"	kind:variable	line:26
+train	../deep-learning-from-scratch/common/trainer.py	/^    def train(self):$/;"	kind:member	line:69
+train_acc	../deep-learning-from-scratch/ch04/train_neuralnet.py	/^        train_acc = network.accuracy(x_train, t_train)$/;"	kind:variable	line:42
+train_acc	../deep-learning-from-scratch/ch05/train_neuralnet.py	/^        train_acc = network.accuracy(x_train, t_train)$/;"	kind:variable	line:42
+train_acc	../deep-learning-from-scratch/ch06/overfit_weight_decay.py	/^        train_acc = network.accuracy(x_train, t_train)$/;"	kind:variable	line:47
+train_acc_list	../deep-learning-from-scratch/ch04/train_neuralnet.py	/^train_acc_list = []$/;"	kind:variable	line:20
+train_acc_list	../deep-learning-from-scratch/ch05/train_neuralnet.py	/^train_acc_list = []$/;"	kind:variable	line:20
+train_acc_list	../deep-learning-from-scratch/ch06/overfit_weight_decay.py	/^train_acc_list = []$/;"	kind:variable	line:32
+train_convnet.py	../deep-learning-from-scratch/ch07/train_convnet.py	1;"	kind:file	line:1
+train_deepnet.py	../deep-learning-from-scratch/ch08/train_deepnet.py	1;"	kind:file	line:1
+train_loss	../deep-learning-from-scratch/ch06/optimizer_compare_mnist.py	/^train_loss = {}$/;"	kind:variable	line:29
+train_loss	../deep-learning-from-scratch/ch06/weight_init_compare.py	/^train_loss = {}$/;"	kind:variable	line:27
+train_loss_list	../deep-learning-from-scratch/ch04/train_neuralnet.py	/^train_loss_list = []$/;"	kind:variable	line:19
+train_loss_list	../deep-learning-from-scratch/ch05/train_neuralnet.py	/^train_loss_list = []$/;"	kind:variable	line:19
+train_loss_list	../deep-learning-from-scratch/ch06/overfit_weight_decay.py	/^train_loss_list = []$/;"	kind:variable	line:31
+train_neuralnet.py	../deep-learning-from-scratch/ch04/train_neuralnet.py	1;"	kind:file	line:1
+train_neuralnet.py	../deep-learning-from-scratch/ch05/train_neuralnet.py	1;"	kind:file	line:1
+train_num	../deep-learning-from-scratch/dataset/mnist.py	/^train_num = 60000$/;"	kind:variable	line:24
+train_size	../deep-learning-from-scratch/ch04/train_neuralnet.py	/^train_size = x_train.shape[0]$/;"	kind:variable	line:15
+train_size	../deep-learning-from-scratch/ch05/train_neuralnet.py	/^train_size = x_train.shape[0]$/;"	kind:variable	line:15
+train_size	../deep-learning-from-scratch/ch06/batch_norm_test.py	/^train_size = x_train.shape[0]$/;"	kind:variable	line:17
+train_size	../deep-learning-from-scratch/ch06/optimizer_compare_mnist.py	/^train_size = x_train.shape[0]$/;"	kind:variable	line:15
+train_size	../deep-learning-from-scratch/ch06/overfit_weight_decay.py	/^train_size = x_train.shape[0]$/;"	kind:variable	line:28
+train_size	../deep-learning-from-scratch/ch06/weight_init_compare.py	/^train_size = x_train.shape[0]$/;"	kind:variable	line:17
+train_step	../deep-learning-from-scratch/common/trainer.py	/^    def train_step(self):$/;"	kind:member	line:39
+trainer	../deep-learning-from-scratch/ch06/overfit_dropout.py	/^trainer = Trainer(network, x_train, t_train, x_test, t_test,$/;"	kind:variable	line:24
+trainer	../deep-learning-from-scratch/ch07/train_convnet.py	/^trainer = Trainer(network, x_train, t_train, x_test, t_test,$/;"	kind:variable	line:23
+trainer	../deep-learning-from-scratch/ch08/train_deepnet.py	/^trainer = Trainer(network, x_train, t_train, x_test, t_test,$/;"	kind:variable	line:13
+trainer.py	../deep-learning-from-scratch/common/trainer.py	1;"	kind:file	line:1
+tt	../deep-learning-from-scratch/ch08/misclassified_mnist.py	/^    tt = t_test[i*batch_size:(i+1)*batch_size]$/;"	kind:variable	line:27
+two_layer_net.py	../deep-learning-from-scratch/ch04/two_layer_net.py	1;"	kind:file	line:1
+two_layer_net.py	../deep-learning-from-scratch/ch05/two_layer_net.py	1;"	kind:file	line:1
+tx	../deep-learning-from-scratch/ch08/misclassified_mnist.py	/^    tx = x_test[i*batch_size:(i+1)*batch_size]$/;"	kind:variable	line:26
+update	../deep-learning-from-scratch/common/optimizer.py	/^    def update(self, params, grads):$/;"	kind:member	line:11
+update	../deep-learning-from-scratch/common/optimizer.py	/^    def update(self, params, grads):$/;"	kind:member	line:110
+update	../deep-learning-from-scratch/common/optimizer.py	/^    def update(self, params, grads):$/;"	kind:member	line:25
+update	../deep-learning-from-scratch/common/optimizer.py	/^    def update(self, params, grads):$/;"	kind:member	line:45
+update	../deep-learning-from-scratch/common/optimizer.py	/^    def update(self, params, grads):$/;"	kind:member	line:66
+update	../deep-learning-from-scratch/common/optimizer.py	/^    def update(self, params, grads):$/;"	kind:member	line:86
+url_base	../deep-learning-from-scratch/dataset/mnist.py	/^url_base = 'http:\/\/yann.lecun.com\/exdb\/mnist\/'$/;"	kind:variable	line:13
+urllib	../deep-learning-from-scratch/dataset/mnist.py	/^    import urllib.request$/;"	kind:namespace	line:3
+use_batchnorm	../deep-learning-from-scratch/ch06/batch_norm_gradient_check.py	/^                              use_batchnorm=True)$/;"	kind:variable	line:12
+use_dropout	../deep-learning-from-scratch/ch06/overfit_dropout.py	/^use_dropout = True  # Dropoutなしのときの場合はFalseに$/;"	kind:variable	line:18
+util.py	../deep-learning-from-scratch/common/util.py	1;"	kind:file	line:1
+validation_num	../deep-learning-from-scratch/ch06/hyperparameter_optimization.py	/^validation_num = x_train.shape[0] * validation_rate$/;"	kind:variable	line:19
+validation_rate	../deep-learning-from-scratch/ch06/hyperparameter_optimization.py	/^validation_rate = 0.20$/;"	kind:variable	line:18
+visualize_filter.py	../deep-learning-from-scratch/ch07/visualize_filter.py	1;"	kind:file	line:1
+w	../deep-learning-from-scratch/ch07/apply_filter.py	/^    w = network.params['W1'][i]$/;"	kind:variable	line:42
+w	../deep-learning-from-scratch/ch07/apply_filter.py	/^    w = w.reshape(1, *w.shape)$/;"	kind:variable	line:45
+w_idx	../deep-learning-from-scratch/ch07/apply_filter.py	/^w_idx = 1$/;"	kind:variable	line:39
+weight_decay	../deep-learning-from-scratch/ch06/hyperparameter_optimization.py	/^    weight_decay = 10 ** np.random.uniform(-8, -4)$/;"	kind:variable	line:44
+weight_decay_lambda	../deep-learning-from-scratch/ch06/overfit_weight_decay.py	/^                        weight_decay_lambda=weight_decay_lambda)$/;"	kind:variable	line:24
+weight_decay_lambda	../deep-learning-from-scratch/ch06/overfit_weight_decay.py	/^weight_decay_lambda = 0.1$/;"	kind:variable	line:20
+weight_init_activation_histogram.py	../deep-learning-from-scratch/ch06/weight_init_activation_histogram.py	1;"	kind:file	line:1
+weight_init_compare.py	../deep-learning-from-scratch/ch06/weight_init_compare.py	1;"	kind:file	line:1
+weight_scale_list	../deep-learning-from-scratch/ch06/batch_norm_test.py	/^weight_scale_list = np.logspace(0, -4, num=16)$/;"	kind:variable	line:60
+x	../deep-learning-from-scratch/ch01/simple_graph.py	/^x = np.arange(0, 6, 0.1) # 0から6まで0.1刻みで生成$/;"	kind:variable	line:6
+x	../deep-learning-from-scratch/ch01/sin_cos_graph.py	/^x = np.arange(0, 6, 0.1) # 0から6まで0.1刻みで生成$/;"	kind:variable	line:6
+x	../deep-learning-from-scratch/ch01/sin_graph.py	/^x = np.arange(0, 6, 0.1)$/;"	kind:variable	line:6
+x	../deep-learning-from-scratch/ch03/relu.py	/^x = np.arange(-5.0, 5.0, 0.1)$/;"	kind:variable	line:9
+x	../deep-learning-from-scratch/ch03/sig_step_compare.py	/^x = np.arange(-5.0, 5.0, 0.1)$/;"	kind:variable	line:13
+x	../deep-learning-from-scratch/ch04/gradient_1d.py	/^x = np.arange(0.0, 20.0, 0.1)$/;"	kind:variable	line:21
+x	../deep-learning-from-scratch/ch04/gradient_simplenet.py	/^x = np.array([0.6, 0.9])$/;"	kind:variable	line:23
+x	../deep-learning-from-scratch/ch04/train_neuralnet.py	/^x = np.arange(len(train_acc_list))$/;"	kind:variable	line:50
+x	../deep-learning-from-scratch/ch06/batch_norm_test.py	/^x = np.arange(max_epochs)$/;"	kind:variable	line:61
+x	../deep-learning-from-scratch/ch06/hyperparameter_optimization.py	/^    x = np.arange(len(val_acc_list))$/;"	kind:variable	line:69
+x	../deep-learning-from-scratch/ch06/optimizer_compare_mnist.py	/^x = np.arange(max_iterations)$/;"	kind:variable	line:59
+x	../deep-learning-from-scratch/ch06/overfit_dropout.py	/^x = np.arange(len(train_acc_list))$/;"	kind:variable	line:33
+x	../deep-learning-from-scratch/ch06/overfit_weight_decay.py	/^x = np.arange(max_epochs)$/;"	kind:variable	line:61
+x	../deep-learning-from-scratch/ch06/weight_init_activation_histogram.py	/^x = input_data$/;"	kind:variable	line:22
+x	../deep-learning-from-scratch/ch06/weight_init_compare.py	/^x = np.arange(max_iterations)$/;"	kind:variable	line:56
+x	../deep-learning-from-scratch/ch07/train_convnet.py	/^x = np.arange(max_epochs)$/;"	kind:variable	line:35
+x0	../deep-learning-from-scratch/ch04/gradient_2d.py	/^    x0 = np.arange(-2, 2.5, 0.25)$/;"	kind:variable	line:52
+x1	../deep-learning-from-scratch/ch04/gradient_2d.py	/^    x1 = np.arange(-2, 2.5, 0.25)$/;"	kind:variable	line:53
+x_batch	../deep-learning-from-scratch/ch03/neuralnet_mnist_batch.py	/^    x_batch = x[i:i+batch_size]$/;"	kind:variable	line:42
+x_batch	../deep-learning-from-scratch/ch04/train_neuralnet.py	/^    x_batch = x_train[batch_mask]$/;"	kind:variable	line:27
+x_batch	../deep-learning-from-scratch/ch05/gradient_check.py	/^x_batch = x_train[:3]$/;"	kind:variable	line:13
+x_batch	../deep-learning-from-scratch/ch05/train_neuralnet.py	/^    x_batch = x_train[batch_mask]$/;"	kind:variable	line:27
+x_batch	../deep-learning-from-scratch/ch06/batch_norm_gradient_check.py	/^x_batch = x_train[:1]$/;"	kind:variable	line:14
+x_batch	../deep-learning-from-scratch/ch06/optimizer_compare_mnist.py	/^    x_batch = x_train[batch_mask]$/;"	kind:variable	line:40
+x_batch	../deep-learning-from-scratch/ch06/overfit_weight_decay.py	/^    x_batch = x_train[batch_mask]$/;"	kind:variable	line:40
+x_batch	../deep-learning-from-scratch/ch06/weight_init_compare.py	/^    x_batch = x_train[batch_mask]$/;"	kind:variable	line:37
+x_test	../deep-learning-from-scratch/ch08/half_float_network.py	/^x_test = x_test.astype(np.float16)$/;"	kind:variable	line:23
+x_test	../deep-learning-from-scratch/ch08/half_float_network.py	/^x_test = x_test[:sampled]$/;"	kind:variable	line:16
+x_train	../deep-learning-from-scratch/ch06/batch_norm_test.py	/^x_train = x_train[:1000]$/;"	kind:variable	line:13
+x_train	../deep-learning-from-scratch/ch06/hyperparameter_optimization.py	/^x_train = x_train[:500]$/;"	kind:variable	line:14
+x_train	../deep-learning-from-scratch/ch06/hyperparameter_optimization.py	/^x_train = x_train[validation_num:]$/;"	kind:variable	line:23
+x_train	../deep-learning-from-scratch/ch06/overfit_dropout.py	/^x_train = x_train[:300]$/;"	kind:variable	line:14
+x_train	../deep-learning-from-scratch/ch06/overfit_weight_decay.py	/^x_train = x_train[:300]$/;"	kind:variable	line:15
+x_val	../deep-learning-from-scratch/ch06/hyperparameter_optimization.py	/^x_val = x_train[:validation_num]$/;"	kind:variable	line:21
+xor_gate.py	../deep-learning-from-scratch/ch02/xor_gate.py	1;"	kind:file	line:1
+y	../deep-learning-from-scratch/ch01/simple_graph.py	/^y = np.sin(x)$/;"	kind:variable	line:7
+y	../deep-learning-from-scratch/ch01/sin_graph.py	/^y = np.sin(x)$/;"	kind:variable	line:7
+y	../deep-learning-from-scratch/ch02/and_gate.py	/^        y = AND(xs[0], xs[1])$/;"	kind:variable	line:17
+y	../deep-learning-from-scratch/ch02/nand_gate.py	/^        y = NAND(xs[0], xs[1])$/;"	kind:variable	line:17
+y	../deep-learning-from-scratch/ch02/or_gate.py	/^        y = OR(xs[0], xs[1])$/;"	kind:variable	line:17
+y	../deep-learning-from-scratch/ch02/xor_gate.py	/^        y = XOR(xs[0], xs[1])$/;"	kind:variable	line:15
+y	../deep-learning-from-scratch/ch03/neuralnet_mnist.py	/^    y = predict(network, x[i])$/;"	kind:variable	line:39
+y	../deep-learning-from-scratch/ch03/relu.py	/^y = relu(x)$/;"	kind:variable	line:10
+y	../deep-learning-from-scratch/ch04/gradient_1d.py	/^y = function_1(x)$/;"	kind:variable	line:22
+y	../deep-learning-from-scratch/ch08/misclassified_mnist.py	/^    y = network.predict(tx, train_flg=False)$/;"	kind:variable	line:28
+y	../deep-learning-from-scratch/ch08/misclassified_mnist.py	/^    y = np.argmax(y, axis=1)$/;"	kind:variable	line:29
+y1	../deep-learning-from-scratch/ch01/sin_cos_graph.py	/^y1 = np.sin(x)$/;"	kind:variable	line:7
+y1	../deep-learning-from-scratch/ch03/sig_step_compare.py	/^y1 = sigmoid(x)$/;"	kind:variable	line:14
+y2	../deep-learning-from-scratch/ch01/sin_cos_graph.py	/^y2 = np.cos(x)$/;"	kind:variable	line:8
+y2	../deep-learning-from-scratch/ch03/sig_step_compare.py	/^y2 = step_function(x)$/;"	kind:variable	line:15
+y2	../deep-learning-from-scratch/ch04/gradient_1d.py	/^y2 = tf(x)$/;"	kind:variable	line:27
+y_batch	../deep-learning-from-scratch/ch03/neuralnet_mnist_batch.py	/^    y_batch = predict(network, x_batch)$/;"	kind:variable	line:43

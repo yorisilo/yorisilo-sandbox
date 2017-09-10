@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<title>即時関数と複数回実行したい関数</title>
+
+<script>
+(function(){
+	console.log("これは通常の即時関数");
+})();
+
+var game = {};
+game.someAction = function(str){
+	console.log("これは複数回呼び出せる関数 :" + str);
+};
+
+game.someAction("１回め");
+game.someAction("２回め");
+
+
+</script>
+</head>
+
+<body>
+</body>
+</html>

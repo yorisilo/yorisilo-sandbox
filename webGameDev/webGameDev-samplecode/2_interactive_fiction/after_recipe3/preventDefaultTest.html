@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<title>preventDefaultテスト</title>
+
+<script>
+function stopDefaultAction(e) {
+	// クリックはできるがチェックマークは入らない
+	console.log("click");
+  e.preventDefault();
+}
+
+// DOMコンテンツがロードされたら、チェックボックスのイベントリスナーを設定
+function onContentLoaded(){
+	var myCheckbox = document.getElementById("myCheckbox");
+	myCheckbox.addEventListener("click", stopDefaultAction, false);
+}
+
+// DOMコンテンツのロードを監視
+document.addEventListener("DOMContentLoaded", onContentLoaded, false);
+    
+
+</script>
+</head>
+
+<body>
+
+<p>チェックボックスをクリック！</p>
+
+<form>
+  <input type="checkbox" id="myCheckbox" />
+  <label for="myCheckbox">チェックボックス</label>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<title>itemオブジェクトを調べる</title>
+
+<script>
+var items = {
+    bat: {
+      name: 'bat',
+      effects: {
+        'player_inventory': { message: "<p>バットを拾い上げました！</p>",
+                            object: "addItem",
+                            subject: "deleteItem"
+        },
+        'dino': { message: "<p>バットで恐竜をぶったたきました。</p><p>恐竜は怒っています！</p>",
+                  subject: 'deleteItem'
+        },
+        'empty': {
+              message: "<p>バットを置きました。</p>",
+              object: "addItem",
+              subject: "deleteItem"
+        }
+      }
+    },
+    dino: {
+      name: 'dino',
+      effects: {
+        'player_inventory': { message: "<p>恐竜は動かせません...</p>" } 
+      }
+    }
+  };
+ console.log(items); 
+//console.log(items.bat.effects.dino.message);
+
+</script>
+</head>
+
+<body>
+</body>
+</html>

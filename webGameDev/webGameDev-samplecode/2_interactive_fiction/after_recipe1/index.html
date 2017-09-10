@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8" />
+	<title>インタラクティブフィクション</title>
+	<link href="main.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="impress">
+		<div id="1" class="step slide">
+			<q>ここは１つめのスライド（ページ）です。下か右の矢印キーを押すと、次のページに進みます。左か上矢印キーを押すと戻ります。 </q>
+		</div>
+		
+		<div id="2" class="step slide">
+			<q>次のページには、下か右の矢印キーの代わりにスペースバーを使っても移ることができます。</q>
+		</div>
+
+		<div id="3" class="step slide">
+			<q>ここは最後のページです。右矢印キーを押すと最初に戻ります。</q>
+		</div>
+	</div>
+	<script src="impress.js"></script>
+	<script>impress().init();</script>
+</body>
+</html>

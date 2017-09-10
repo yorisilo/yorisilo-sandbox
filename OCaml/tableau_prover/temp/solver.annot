@@ -1,0 +1,6127 @@
+"solver.ml" 27 589 593 "solver.ml" 27 589 609
+type(
+  bool
+)
+ident(
+  def do_debug_sequent "solver.ml" 29 619 619 "solver.ml" 1 0 -1
+)
+"solver.ml" 27 589 612 "solver.ml" 27 589 617
+type(
+  bool
+)
+"solver.ml" 29 619 623 "solver.ml" 29 619 636
+type(
+  string ->
+  (Term.pterm * 'a) list ->
+  (Term.pterm * 'b) list -> Term.pterm option -> Term.pterm -> unit
+)
+ident(
+  def debug_sequent "solver.ml" 49 1323 1323 "solver.ml" 1 0 -1
+)
+"solver.ml" 29 619 637 "solver.ml" 29 619 641
+type(
+  string
+)
+ident(
+  def name "solver.ml" 29 619 642 "solver.ml" 47 1308 1321
+)
+"solver.ml" 29 619 642 "solver.ml" 29 619 646
+type(
+  (Term.pterm * 'a) list
+)
+ident(
+  def ant1 "solver.ml" 29 619 647 "solver.ml" 47 1308 1321
+)
+"solver.ml" 29 619 647 "solver.ml" 29 619 651
+type(
+  (Term.pterm * 'b) list
+)
+ident(
+  def ant2 "solver.ml" 29 619 652 "solver.ml" 47 1308 1321
+)
+"solver.ml" 29 619 652 "solver.ml" 29 619 656
+type(
+  Term.pterm option
+)
+ident(
+  def sucL "solver.ml" 29 619 657 "solver.ml" 47 1308 1321
+)
+"solver.ml" 29 619 657 "solver.ml" 29 619 661
+type(
+  Term.pterm
+)
+ident(
+  def sucR "solver.ml" 30 664 666 "solver.ml" 47 1308 1321
+)
+"solver.ml" 30 664 669 "solver.ml" 30 664 685
+type(
+  bool
+)
+ident(
+  int_ref do_debug_sequent "solver.ml" 27 589 593 "solver.ml" 27 589 609
+)
+"solver.ml" 31 697 701 "solver.ml" 31 697 715
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"solver.ml" 31 697 716 "solver.ml" 31 697 722
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"solver.ml" 31 697 723 "solver.ml" 31 697 727
+type(
+  string
+)
+ident(
+  int_ref name "solver.ml" 29 619 637 "solver.ml" 29 619 641
+)
+"solver.ml" 31 697 701 "solver.ml" 31 697 727
+call(
+  stack
+)
+type(
+  unit
+)
+"solver.ml" 32 729 733 "solver.ml" 32 729 742
+type(
+  (Term.pterm * 'b -> unit) -> (Term.pterm * 'b) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"solver.ml" 32 729 749 "solver.ml" 32 729 750
+type(
+  Term.pterm
+)
+ident(
+  def x "solver.ml" 32 729 757 "solver.ml" 33 779 820
+)
+"solver.ml" 32 729 751 "solver.ml" 32 729 752
+type(
+  'b
+)
+"solver.ml" 32 729 748 "solver.ml" 32 729 753
+type(
+  Term.pterm * 'b
+)
+"solver.ml" 32 729 757 "solver.ml" 32 729 771
+type(
+  ((Format.formatter -> Term.pterm -> unit) -> Term.pterm -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Term.pterm -> unit) -> Term.pterm -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"solver.ml" 32 729 772 "solver.ml" 32 729 778
+type(
+  ((Format.formatter -> Term.pterm -> unit) -> Term.pterm -> unit,
+   Format.formatter, unit)
+  format
+)
+"solver.ml" 33 779 786 "solver.ml" 33 779 805
+type(
+  Term.name_env -> int -> Format.formatter -> Term.pterm -> unit
+)
+ident(
+  ext_ref Term.pp_print_pterm
+)
+"solver.ml" 33 779 806 "solver.ml" 33 779 815
+type(
+  Term.name_env
+)
+ident(
+  ext_ref Term.empty_env
+)
+"solver.ml" 33 779 816 "solver.ml" 33 779 817
+type(
+  int
+)
+"solver.ml" 33 779 785 "solver.ml" 33 779 818
+call(
+  stack
+)
+type(
+  Format.formatter -> Term.pterm -> unit
+)
+"solver.ml" 33 779 819 "solver.ml" 33 779 820
+type(
+  Term.pterm
+)
+ident(
+  int_ref x "solver.ml" 32 729 749 "solver.ml" 32 729 750
+)
+"solver.ml" 32 729 757 "solver.ml" 33 779 820
+call(
+  tail
+)
+type(
+  unit
+)
+"solver.ml" 32 729 743 "solver.ml" 33 779 821
+type(
+  Term.pterm * 'b -> unit
+)
+"solver.ml" 33 779 823 "solver.ml" 33 779 831
+type(
+  (Term.pterm * 'b) list -> (Term.pterm * 'b) list
+)
+ident(
+  ext_ref List.rev
+)
+"solver.ml" 33 779 832 "solver.ml" 33 779 836
+type(
+  (Term.pterm * 'b) list
+)
+ident(
+  int_ref ant2 "solver.ml" 29 619 647 "solver.ml" 29 619 651
+)
+"solver.ml" 33 779 822 "solver.ml" 33 779 837
+call(
+  stack
+)
+type(
+  (Term.pterm * 'b) list
+)
+"solver.ml" 32 729 733 "solver.ml" 33 779 837
+call(
+  stack
+)
+type(
+  unit
+)
+"solver.ml" 34 839 843 "solver.ml" 34 839 857
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"solver.ml" 34 839 858 "solver.ml" 34 839 863
+type(
+  (unit, Format.formatter, unit) format
+)
+"solver.ml" 34 839 843 "solver.ml" 34 839 863
+call(
+  stack
+)
+type(
+  unit
+)
+"solver.ml" 35 865 869 "solver.ml" 35 865 878
+type(
+  (Term.pterm * 'a -> unit) -> (Term.pterm * 'a) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"solver.ml" 35 865 885 "solver.ml" 35 865 886
+type(
+  Term.pterm
+)
+ident(
+  def x "solver.ml" 35 865 893 "solver.ml" 36 915 956
+)
+"solver.ml" 35 865 887 "solver.ml" 35 865 888
+type(
+  'a
+)
+"solver.ml" 35 865 884 "solver.ml" 35 865 889
+type(
+  Term.pterm * 'a
+)
+"solver.ml" 35 865 893 "solver.ml" 35 865 907
+type(
+  ((Format.formatter -> Term.pterm -> unit) -> Term.pterm -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Term.pterm -> unit) -> Term.pterm -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"solver.ml" 35 865 908 "solver.ml" 35 865 914
+type(
+  ((Format.formatter -> Term.pterm -> unit) -> Term.pterm -> unit,
+   Format.formatter, unit)
+  format
+)
+"solver.ml" 36 915 922 "solver.ml" 36 915 941
+type(
+  Term.name_env -> int -> Format.formatter -> Term.pterm -> unit
+)
+ident(
+  ext_ref Term.pp_print_pterm
+)
+"solver.ml" 36 915 942 "solver.ml" 36 915 951
+type(
+  Term.name_env
+)
+ident(
+  ext_ref Term.empty_env
+)
+"solver.ml" 36 915 952 "solver.ml" 36 915 953
+type(
+  int
+)
+"solver.ml" 36 915 921 "solver.ml" 36 915 954
+call(
+  stack
+)
+type(
+  Format.formatter -> Term.pterm -> unit
+)
+"solver.ml" 36 915 955 "solver.ml" 36 915 956
+type(
+  Term.pterm
+)
+ident(
+  int_ref x "solver.ml" 35 865 885 "solver.ml" 35 865 886
+)
+"solver.ml" 35 865 893 "solver.ml" 36 915 956
+call(
+  tail
+)
+type(
+  unit
+)
+"solver.ml" 35 865 879 "solver.ml" 36 915 957
+type(
+  Term.pterm * 'a -> unit
+)
+"solver.ml" 36 915 958 "solver.ml" 36 915 962
+type(
+  (Term.pterm * 'a) list
+)
+ident(
+  int_ref ant1 "solver.ml" 29 619 642 "solver.ml" 29 619 646
+)
+"solver.ml" 35 865 869 "solver.ml" 36 915 962
+call(
+  stack
+)
+type(
+  unit
+)
+"solver.ml" 37 964 980 "solver.ml" 37 964 984
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "solver.ml" 29 619 652 "solver.ml" 29 619 656
+)
+"solver.ml" 38 990 996 "solver.ml" 38 990 1000
+type(
+  Term.pterm option
+)
+"solver.ml" 39 1004 1012 "solver.ml" 39 1004 1026
+type(
+  ((Format.formatter -> Term.pterm -> unit) -> Term.pterm -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Term.pterm -> unit) -> Term.pterm -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"solver.ml" 39 1004 1027 "solver.ml" 39 1004 1036
+type(
+  ((Format.formatter -> Term.pterm -> unit) -> Term.pterm -> unit,
+   Format.formatter, unit)
+  format
+)
+"solver.ml" 40 1037 1048 "solver.ml" 40 1037 1067
+type(
+  Term.name_env -> int -> Format.formatter -> Term.pterm -> unit
+)
+ident(
+  ext_ref Term.pp_print_pterm
+)
+"solver.ml" 40 1037 1068 "solver.ml" 40 1037 1077
+type(
+  Term.name_env
+)
+ident(
+  ext_ref Term.empty_env
+)
+"solver.ml" 40 1037 1078 "solver.ml" 40 1037 1079
+type(
+  int
+)
+"solver.ml" 40 1037 1047 "solver.ml" 40 1037 1080
+call(
+  stack
+)
+type(
+  Format.formatter -> Term.pterm -> unit
+)
+"solver.ml" 40 1037 1081 "solver.ml" 40 1037 1085
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "solver.ml" 29 619 657 "solver.ml" 29 619 661
+)
+"solver.ml" 39 1004 1012 "solver.ml" 40 1037 1085
+call(
+  tail
+)
+type(
+  unit
+)
+"solver.ml" 41 1086 1097 "solver.ml" 41 1086 1102
+type(
+  Term.pterm
+)
+ident(
+  def sucLS "solver.ml" 42 1106 1114 "solver.ml" 45 1251 1299
+)
+"solver.ml" 41 1086 1092 "solver.ml" 41 1086 1102
+type(
+  Term.pterm option
+)
+"solver.ml" 42 1106 1114 "solver.ml" 42 1106 1128
+type(
+  ((Format.formatter -> Term.pterm -> unit) ->
+   Term.pterm ->
+   (Format.formatter -> Term.pterm -> unit) ->
+   Term.pterm ->
+   (Format.formatter -> Term.pterm -> unit) -> Term.pterm -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Term.pterm -> unit) ->
+  Term.pterm ->
+  (Format.formatter -> Term.pterm -> unit) ->
+  Term.pterm ->
+  (Format.formatter -> Term.pterm -> unit) -> Term.pterm -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"solver.ml" 42 1106 1129 "solver.ml" 42 1106 1151
+type(
+  ((Format.formatter -> Term.pterm -> unit) ->
+   Term.pterm ->
+   (Format.formatter -> Term.pterm -> unit) ->
+   Term.pterm ->
+   (Format.formatter -> Term.pterm -> unit) -> Term.pterm -> unit,
+   Format.formatter, unit)
+  format
+)
+"solver.ml" 43 1152 1163 "solver.ml" 43 1152 1182
+type(
+  Term.name_env -> int -> Format.formatter -> Term.pterm -> unit
+)
+ident(
+  ext_ref Term.pp_print_pterm
+)
+"solver.ml" 43 1152 1183 "solver.ml" 43 1152 1192
+type(
+  Term.name_env
+)
+ident(
+  ext_ref Term.empty_env
+)
+"solver.ml" 43 1152 1193 "solver.ml" 43 1152 1194
+type(
+  int
+)
+"solver.ml" 43 1152 1162 "solver.ml" 43 1152 1195
+call(
+  stack
+)
+type(
+  Format.formatter -> Term.pterm -> unit
+)
+"solver.ml" 43 1152 1196 "solver.ml" 43 1152 1200
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "solver.ml" 29 619 657 "solver.ml" 29 619 661
+)
+"solver.ml" 44 1201 1212 "solver.ml" 44 1201 1231
+type(
+  Term.name_env -> int -> Format.formatter -> Term.pterm -> unit
+)
+ident(
+  ext_ref Term.pp_print_pterm
+)
+"solver.ml" 44 1201 1232 "solver.ml" 44 1201 1241
+type(
+  Term.name_env
+)
+ident(
+  ext_ref Term.empty_env
+)
+"solver.ml" 44 1201 1242 "solver.ml" 44 1201 1243
+type(
+  int
+)
+"solver.ml" 44 1201 1211 "solver.ml" 44 1201 1244
+call(
+  stack
+)
+type(
+  Format.formatter -> Term.pterm -> unit
+)
+"solver.ml" 44 1201 1245 "solver.ml" 44 1201 1250
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucLS "solver.ml" 41 1086 1097 "solver.ml" 41 1086 1102
+)
+"solver.ml" 45 1251 1262 "solver.ml" 45 1251 1281
+type(
+  Term.name_env -> int -> Format.formatter -> Term.pterm -> unit
+)
+ident(
+  ext_ref Term.pp_print_pterm
+)
+"solver.ml" 45 1251 1282 "solver.ml" 45 1251 1291
+type(
+  Term.name_env
+)
+ident(
+  ext_ref Term.empty_env
+)
+"solver.ml" 45 1251 1292 "solver.ml" 45 1251 1293
+type(
+  int
+)
+"solver.ml" 45 1251 1261 "solver.ml" 45 1251 1294
+call(
+  stack
+)
+type(
+  Format.formatter -> Term.pterm -> unit
+)
+"solver.ml" 45 1251 1295 "solver.ml" 45 1251 1299
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "solver.ml" 29 619 657 "solver.ml" 29 619 661
+)
+"solver.ml" 42 1106 1114 "solver.ml" 45 1251 1299
+call(
+  tail
+)
+type(
+  unit
+)
+"solver.ml" 37 964 968 "solver.ml" 46 1300 1307
+type(
+  unit
+)
+"solver.ml" 35 865 869 "solver.ml" 46 1300 1307
+type(
+  unit
+)
+"solver.ml" 34 839 843 "solver.ml" 46 1300 1307
+type(
+  unit
+)
+"solver.ml" 32 729 733 "solver.ml" 46 1300 1307
+type(
+  unit
+)
+"solver.ml" 30 664 691 "solver.ml" 47 1308 1313
+type(
+  unit
+)
+"solver.ml" 47 1308 1319 "solver.ml" 47 1308 1321
+type(
+  unit
+)
+"solver.ml" 30 664 666 "solver.ml" 47 1308 1321
+type(
+  unit
+)
+"solver.ml" 49 1323 1327 "solver.ml" 49 1323 1337
+type(
+  (Lf_proof.lf_proof -> Lf_proof.lf_proof) ->
+  Lf_proof.lf_proof option -> Lf_proof.lf_proof option
+)
+ident(
+  def make_proof "solver.ml" 55 1457 1457 "solver.ml" 1 0 -1
+)
+"solver.ml" 49 1323 1339 "solver.ml" 49 1323 1340
+type(
+  Lf_proof.lf_proof -> Lf_proof.lf_proof
+)
+ident(
+  def f "solver.ml" 49 1323 1363 "solver.ml" 53 1450 1455
+)
+"solver.ml" 49 1323 1364 "solver.ml" 49 1323 1365
+type(
+  Lf_proof.lf_proof option
+)
+ident(
+  def t "solver.ml" 50 1385 1387 "solver.ml" 53 1450 1455
+)
+"solver.ml" 50 1385 1399 "solver.ml" 50 1385 1400
+type(
+  Lf_proof.lf_proof option
+)
+ident(
+  int_ref t "solver.ml" 49 1323 1364 "solver.ml" 49 1323 1365
+)
+"solver.ml" 51 1406 1410 "solver.ml" 51 1406 1414
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 51 1406 1418 "solver.ml" 51 1406 1422
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 52 1423 1432 "solver.ml" 52 1423 1434
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  def ts "solver.ml" 52 1423 1438 "solver.ml" 52 1423 1449
+)
+"solver.ml" 52 1423 1427 "solver.ml" 52 1423 1434
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 52 1423 1444 "solver.ml" 52 1423 1445
+type(
+  Lf_proof.lf_proof -> Lf_proof.lf_proof
+)
+ident(
+  int_ref f "solver.ml" 49 1323 1339 "solver.ml" 49 1323 1340
+)
+"solver.ml" 52 1423 1446 "solver.ml" 52 1423 1448
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  int_ref ts "solver.ml" 52 1423 1432 "solver.ml" 52 1423 1434
+)
+"solver.ml" 52 1423 1443 "solver.ml" 52 1423 1449
+call(
+  stack
+)
+type(
+  Lf_proof.lf_proof
+)
+"solver.ml" 52 1423 1438 "solver.ml" 52 1423 1449
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 50 1385 1387 "solver.ml" 53 1450 1455
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 55 1457 1461 "solver.ml" 55 1457 1475
+type(
+  (Lf_proof.lf_proof -> Lf_proof.lf_proof -> Lf_proof.lf_proof) ->
+  (unit -> Lf_proof.lf_proof option) ->
+  (unit -> Lf_proof.lf_proof option) -> Lf_proof.lf_proof option
+)
+ident(
+  def make_proof_and "solver.ml" 67 1745 1745 "solver.ml" 1 0 -1
+)
+"solver.ml" 55 1457 1477 "solver.ml" 55 1457 1478
+type(
+  Lf_proof.lf_proof -> Lf_proof.lf_proof -> Lf_proof.lf_proof
+)
+ident(
+  def f "solver.ml" 56 1513 1517 "solver.ml" 65 1738 1743
+)
+"solver.ml" 56 1513 1518 "solver.ml" 56 1513 1520
+type(
+  unit -> Lf_proof.lf_proof option
+)
+ident(
+  def t1 "solver.ml" 57 1547 1551 "solver.ml" 65 1738 1743
+)
+"solver.ml" 57 1547 1552 "solver.ml" 57 1547 1554
+type(
+  unit -> Lf_proof.lf_proof option
+)
+ident(
+  def t2 "solver.ml" 58 1583 1585 "solver.ml" 65 1738 1743
+)
+"solver.ml" 58 1583 1597 "solver.ml" 58 1583 1599
+type(
+  unit -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref t1 "solver.ml" 56 1513 1518 "solver.ml" 56 1513 1520
+)
+"solver.ml" 58 1583 1600 "solver.ml" 58 1583 1602
+type(
+  unit
+)
+"solver.ml" 58 1583 1597 "solver.ml" 58 1583 1602
+call(
+  stack
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 59 1608 1612 "solver.ml" 59 1608 1616
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 59 1608 1620 "solver.ml" 59 1608 1624
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 60 1625 1634 "solver.ml" 60 1625 1637
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  def pr1 "solver.ml" 61 1641 1647 "solver.ml" 64 1728 1737
+)
+"solver.ml" 60 1625 1629 "solver.ml" 60 1625 1637
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 61 1641 1659 "solver.ml" 61 1641 1661
+type(
+  unit -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref t2 "solver.ml" 57 1547 1552 "solver.ml" 57 1547 1554
+)
+"solver.ml" 61 1641 1662 "solver.ml" 61 1641 1664
+type(
+  unit
+)
+"solver.ml" 61 1641 1659 "solver.ml" 61 1641 1664
+call(
+  stack
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 62 1670 1678 "solver.ml" 62 1670 1682
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 62 1670 1686 "solver.ml" 62 1670 1690
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 63 1691 1704 "solver.ml" 63 1691 1707
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  def pr2 "solver.ml" 63 1691 1711 "solver.ml" 63 1691 1727
+)
+"solver.ml" 63 1691 1699 "solver.ml" 63 1691 1707
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 63 1691 1717 "solver.ml" 63 1691 1718
+type(
+  Lf_proof.lf_proof -> Lf_proof.lf_proof -> Lf_proof.lf_proof
+)
+ident(
+  int_ref f "solver.ml" 55 1457 1477 "solver.ml" 55 1457 1478
+)
+"solver.ml" 63 1691 1719 "solver.ml" 63 1691 1722
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  int_ref pr1 "solver.ml" 60 1625 1634 "solver.ml" 60 1625 1637
+)
+"solver.ml" 63 1691 1723 "solver.ml" 63 1691 1726
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  int_ref pr2 "solver.ml" 63 1691 1704 "solver.ml" 63 1691 1707
+)
+"solver.ml" 63 1691 1716 "solver.ml" 63 1691 1727
+call(
+  stack
+)
+type(
+  Lf_proof.lf_proof
+)
+"solver.ml" 63 1691 1711 "solver.ml" 63 1691 1727
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 61 1641 1647 "solver.ml" 64 1728 1737
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 58 1583 1585 "solver.ml" 65 1738 1743
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 67 1745 1749 "solver.ml" 67 1745 1762
+type(
+  (Lf_proof.lf_proof -> Lf_proof.lf_proof) ->
+  (Lf_proof.lf_proof -> Lf_proof.lf_proof) ->
+  (unit -> Lf_proof.lf_proof option) ->
+  (unit -> Lf_proof.lf_proof option) -> Lf_proof.lf_proof option
+)
+ident(
+  def make_proof_or "solver.ml" 90 2212 2212 "solver.ml" 1 0 -1
+)
+"solver.ml" 68 1763 1768 "solver.ml" 68 1763 1770
+type(
+  Lf_proof.lf_proof -> Lf_proof.lf_proof
+)
+ident(
+  def f1 "solver.ml" 69 1794 1798 "solver.ml" 79 2052 2057
+)
+"solver.ml" 69 1794 1799 "solver.ml" 69 1794 1801
+type(
+  Lf_proof.lf_proof -> Lf_proof.lf_proof
+)
+ident(
+  def f2 "solver.ml" 70 1825 1829 "solver.ml" 79 2052 2057
+)
+"solver.ml" 70 1825 1830 "solver.ml" 70 1825 1832
+type(
+  unit -> Lf_proof.lf_proof option
+)
+ident(
+  def t1 "solver.ml" 71 1859 1863 "solver.ml" 79 2052 2057
+)
+"solver.ml" 71 1859 1864 "solver.ml" 71 1859 1866
+type(
+  unit -> Lf_proof.lf_proof option
+)
+ident(
+  def t2 "solver.ml" 72 1895 1897 "solver.ml" 79 2052 2057
+)
+"solver.ml" 72 1895 1909 "solver.ml" 72 1895 1911
+type(
+  unit -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref t1 "solver.ml" 70 1825 1830 "solver.ml" 70 1825 1832
+)
+"solver.ml" 72 1895 1912 "solver.ml" 72 1895 1914
+type(
+  unit
+)
+"solver.ml" 72 1895 1909 "solver.ml" 72 1895 1914
+call(
+  stack
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 73 1920 1929 "solver.ml" 73 1920 1931
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  def pr "solver.ml" 73 1920 1935 "solver.ml" 73 1920 1947
+)
+"solver.ml" 73 1920 1924 "solver.ml" 73 1920 1931
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 73 1920 1941 "solver.ml" 73 1920 1943
+type(
+  Lf_proof.lf_proof -> Lf_proof.lf_proof
+)
+ident(
+  int_ref f1 "solver.ml" 68 1763 1768 "solver.ml" 68 1763 1770
+)
+"solver.ml" 73 1920 1944 "solver.ml" 73 1920 1946
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  int_ref pr "solver.ml" 73 1920 1929 "solver.ml" 73 1920 1931
+)
+"solver.ml" 73 1920 1940 "solver.ml" 73 1920 1947
+call(
+  stack
+)
+type(
+  Lf_proof.lf_proof
+)
+"solver.ml" 73 1920 1935 "solver.ml" 73 1920 1947
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 74 1948 1952 "solver.ml" 74 1948 1956
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 75 1960 1978 "solver.ml" 75 1960 1980
+type(
+  unit -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref t2 "solver.ml" 71 1859 1864 "solver.ml" 71 1859 1866
+)
+"solver.ml" 75 1960 1981 "solver.ml" 75 1960 1983
+type(
+  unit
+)
+"solver.ml" 75 1960 1978 "solver.ml" 75 1960 1983
+call(
+  stack
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 76 1989 2002 "solver.ml" 76 1989 2004
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  def pr "solver.ml" 76 1989 2008 "solver.ml" 76 1989 2020
+)
+"solver.ml" 76 1989 1997 "solver.ml" 76 1989 2004
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 76 1989 2014 "solver.ml" 76 1989 2016
+type(
+  Lf_proof.lf_proof -> Lf_proof.lf_proof
+)
+ident(
+  int_ref f2 "solver.ml" 69 1794 1799 "solver.ml" 69 1794 1801
+)
+"solver.ml" 76 1989 2017 "solver.ml" 76 1989 2019
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  int_ref pr "solver.ml" 76 1989 2002 "solver.ml" 76 1989 2004
+)
+"solver.ml" 76 1989 2013 "solver.ml" 76 1989 2020
+call(
+  stack
+)
+type(
+  Lf_proof.lf_proof
+)
+"solver.ml" 76 1989 2008 "solver.ml" 76 1989 2020
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 77 2021 2029 "solver.ml" 77 2021 2033
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 77 2021 2037 "solver.ml" 77 2021 2041
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 75 1960 1966 "solver.ml" 78 2042 2051
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 72 1895 1897 "solver.ml" 79 2052 2057
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 90 2212 2220 "solver.ml" 90 2212 2237
+type(
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Lf_proof.lf_proof option
+)
+ident(
+  def solve1_internal_s "solver.ml" 90 2212 2212 "solver.ml" 1 0 -1
+)
+"solver.ml" 90 2212 2238 "solver.ml" 90 2212 2242
+type(
+  int
+)
+ident(
+  def anum "solver.ml" 90 2212 2243 "solver.ml" 102 2724 2729
+)
+"solver.ml" 90 2212 2243 "solver.ml" 90 2212 2247
+type(
+  int
+)
+ident(
+  def pnum "solver.ml" 90 2212 2248 "solver.ml" 102 2724 2729
+)
+"solver.ml" 90 2212 2248 "solver.ml" 90 2212 2251
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant "solver.ml" 90 2212 2252 "solver.ml" 102 2724 2729
+)
+"solver.ml" 90 2212 2252 "solver.ml" 90 2212 2256
+type(
+  Term.pterm option
+)
+ident(
+  def sucL "solver.ml" 90 2212 2257 "solver.ml" 102 2724 2729
+)
+"solver.ml" 90 2212 2257 "solver.ml" 90 2212 2261
+type(
+  Term.pterm
+)
+ident(
+  def sucR "solver.ml" 91 2264 2266 "solver.ml" 102 2724 2729
+)
+"solver.ml" 91 2264 2266 "solver.ml" 91 2264 2279
+type(
+  string ->
+  (Term.pterm * int) list ->
+  (Term.pterm * '_a) list -> Term.pterm option -> Term.pterm -> unit
+)
+ident(
+  int_ref debug_sequent "solver.ml" 29 619 623 "solver.ml" 29 619 636
+)
+"solver.ml" 91 2264 2280 "solver.ml" 91 2264 2284
+type(
+  string
+)
+"solver.ml" 91 2264 2285 "solver.ml" 91 2264 2288
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant "solver.ml" 90 2212 2248 "solver.ml" 90 2212 2251
+)
+"solver.ml" 91 2264 2289 "solver.ml" 91 2264 2291
+type(
+  (Term.pterm * '_a) list
+)
+"solver.ml" 91 2264 2292 "solver.ml" 91 2264 2296
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "solver.ml" 90 2212 2252 "solver.ml" 90 2212 2256
+)
+"solver.ml" 91 2264 2297 "solver.ml" 91 2264 2301
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "solver.ml" 90 2212 2257 "solver.ml" 90 2212 2261
+)
+"solver.ml" 91 2264 2266 "solver.ml" 91 2264 2301
+call(
+  stack
+)
+type(
+  unit
+)
+"solver.ml" 92 2303 2317 "solver.ml" 92 2303 2321
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "solver.ml" 90 2212 2257 "solver.ml" 90 2212 2261
+)
+"solver.ml" 93 2327 2339 "solver.ml" 93 2327 2341
+type(
+  Term.pterm
+)
+ident(
+  def t1 "solver.ml" 94 2349 2355 "solver.ml" 95 2387 2453
+)
+"solver.ml" 93 2327 2342 "solver.ml" 93 2327 2344
+type(
+  Term.pterm
+)
+ident(
+  def t2 "solver.ml" 94 2349 2355 "solver.ml" 95 2387 2453
+)
+"solver.ml" 93 2327 2331 "solver.ml" 93 2327 2345
+type(
+  Term.pterm
+)
+"solver.ml" 94 2349 2355 "solver.ml" 94 2349 2365
+type(
+  (Lf_proof.lf_proof -> Lf_proof.lf_proof) ->
+  Lf_proof.lf_proof option -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref make_proof "solver.ml" 49 1323 1327 "solver.ml" 49 1323 1337
+)
+"solver.ml" 94 2349 2371 "solver.ml" 94 2349 2373
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  def pr "solver.ml" 94 2349 2377 "solver.ml" 94 2349 2385
+)
+"solver.ml" 94 2349 2383 "solver.ml" 94 2349 2385
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  int_ref pr "solver.ml" 94 2349 2371 "solver.ml" 94 2349 2373
+)
+"solver.ml" 94 2349 2377 "solver.ml" 94 2349 2385
+type(
+  Lf_proof.lf_proof
+)
+"solver.ml" 94 2349 2366 "solver.ml" 94 2349 2386
+type(
+  Lf_proof.lf_proof -> Lf_proof.lf_proof
+)
+"solver.ml" 95 2387 2396 "solver.ml" 95 2387 2413
+type(
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref solve1_internal_s "solver.ml" 90 2212 2220 "solver.ml" 90 2212 2237
+)
+"solver.ml" 95 2387 2415 "solver.ml" 95 2387 2419
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 90 2212 2238 "solver.ml" 90 2212 2242
+)
+"solver.ml" 95 2387 2419 "solver.ml" 95 2387 2420
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 95 2387 2420 "solver.ml" 95 2387 2421
+type(
+  int
+)
+"solver.ml" 95 2387 2414 "solver.ml" 95 2387 2422
+type(
+  int
+)
+"solver.ml" 95 2387 2423 "solver.ml" 95 2387 2427
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 90 2212 2243 "solver.ml" 90 2212 2247
+)
+"solver.ml" 95 2387 2430 "solver.ml" 95 2387 2432
+type(
+  Term.pterm
+)
+ident(
+  int_ref t1 "solver.ml" 93 2327 2339 "solver.ml" 93 2327 2341
+)
+"solver.ml" 95 2387 2433 "solver.ml" 95 2387 2437
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 90 2212 2238 "solver.ml" 90 2212 2242
+)
+"solver.ml" 95 2387 2429 "solver.ml" 95 2387 2438
+type(
+  Term.pterm * int
+)
+"solver.ml" 95 2387 2440 "solver.ml" 95 2387 2443
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant "solver.ml" 90 2212 2248 "solver.ml" 90 2212 2251
+)
+"solver.ml" 95 2387 2428 "solver.ml" 95 2387 2444
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 95 2387 2445 "solver.ml" 95 2387 2449
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "solver.ml" 90 2212 2252 "solver.ml" 90 2212 2256
+)
+"solver.ml" 95 2387 2450 "solver.ml" 95 2387 2452
+type(
+  Term.pterm
+)
+ident(
+  int_ref t2 "solver.ml" 93 2327 2342 "solver.ml" 93 2327 2344
+)
+"solver.ml" 95 2387 2395 "solver.ml" 95 2387 2453
+call(
+  stack
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 94 2349 2355 "solver.ml" 95 2387 2453
+call(
+  tail
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 96 2454 2464 "solver.ml" 96 2454 2466
+type(
+  Term.pterm
+)
+ident(
+  def t1 "solver.ml" 97 2474 2480 "solver.ml" 99 2587 2645
+)
+"solver.ml" 96 2454 2467 "solver.ml" 96 2454 2469
+type(
+  Term.pterm
+)
+ident(
+  def t2 "solver.ml" 97 2474 2480 "solver.ml" 99 2587 2645
+)
+"solver.ml" 96 2454 2458 "solver.ml" 96 2454 2470
+type(
+  Term.pterm
+)
+"solver.ml" 97 2474 2480 "solver.ml" 97 2474 2494
+type(
+  (Lf_proof.lf_proof -> Lf_proof.lf_proof -> Lf_proof.lf_proof) ->
+  (unit -> Lf_proof.lf_proof option) ->
+  (unit -> Lf_proof.lf_proof option) -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref make_proof_and "solver.ml" 55 1457 1461 "solver.ml" 55 1457 1475
+)
+"solver.ml" 97 2474 2500 "solver.ml" 97 2474 2503
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  def pr1 "solver.ml" 97 2474 2504 "solver.ml" 97 2474 2526
+)
+"solver.ml" 97 2474 2504 "solver.ml" 97 2474 2507
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  def pr2 "solver.ml" 97 2474 2511 "solver.ml" 97 2474 2526
+)
+"solver.ml" 97 2474 2518 "solver.ml" 97 2474 2521
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  int_ref pr1 "solver.ml" 97 2474 2500 "solver.ml" 97 2474 2503
+)
+"solver.ml" 97 2474 2522 "solver.ml" 97 2474 2525
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  int_ref pr2 "solver.ml" 97 2474 2504 "solver.ml" 97 2474 2507
+)
+"solver.ml" 97 2474 2511 "solver.ml" 97 2474 2526
+type(
+  Lf_proof.lf_proof
+)
+"solver.ml" 97 2474 2495 "solver.ml" 97 2474 2527
+type(
+  Lf_proof.lf_proof -> Lf_proof.lf_proof -> Lf_proof.lf_proof
+)
+"solver.ml" 98 2528 2541 "solver.ml" 98 2528 2542
+type(
+  unit
+)
+"solver.ml" 98 2528 2546 "solver.ml" 98 2528 2563
+type(
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref solve1_internal_s "solver.ml" 90 2212 2220 "solver.ml" 90 2212 2237
+)
+"solver.ml" 98 2528 2564 "solver.ml" 98 2528 2568
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 90 2212 2238 "solver.ml" 90 2212 2242
+)
+"solver.ml" 98 2528 2569 "solver.ml" 98 2528 2573
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 90 2212 2243 "solver.ml" 90 2212 2247
+)
+"solver.ml" 98 2528 2574 "solver.ml" 98 2528 2577
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant "solver.ml" 90 2212 2248 "solver.ml" 90 2212 2251
+)
+"solver.ml" 98 2528 2578 "solver.ml" 98 2528 2582
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "solver.ml" 90 2212 2252 "solver.ml" 90 2212 2256
+)
+"solver.ml" 98 2528 2583 "solver.ml" 98 2528 2585
+type(
+  Term.pterm
+)
+ident(
+  int_ref t1 "solver.ml" 96 2454 2464 "solver.ml" 96 2454 2466
+)
+"solver.ml" 98 2528 2546 "solver.ml" 98 2528 2585
+call(
+  tail
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 98 2528 2536 "solver.ml" 98 2528 2586
+type(
+  unit -> Lf_proof.lf_proof option
+)
+"solver.ml" 99 2587 2600 "solver.ml" 99 2587 2601
+type(
+  unit
+)
+"solver.ml" 99 2587 2605 "solver.ml" 99 2587 2622
+type(
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref solve1_internal_s "solver.ml" 90 2212 2220 "solver.ml" 90 2212 2237
+)
+"solver.ml" 99 2587 2623 "solver.ml" 99 2587 2627
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 90 2212 2238 "solver.ml" 90 2212 2242
+)
+"solver.ml" 99 2587 2628 "solver.ml" 99 2587 2632
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 90 2212 2243 "solver.ml" 90 2212 2247
+)
+"solver.ml" 99 2587 2633 "solver.ml" 99 2587 2636
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant "solver.ml" 90 2212 2248 "solver.ml" 90 2212 2251
+)
+"solver.ml" 99 2587 2637 "solver.ml" 99 2587 2641
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "solver.ml" 90 2212 2252 "solver.ml" 90 2212 2256
+)
+"solver.ml" 99 2587 2642 "solver.ml" 99 2587 2644
+type(
+  Term.pterm
+)
+ident(
+  int_ref t2 "solver.ml" 96 2454 2467 "solver.ml" 96 2454 2469
+)
+"solver.ml" 99 2587 2605 "solver.ml" 99 2587 2644
+call(
+  tail
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 99 2587 2595 "solver.ml" 99 2587 2645
+type(
+  unit -> Lf_proof.lf_proof option
+)
+"solver.ml" 97 2474 2480 "solver.ml" 99 2587 2645
+call(
+  tail
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 100 2646 2650 "solver.ml" 100 2646 2654
+type(
+  Term.pterm
+)
+"solver.ml" 100 2646 2663 "solver.ml" 100 2646 2668
+type(
+  Lf_proof.lf_proof
+)
+"solver.ml" 100 2646 2658 "solver.ml" 100 2646 2668
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 101 2669 2673 "solver.ml" 101 2669 2674
+type(
+  Term.pterm
+)
+"solver.ml" 101 2669 2678 "solver.ml" 101 2669 2696
+type(
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref solve1_internal_a1 "solver.ml" 122 3171 3175 "solver.ml" 122 3171 3193
+)
+"solver.ml" 101 2669 2697 "solver.ml" 101 2669 2701
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 90 2212 2238 "solver.ml" 90 2212 2242
+)
+"solver.ml" 101 2669 2702 "solver.ml" 101 2669 2706
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 90 2212 2243 "solver.ml" 90 2212 2247
+)
+"solver.ml" 101 2669 2707 "solver.ml" 101 2669 2710
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant "solver.ml" 90 2212 2248 "solver.ml" 90 2212 2251
+)
+"solver.ml" 101 2669 2711 "solver.ml" 101 2669 2713
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 101 2669 2714 "solver.ml" 101 2669 2718
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "solver.ml" 90 2212 2252 "solver.ml" 90 2212 2256
+)
+"solver.ml" 101 2669 2719 "solver.ml" 101 2669 2723
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "solver.ml" 90 2212 2257 "solver.ml" 90 2212 2261
+)
+"solver.ml" 101 2669 2678 "solver.ml" 101 2669 2723
+call(
+  tail
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 92 2303 2305 "solver.ml" 102 2724 2729
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 91 2264 2266 "solver.ml" 102 2724 2729
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 122 3171 3175 "solver.ml" 122 3171 3193
+type(
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Lf_proof.lf_proof option
+)
+ident(
+  def solve1_internal_a1 "solver.ml" 90 2212 2212 "solver.ml" 1 0 -1
+)
+"solver.ml" 122 3171 3194 "solver.ml" 122 3171 3198
+type(
+  int
+)
+ident(
+  def anum "solver.ml" 122 3171 3199 "solver.ml" 164 4967 4972
+)
+"solver.ml" 122 3171 3199 "solver.ml" 122 3171 3203
+type(
+  int
+)
+ident(
+  def pnum "solver.ml" 122 3171 3204 "solver.ml" 164 4967 4972
+)
+"solver.ml" 122 3171 3204 "solver.ml" 122 3171 3208
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant1 "solver.ml" 122 3171 3209 "solver.ml" 164 4967 4972
+)
+"solver.ml" 122 3171 3209 "solver.ml" 122 3171 3213
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant2 "solver.ml" 122 3171 3214 "solver.ml" 164 4967 4972
+)
+"solver.ml" 122 3171 3214 "solver.ml" 122 3171 3218
+type(
+  Term.pterm option
+)
+ident(
+  def sucL "solver.ml" 122 3171 3219 "solver.ml" 164 4967 4972
+)
+"solver.ml" 122 3171 3219 "solver.ml" 122 3171 3223
+type(
+  Term.pterm
+)
+ident(
+  def sucR "solver.ml" 123 3226 3228 "solver.ml" 164 4967 4972
+)
+"solver.ml" 123 3226 3228 "solver.ml" 123 3226 3241
+type(
+  string ->
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list -> Term.pterm option -> Term.pterm -> unit
+)
+ident(
+  int_ref debug_sequent "solver.ml" 29 619 623 "solver.ml" 29 619 636
+)
+"solver.ml" 123 3226 3242 "solver.ml" 123 3226 3247
+type(
+  string
+)
+"solver.ml" 123 3226 3248 "solver.ml" 123 3226 3252
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant1 "solver.ml" 122 3171 3204 "solver.ml" 122 3171 3208
+)
+"solver.ml" 123 3226 3253 "solver.ml" 123 3226 3257
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 122 3171 3209 "solver.ml" 122 3171 3213
+)
+"solver.ml" 123 3226 3258 "solver.ml" 123 3226 3262
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "solver.ml" 122 3171 3214 "solver.ml" 122 3171 3218
+)
+"solver.ml" 123 3226 3263 "solver.ml" 123 3226 3267
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "solver.ml" 122 3171 3219 "solver.ml" 122 3171 3223
+)
+"solver.ml" 123 3226 3228 "solver.ml" 123 3226 3267
+call(
+  stack
+)
+type(
+  unit
+)
+"solver.ml" 124 3269 3283 "solver.ml" 124 3269 3287
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant1 "solver.ml" 122 3171 3204 "solver.ml" 122 3171 3208
+)
+"solver.ml" 125 3293 3297 "solver.ml" 125 3293 3299
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 125 3293 3303 "solver.ml" 125 3293 3321
+type(
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref solve1_internal_a2 "solver.ml" 174 5275 5279 "solver.ml" 174 5275 5297
+)
+"solver.ml" 125 3293 3322 "solver.ml" 125 3293 3326
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 122 3171 3194 "solver.ml" 122 3171 3198
+)
+"solver.ml" 125 3293 3327 "solver.ml" 125 3293 3331
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 122 3171 3199 "solver.ml" 122 3171 3203
+)
+"solver.ml" 125 3293 3332 "solver.ml" 125 3293 3336
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 122 3171 3209 "solver.ml" 122 3171 3213
+)
+"solver.ml" 125 3293 3337 "solver.ml" 125 3293 3339
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 125 3293 3340 "solver.ml" 125 3293 3344
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "solver.ml" 122 3171 3214 "solver.ml" 122 3171 3218
+)
+"solver.ml" 125 3293 3345 "solver.ml" 125 3293 3349
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "solver.ml" 122 3171 3219 "solver.ml" 122 3171 3223
+)
+"solver.ml" 125 3293 3303 "solver.ml" 125 3293 3349
+call(
+  tail
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 126 3350 3361 "solver.ml" 126 3350 3363
+type(
+  Term.pterm
+)
+ident(
+  def t1 "solver.ml" 127 3384 3390 "solver.ml" 129 3467 3522
+)
+"solver.ml" 126 3350 3364 "solver.ml" 126 3350 3366
+type(
+  Term.pterm
+)
+ident(
+  def t2 "solver.ml" 127 3384 3390 "solver.ml" 129 3467 3522
+)
+"solver.ml" 126 3350 3355 "solver.ml" 126 3350 3367
+type(
+  Term.pterm
+)
+"solver.ml" 126 3350 3368 "solver.ml" 126 3350 3370
+type(
+  int
+)
+ident(
+  def ti "solver.ml" 127 3384 3390 "solver.ml" 129 3467 3522
+)
+"solver.ml" 126 3350 3354 "solver.ml" 126 3350 3371
+type(
+  Term.pterm * int
+)
+"solver.ml" 126 3350 3375 "solver.ml" 126 3350 3380
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant1t "solver.ml" 127 3384 3390 "solver.ml" 129 3467 3522
+)
+"solver.ml" 126 3350 3354 "solver.ml" 126 3350 3380
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 127 3384 3390 "solver.ml" 127 3384 3400
+type(
+  (Lf_proof.lf_proof -> Lf_proof.lf_proof) ->
+  Lf_proof.lf_proof option -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref make_proof "solver.ml" 49 1323 1327 "solver.ml" 49 1323 1337
+)
+"solver.ml" 127 3384 3406 "solver.ml" 127 3384 3408
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  def pr "solver.ml" 127 3384 3412 "solver.ml" 127 3384 3425
+)
+"solver.ml" 127 3384 3419 "solver.ml" 127 3384 3421
+type(
+  int
+)
+ident(
+  int_ref ti "solver.ml" 126 3350 3368 "solver.ml" 126 3350 3370
+)
+"solver.ml" 127 3384 3422 "solver.ml" 127 3384 3424
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  int_ref pr "solver.ml" 127 3384 3406 "solver.ml" 127 3384 3408
+)
+"solver.ml" 127 3384 3412 "solver.ml" 127 3384 3425
+type(
+  Lf_proof.lf_proof
+)
+"solver.ml" 127 3384 3401 "solver.ml" 127 3384 3426
+type(
+  Lf_proof.lf_proof -> Lf_proof.lf_proof
+)
+"solver.ml" 128 3427 3434 "solver.ml" 128 3427 3452
+type(
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref solve1_internal_a1 "solver.ml" 122 3171 3175 "solver.ml" 122 3171 3193
+)
+"solver.ml" 128 3427 3454 "solver.ml" 128 3427 3458
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 122 3171 3194 "solver.ml" 122 3171 3198
+)
+"solver.ml" 128 3427 3458 "solver.ml" 128 3427 3459
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 128 3427 3459 "solver.ml" 128 3427 3460
+type(
+  int
+)
+"solver.ml" 128 3427 3453 "solver.ml" 128 3427 3461
+type(
+  int
+)
+"solver.ml" 128 3427 3462 "solver.ml" 128 3427 3466
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 122 3171 3199 "solver.ml" 122 3171 3203
+)
+"solver.ml" 129 3467 3477 "solver.ml" 129 3467 3479
+type(
+  Term.pterm
+)
+ident(
+  int_ref t1 "solver.ml" 126 3350 3361 "solver.ml" 126 3350 3363
+)
+"solver.ml" 129 3467 3480 "solver.ml" 129 3467 3484
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 122 3171 3194 "solver.ml" 122 3171 3198
+)
+"solver.ml" 129 3467 3476 "solver.ml" 129 3467 3485
+type(
+  Term.pterm * int
+)
+"solver.ml" 129 3467 3488 "solver.ml" 129 3467 3490
+type(
+  Term.pterm
+)
+ident(
+  int_ref t2 "solver.ml" 126 3350 3364 "solver.ml" 126 3350 3366
+)
+"solver.ml" 129 3467 3491 "solver.ml" 129 3467 3495
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 122 3171 3194 "solver.ml" 122 3171 3198
+)
+"solver.ml" 129 3467 3495 "solver.ml" 129 3467 3496
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 129 3467 3496 "solver.ml" 129 3467 3497
+type(
+  int
+)
+"solver.ml" 129 3467 3491 "solver.ml" 129 3467 3497
+type(
+  int
+)
+"solver.ml" 129 3467 3487 "solver.ml" 129 3467 3498
+type(
+  Term.pterm * int
+)
+"solver.ml" 129 3467 3500 "solver.ml" 129 3467 3505
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant1t "solver.ml" 126 3350 3375 "solver.ml" 126 3350 3380
+)
+"solver.ml" 129 3467 3487 "solver.ml" 129 3467 3505
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 129 3467 3475 "solver.ml" 129 3467 3506
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 129 3467 3507 "solver.ml" 129 3467 3511
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 122 3171 3209 "solver.ml" 122 3171 3213
+)
+"solver.ml" 129 3467 3512 "solver.ml" 129 3467 3516
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "solver.ml" 122 3171 3214 "solver.ml" 122 3171 3218
+)
+"solver.ml" 129 3467 3517 "solver.ml" 129 3467 3521
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "solver.ml" 122 3171 3219 "solver.ml" 122 3171 3223
+)
+"solver.ml" 128 3427 3433 "solver.ml" 129 3467 3522
+call(
+  stack
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 127 3384 3390 "solver.ml" 129 3467 3522
+call(
+  tail
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 130 3523 3533 "solver.ml" 130 3523 3535
+type(
+  Term.pterm
+)
+ident(
+  def t1 "solver.ml" 131 3556 3562 "solver.ml" 137 3782 3828
+)
+"solver.ml" 130 3523 3536 "solver.ml" 130 3523 3538
+type(
+  Term.pterm
+)
+ident(
+  def t2 "solver.ml" 131 3556 3562 "solver.ml" 137 3782 3828
+)
+"solver.ml" 130 3523 3528 "solver.ml" 130 3523 3539
+type(
+  Term.pterm
+)
+"solver.ml" 130 3523 3540 "solver.ml" 130 3523 3542
+type(
+  int
+)
+ident(
+  def ti "solver.ml" 131 3556 3562 "solver.ml" 137 3782 3828
+)
+"solver.ml" 130 3523 3527 "solver.ml" 130 3523 3543
+type(
+  Term.pterm * int
+)
+"solver.ml" 130 3523 3547 "solver.ml" 130 3523 3552
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant1t "solver.ml" 131 3556 3562 "solver.ml" 137 3782 3828
+)
+"solver.ml" 130 3523 3527 "solver.ml" 130 3523 3552
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 131 3556 3562 "solver.ml" 131 3556 3576
+type(
+  (Lf_proof.lf_proof -> Lf_proof.lf_proof -> Lf_proof.lf_proof) ->
+  (unit -> Lf_proof.lf_proof option) ->
+  (unit -> Lf_proof.lf_proof option) -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref make_proof_and "solver.ml" 55 1457 1461 "solver.ml" 55 1457 1475
+)
+"solver.ml" 131 3556 3582 "solver.ml" 131 3556 3585
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  def pr1 "solver.ml" 131 3556 3586 "solver.ml" 131 3556 3611
+)
+"solver.ml" 131 3556 3586 "solver.ml" 131 3556 3589
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  def pr2 "solver.ml" 131 3556 3593 "solver.ml" 131 3556 3611
+)
+"solver.ml" 131 3556 3600 "solver.ml" 131 3556 3602
+type(
+  int
+)
+ident(
+  int_ref ti "solver.ml" 130 3523 3540 "solver.ml" 130 3523 3542
+)
+"solver.ml" 131 3556 3603 "solver.ml" 131 3556 3606
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  int_ref pr1 "solver.ml" 131 3556 3582 "solver.ml" 131 3556 3585
+)
+"solver.ml" 131 3556 3607 "solver.ml" 131 3556 3610
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  int_ref pr2 "solver.ml" 131 3556 3586 "solver.ml" 131 3556 3589
+)
+"solver.ml" 131 3556 3593 "solver.ml" 131 3556 3611
+type(
+  Lf_proof.lf_proof
+)
+"solver.ml" 131 3556 3577 "solver.ml" 131 3556 3612
+type(
+  Lf_proof.lf_proof -> Lf_proof.lf_proof -> Lf_proof.lf_proof
+)
+"solver.ml" 132 3613 3626 "solver.ml" 132 3613 3627
+type(
+  unit
+)
+"solver.ml" 133 3631 3641 "solver.ml" 133 3631 3659
+type(
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref solve1_internal_a1 "solver.ml" 122 3171 3175 "solver.ml" 122 3171 3193
+)
+"solver.ml" 133 3631 3661 "solver.ml" 133 3631 3665
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 122 3171 3194 "solver.ml" 122 3171 3198
+)
+"solver.ml" 133 3631 3665 "solver.ml" 133 3631 3666
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 133 3631 3666 "solver.ml" 133 3631 3667
+type(
+  int
+)
+"solver.ml" 133 3631 3660 "solver.ml" 133 3631 3668
+type(
+  int
+)
+"solver.ml" 133 3631 3669 "solver.ml" 133 3631 3673
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 122 3171 3199 "solver.ml" 122 3171 3203
+)
+"solver.ml" 134 3674 3688 "solver.ml" 134 3674 3690
+type(
+  Term.pterm
+)
+ident(
+  int_ref t1 "solver.ml" 130 3523 3533 "solver.ml" 130 3523 3535
+)
+"solver.ml" 134 3674 3691 "solver.ml" 134 3674 3695
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 122 3171 3194 "solver.ml" 122 3171 3198
+)
+"solver.ml" 134 3674 3687 "solver.ml" 134 3674 3696
+type(
+  Term.pterm * int
+)
+"solver.ml" 134 3674 3698 "solver.ml" 134 3674 3703
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant1t "solver.ml" 130 3523 3547 "solver.ml" 130 3523 3552
+)
+"solver.ml" 134 3674 3686 "solver.ml" 134 3674 3704
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 134 3674 3705 "solver.ml" 134 3674 3709
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 122 3171 3209 "solver.ml" 122 3171 3213
+)
+"solver.ml" 134 3674 3710 "solver.ml" 134 3674 3714
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "solver.ml" 122 3171 3214 "solver.ml" 122 3171 3218
+)
+"solver.ml" 134 3674 3715 "solver.ml" 134 3674 3719
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "solver.ml" 122 3171 3219 "solver.ml" 122 3171 3223
+)
+"solver.ml" 133 3631 3641 "solver.ml" 134 3674 3719
+call(
+  tail
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 132 3613 3621 "solver.ml" 134 3674 3720
+type(
+  unit -> Lf_proof.lf_proof option
+)
+"solver.ml" 135 3721 3734 "solver.ml" 135 3721 3735
+type(
+  unit
+)
+"solver.ml" 136 3739 3749 "solver.ml" 136 3739 3767
+type(
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref solve1_internal_a1 "solver.ml" 122 3171 3175 "solver.ml" 122 3171 3193
+)
+"solver.ml" 136 3739 3769 "solver.ml" 136 3739 3773
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 122 3171 3194 "solver.ml" 122 3171 3198
+)
+"solver.ml" 136 3739 3773 "solver.ml" 136 3739 3774
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 136 3739 3774 "solver.ml" 136 3739 3775
+type(
+  int
+)
+"solver.ml" 136 3739 3768 "solver.ml" 136 3739 3776
+type(
+  int
+)
+"solver.ml" 136 3739 3777 "solver.ml" 136 3739 3781
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 122 3171 3199 "solver.ml" 122 3171 3203
+)
+"solver.ml" 137 3782 3796 "solver.ml" 137 3782 3798
+type(
+  Term.pterm
+)
+ident(
+  int_ref t2 "solver.ml" 130 3523 3536 "solver.ml" 130 3523 3538
+)
+"solver.ml" 137 3782 3799 "solver.ml" 137 3782 3803
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 122 3171 3194 "solver.ml" 122 3171 3198
+)
+"solver.ml" 137 3782 3795 "solver.ml" 137 3782 3804
+type(
+  Term.pterm * int
+)
+"solver.ml" 137 3782 3806 "solver.ml" 137 3782 3811
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant1t "solver.ml" 130 3523 3547 "solver.ml" 130 3523 3552
+)
+"solver.ml" 137 3782 3794 "solver.ml" 137 3782 3812
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 137 3782 3813 "solver.ml" 137 3782 3817
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 122 3171 3209 "solver.ml" 122 3171 3213
+)
+"solver.ml" 137 3782 3818 "solver.ml" 137 3782 3822
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "solver.ml" 122 3171 3214 "solver.ml" 122 3171 3218
+)
+"solver.ml" 137 3782 3823 "solver.ml" 137 3782 3827
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "solver.ml" 122 3171 3219 "solver.ml" 122 3171 3223
+)
+"solver.ml" 136 3739 3749 "solver.ml" 137 3782 3827
+call(
+  tail
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 135 3721 3729 "solver.ml" 137 3782 3828
+type(
+  unit -> Lf_proof.lf_proof option
+)
+"solver.ml" 131 3556 3562 "solver.ml" 137 3782 3828
+call(
+  tail
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 138 3829 3834 "solver.ml" 138 3829 3838
+type(
+  Term.pterm
+)
+"solver.ml" 138 3829 3839 "solver.ml" 138 3829 3841
+type(
+  int
+)
+ident(
+  def ti "solver.ml" 139 3855 3861 "solver.ml" 140 3898 3957
+)
+"solver.ml" 138 3829 3833 "solver.ml" 138 3829 3842
+type(
+  Term.pterm * int
+)
+"solver.ml" 138 3829 3846 "solver.ml" 138 3829 3851
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant1t "solver.ml" 139 3855 3861 "solver.ml" 140 3898 3957
+)
+"solver.ml" 138 3829 3833 "solver.ml" 138 3829 3851
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 139 3855 3861 "solver.ml" 139 3855 3871
+type(
+  (Lf_proof.lf_proof -> Lf_proof.lf_proof) ->
+  Lf_proof.lf_proof option -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref make_proof "solver.ml" 49 1323 1327 "solver.ml" 49 1323 1337
+)
+"solver.ml" 139 3855 3877 "solver.ml" 139 3855 3879
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  def pr "solver.ml" 139 3855 3883 "solver.ml" 139 3855 3896
+)
+"solver.ml" 139 3855 3890 "solver.ml" 139 3855 3892
+type(
+  int
+)
+ident(
+  int_ref ti "solver.ml" 138 3829 3839 "solver.ml" 138 3829 3841
+)
+"solver.ml" 139 3855 3893 "solver.ml" 139 3855 3895
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  int_ref pr "solver.ml" 139 3855 3877 "solver.ml" 139 3855 3879
+)
+"solver.ml" 139 3855 3883 "solver.ml" 139 3855 3896
+type(
+  Lf_proof.lf_proof
+)
+"solver.ml" 139 3855 3872 "solver.ml" 139 3855 3897
+type(
+  Lf_proof.lf_proof -> Lf_proof.lf_proof
+)
+"solver.ml" 140 3898 3907 "solver.ml" 140 3898 3925
+type(
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref solve1_internal_a1 "solver.ml" 122 3171 3175 "solver.ml" 122 3171 3193
+)
+"solver.ml" 140 3898 3926 "solver.ml" 140 3898 3930
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 122 3171 3194 "solver.ml" 122 3171 3198
+)
+"solver.ml" 140 3898 3931 "solver.ml" 140 3898 3935
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 122 3171 3199 "solver.ml" 122 3171 3203
+)
+"solver.ml" 140 3898 3936 "solver.ml" 140 3898 3941
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant1t "solver.ml" 138 3829 3846 "solver.ml" 138 3829 3851
+)
+"solver.ml" 140 3898 3942 "solver.ml" 140 3898 3946
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 122 3171 3209 "solver.ml" 122 3171 3213
+)
+"solver.ml" 140 3898 3947 "solver.ml" 140 3898 3951
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "solver.ml" 122 3171 3214 "solver.ml" 122 3171 3218
+)
+"solver.ml" 140 3898 3952 "solver.ml" 140 3898 3956
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "solver.ml" 122 3171 3219 "solver.ml" 122 3171 3223
+)
+"solver.ml" 140 3898 3906 "solver.ml" 140 3898 3957
+call(
+  stack
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 139 3855 3861 "solver.ml" 140 3898 3957
+call(
+  tail
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 141 3958 3963 "solver.ml" 141 3958 3967
+type(
+  Term.pterm
+)
+"solver.ml" 141 3958 3968 "solver.ml" 141 3958 3970
+type(
+  int
+)
+ident(
+  def ti "solver.ml" 141 3958 3984 "solver.ml" 141 3958 3999
+)
+"solver.ml" 141 3958 3962 "solver.ml" 141 3958 3971
+type(
+  Term.pterm * int
+)
+"solver.ml" 141 3958 3975 "solver.ml" 141 3958 3980
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant1t "solver.ml" 141 3958 3984 "solver.ml" 141 3958 3999
+)
+"solver.ml" 141 3958 3962 "solver.ml" 141 3958 3980
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 141 3958 3996 "solver.ml" 141 3958 3998
+type(
+  int
+)
+ident(
+  int_ref ti "solver.ml" 141 3958 3968 "solver.ml" 141 3958 3970
+)
+"solver.ml" 141 3958 3989 "solver.ml" 141 3958 3999
+type(
+  Lf_proof.lf_proof
+)
+"solver.ml" 141 3958 3984 "solver.ml" 141 3958 3999
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 142 4000 4010 "solver.ml" 142 4000 4011
+type(
+  int
+)
+ident(
+  def p "solver.ml" 142 4000 4025 "solver.ml" 142 4000 4062
+)
+"solver.ml" 142 4000 4005 "solver.ml" 142 4000 4011
+type(
+  Term.pterm
+)
+"solver.ml" 142 4000 4012 "solver.ml" 142 4000 4014
+type(
+  int
+)
+ident(
+  def ti "solver.ml" 142 4000 4025 "solver.ml" 142 4000 4062
+)
+"solver.ml" 142 4000 4004 "solver.ml" 142 4000 4015
+type(
+  Term.pterm * int
+)
+"solver.ml" 142 4000 4019 "solver.ml" 142 4000 4024
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant1t "solver.ml" 142 4000 4025 "solver.ml" 142 4000 4062
+)
+"solver.ml" 142 4000 4004 "solver.ml" 142 4000 4024
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 142 4000 4030 "solver.ml" 142 4000 4034
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "solver.ml" 122 3171 3219 "solver.ml" 122 3171 3223
+)
+"solver.ml" 142 4000 4035 "solver.ml" 142 4000 4036
+type(
+  Term.pterm -> Term.pterm -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"solver.ml" 142 4000 4042 "solver.ml" 142 4000 4043
+type(
+  int
+)
+ident(
+  int_ref p "solver.ml" 142 4000 4010 "solver.ml" 142 4000 4011
+)
+"solver.ml" 142 4000 4037 "solver.ml" 142 4000 4043
+type(
+  Term.pterm
+)
+"solver.ml" 142 4000 4030 "solver.ml" 142 4000 4043
+type(
+  bool
+)
+"solver.ml" 142 4000 4059 "solver.ml" 142 4000 4061
+type(
+  int
+)
+ident(
+  int_ref ti "solver.ml" 142 4000 4012 "solver.ml" 142 4000 4014
+)
+"solver.ml" 142 4000 4052 "solver.ml" 142 4000 4062
+type(
+  Lf_proof.lf_proof
+)
+"solver.ml" 142 4000 4047 "solver.ml" 142 4000 4062
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 143 4063 4076 "solver.ml" 143 4063 4080
+type(
+  Term.pterm
+)
+"solver.ml" 143 4063 4081 "solver.ml" 143 4063 4083
+type(
+  Term.pterm
+)
+ident(
+  def t3 "solver.ml" 144 4101 4107 "solver.ml" 146 4187 4231
+)
+"solver.ml" 143 4063 4068 "solver.ml" 143 4063 4084
+type(
+  Term.pterm
+)
+"solver.ml" 143 4063 4085 "solver.ml" 143 4063 4087
+type(
+  int
+)
+ident(
+  def ti "solver.ml" 144 4101 4107 "solver.ml" 146 4187 4231
+)
+"solver.ml" 143 4063 4067 "solver.ml" 143 4063 4088
+type(
+  Term.pterm * int
+)
+"solver.ml" 143 4063 4092 "solver.ml" 143 4063 4097
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant1t "solver.ml" 144 4101 4107 "solver.ml" 146 4187 4231
+)
+"solver.ml" 143 4063 4067 "solver.ml" 143 4063 4097
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 144 4101 4107 "solver.ml" 144 4101 4117
+type(
+  (Lf_proof.lf_proof -> Lf_proof.lf_proof) ->
+  Lf_proof.lf_proof option -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref make_proof "solver.ml" 49 1323 1327 "solver.ml" 49 1323 1337
+)
+"solver.ml" 144 4101 4123 "solver.ml" 144 4101 4125
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  def pr "solver.ml" 144 4101 4129 "solver.ml" 144 4101 4143
+)
+"solver.ml" 144 4101 4137 "solver.ml" 144 4101 4139
+type(
+  int
+)
+ident(
+  int_ref ti "solver.ml" 143 4063 4085 "solver.ml" 143 4063 4087
+)
+"solver.ml" 144 4101 4140 "solver.ml" 144 4101 4142
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  int_ref pr "solver.ml" 144 4101 4123 "solver.ml" 144 4101 4125
+)
+"solver.ml" 144 4101 4129 "solver.ml" 144 4101 4143
+type(
+  Lf_proof.lf_proof
+)
+"solver.ml" 144 4101 4118 "solver.ml" 144 4101 4144
+type(
+  Lf_proof.lf_proof -> Lf_proof.lf_proof
+)
+"solver.ml" 145 4145 4154 "solver.ml" 145 4145 4172
+type(
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref solve1_internal_a1 "solver.ml" 122 3171 3175 "solver.ml" 122 3171 3193
+)
+"solver.ml" 145 4145 4174 "solver.ml" 145 4145 4178
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 122 3171 3194 "solver.ml" 122 3171 3198
+)
+"solver.ml" 145 4145 4178 "solver.ml" 145 4145 4179
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 145 4145 4179 "solver.ml" 145 4145 4180
+type(
+  int
+)
+"solver.ml" 145 4145 4173 "solver.ml" 145 4145 4181
+type(
+  int
+)
+"solver.ml" 145 4145 4182 "solver.ml" 145 4145 4186
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 122 3171 3199 "solver.ml" 122 3171 3203
+)
+"solver.ml" 146 4187 4199 "solver.ml" 146 4187 4201
+type(
+  Term.pterm
+)
+ident(
+  int_ref t3 "solver.ml" 143 4063 4081 "solver.ml" 143 4063 4083
+)
+"solver.ml" 146 4187 4202 "solver.ml" 146 4187 4206
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 122 3171 3194 "solver.ml" 122 3171 3198
+)
+"solver.ml" 146 4187 4198 "solver.ml" 146 4187 4207
+type(
+  Term.pterm * int
+)
+"solver.ml" 146 4187 4209 "solver.ml" 146 4187 4214
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant1t "solver.ml" 143 4063 4092 "solver.ml" 143 4063 4097
+)
+"solver.ml" 146 4187 4197 "solver.ml" 146 4187 4215
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 146 4187 4216 "solver.ml" 146 4187 4220
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 122 3171 3209 "solver.ml" 122 3171 3213
+)
+"solver.ml" 146 4187 4221 "solver.ml" 146 4187 4225
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "solver.ml" 122 3171 3214 "solver.ml" 122 3171 3218
+)
+"solver.ml" 146 4187 4226 "solver.ml" 146 4187 4230
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "solver.ml" 122 3171 3219 "solver.ml" 122 3171 3223
+)
+"solver.ml" 145 4145 4153 "solver.ml" 146 4187 4231
+call(
+  stack
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 144 4101 4107 "solver.ml" 146 4187 4231
+call(
+  tail
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 147 4232 4245 "solver.ml" 147 4232 4249
+type(
+  Term.pterm
+)
+"solver.ml" 147 4232 4250 "solver.ml" 147 4232 4252
+type(
+  Term.pterm
+)
+ident(
+  def t3 "solver.ml" 148 4270 4276 "solver.ml" 149 4314 4373
+)
+"solver.ml" 147 4232 4237 "solver.ml" 147 4232 4253
+type(
+  Term.pterm
+)
+"solver.ml" 147 4232 4254 "solver.ml" 147 4232 4256
+type(
+  int
+)
+ident(
+  def ti "solver.ml" 148 4270 4276 "solver.ml" 149 4314 4373
+)
+"solver.ml" 147 4232 4236 "solver.ml" 147 4232 4257
+type(
+  Term.pterm * int
+)
+"solver.ml" 147 4232 4261 "solver.ml" 147 4232 4266
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant1t "solver.ml" 148 4270 4276 "solver.ml" 149 4314 4373
+)
+"solver.ml" 147 4232 4236 "solver.ml" 147 4232 4266
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 148 4270 4276 "solver.ml" 148 4270 4286
+type(
+  (Lf_proof.lf_proof -> Lf_proof.lf_proof) ->
+  Lf_proof.lf_proof option -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref make_proof "solver.ml" 49 1323 1327 "solver.ml" 49 1323 1337
+)
+"solver.ml" 148 4270 4292 "solver.ml" 148 4270 4294
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  def pr "solver.ml" 148 4270 4298 "solver.ml" 148 4270 4312
+)
+"solver.ml" 148 4270 4306 "solver.ml" 148 4270 4308
+type(
+  int
+)
+ident(
+  int_ref ti "solver.ml" 147 4232 4254 "solver.ml" 147 4232 4256
+)
+"solver.ml" 148 4270 4309 "solver.ml" 148 4270 4311
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  int_ref pr "solver.ml" 148 4270 4292 "solver.ml" 148 4270 4294
+)
+"solver.ml" 148 4270 4298 "solver.ml" 148 4270 4312
+type(
+  Lf_proof.lf_proof
+)
+"solver.ml" 148 4270 4287 "solver.ml" 148 4270 4313
+type(
+  Lf_proof.lf_proof -> Lf_proof.lf_proof
+)
+"solver.ml" 149 4314 4323 "solver.ml" 149 4314 4341
+type(
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref solve1_internal_a1 "solver.ml" 122 3171 3175 "solver.ml" 122 3171 3193
+)
+"solver.ml" 149 4314 4342 "solver.ml" 149 4314 4346
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 122 3171 3194 "solver.ml" 122 3171 3198
+)
+"solver.ml" 149 4314 4347 "solver.ml" 149 4314 4351
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 122 3171 3199 "solver.ml" 122 3171 3203
+)
+"solver.ml" 149 4314 4352 "solver.ml" 149 4314 4357
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant1t "solver.ml" 147 4232 4261 "solver.ml" 147 4232 4266
+)
+"solver.ml" 149 4314 4358 "solver.ml" 149 4314 4362
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 122 3171 3209 "solver.ml" 122 3171 3213
+)
+"solver.ml" 149 4314 4363 "solver.ml" 149 4314 4367
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "solver.ml" 122 3171 3214 "solver.ml" 122 3171 3218
+)
+"solver.ml" 149 4314 4368 "solver.ml" 149 4314 4372
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "solver.ml" 122 3171 3219 "solver.ml" 122 3171 3223
+)
+"solver.ml" 149 4314 4322 "solver.ml" 149 4314 4373
+call(
+  stack
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 148 4270 4276 "solver.ml" 149 4314 4373
+call(
+  tail
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 150 4374 4393 "solver.ml" 150 4374 4395
+type(
+  Term.pterm
+)
+ident(
+  def t1 "solver.ml" 151 4420 4426 "solver.ml" 153 4506 4574
+)
+"solver.ml" 150 4374 4396 "solver.ml" 150 4374 4398
+type(
+  Term.pterm
+)
+ident(
+  def t2 "solver.ml" 151 4420 4426 "solver.ml" 153 4506 4574
+)
+"solver.ml" 150 4374 4387 "solver.ml" 150 4374 4399
+type(
+  Term.pterm
+)
+"solver.ml" 150 4374 4400 "solver.ml" 150 4374 4402
+type(
+  Term.pterm
+)
+ident(
+  def t3 "solver.ml" 151 4420 4426 "solver.ml" 153 4506 4574
+)
+"solver.ml" 150 4374 4379 "solver.ml" 150 4374 4403
+type(
+  Term.pterm
+)
+"solver.ml" 150 4374 4404 "solver.ml" 150 4374 4406
+type(
+  int
+)
+ident(
+  def ti "solver.ml" 151 4420 4426 "solver.ml" 153 4506 4574
+)
+"solver.ml" 150 4374 4378 "solver.ml" 150 4374 4407
+type(
+  Term.pterm * int
+)
+"solver.ml" 150 4374 4411 "solver.ml" 150 4374 4416
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant1t "solver.ml" 151 4420 4426 "solver.ml" 153 4506 4574
+)
+"solver.ml" 150 4374 4378 "solver.ml" 150 4374 4416
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 151 4420 4426 "solver.ml" 151 4420 4436
+type(
+  (Lf_proof.lf_proof -> Lf_proof.lf_proof) ->
+  Lf_proof.lf_proof option -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref make_proof "solver.ml" 49 1323 1327 "solver.ml" 49 1323 1337
+)
+"solver.ml" 151 4420 4442 "solver.ml" 151 4420 4444
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  def pr "solver.ml" 151 4420 4448 "solver.ml" 151 4420 4462
+)
+"solver.ml" 151 4420 4456 "solver.ml" 151 4420 4458
+type(
+  int
+)
+ident(
+  int_ref ti "solver.ml" 150 4374 4404 "solver.ml" 150 4374 4406
+)
+"solver.ml" 151 4420 4459 "solver.ml" 151 4420 4461
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  int_ref pr "solver.ml" 151 4420 4442 "solver.ml" 151 4420 4444
+)
+"solver.ml" 151 4420 4448 "solver.ml" 151 4420 4462
+type(
+  Lf_proof.lf_proof
+)
+"solver.ml" 151 4420 4437 "solver.ml" 151 4420 4463
+type(
+  Lf_proof.lf_proof -> Lf_proof.lf_proof
+)
+"solver.ml" 152 4464 4473 "solver.ml" 152 4464 4491
+type(
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref solve1_internal_a1 "solver.ml" 122 3171 3175 "solver.ml" 122 3171 3193
+)
+"solver.ml" 152 4464 4493 "solver.ml" 152 4464 4497
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 122 3171 3194 "solver.ml" 122 3171 3198
+)
+"solver.ml" 152 4464 4497 "solver.ml" 152 4464 4498
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 152 4464 4498 "solver.ml" 152 4464 4499
+type(
+  int
+)
+"solver.ml" 152 4464 4492 "solver.ml" 152 4464 4500
+type(
+  int
+)
+"solver.ml" 152 4464 4501 "solver.ml" 152 4464 4505
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 122 3171 3199 "solver.ml" 122 3171 3203
+)
+"solver.ml" 153 4506 4526 "solver.ml" 153 4506 4528
+type(
+  Term.pterm
+)
+ident(
+  int_ref t1 "solver.ml" 150 4374 4393 "solver.ml" 150 4374 4395
+)
+"solver.ml" 153 4506 4537 "solver.ml" 153 4506 4539
+type(
+  Term.pterm
+)
+ident(
+  int_ref t2 "solver.ml" 150 4374 4396 "solver.ml" 150 4374 4398
+)
+"solver.ml" 153 4506 4540 "solver.ml" 153 4506 4542
+type(
+  Term.pterm
+)
+ident(
+  int_ref t3 "solver.ml" 150 4374 4400 "solver.ml" 150 4374 4402
+)
+"solver.ml" 153 4506 4529 "solver.ml" 153 4506 4543
+type(
+  Term.pterm
+)
+"solver.ml" 153 4506 4518 "solver.ml" 153 4506 4544
+type(
+  Term.pterm
+)
+"solver.ml" 153 4506 4545 "solver.ml" 153 4506 4549
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 122 3171 3194 "solver.ml" 122 3171 3198
+)
+"solver.ml" 153 4506 4517 "solver.ml" 153 4506 4550
+type(
+  Term.pterm * int
+)
+"solver.ml" 153 4506 4552 "solver.ml" 153 4506 4557
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant1t "solver.ml" 150 4374 4411 "solver.ml" 150 4374 4416
+)
+"solver.ml" 153 4506 4516 "solver.ml" 153 4506 4558
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 153 4506 4559 "solver.ml" 153 4506 4563
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 122 3171 3209 "solver.ml" 122 3171 3213
+)
+"solver.ml" 153 4506 4564 "solver.ml" 153 4506 4568
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "solver.ml" 122 3171 3214 "solver.ml" 122 3171 3218
+)
+"solver.ml" 153 4506 4569 "solver.ml" 153 4506 4573
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "solver.ml" 122 3171 3219 "solver.ml" 122 3171 3223
+)
+"solver.ml" 152 4464 4472 "solver.ml" 153 4506 4574
+call(
+  stack
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 151 4420 4426 "solver.ml" 153 4506 4574
+call(
+  tail
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 154 4575 4593 "solver.ml" 154 4575 4595
+type(
+  Term.pterm
+)
+ident(
+  def t1 "solver.ml" 155 4620 4626 "solver.ml" 161 4854 4879
+)
+"solver.ml" 154 4575 4596 "solver.ml" 154 4575 4598
+type(
+  Term.pterm
+)
+ident(
+  def t2 "solver.ml" 155 4620 4626 "solver.ml" 161 4854 4879
+)
+"solver.ml" 154 4575 4588 "solver.ml" 154 4575 4599
+type(
+  Term.pterm
+)
+"solver.ml" 154 4575 4600 "solver.ml" 154 4575 4602
+type(
+  Term.pterm
+)
+ident(
+  def t3 "solver.ml" 155 4620 4626 "solver.ml" 161 4854 4879
+)
+"solver.ml" 154 4575 4580 "solver.ml" 154 4575 4603
+type(
+  Term.pterm
+)
+"solver.ml" 154 4575 4604 "solver.ml" 154 4575 4606
+type(
+  int
+)
+ident(
+  def ti "solver.ml" 155 4620 4626 "solver.ml" 161 4854 4879
+)
+"solver.ml" 154 4575 4579 "solver.ml" 154 4575 4607
+type(
+  Term.pterm * int
+)
+"solver.ml" 154 4575 4611 "solver.ml" 154 4575 4616
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant1t "solver.ml" 155 4620 4626 "solver.ml" 161 4854 4879
+)
+"solver.ml" 154 4575 4579 "solver.ml" 154 4575 4616
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 155 4620 4630 "solver.ml" 155 4620 4631
+type(
+  Term.pterm
+)
+ident(
+  def p "solver.ml" 156 4647 4653 "solver.ml" 161 4854 4879
+)
+"solver.ml" 155 4620 4639 "solver.ml" 155 4620 4643
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 122 3171 3199 "solver.ml" 122 3171 3203
+)
+"solver.ml" 155 4620 4634 "solver.ml" 155 4620 4643
+type(
+  Term.pterm
+)
+"solver.ml" 156 4647 4653 "solver.ml" 156 4647 4663
+type(
+  (Lf_proof.lf_proof -> Lf_proof.lf_proof) ->
+  Lf_proof.lf_proof option -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref make_proof "solver.ml" 49 1323 1327 "solver.ml" 49 1323 1337
+)
+"solver.ml" 156 4647 4669 "solver.ml" 156 4647 4671
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  def pr "solver.ml" 156 4647 4675 "solver.ml" 156 4647 4689
+)
+"solver.ml" 156 4647 4683 "solver.ml" 156 4647 4685
+type(
+  int
+)
+ident(
+  int_ref ti "solver.ml" 154 4575 4604 "solver.ml" 154 4575 4606
+)
+"solver.ml" 156 4647 4686 "solver.ml" 156 4647 4688
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  int_ref pr "solver.ml" 156 4647 4669 "solver.ml" 156 4647 4671
+)
+"solver.ml" 156 4647 4675 "solver.ml" 156 4647 4689
+type(
+  Lf_proof.lf_proof
+)
+"solver.ml" 156 4647 4664 "solver.ml" 156 4647 4690
+type(
+  Lf_proof.lf_proof -> Lf_proof.lf_proof
+)
+"solver.ml" 157 4691 4700 "solver.ml" 157 4691 4718
+type(
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref solve1_internal_a1 "solver.ml" 122 3171 3175 "solver.ml" 122 3171 3193
+)
+"solver.ml" 157 4691 4720 "solver.ml" 157 4691 4724
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 122 3171 3194 "solver.ml" 122 3171 3198
+)
+"solver.ml" 157 4691 4724 "solver.ml" 157 4691 4725
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 157 4691 4725 "solver.ml" 157 4691 4726
+type(
+  int
+)
+"solver.ml" 157 4691 4719 "solver.ml" 157 4691 4727
+type(
+  int
+)
+"solver.ml" 157 4691 4729 "solver.ml" 157 4691 4733
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 122 3171 3199 "solver.ml" 122 3171 3203
+)
+"solver.ml" 157 4691 4733 "solver.ml" 157 4691 4734
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 157 4691 4734 "solver.ml" 157 4691 4735
+type(
+  int
+)
+"solver.ml" 157 4691 4728 "solver.ml" 157 4691 4736
+type(
+  int
+)
+"solver.ml" 158 4739 4760 "solver.ml" 158 4739 4762
+type(
+  Term.pterm
+)
+ident(
+  int_ref t1 "solver.ml" 154 4575 4593 "solver.ml" 154 4575 4595
+)
+"solver.ml" 158 4739 4763 "solver.ml" 158 4739 4764
+type(
+  Term.pterm
+)
+ident(
+  int_ref p "solver.ml" 155 4620 4630 "solver.ml" 155 4620 4631
+)
+"solver.ml" 158 4739 4752 "solver.ml" 158 4739 4765
+type(
+  Term.pterm
+)
+"solver.ml" 158 4739 4766 "solver.ml" 158 4739 4770
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 122 3171 3194 "solver.ml" 122 3171 3198
+)
+"solver.ml" 158 4739 4751 "solver.ml" 158 4739 4771
+type(
+  Term.pterm * int
+)
+"solver.ml" 159 4774 4795 "solver.ml" 159 4774 4797
+type(
+  Term.pterm
+)
+ident(
+  int_ref t2 "solver.ml" 154 4575 4596 "solver.ml" 154 4575 4598
+)
+"solver.ml" 159 4774 4798 "solver.ml" 159 4774 4799
+type(
+  Term.pterm
+)
+ident(
+  int_ref p "solver.ml" 155 4620 4630 "solver.ml" 155 4620 4631
+)
+"solver.ml" 159 4774 4787 "solver.ml" 159 4774 4800
+type(
+  Term.pterm
+)
+"solver.ml" 159 4774 4801 "solver.ml" 159 4774 4805
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 122 3171 3194 "solver.ml" 122 3171 3198
+)
+"solver.ml" 159 4774 4805 "solver.ml" 159 4774 4806
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 159 4774 4806 "solver.ml" 159 4774 4807
+type(
+  int
+)
+"solver.ml" 159 4774 4801 "solver.ml" 159 4774 4807
+type(
+  int
+)
+"solver.ml" 159 4774 4786 "solver.ml" 159 4774 4808
+type(
+  Term.pterm * int
+)
+"solver.ml" 160 4811 4832 "solver.ml" 160 4811 4833
+type(
+  Term.pterm
+)
+ident(
+  int_ref p "solver.ml" 155 4620 4630 "solver.ml" 155 4620 4631
+)
+"solver.ml" 160 4811 4834 "solver.ml" 160 4811 4836
+type(
+  Term.pterm
+)
+ident(
+  int_ref t3 "solver.ml" 154 4575 4600 "solver.ml" 154 4575 4602
+)
+"solver.ml" 160 4811 4824 "solver.ml" 160 4811 4837
+type(
+  Term.pterm
+)
+"solver.ml" 160 4811 4838 "solver.ml" 160 4811 4842
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 122 3171 3194 "solver.ml" 122 3171 3198
+)
+"solver.ml" 160 4811 4842 "solver.ml" 160 4811 4843
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 160 4811 4843 "solver.ml" 160 4811 4844
+type(
+  int
+)
+"solver.ml" 160 4811 4838 "solver.ml" 160 4811 4844
+type(
+  int
+)
+"solver.ml" 160 4811 4823 "solver.ml" 160 4811 4845
+type(
+  Term.pterm * int
+)
+"solver.ml" 160 4811 4847 "solver.ml" 160 4811 4852
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant1t "solver.ml" 154 4575 4611 "solver.ml" 154 4575 4616
+)
+"solver.ml" 160 4811 4823 "solver.ml" 160 4811 4852
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 159 4774 4786 "solver.ml" 160 4811 4852
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 157 4691 4737 "solver.ml" 160 4811 4853
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 161 4854 4864 "solver.ml" 161 4854 4868
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 122 3171 3209 "solver.ml" 122 3171 3213
+)
+"solver.ml" 161 4854 4869 "solver.ml" 161 4854 4873
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "solver.ml" 122 3171 3214 "solver.ml" 122 3171 3218
+)
+"solver.ml" 161 4854 4874 "solver.ml" 161 4854 4878
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "solver.ml" 122 3171 3219 "solver.ml" 122 3171 3223
+)
+"solver.ml" 157 4691 4699 "solver.ml" 161 4854 4879
+call(
+  stack
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 156 4647 4653 "solver.ml" 161 4854 4879
+call(
+  tail
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 155 4620 4626 "solver.ml" 161 4854 4879
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 162 4880 4884 "solver.ml" 162 4880 4889
+type(
+  Term.pterm * int
+)
+ident(
+  def ant1h "solver.ml" 163 4902 4908 "solver.ml" 163 4902 4966
+)
+"solver.ml" 162 4880 4893 "solver.ml" 162 4880 4898
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant1t "solver.ml" 163 4902 4908 "solver.ml" 163 4902 4966
+)
+"solver.ml" 162 4880 4884 "solver.ml" 162 4880 4898
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 163 4902 4908 "solver.ml" 163 4902 4926
+type(
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref solve1_internal_a1 "solver.ml" 122 3171 3175 "solver.ml" 122 3171 3193
+)
+"solver.ml" 163 4902 4927 "solver.ml" 163 4902 4931
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 122 3171 3194 "solver.ml" 122 3171 3198
+)
+"solver.ml" 163 4902 4932 "solver.ml" 163 4902 4936
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 122 3171 3199 "solver.ml" 122 3171 3203
+)
+"solver.ml" 163 4902 4937 "solver.ml" 163 4902 4942
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant1t "solver.ml" 162 4880 4893 "solver.ml" 162 4880 4898
+)
+"solver.ml" 163 4902 4944 "solver.ml" 163 4902 4949
+type(
+  Term.pterm * int
+)
+ident(
+  int_ref ant1h "solver.ml" 162 4880 4884 "solver.ml" 162 4880 4889
+)
+"solver.ml" 163 4902 4951 "solver.ml" 163 4902 4955
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 122 3171 3209 "solver.ml" 122 3171 3213
+)
+"solver.ml" 163 4902 4943 "solver.ml" 163 4902 4956
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 163 4902 4957 "solver.ml" 163 4902 4961
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "solver.ml" 122 3171 3214 "solver.ml" 122 3171 3218
+)
+"solver.ml" 163 4902 4962 "solver.ml" 163 4902 4966
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "solver.ml" 122 3171 3219 "solver.ml" 122 3171 3223
+)
+"solver.ml" 163 4902 4908 "solver.ml" 163 4902 4966
+call(
+  tail
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 124 3269 3271 "solver.ml" 164 4967 4972
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 123 3226 3228 "solver.ml" 164 4967 4972
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 174 5275 5279 "solver.ml" 174 5275 5297
+type(
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Lf_proof.lf_proof option
+)
+ident(
+  def solve1_internal_a2 "solver.ml" 90 2212 2212 "solver.ml" 1 0 -1
+)
+"solver.ml" 174 5275 5298 "solver.ml" 174 5275 5302
+type(
+  int
+)
+ident(
+  def anum "solver.ml" 174 5275 5303 "solver.ml" 190 6105 6110
+)
+"solver.ml" 174 5275 5303 "solver.ml" 174 5275 5307
+type(
+  int
+)
+ident(
+  def pnum "solver.ml" 174 5275 5308 "solver.ml" 190 6105 6110
+)
+"solver.ml" 174 5275 5308 "solver.ml" 174 5275 5312
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant1 "solver.ml" 174 5275 5313 "solver.ml" 190 6105 6110
+)
+"solver.ml" 174 5275 5313 "solver.ml" 174 5275 5317
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant2 "solver.ml" 174 5275 5318 "solver.ml" 190 6105 6110
+)
+"solver.ml" 174 5275 5318 "solver.ml" 174 5275 5322
+type(
+  Term.pterm option
+)
+ident(
+  def sucL "solver.ml" 174 5275 5323 "solver.ml" 190 6105 6110
+)
+"solver.ml" 174 5275 5323 "solver.ml" 174 5275 5327
+type(
+  Term.pterm
+)
+ident(
+  def sucR "solver.ml" 175 5330 5332 "solver.ml" 190 6105 6110
+)
+"solver.ml" 175 5330 5332 "solver.ml" 175 5330 5345
+type(
+  string ->
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list -> Term.pterm option -> Term.pterm -> unit
+)
+ident(
+  int_ref debug_sequent "solver.ml" 29 619 623 "solver.ml" 29 619 636
+)
+"solver.ml" 175 5330 5346 "solver.ml" 175 5330 5351
+type(
+  string
+)
+"solver.ml" 175 5330 5352 "solver.ml" 175 5330 5356
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant1 "solver.ml" 174 5275 5308 "solver.ml" 174 5275 5312
+)
+"solver.ml" 175 5330 5357 "solver.ml" 175 5330 5361
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 174 5275 5313 "solver.ml" 174 5275 5317
+)
+"solver.ml" 175 5330 5362 "solver.ml" 175 5330 5366
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "solver.ml" 174 5275 5318 "solver.ml" 174 5275 5322
+)
+"solver.ml" 175 5330 5367 "solver.ml" 175 5330 5371
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "solver.ml" 174 5275 5323 "solver.ml" 174 5275 5327
+)
+"solver.ml" 175 5330 5332 "solver.ml" 175 5330 5371
+call(
+  stack
+)
+type(
+  unit
+)
+"solver.ml" 176 5373 5387 "solver.ml" 176 5373 5391
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant1 "solver.ml" 174 5275 5308 "solver.ml" 174 5275 5312
+)
+"solver.ml" 177 5397 5401 "solver.ml" 177 5397 5403
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 177 5397 5407 "solver.ml" 177 5397 5424
+type(
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref solve2_internal_s "solver.ml" 197 6192 6196 "solver.ml" 197 6192 6213
+)
+"solver.ml" 177 5397 5425 "solver.ml" 177 5397 5429
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 174 5275 5298 "solver.ml" 174 5275 5302
+)
+"solver.ml" 177 5397 5430 "solver.ml" 177 5397 5434
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 174 5275 5303 "solver.ml" 174 5275 5307
+)
+"solver.ml" 177 5397 5435 "solver.ml" 177 5397 5439
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 174 5275 5313 "solver.ml" 174 5275 5317
+)
+"solver.ml" 177 5397 5440 "solver.ml" 177 5397 5444
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "solver.ml" 174 5275 5318 "solver.ml" 174 5275 5322
+)
+"solver.ml" 177 5397 5445 "solver.ml" 177 5397 5449
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "solver.ml" 174 5275 5323 "solver.ml" 174 5275 5327
+)
+"solver.ml" 177 5397 5407 "solver.ml" 177 5397 5449
+call(
+  tail
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 178 5450 5468 "solver.ml" 178 5450 5469
+type(
+  int
+)
+ident(
+  def p "solver.ml" 179 5487 5493 "solver.ml" 182 5656 5733
+)
+"solver.ml" 178 5450 5463 "solver.ml" 178 5450 5469
+type(
+  Term.pterm
+)
+"solver.ml" 178 5450 5470 "solver.ml" 178 5450 5472
+type(
+  Term.pterm
+)
+ident(
+  def t3 "solver.ml" 179 5487 5493 "solver.ml" 182 5656 5733
+)
+"solver.ml" 178 5450 5455 "solver.ml" 178 5450 5473
+type(
+  Term.pterm
+)
+"solver.ml" 178 5450 5474 "solver.ml" 178 5450 5476
+type(
+  int
+)
+ident(
+  def ti "solver.ml" 179 5487 5493 "solver.ml" 182 5656 5733
+)
+"solver.ml" 178 5450 5454 "solver.ml" 178 5450 5477
+type(
+  Term.pterm * int
+)
+"solver.ml" 178 5450 5481 "solver.ml" 178 5450 5486
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant1t "solver.ml" 179 5487 5493 "solver.ml" 182 5656 5733
+)
+"solver.ml" 178 5450 5454 "solver.ml" 178 5450 5486
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 179 5487 5498 "solver.ml" 179 5487 5509
+type(
+  (Term.pterm * int -> bool) -> (Term.pterm * int) list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"solver.ml" 179 5487 5516 "solver.ml" 179 5487 5517
+type(
+  Term.pterm
+)
+ident(
+  def x "solver.ml" 179 5487 5524 "solver.ml" 179 5487 5534
+)
+"solver.ml" 179 5487 5518 "solver.ml" 179 5487 5519
+type(
+  int
+)
+"solver.ml" 179 5487 5515 "solver.ml" 179 5487 5520
+type(
+  Term.pterm * int
+)
+"solver.ml" 179 5487 5524 "solver.ml" 179 5487 5525
+type(
+  Term.pterm
+)
+ident(
+  int_ref x "solver.ml" 179 5487 5516 "solver.ml" 179 5487 5517
+)
+"solver.ml" 179 5487 5526 "solver.ml" 179 5487 5527
+type(
+  Term.pterm -> Term.pterm -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"solver.ml" 179 5487 5533 "solver.ml" 179 5487 5534
+type(
+  int
+)
+ident(
+  int_ref p "solver.ml" 178 5450 5468 "solver.ml" 178 5450 5469
+)
+"solver.ml" 179 5487 5528 "solver.ml" 179 5487 5534
+type(
+  Term.pterm
+)
+"solver.ml" 179 5487 5524 "solver.ml" 179 5487 5534
+type(
+  bool
+)
+"solver.ml" 179 5487 5510 "solver.ml" 179 5487 5535
+type(
+  Term.pterm * int -> bool
+)
+"solver.ml" 179 5487 5536 "solver.ml" 179 5487 5540
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant1 "solver.ml" 174 5275 5308 "solver.ml" 174 5275 5312
+)
+"solver.ml" 179 5487 5498 "solver.ml" 179 5487 5540
+call(
+  stack
+)
+type(
+  bool
+)
+"solver.ml" 180 5544 5554 "solver.ml" 180 5544 5556
+type(
+  int
+)
+ident(
+  def tj "solver.ml" 181 5609 5615 "solver.ml" 182 5656 5733
+)
+"solver.ml" 180 5544 5559 "solver.ml" 180 5544 5562
+type(
+  Term.pterm * int -> int
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"solver.ml" 180 5544 5564 "solver.ml" 180 5544 5573
+type(
+  (Term.pterm * int -> bool) -> (Term.pterm * int) list -> Term.pterm * int
+)
+ident(
+  ext_ref List.find
+)
+"solver.ml" 180 5544 5580 "solver.ml" 180 5544 5581
+type(
+  Term.pterm
+)
+ident(
+  def x "solver.ml" 180 5544 5588 "solver.ml" 180 5544 5598
+)
+"solver.ml" 180 5544 5582 "solver.ml" 180 5544 5583
+type(
+  int
+)
+"solver.ml" 180 5544 5579 "solver.ml" 180 5544 5584
+type(
+  Term.pterm * int
+)
+"solver.ml" 180 5544 5588 "solver.ml" 180 5544 5589
+type(
+  Term.pterm
+)
+ident(
+  int_ref x "solver.ml" 180 5544 5580 "solver.ml" 180 5544 5581
+)
+"solver.ml" 180 5544 5590 "solver.ml" 180 5544 5591
+type(
+  Term.pterm -> Term.pterm -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"solver.ml" 180 5544 5597 "solver.ml" 180 5544 5598
+type(
+  int
+)
+ident(
+  int_ref p "solver.ml" 178 5450 5468 "solver.ml" 178 5450 5469
+)
+"solver.ml" 180 5544 5592 "solver.ml" 180 5544 5598
+type(
+  Term.pterm
+)
+"solver.ml" 180 5544 5588 "solver.ml" 180 5544 5598
+type(
+  bool
+)
+"solver.ml" 180 5544 5574 "solver.ml" 180 5544 5599
+type(
+  Term.pterm * int -> bool
+)
+"solver.ml" 180 5544 5600 "solver.ml" 180 5544 5604
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant1 "solver.ml" 174 5275 5308 "solver.ml" 174 5275 5312
+)
+"solver.ml" 180 5544 5563 "solver.ml" 180 5544 5605
+call(
+  stack
+)
+type(
+  Term.pterm * int
+)
+"solver.ml" 180 5544 5559 "solver.ml" 180 5544 5605
+type(
+  int
+)
+"solver.ml" 181 5609 5615 "solver.ml" 181 5609 5625
+type(
+  (Lf_proof.lf_proof -> Lf_proof.lf_proof) ->
+  Lf_proof.lf_proof option -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref make_proof "solver.ml" 49 1323 1327 "solver.ml" 49 1323 1337
+)
+"solver.ml" 181 5609 5631 "solver.ml" 181 5609 5633
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  def pr "solver.ml" 181 5609 5637 "solver.ml" 181 5609 5654
+)
+"solver.ml" 181 5609 5645 "solver.ml" 181 5609 5647
+type(
+  int
+)
+ident(
+  int_ref ti "solver.ml" 178 5450 5474 "solver.ml" 178 5450 5476
+)
+"solver.ml" 181 5609 5648 "solver.ml" 181 5609 5650
+type(
+  int
+)
+ident(
+  int_ref tj "solver.ml" 180 5544 5554 "solver.ml" 180 5544 5556
+)
+"solver.ml" 181 5609 5651 "solver.ml" 181 5609 5653
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  int_ref pr "solver.ml" 181 5609 5631 "solver.ml" 181 5609 5633
+)
+"solver.ml" 181 5609 5637 "solver.ml" 181 5609 5654
+type(
+  Lf_proof.lf_proof
+)
+"solver.ml" 181 5609 5626 "solver.ml" 181 5609 5655
+type(
+  Lf_proof.lf_proof -> Lf_proof.lf_proof
+)
+"solver.ml" 182 5656 5665 "solver.ml" 182 5656 5683
+type(
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref solve1_internal_a1 "solver.ml" 122 3171 3175 "solver.ml" 122 3171 3193
+)
+"solver.ml" 182 5656 5685 "solver.ml" 182 5656 5689
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 174 5275 5298 "solver.ml" 174 5275 5302
+)
+"solver.ml" 182 5656 5689 "solver.ml" 182 5656 5690
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 182 5656 5690 "solver.ml" 182 5656 5691
+type(
+  int
+)
+"solver.ml" 182 5656 5684 "solver.ml" 182 5656 5692
+type(
+  int
+)
+"solver.ml" 182 5656 5693 "solver.ml" 182 5656 5697
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 174 5275 5303 "solver.ml" 174 5275 5307
+)
+"solver.ml" 182 5656 5700 "solver.ml" 182 5656 5702
+type(
+  Term.pterm
+)
+ident(
+  int_ref t3 "solver.ml" 178 5450 5470 "solver.ml" 178 5450 5472
+)
+"solver.ml" 182 5656 5703 "solver.ml" 182 5656 5707
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 174 5275 5298 "solver.ml" 174 5275 5302
+)
+"solver.ml" 182 5656 5699 "solver.ml" 182 5656 5708
+type(
+  Term.pterm * int
+)
+"solver.ml" 182 5656 5698 "solver.ml" 182 5656 5709
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 182 5656 5711 "solver.ml" 182 5656 5715
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 174 5275 5313 "solver.ml" 174 5275 5317
+)
+"solver.ml" 182 5656 5715 "solver.ml" 182 5656 5716
+type(
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list -> (Term.pterm * int) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"solver.ml" 182 5656 5716 "solver.ml" 182 5656 5721
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant1t "solver.ml" 178 5450 5481 "solver.ml" 178 5450 5486
+)
+"solver.ml" 182 5656 5710 "solver.ml" 182 5656 5722
+call(
+  stack
+)
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 182 5656 5723 "solver.ml" 182 5656 5727
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "solver.ml" 174 5275 5318 "solver.ml" 174 5275 5322
+)
+"solver.ml" 182 5656 5728 "solver.ml" 182 5656 5732
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "solver.ml" 174 5275 5323 "solver.ml" 174 5275 5327
+)
+"solver.ml" 182 5656 5664 "solver.ml" 182 5656 5733
+call(
+  stack
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 181 5609 5615 "solver.ml" 182 5656 5733
+call(
+  tail
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 180 5544 5550 "solver.ml" 182 5656 5733
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 183 5734 5752 "solver.ml" 183 5734 5753
+type(
+  int
+)
+ident(
+  def p "solver.ml" 184 5771 5777 "solver.ml" 187 5940 6017
+)
+"solver.ml" 183 5734 5747 "solver.ml" 183 5734 5753
+type(
+  Term.pterm
+)
+"solver.ml" 183 5734 5754 "solver.ml" 183 5734 5756
+type(
+  Term.pterm
+)
+ident(
+  def t3 "solver.ml" 184 5771 5777 "solver.ml" 187 5940 6017
+)
+"solver.ml" 183 5734 5739 "solver.ml" 183 5734 5757
+type(
+  Term.pterm
+)
+"solver.ml" 183 5734 5758 "solver.ml" 183 5734 5760
+type(
+  int
+)
+ident(
+  def ti "solver.ml" 184 5771 5777 "solver.ml" 187 5940 6017
+)
+"solver.ml" 183 5734 5738 "solver.ml" 183 5734 5761
+type(
+  Term.pterm * int
+)
+"solver.ml" 183 5734 5765 "solver.ml" 183 5734 5770
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant1t "solver.ml" 184 5771 5777 "solver.ml" 187 5940 6017
+)
+"solver.ml" 183 5734 5738 "solver.ml" 183 5734 5770
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 184 5771 5782 "solver.ml" 184 5771 5793
+type(
+  (Term.pterm * int -> bool) -> (Term.pterm * int) list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"solver.ml" 184 5771 5800 "solver.ml" 184 5771 5801
+type(
+  Term.pterm
+)
+ident(
+  def x "solver.ml" 184 5771 5808 "solver.ml" 184 5771 5818
+)
+"solver.ml" 184 5771 5802 "solver.ml" 184 5771 5803
+type(
+  int
+)
+"solver.ml" 184 5771 5799 "solver.ml" 184 5771 5804
+type(
+  Term.pterm * int
+)
+"solver.ml" 184 5771 5808 "solver.ml" 184 5771 5809
+type(
+  Term.pterm
+)
+ident(
+  int_ref x "solver.ml" 184 5771 5800 "solver.ml" 184 5771 5801
+)
+"solver.ml" 184 5771 5810 "solver.ml" 184 5771 5811
+type(
+  Term.pterm -> Term.pterm -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"solver.ml" 184 5771 5817 "solver.ml" 184 5771 5818
+type(
+  int
+)
+ident(
+  int_ref p "solver.ml" 183 5734 5752 "solver.ml" 183 5734 5753
+)
+"solver.ml" 184 5771 5812 "solver.ml" 184 5771 5818
+type(
+  Term.pterm
+)
+"solver.ml" 184 5771 5808 "solver.ml" 184 5771 5818
+type(
+  bool
+)
+"solver.ml" 184 5771 5794 "solver.ml" 184 5771 5819
+type(
+  Term.pterm * int -> bool
+)
+"solver.ml" 184 5771 5820 "solver.ml" 184 5771 5824
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 174 5275 5313 "solver.ml" 174 5275 5317
+)
+"solver.ml" 184 5771 5782 "solver.ml" 184 5771 5824
+call(
+  stack
+)
+type(
+  bool
+)
+"solver.ml" 185 5828 5838 "solver.ml" 185 5828 5840
+type(
+  int
+)
+ident(
+  def tj "solver.ml" 186 5893 5899 "solver.ml" 187 5940 6017
+)
+"solver.ml" 185 5828 5843 "solver.ml" 185 5828 5846
+type(
+  Term.pterm * int -> int
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"solver.ml" 185 5828 5848 "solver.ml" 185 5828 5857
+type(
+  (Term.pterm * int -> bool) -> (Term.pterm * int) list -> Term.pterm * int
+)
+ident(
+  ext_ref List.find
+)
+"solver.ml" 185 5828 5864 "solver.ml" 185 5828 5865
+type(
+  Term.pterm
+)
+ident(
+  def x "solver.ml" 185 5828 5872 "solver.ml" 185 5828 5882
+)
+"solver.ml" 185 5828 5866 "solver.ml" 185 5828 5867
+type(
+  int
+)
+"solver.ml" 185 5828 5863 "solver.ml" 185 5828 5868
+type(
+  Term.pterm * int
+)
+"solver.ml" 185 5828 5872 "solver.ml" 185 5828 5873
+type(
+  Term.pterm
+)
+ident(
+  int_ref x "solver.ml" 185 5828 5864 "solver.ml" 185 5828 5865
+)
+"solver.ml" 185 5828 5874 "solver.ml" 185 5828 5875
+type(
+  Term.pterm -> Term.pterm -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"solver.ml" 185 5828 5881 "solver.ml" 185 5828 5882
+type(
+  int
+)
+ident(
+  int_ref p "solver.ml" 183 5734 5752 "solver.ml" 183 5734 5753
+)
+"solver.ml" 185 5828 5876 "solver.ml" 185 5828 5882
+type(
+  Term.pterm
+)
+"solver.ml" 185 5828 5872 "solver.ml" 185 5828 5882
+type(
+  bool
+)
+"solver.ml" 185 5828 5858 "solver.ml" 185 5828 5883
+type(
+  Term.pterm * int -> bool
+)
+"solver.ml" 185 5828 5884 "solver.ml" 185 5828 5888
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 174 5275 5313 "solver.ml" 174 5275 5317
+)
+"solver.ml" 185 5828 5847 "solver.ml" 185 5828 5889
+call(
+  stack
+)
+type(
+  Term.pterm * int
+)
+"solver.ml" 185 5828 5843 "solver.ml" 185 5828 5889
+type(
+  int
+)
+"solver.ml" 186 5893 5899 "solver.ml" 186 5893 5909
+type(
+  (Lf_proof.lf_proof -> Lf_proof.lf_proof) ->
+  Lf_proof.lf_proof option -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref make_proof "solver.ml" 49 1323 1327 "solver.ml" 49 1323 1337
+)
+"solver.ml" 186 5893 5915 "solver.ml" 186 5893 5917
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  def pr "solver.ml" 186 5893 5921 "solver.ml" 186 5893 5938
+)
+"solver.ml" 186 5893 5929 "solver.ml" 186 5893 5931
+type(
+  int
+)
+ident(
+  int_ref ti "solver.ml" 183 5734 5758 "solver.ml" 183 5734 5760
+)
+"solver.ml" 186 5893 5932 "solver.ml" 186 5893 5934
+type(
+  int
+)
+ident(
+  int_ref tj "solver.ml" 185 5828 5838 "solver.ml" 185 5828 5840
+)
+"solver.ml" 186 5893 5935 "solver.ml" 186 5893 5937
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  int_ref pr "solver.ml" 186 5893 5915 "solver.ml" 186 5893 5917
+)
+"solver.ml" 186 5893 5921 "solver.ml" 186 5893 5938
+type(
+  Lf_proof.lf_proof
+)
+"solver.ml" 186 5893 5910 "solver.ml" 186 5893 5939
+type(
+  Lf_proof.lf_proof -> Lf_proof.lf_proof
+)
+"solver.ml" 187 5940 5949 "solver.ml" 187 5940 5967
+type(
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref solve1_internal_a1 "solver.ml" 122 3171 3175 "solver.ml" 122 3171 3193
+)
+"solver.ml" 187 5940 5969 "solver.ml" 187 5940 5973
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 174 5275 5298 "solver.ml" 174 5275 5302
+)
+"solver.ml" 187 5940 5973 "solver.ml" 187 5940 5974
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 187 5940 5974 "solver.ml" 187 5940 5975
+type(
+  int
+)
+"solver.ml" 187 5940 5968 "solver.ml" 187 5940 5976
+type(
+  int
+)
+"solver.ml" 187 5940 5977 "solver.ml" 187 5940 5981
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 174 5275 5303 "solver.ml" 174 5275 5307
+)
+"solver.ml" 187 5940 5984 "solver.ml" 187 5940 5986
+type(
+  Term.pterm
+)
+ident(
+  int_ref t3 "solver.ml" 183 5734 5754 "solver.ml" 183 5734 5756
+)
+"solver.ml" 187 5940 5987 "solver.ml" 187 5940 5991
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 174 5275 5298 "solver.ml" 174 5275 5302
+)
+"solver.ml" 187 5940 5983 "solver.ml" 187 5940 5992
+type(
+  Term.pterm * int
+)
+"solver.ml" 187 5940 5982 "solver.ml" 187 5940 5993
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 187 5940 5995 "solver.ml" 187 5940 5999
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 174 5275 5313 "solver.ml" 174 5275 5317
+)
+"solver.ml" 187 5940 5999 "solver.ml" 187 5940 6000
+type(
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list -> (Term.pterm * int) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"solver.ml" 187 5940 6000 "solver.ml" 187 5940 6005
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant1t "solver.ml" 183 5734 5765 "solver.ml" 183 5734 5770
+)
+"solver.ml" 187 5940 5994 "solver.ml" 187 5940 6006
+call(
+  stack
+)
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 187 5940 6007 "solver.ml" 187 5940 6011
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "solver.ml" 174 5275 5318 "solver.ml" 174 5275 5322
+)
+"solver.ml" 187 5940 6012 "solver.ml" 187 5940 6016
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "solver.ml" 174 5275 5323 "solver.ml" 174 5275 5327
+)
+"solver.ml" 187 5940 5948 "solver.ml" 187 5940 6017
+call(
+  stack
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 186 5893 5899 "solver.ml" 187 5940 6017
+call(
+  tail
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 185 5828 5834 "solver.ml" 187 5940 6017
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 188 6018 6022 "solver.ml" 188 6018 6027
+type(
+  Term.pterm * int
+)
+ident(
+  def ant1h "solver.ml" 189 6040 6046 "solver.ml" 189 6040 6104
+)
+"solver.ml" 188 6018 6031 "solver.ml" 188 6018 6036
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant1t "solver.ml" 189 6040 6046 "solver.ml" 189 6040 6104
+)
+"solver.ml" 188 6018 6022 "solver.ml" 188 6018 6036
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 189 6040 6046 "solver.ml" 189 6040 6064
+type(
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref solve1_internal_a2 "solver.ml" 174 5275 5279 "solver.ml" 174 5275 5297
+)
+"solver.ml" 189 6040 6065 "solver.ml" 189 6040 6069
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 174 5275 5298 "solver.ml" 174 5275 5302
+)
+"solver.ml" 189 6040 6070 "solver.ml" 189 6040 6074
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 174 5275 5303 "solver.ml" 174 5275 5307
+)
+"solver.ml" 189 6040 6075 "solver.ml" 189 6040 6080
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant1t "solver.ml" 188 6018 6031 "solver.ml" 188 6018 6036
+)
+"solver.ml" 189 6040 6082 "solver.ml" 189 6040 6087
+type(
+  Term.pterm * int
+)
+ident(
+  int_ref ant1h "solver.ml" 188 6018 6022 "solver.ml" 188 6018 6027
+)
+"solver.ml" 189 6040 6089 "solver.ml" 189 6040 6093
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 174 5275 5313 "solver.ml" 174 5275 5317
+)
+"solver.ml" 189 6040 6081 "solver.ml" 189 6040 6094
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 189 6040 6095 "solver.ml" 189 6040 6099
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "solver.ml" 174 5275 5318 "solver.ml" 174 5275 5322
+)
+"solver.ml" 189 6040 6100 "solver.ml" 189 6040 6104
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "solver.ml" 174 5275 5323 "solver.ml" 174 5275 5327
+)
+"solver.ml" 189 6040 6046 "solver.ml" 189 6040 6104
+call(
+  tail
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 176 5373 5375 "solver.ml" 190 6105 6110
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 175 5330 5332 "solver.ml" 190 6105 6110
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 197 6192 6196 "solver.ml" 197 6192 6213
+type(
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Lf_proof.lf_proof option
+)
+ident(
+  def solve2_internal_s "solver.ml" 90 2212 2212 "solver.ml" 1 0 -1
+)
+"solver.ml" 197 6192 6214 "solver.ml" 197 6192 6218
+type(
+  int
+)
+ident(
+  def anum "solver.ml" 197 6192 6219 "solver.ml" 222 7170 7175
+)
+"solver.ml" 197 6192 6219 "solver.ml" 197 6192 6223
+type(
+  int
+)
+ident(
+  def pnum "solver.ml" 197 6192 6224 "solver.ml" 222 7170 7175
+)
+"solver.ml" 197 6192 6224 "solver.ml" 197 6192 6227
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant "solver.ml" 197 6192 6228 "solver.ml" 222 7170 7175
+)
+"solver.ml" 197 6192 6228 "solver.ml" 197 6192 6232
+type(
+  Term.pterm option
+)
+ident(
+  def sucL "solver.ml" 197 6192 6233 "solver.ml" 222 7170 7175
+)
+"solver.ml" 197 6192 6233 "solver.ml" 197 6192 6237
+type(
+  Term.pterm
+)
+ident(
+  def sucR "solver.ml" 198 6240 6242 "solver.ml" 222 7170 7175
+)
+"solver.ml" 198 6240 6242 "solver.ml" 198 6240 6255
+type(
+  string ->
+  (Term.pterm * int) list ->
+  (Term.pterm * '_b) list -> Term.pterm option -> Term.pterm -> unit
+)
+ident(
+  int_ref debug_sequent "solver.ml" 29 619 623 "solver.ml" 29 619 636
+)
+"solver.ml" 198 6240 6256 "solver.ml" 198 6240 6260
+type(
+  string
+)
+"solver.ml" 198 6240 6261 "solver.ml" 198 6240 6264
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant "solver.ml" 197 6192 6224 "solver.ml" 197 6192 6227
+)
+"solver.ml" 198 6240 6265 "solver.ml" 198 6240 6267
+type(
+  (Term.pterm * '_b) list
+)
+"solver.ml" 198 6240 6268 "solver.ml" 198 6240 6272
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "solver.ml" 197 6192 6228 "solver.ml" 197 6192 6232
+)
+"solver.ml" 198 6240 6273 "solver.ml" 198 6240 6277
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "solver.ml" 197 6192 6233 "solver.ml" 197 6192 6237
+)
+"solver.ml" 198 6240 6242 "solver.ml" 198 6240 6277
+call(
+  stack
+)
+type(
+  unit
+)
+"solver.ml" 199 6279 6285 "solver.ml" 199 6279 6294
+type(
+  Lf_proof.lf_proof option
+)
+ident(
+  def or_result "solver.ml" 219 7059 7061 "solver.ml" 222 7170 7175
+)
+"solver.ml" 199 6279 6309 "solver.ml" 199 6279 6313
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "solver.ml" 197 6192 6233 "solver.ml" 197 6192 6237
+)
+"solver.ml" 200 6319 6328 "solver.ml" 200 6319 6330
+type(
+  Term.pterm
+)
+ident(
+  def t1 "solver.ml" 201 6338 6344 "solver.ml" 216 7026 7035
+)
+"solver.ml" 200 6319 6331 "solver.ml" 200 6319 6333
+type(
+  Term.pterm
+)
+ident(
+  def t2 "solver.ml" 201 6338 6344 "solver.ml" 216 7026 7035
+)
+"solver.ml" 200 6319 6323 "solver.ml" 200 6319 6334
+type(
+  Term.pterm
+)
+"solver.ml" 201 6338 6356 "solver.ml" 201 6338 6360
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "solver.ml" 197 6192 6228 "solver.ml" 197 6192 6232
+)
+"solver.ml" 202 6366 6374 "solver.ml" 202 6366 6378
+type(
+  Term.pterm option
+)
+"solver.ml" 203 6382 6392 "solver.ml" 203 6382 6405
+type(
+  (Lf_proof.lf_proof -> Lf_proof.lf_proof) ->
+  (Lf_proof.lf_proof -> Lf_proof.lf_proof) ->
+  (unit -> Lf_proof.lf_proof option) ->
+  (unit -> Lf_proof.lf_proof option) -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref make_proof_or "solver.ml" 67 1745 1749 "solver.ml" 67 1745 1762
+)
+"solver.ml" 203 6382 6411 "solver.ml" 203 6382 6413
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  def pr "solver.ml" 203 6382 6417 "solver.ml" 203 6382 6426
+)
+"solver.ml" 203 6382 6424 "solver.ml" 203 6382 6426
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  int_ref pr "solver.ml" 203 6382 6411 "solver.ml" 203 6382 6413
+)
+"solver.ml" 203 6382 6417 "solver.ml" 203 6382 6426
+type(
+  Lf_proof.lf_proof
+)
+"solver.ml" 203 6382 6406 "solver.ml" 203 6382 6427
+type(
+  Lf_proof.lf_proof -> Lf_proof.lf_proof
+)
+"solver.ml" 203 6382 6433 "solver.ml" 203 6382 6435
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  def pr "solver.ml" 203 6382 6439 "solver.ml" 203 6382 6448
+)
+"solver.ml" 203 6382 6446 "solver.ml" 203 6382 6448
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  int_ref pr "solver.ml" 203 6382 6433 "solver.ml" 203 6382 6435
+)
+"solver.ml" 203 6382 6439 "solver.ml" 203 6382 6448
+type(
+  Lf_proof.lf_proof
+)
+"solver.ml" 203 6382 6428 "solver.ml" 203 6382 6449
+type(
+  Lf_proof.lf_proof -> Lf_proof.lf_proof
+)
+"solver.ml" 204 6450 6467 "solver.ml" 204 6450 6468
+type(
+  unit
+)
+"solver.ml" 204 6450 6472 "solver.ml" 204 6450 6489
+type(
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref solve1_internal_s "solver.ml" 90 2212 2220 "solver.ml" 90 2212 2237
+)
+"solver.ml" 204 6450 6490 "solver.ml" 204 6450 6494
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 197 6192 6214 "solver.ml" 197 6192 6218
+)
+"solver.ml" 204 6450 6495 "solver.ml" 204 6450 6499
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 197 6192 6219 "solver.ml" 197 6192 6223
+)
+"solver.ml" 204 6450 6500 "solver.ml" 204 6450 6503
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant "solver.ml" 197 6192 6224 "solver.ml" 197 6192 6227
+)
+"solver.ml" 204 6450 6504 "solver.ml" 204 6450 6508
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "solver.ml" 197 6192 6228 "solver.ml" 197 6192 6232
+)
+"solver.ml" 204 6450 6509 "solver.ml" 204 6450 6511
+type(
+  Term.pterm
+)
+ident(
+  int_ref t1 "solver.ml" 200 6319 6328 "solver.ml" 200 6319 6330
+)
+"solver.ml" 204 6450 6472 "solver.ml" 204 6450 6511
+call(
+  tail
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 204 6450 6462 "solver.ml" 204 6450 6512
+type(
+  unit -> Lf_proof.lf_proof option
+)
+"solver.ml" 205 6513 6530 "solver.ml" 205 6513 6531
+type(
+  unit
+)
+"solver.ml" 205 6513 6535 "solver.ml" 205 6513 6552
+type(
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref solve1_internal_s "solver.ml" 90 2212 2220 "solver.ml" 90 2212 2237
+)
+"solver.ml" 205 6513 6553 "solver.ml" 205 6513 6557
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 197 6192 6214 "solver.ml" 197 6192 6218
+)
+"solver.ml" 205 6513 6558 "solver.ml" 205 6513 6562
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 197 6192 6219 "solver.ml" 197 6192 6223
+)
+"solver.ml" 205 6513 6563 "solver.ml" 205 6513 6566
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant "solver.ml" 197 6192 6224 "solver.ml" 197 6192 6227
+)
+"solver.ml" 205 6513 6567 "solver.ml" 205 6513 6571
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "solver.ml" 197 6192 6228 "solver.ml" 197 6192 6232
+)
+"solver.ml" 205 6513 6572 "solver.ml" 205 6513 6574
+type(
+  Term.pterm
+)
+ident(
+  int_ref t2 "solver.ml" 200 6319 6331 "solver.ml" 200 6319 6333
+)
+"solver.ml" 205 6513 6535 "solver.ml" 205 6513 6574
+call(
+  tail
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 205 6513 6525 "solver.ml" 205 6513 6575
+type(
+  unit -> Lf_proof.lf_proof option
+)
+"solver.ml" 203 6382 6392 "solver.ml" 205 6513 6575
+call(
+  stack
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 206 6576 6589 "solver.ml" 206 6576 6594
+type(
+  Term.pterm
+)
+ident(
+  def sucLS "solver.ml" 207 6598 6608 "solver.ml" 215 6948 7025
+)
+"solver.ml" 206 6576 6584 "solver.ml" 206 6576 6594
+type(
+  Term.pterm option
+)
+"solver.ml" 207 6598 6612 "solver.ml" 207 6598 6613
+type(
+  Term.pterm
+)
+ident(
+  def p "solver.ml" 208 6629 6639 "solver.ml" 215 6948 7025
+)
+"solver.ml" 207 6598 6621 "solver.ml" 207 6598 6625
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 197 6192 6219 "solver.ml" 197 6192 6223
+)
+"solver.ml" 207 6598 6616 "solver.ml" 207 6598 6625
+type(
+  Term.pterm
+)
+"solver.ml" 208 6629 6643 "solver.ml" 208 6629 6645
+type(
+  Term.pterm option
+)
+ident(
+  def sp "solver.ml" 209 6658 6668 "solver.ml" 215 6948 7025
+)
+"solver.ml" 208 6629 6653 "solver.ml" 208 6629 6654
+type(
+  Term.pterm
+)
+ident(
+  int_ref p "solver.ml" 207 6598 6612 "solver.ml" 207 6598 6613
+)
+"solver.ml" 208 6629 6648 "solver.ml" 208 6629 6654
+type(
+  Term.pterm option
+)
+"solver.ml" 209 6658 6668 "solver.ml" 209 6658 6681
+type(
+  (Lf_proof.lf_proof -> Lf_proof.lf_proof) ->
+  (Lf_proof.lf_proof -> Lf_proof.lf_proof) ->
+  (unit -> Lf_proof.lf_proof option) ->
+  (unit -> Lf_proof.lf_proof option) -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref make_proof_or "solver.ml" 67 1745 1749 "solver.ml" 67 1745 1762
+)
+"solver.ml" 209 6658 6687 "solver.ml" 209 6658 6689
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  def pr "solver.ml" 209 6658 6693 "solver.ml" 209 6658 6702
+)
+"solver.ml" 209 6658 6700 "solver.ml" 209 6658 6702
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  int_ref pr "solver.ml" 209 6658 6687 "solver.ml" 209 6658 6689
+)
+"solver.ml" 209 6658 6693 "solver.ml" 209 6658 6702
+type(
+  Lf_proof.lf_proof
+)
+"solver.ml" 209 6658 6682 "solver.ml" 209 6658 6703
+type(
+  Lf_proof.lf_proof -> Lf_proof.lf_proof
+)
+"solver.ml" 209 6658 6709 "solver.ml" 209 6658 6711
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  def pr "solver.ml" 209 6658 6715 "solver.ml" 209 6658 6724
+)
+"solver.ml" 209 6658 6722 "solver.ml" 209 6658 6724
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  int_ref pr "solver.ml" 209 6658 6709 "solver.ml" 209 6658 6711
+)
+"solver.ml" 209 6658 6715 "solver.ml" 209 6658 6724
+type(
+  Lf_proof.lf_proof
+)
+"solver.ml" 209 6658 6704 "solver.ml" 209 6658 6725
+type(
+  Lf_proof.lf_proof -> Lf_proof.lf_proof
+)
+"solver.ml" 210 6726 6743 "solver.ml" 210 6726 6744
+type(
+  unit
+)
+"solver.ml" 211 6748 6762 "solver.ml" 211 6748 6779
+type(
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref solve1_internal_s "solver.ml" 90 2212 2220 "solver.ml" 90 2212 2237
+)
+"solver.ml" 211 6748 6781 "solver.ml" 211 6748 6785
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 197 6192 6214 "solver.ml" 197 6192 6218
+)
+"solver.ml" 211 6748 6785 "solver.ml" 211 6748 6786
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 211 6748 6786 "solver.ml" 211 6748 6787
+type(
+  int
+)
+"solver.ml" 211 6748 6780 "solver.ml" 211 6748 6788
+type(
+  int
+)
+"solver.ml" 211 6748 6790 "solver.ml" 211 6748 6794
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 197 6192 6219 "solver.ml" 197 6192 6223
+)
+"solver.ml" 211 6748 6794 "solver.ml" 211 6748 6795
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 211 6748 6795 "solver.ml" 211 6748 6796
+type(
+  int
+)
+"solver.ml" 211 6748 6789 "solver.ml" 211 6748 6797
+type(
+  int
+)
+"solver.ml" 212 6798 6824 "solver.ml" 212 6798 6826
+type(
+  Term.pterm
+)
+ident(
+  int_ref t2 "solver.ml" 200 6319 6331 "solver.ml" 200 6319 6333
+)
+"solver.ml" 212 6798 6827 "solver.ml" 212 6798 6828
+type(
+  Term.pterm
+)
+ident(
+  int_ref p "solver.ml" 207 6598 6612 "solver.ml" 207 6598 6613
+)
+"solver.ml" 212 6798 6816 "solver.ml" 212 6798 6829
+type(
+  Term.pterm
+)
+"solver.ml" 212 6798 6830 "solver.ml" 212 6798 6834
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 197 6192 6214 "solver.ml" 197 6192 6218
+)
+"solver.ml" 212 6798 6815 "solver.ml" 212 6798 6835
+type(
+  Term.pterm * int
+)
+"solver.ml" 212 6798 6846 "solver.ml" 212 6798 6847
+type(
+  Term.pterm
+)
+ident(
+  int_ref p "solver.ml" 207 6598 6612 "solver.ml" 207 6598 6613
+)
+"solver.ml" 212 6798 6848 "solver.ml" 212 6798 6853
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucLS "solver.ml" 206 6576 6589 "solver.ml" 206 6576 6594
+)
+"solver.ml" 212 6798 6838 "solver.ml" 212 6798 6854
+type(
+  Term.pterm
+)
+"solver.ml" 212 6798 6855 "solver.ml" 212 6798 6859
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 197 6192 6214 "solver.ml" 197 6192 6218
+)
+"solver.ml" 212 6798 6859 "solver.ml" 212 6798 6860
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 212 6798 6860 "solver.ml" 212 6798 6861
+type(
+  int
+)
+"solver.ml" 212 6798 6855 "solver.ml" 212 6798 6861
+type(
+  int
+)
+"solver.ml" 212 6798 6837 "solver.ml" 212 6798 6862
+type(
+  Term.pterm * int
+)
+"solver.ml" 212 6798 6864 "solver.ml" 212 6798 6867
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant "solver.ml" 197 6192 6224 "solver.ml" 197 6192 6227
+)
+"solver.ml" 212 6798 6837 "solver.ml" 212 6798 6867
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 212 6798 6814 "solver.ml" 212 6798 6868
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 212 6798 6869 "solver.ml" 212 6798 6871
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sp "solver.ml" 208 6629 6643 "solver.ml" 208 6629 6645
+)
+"solver.ml" 212 6798 6872 "solver.ml" 212 6798 6874
+type(
+  Term.pterm
+)
+ident(
+  int_ref t1 "solver.ml" 200 6319 6328 "solver.ml" 200 6319 6330
+)
+"solver.ml" 211 6748 6762 "solver.ml" 212 6798 6874
+call(
+  tail
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 210 6726 6738 "solver.ml" 212 6798 6875
+type(
+  unit -> Lf_proof.lf_proof option
+)
+"solver.ml" 213 6876 6893 "solver.ml" 213 6876 6894
+type(
+  unit
+)
+"solver.ml" 214 6898 6912 "solver.ml" 214 6898 6929
+type(
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref solve1_internal_s "solver.ml" 90 2212 2220 "solver.ml" 90 2212 2237
+)
+"solver.ml" 214 6898 6931 "solver.ml" 214 6898 6935
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 197 6192 6214 "solver.ml" 197 6192 6218
+)
+"solver.ml" 214 6898 6935 "solver.ml" 214 6898 6936
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 214 6898 6936 "solver.ml" 214 6898 6937
+type(
+  int
+)
+"solver.ml" 214 6898 6930 "solver.ml" 214 6898 6938
+type(
+  int
+)
+"solver.ml" 214 6898 6940 "solver.ml" 214 6898 6944
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 197 6192 6219 "solver.ml" 197 6192 6223
+)
+"solver.ml" 214 6898 6944 "solver.ml" 214 6898 6945
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 214 6898 6945 "solver.ml" 214 6898 6946
+type(
+  int
+)
+"solver.ml" 214 6898 6939 "solver.ml" 214 6898 6947
+type(
+  int
+)
+"solver.ml" 215 6948 6974 "solver.ml" 215 6948 6976
+type(
+  Term.pterm
+)
+ident(
+  int_ref t1 "solver.ml" 200 6319 6328 "solver.ml" 200 6319 6330
+)
+"solver.ml" 215 6948 6977 "solver.ml" 215 6948 6978
+type(
+  Term.pterm
+)
+ident(
+  int_ref p "solver.ml" 207 6598 6612 "solver.ml" 207 6598 6613
+)
+"solver.ml" 215 6948 6966 "solver.ml" 215 6948 6979
+type(
+  Term.pterm
+)
+"solver.ml" 215 6948 6980 "solver.ml" 215 6948 6984
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 197 6192 6214 "solver.ml" 197 6192 6218
+)
+"solver.ml" 215 6948 6965 "solver.ml" 215 6948 6985
+type(
+  Term.pterm * int
+)
+"solver.ml" 215 6948 6996 "solver.ml" 215 6948 6997
+type(
+  Term.pterm
+)
+ident(
+  int_ref p "solver.ml" 207 6598 6612 "solver.ml" 207 6598 6613
+)
+"solver.ml" 215 6948 6998 "solver.ml" 215 6948 7003
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucLS "solver.ml" 206 6576 6589 "solver.ml" 206 6576 6594
+)
+"solver.ml" 215 6948 6988 "solver.ml" 215 6948 7004
+type(
+  Term.pterm
+)
+"solver.ml" 215 6948 7005 "solver.ml" 215 6948 7009
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 197 6192 6214 "solver.ml" 197 6192 6218
+)
+"solver.ml" 215 6948 7009 "solver.ml" 215 6948 7010
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 215 6948 7010 "solver.ml" 215 6948 7011
+type(
+  int
+)
+"solver.ml" 215 6948 7005 "solver.ml" 215 6948 7011
+type(
+  int
+)
+"solver.ml" 215 6948 6987 "solver.ml" 215 6948 7012
+type(
+  Term.pterm * int
+)
+"solver.ml" 215 6948 7014 "solver.ml" 215 6948 7017
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant "solver.ml" 197 6192 6224 "solver.ml" 197 6192 6227
+)
+"solver.ml" 215 6948 6987 "solver.ml" 215 6948 7017
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 215 6948 6964 "solver.ml" 215 6948 7018
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 215 6948 7019 "solver.ml" 215 6948 7021
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sp "solver.ml" 208 6629 6643 "solver.ml" 208 6629 6645
+)
+"solver.ml" 215 6948 7022 "solver.ml" 215 6948 7024
+type(
+  Term.pterm
+)
+ident(
+  int_ref t2 "solver.ml" 200 6319 6331 "solver.ml" 200 6319 6333
+)
+"solver.ml" 214 6898 6912 "solver.ml" 215 6948 7024
+call(
+  tail
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 213 6876 6888 "solver.ml" 215 6948 7025
+type(
+  unit -> Lf_proof.lf_proof option
+)
+"solver.ml" 209 6658 6668 "solver.ml" 215 6948 7025
+call(
+  stack
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 208 6629 6639 "solver.ml" 215 6948 7025
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 207 6598 6608 "solver.ml" 215 6948 7025
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 201 6338 6344 "solver.ml" 216 7026 7035
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 217 7036 7040 "solver.ml" 217 7036 7041
+type(
+  Term.pterm
+)
+"solver.ml" 217 7036 7045 "solver.ml" 217 7036 7049
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 199 6279 6297 "solver.ml" 218 7050 7055
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 219 7059 7073 "solver.ml" 219 7059 7082
+type(
+  Lf_proof.lf_proof option
+)
+ident(
+  int_ref or_result "solver.ml" 199 6279 6285 "solver.ml" 199 6279 6294
+)
+"solver.ml" 220 7088 7097 "solver.ml" 220 7088 7099
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  def pr "solver.ml" 220 7088 7103 "solver.ml" 220 7088 7112
+)
+"solver.ml" 220 7088 7092 "solver.ml" 220 7088 7099
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 220 7088 7103 "solver.ml" 220 7088 7112
+type(
+  Lf_proof.lf_proof option
+)
+ident(
+  int_ref or_result "solver.ml" 199 6279 6285 "solver.ml" 199 6279 6294
+)
+"solver.ml" 221 7113 7117 "solver.ml" 221 7113 7121
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 221 7113 7125 "solver.ml" 221 7113 7142
+type(
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref solve2_internal_a "solver.ml" 231 7365 7369 "solver.ml" 231 7365 7386
+)
+"solver.ml" 221 7113 7143 "solver.ml" 221 7113 7147
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 197 6192 6214 "solver.ml" 197 6192 6218
+)
+"solver.ml" 221 7113 7148 "solver.ml" 221 7113 7152
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 197 6192 6219 "solver.ml" 197 6192 6223
+)
+"solver.ml" 221 7113 7153 "solver.ml" 221 7113 7156
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant "solver.ml" 197 6192 6224 "solver.ml" 197 6192 6227
+)
+"solver.ml" 221 7113 7157 "solver.ml" 221 7113 7159
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 221 7113 7160 "solver.ml" 221 7113 7164
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "solver.ml" 197 6192 6228 "solver.ml" 197 6192 6232
+)
+"solver.ml" 221 7113 7165 "solver.ml" 221 7113 7169
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "solver.ml" 197 6192 6233 "solver.ml" 197 6192 6237
+)
+"solver.ml" 221 7113 7125 "solver.ml" 221 7113 7169
+call(
+  tail
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 219 7059 7061 "solver.ml" 222 7170 7175
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 199 6279 6281 "solver.ml" 222 7170 7175
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 198 6240 6242 "solver.ml" 222 7170 7175
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 231 7365 7369 "solver.ml" 231 7365 7386
+type(
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Lf_proof.lf_proof option
+)
+ident(
+  def solve2_internal_a "solver.ml" 90 2212 2212 "solver.ml" 1 0 -1
+)
+"solver.ml" 231 7365 7387 "solver.ml" 231 7365 7391
+type(
+  int
+)
+ident(
+  def anum "solver.ml" 231 7365 7392 "solver.ml" 258 8296 8301
+)
+"solver.ml" 231 7365 7392 "solver.ml" 231 7365 7396
+type(
+  int
+)
+ident(
+  def pnum "solver.ml" 231 7365 7397 "solver.ml" 258 8296 8301
+)
+"solver.ml" 231 7365 7397 "solver.ml" 231 7365 7401
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant1 "solver.ml" 231 7365 7402 "solver.ml" 258 8296 8301
+)
+"solver.ml" 231 7365 7402 "solver.ml" 231 7365 7406
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant2 "solver.ml" 231 7365 7407 "solver.ml" 258 8296 8301
+)
+"solver.ml" 231 7365 7407 "solver.ml" 231 7365 7411
+type(
+  Term.pterm option
+)
+ident(
+  def sucL "solver.ml" 231 7365 7412 "solver.ml" 258 8296 8301
+)
+"solver.ml" 231 7365 7412 "solver.ml" 231 7365 7416
+type(
+  Term.pterm
+)
+ident(
+  def sucR "solver.ml" 232 7419 7421 "solver.ml" 258 8296 8301
+)
+"solver.ml" 232 7419 7421 "solver.ml" 232 7419 7434
+type(
+  string ->
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list -> Term.pterm option -> Term.pterm -> unit
+)
+ident(
+  int_ref debug_sequent "solver.ml" 29 619 623 "solver.ml" 29 619 636
+)
+"solver.ml" 232 7419 7435 "solver.ml" 232 7419 7439
+type(
+  string
+)
+"solver.ml" 232 7419 7440 "solver.ml" 232 7419 7444
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant1 "solver.ml" 231 7365 7397 "solver.ml" 231 7365 7401
+)
+"solver.ml" 232 7419 7445 "solver.ml" 232 7419 7449
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 231 7365 7402 "solver.ml" 231 7365 7406
+)
+"solver.ml" 232 7419 7450 "solver.ml" 232 7419 7454
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "solver.ml" 231 7365 7407 "solver.ml" 231 7365 7411
+)
+"solver.ml" 232 7419 7455 "solver.ml" 232 7419 7459
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "solver.ml" 231 7365 7412 "solver.ml" 231 7365 7416
+)
+"solver.ml" 232 7419 7421 "solver.ml" 232 7419 7459
+call(
+  stack
+)
+type(
+  unit
+)
+"solver.ml" 233 7461 7475 "solver.ml" 233 7461 7479
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant1 "solver.ml" 231 7365 7397 "solver.ml" 231 7365 7401
+)
+"solver.ml" 234 7485 7489 "solver.ml" 234 7485 7491
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 234 7485 7495 "solver.ml" 234 7485 7499
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 235 7500 7504 "solver.ml" 235 7500 7509
+type(
+  Term.pterm * int
+)
+ident(
+  def ant1h "solver.ml" 236 7522 7528 "solver.ml" 257 8231 8295
+)
+"solver.ml" 235 7500 7513 "solver.ml" 235 7500 7518
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant1t "solver.ml" 236 7522 7528 "solver.ml" 257 8231 8295
+)
+"solver.ml" 235 7500 7504 "solver.ml" 235 7500 7518
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 236 7522 7528 "solver.ml" 236 7522 7541
+type(
+  (Lf_proof.lf_proof -> Lf_proof.lf_proof) ->
+  (Lf_proof.lf_proof -> Lf_proof.lf_proof) ->
+  (unit -> Lf_proof.lf_proof option) ->
+  (unit -> Lf_proof.lf_proof option) -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref make_proof_or "solver.ml" 67 1745 1749 "solver.ml" 67 1745 1762
+)
+"solver.ml" 236 7522 7547 "solver.ml" 236 7522 7549
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  def pr "solver.ml" 236 7522 7553 "solver.ml" 236 7522 7555
+)
+"solver.ml" 236 7522 7553 "solver.ml" 236 7522 7555
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  int_ref pr "solver.ml" 236 7522 7547 "solver.ml" 236 7522 7549
+)
+"solver.ml" 236 7522 7542 "solver.ml" 236 7522 7556
+type(
+  Lf_proof.lf_proof -> Lf_proof.lf_proof
+)
+"solver.ml" 236 7522 7562 "solver.ml" 236 7522 7564
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  def pr "solver.ml" 236 7522 7568 "solver.ml" 236 7522 7570
+)
+"solver.ml" 236 7522 7568 "solver.ml" 236 7522 7570
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  int_ref pr "solver.ml" 236 7522 7562 "solver.ml" 236 7522 7564
+)
+"solver.ml" 236 7522 7557 "solver.ml" 236 7522 7571
+type(
+  Lf_proof.lf_proof -> Lf_proof.lf_proof
+)
+"solver.ml" 237 7572 7583 "solver.ml" 237 7572 7584
+type(
+  unit
+)
+"solver.ml" 238 7588 7606 "solver.ml" 238 7588 7611
+type(
+  Term.pterm * int
+)
+ident(
+  int_ref ant1h "solver.ml" 235 7500 7504 "solver.ml" 235 7500 7509
+)
+"solver.ml" 239 7617 7641 "solver.ml" 239 7617 7643
+type(
+  Term.pterm
+)
+ident(
+  def t1 "solver.ml" 240 7658 7668 "solver.ml" 253 8139 8185
+)
+"solver.ml" 239 7617 7644 "solver.ml" 239 7617 7646
+type(
+  Term.pterm
+)
+ident(
+  def t2 "solver.ml" 240 7658 7668 "solver.ml" 253 8139 8185
+)
+"solver.ml" 239 7617 7633 "solver.ml" 239 7617 7647
+type(
+  Term.pterm
+)
+"solver.ml" 239 7617 7648 "solver.ml" 239 7617 7650
+type(
+  Term.pterm
+)
+ident(
+  def t3 "solver.ml" 240 7658 7668 "solver.ml" 253 8139 8185
+)
+"solver.ml" 239 7617 7625 "solver.ml" 239 7617 7651
+type(
+  Term.pterm
+)
+"solver.ml" 239 7617 7652 "solver.ml" 239 7617 7654
+type(
+  int
+)
+ident(
+  def ti "solver.ml" 240 7658 7668 "solver.ml" 253 8139 8185
+)
+"solver.ml" 239 7617 7625 "solver.ml" 239 7617 7654
+type(
+  Term.pterm * int
+)
+"solver.ml" 240 7658 7668 "solver.ml" 240 7658 7682
+type(
+  (Lf_proof.lf_proof -> Lf_proof.lf_proof -> Lf_proof.lf_proof) ->
+  (unit -> Lf_proof.lf_proof option) ->
+  (unit -> Lf_proof.lf_proof option) -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref make_proof_and "solver.ml" 55 1457 1461 "solver.ml" 55 1457 1475
+)
+"solver.ml" 240 7658 7688 "solver.ml" 240 7658 7691
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  def pr1 "solver.ml" 240 7658 7692 "solver.ml" 240 7658 7718
+)
+"solver.ml" 240 7658 7692 "solver.ml" 240 7658 7695
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  def pr2 "solver.ml" 240 7658 7699 "solver.ml" 240 7658 7718
+)
+"solver.ml" 240 7658 7707 "solver.ml" 240 7658 7709
+type(
+  int
+)
+ident(
+  int_ref ti "solver.ml" 239 7617 7652 "solver.ml" 239 7617 7654
+)
+"solver.ml" 240 7658 7710 "solver.ml" 240 7658 7713
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  int_ref pr1 "solver.ml" 240 7658 7688 "solver.ml" 240 7658 7691
+)
+"solver.ml" 240 7658 7714 "solver.ml" 240 7658 7717
+type(
+  Lf_proof.lf_proof
+)
+ident(
+  int_ref pr2 "solver.ml" 240 7658 7692 "solver.ml" 240 7658 7695
+)
+"solver.ml" 240 7658 7699 "solver.ml" 240 7658 7718
+type(
+  Lf_proof.lf_proof
+)
+"solver.ml" 240 7658 7683 "solver.ml" 240 7658 7719
+type(
+  Lf_proof.lf_proof -> Lf_proof.lf_proof -> Lf_proof.lf_proof
+)
+"solver.ml" 241 7720 7735 "solver.ml" 241 7720 7736
+type(
+  unit
+)
+"solver.ml" 242 7740 7762 "solver.ml" 242 7740 7766
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "solver.ml" 231 7365 7407 "solver.ml" 231 7365 7411
+)
+"solver.ml" 243 7772 7784 "solver.ml" 243 7772 7788
+type(
+  Term.pterm option
+)
+"solver.ml" 244 7792 7806 "solver.ml" 244 7792 7823
+type(
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref solve1_internal_s "solver.ml" 90 2212 2220 "solver.ml" 90 2212 2237
+)
+"solver.ml" 244 7792 7825 "solver.ml" 244 7792 7829
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 231 7365 7387 "solver.ml" 231 7365 7391
+)
+"solver.ml" 244 7792 7829 "solver.ml" 244 7792 7830
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 244 7792 7830 "solver.ml" 244 7792 7831
+type(
+  int
+)
+"solver.ml" 244 7792 7824 "solver.ml" 244 7792 7832
+type(
+  int
+)
+"solver.ml" 244 7792 7833 "solver.ml" 244 7792 7837
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 231 7365 7392 "solver.ml" 231 7365 7396
+)
+"solver.ml" 245 7838 7856 "solver.ml" 245 7838 7858
+type(
+  Term.pterm
+)
+ident(
+  int_ref t1 "solver.ml" 239 7617 7641 "solver.ml" 239 7617 7643
+)
+"solver.ml" 245 7838 7859 "solver.ml" 245 7838 7863
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 231 7365 7387 "solver.ml" 231 7365 7391
+)
+"solver.ml" 245 7838 7855 "solver.ml" 245 7838 7864
+type(
+  Term.pterm * int
+)
+"solver.ml" 245 7838 7866 "solver.ml" 245 7838 7871
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant1t "solver.ml" 235 7500 7513 "solver.ml" 235 7500 7518
+)
+"solver.ml" 245 7838 7855 "solver.ml" 245 7838 7871
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 245 7838 7871 "solver.ml" 245 7838 7872
+type(
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list -> (Term.pterm * int) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"solver.ml" 245 7838 7872 "solver.ml" 245 7838 7876
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 231 7365 7402 "solver.ml" 231 7365 7406
+)
+"solver.ml" 245 7838 7854 "solver.ml" 245 7838 7877
+call(
+  stack
+)
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 245 7838 7884 "solver.ml" 245 7838 7886
+type(
+  Term.pterm
+)
+ident(
+  int_ref t3 "solver.ml" 239 7617 7648 "solver.ml" 239 7617 7650
+)
+"solver.ml" 245 7838 7878 "solver.ml" 245 7838 7887
+type(
+  Term.pterm option
+)
+"solver.ml" 245 7838 7888 "solver.ml" 245 7838 7890
+type(
+  Term.pterm
+)
+ident(
+  int_ref t2 "solver.ml" 239 7617 7644 "solver.ml" 239 7617 7646
+)
+"solver.ml" 244 7792 7806 "solver.ml" 245 7838 7890
+call(
+  tail
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 246 7891 7908 "solver.ml" 246 7891 7913
+type(
+  Term.pterm
+)
+ident(
+  def sucLS "solver.ml" 247 7917 7931 "solver.ml" 249 8033 8061
+)
+"solver.ml" 246 7891 7903 "solver.ml" 246 7891 7913
+type(
+  Term.pterm option
+)
+"solver.ml" 247 7917 7931 "solver.ml" 247 7917 7948
+type(
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref solve1_internal_s "solver.ml" 90 2212 2220 "solver.ml" 90 2212 2237
+)
+"solver.ml" 247 7917 7950 "solver.ml" 247 7917 7954
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 231 7365 7387 "solver.ml" 231 7365 7391
+)
+"solver.ml" 247 7917 7954 "solver.ml" 247 7917 7955
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 247 7917 7955 "solver.ml" 247 7917 7956
+type(
+  int
+)
+"solver.ml" 247 7917 7949 "solver.ml" 247 7917 7957
+type(
+  int
+)
+"solver.ml" 247 7917 7958 "solver.ml" 247 7917 7962
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 231 7365 7392 "solver.ml" 231 7365 7396
+)
+"solver.ml" 248 7963 7989 "solver.ml" 248 7963 7993
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "solver.ml" 231 7365 7412 "solver.ml" 231 7365 7416
+)
+"solver.ml" 248 7963 7994 "solver.ml" 248 7963 7999
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucLS "solver.ml" 246 7891 7908 "solver.ml" 246 7891 7913
+)
+"solver.ml" 248 7963 7981 "solver.ml" 248 7963 8000
+type(
+  Term.pterm
+)
+"solver.ml" 248 7963 8001 "solver.ml" 248 7963 8005
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 231 7365 7387 "solver.ml" 231 7365 7391
+)
+"solver.ml" 248 7963 7980 "solver.ml" 248 7963 8006
+type(
+  Term.pterm * int
+)
+"solver.ml" 248 7963 8009 "solver.ml" 248 7963 8011
+type(
+  Term.pterm
+)
+ident(
+  int_ref t1 "solver.ml" 239 7617 7641 "solver.ml" 239 7617 7643
+)
+"solver.ml" 248 7963 8012 "solver.ml" 248 7963 8016
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 231 7365 7387 "solver.ml" 231 7365 7391
+)
+"solver.ml" 248 7963 8016 "solver.ml" 248 7963 8017
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 248 7963 8017 "solver.ml" 248 7963 8018
+type(
+  int
+)
+"solver.ml" 248 7963 8012 "solver.ml" 248 7963 8018
+type(
+  int
+)
+"solver.ml" 248 7963 8008 "solver.ml" 248 7963 8019
+type(
+  Term.pterm * int
+)
+"solver.ml" 248 7963 8021 "solver.ml" 248 7963 8026
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant1t "solver.ml" 235 7500 7513 "solver.ml" 235 7500 7518
+)
+"solver.ml" 248 7963 8008 "solver.ml" 248 7963 8026
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 248 7963 7980 "solver.ml" 248 7963 8026
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 248 7963 8026 "solver.ml" 248 7963 8027
+type(
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list -> (Term.pterm * int) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"solver.ml" 248 7963 8027 "solver.ml" 248 7963 8031
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 231 7365 7402 "solver.ml" 231 7365 7406
+)
+"solver.ml" 248 7963 7979 "solver.ml" 248 7963 8032
+call(
+  stack
+)
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 249 8033 8055 "solver.ml" 249 8033 8057
+type(
+  Term.pterm
+)
+ident(
+  int_ref t3 "solver.ml" 239 7617 7648 "solver.ml" 239 7617 7650
+)
+"solver.ml" 249 8033 8049 "solver.ml" 249 8033 8058
+type(
+  Term.pterm option
+)
+"solver.ml" 249 8033 8059 "solver.ml" 249 8033 8061
+type(
+  Term.pterm
+)
+ident(
+  int_ref t2 "solver.ml" 239 7617 7644 "solver.ml" 239 7617 7646
+)
+"solver.ml" 247 7917 7931 "solver.ml" 249 8033 8061
+call(
+  tail
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 242 7740 7750 "solver.ml" 250 8062 8075
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 241 7720 7730 "solver.ml" 250 8062 8076
+type(
+  unit -> Lf_proof.lf_proof option
+)
+"solver.ml" 251 8077 8092 "solver.ml" 251 8077 8093
+type(
+  unit
+)
+"solver.ml" 252 8097 8107 "solver.ml" 252 8097 8124
+type(
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref solve1_internal_s "solver.ml" 90 2212 2220 "solver.ml" 90 2212 2237
+)
+"solver.ml" 252 8097 8126 "solver.ml" 252 8097 8130
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 231 7365 7387 "solver.ml" 231 7365 7391
+)
+"solver.ml" 252 8097 8130 "solver.ml" 252 8097 8131
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 252 8097 8131 "solver.ml" 252 8097 8132
+type(
+  int
+)
+"solver.ml" 252 8097 8125 "solver.ml" 252 8097 8133
+type(
+  int
+)
+"solver.ml" 252 8097 8134 "solver.ml" 252 8097 8138
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 231 7365 7392 "solver.ml" 231 7365 7396
+)
+"solver.ml" 253 8139 8153 "solver.ml" 253 8139 8155
+type(
+  Term.pterm
+)
+ident(
+  int_ref t3 "solver.ml" 239 7617 7648 "solver.ml" 239 7617 7650
+)
+"solver.ml" 253 8139 8156 "solver.ml" 253 8139 8160
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 231 7365 7387 "solver.ml" 231 7365 7391
+)
+"solver.ml" 253 8139 8152 "solver.ml" 253 8139 8161
+type(
+  Term.pterm * int
+)
+"solver.ml" 253 8139 8163 "solver.ml" 253 8139 8168
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant1t "solver.ml" 235 7500 7513 "solver.ml" 235 7500 7518
+)
+"solver.ml" 253 8139 8152 "solver.ml" 253 8139 8168
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 253 8139 8168 "solver.ml" 253 8139 8169
+type(
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list -> (Term.pterm * int) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"solver.ml" 253 8139 8169 "solver.ml" 253 8139 8173
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 231 7365 7402 "solver.ml" 231 7365 7406
+)
+"solver.ml" 253 8139 8151 "solver.ml" 253 8139 8174
+call(
+  stack
+)
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 253 8139 8175 "solver.ml" 253 8139 8179
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "solver.ml" 231 7365 7407 "solver.ml" 231 7365 7411
+)
+"solver.ml" 253 8139 8180 "solver.ml" 253 8139 8184
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "solver.ml" 231 7365 7412 "solver.ml" 231 7365 7416
+)
+"solver.ml" 252 8097 8107 "solver.ml" 253 8139 8184
+call(
+  tail
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 251 8077 8087 "solver.ml" 253 8139 8185
+type(
+  unit -> Lf_proof.lf_proof option
+)
+"solver.ml" 240 7658 7668 "solver.ml" 253 8139 8185
+call(
+  tail
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 254 8186 8194 "solver.ml" 254 8186 8195
+type(
+  Term.pterm * int
+)
+"solver.ml" 254 8186 8199 "solver.ml" 254 8186 8203
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 238 7588 7594 "solver.ml" 255 8204 8213
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 237 7572 7578 "solver.ml" 255 8204 8214
+type(
+  unit -> Lf_proof.lf_proof option
+)
+"solver.ml" 256 8215 8226 "solver.ml" 256 8215 8227
+type(
+  unit
+)
+"solver.ml" 257 8231 8237 "solver.ml" 257 8231 8254
+type(
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref solve2_internal_a "solver.ml" 231 7365 7369 "solver.ml" 231 7365 7386
+)
+"solver.ml" 257 8231 8255 "solver.ml" 257 8231 8259
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 231 7365 7387 "solver.ml" 231 7365 7391
+)
+"solver.ml" 257 8231 8260 "solver.ml" 257 8231 8264
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 231 7365 7392 "solver.ml" 231 7365 7396
+)
+"solver.ml" 257 8231 8265 "solver.ml" 257 8231 8270
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant1t "solver.ml" 235 7500 7513 "solver.ml" 235 7500 7518
+)
+"solver.ml" 257 8231 8272 "solver.ml" 257 8231 8277
+type(
+  Term.pterm * int
+)
+ident(
+  int_ref ant1h "solver.ml" 235 7500 7504 "solver.ml" 235 7500 7509
+)
+"solver.ml" 257 8231 8279 "solver.ml" 257 8231 8283
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 231 7365 7402 "solver.ml" 231 7365 7406
+)
+"solver.ml" 257 8231 8271 "solver.ml" 257 8231 8284
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 257 8231 8285 "solver.ml" 257 8231 8289
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "solver.ml" 231 7365 7407 "solver.ml" 231 7365 7411
+)
+"solver.ml" 257 8231 8290 "solver.ml" 257 8231 8294
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "solver.ml" 231 7365 7412 "solver.ml" 231 7365 7416
+)
+"solver.ml" 257 8231 8237 "solver.ml" 257 8231 8294
+call(
+  tail
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 256 8215 8221 "solver.ml" 257 8231 8295
+type(
+  unit -> Lf_proof.lf_proof option
+)
+"solver.ml" 236 7522 7528 "solver.ml" 257 8231 8295
+call(
+  tail
+)
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 233 7461 7463 "solver.ml" 258 8296 8301
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 232 7419 7421 "solver.ml" 258 8296 8301
+type(
+  Lf_proof.lf_proof option
+)
+"solver.ml" 260 8303 8307 "solver.ml" 260 8303 8312
+type(
+  int -> Term.pterm -> Lf_proof.lf_proof option
+)
+ident(
+  def solve "solver.ml" 261 8322 8358 "solver.ml" 1 0 -1
+)
+"solver.ml" 260 8303 8313 "solver.ml" 260 8303 8317
+type(
+  int
+)
+ident(
+  def pnum "solver.ml" 260 8303 8318 "solver.ml" 261 8322 8358
+)
+"solver.ml" 260 8303 8318 "solver.ml" 260 8303 8319
+type(
+  Term.pterm
+)
+ident(
+  def p "solver.ml" 261 8322 8324 "solver.ml" 261 8322 8358
+)
+"solver.ml" 261 8322 8324 "solver.ml" 261 8322 8341
+type(
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Lf_proof.lf_proof option
+)
+ident(
+  int_ref solve1_internal_s "solver.ml" 90 2212 2220 "solver.ml" 90 2212 2237
+)
+"solver.ml" 261 8322 8342 "solver.ml" 261 8322 8343
+type(
+  int
+)
+"solver.ml" 261 8322 8344 "solver.ml" 261 8322 8348
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 260 8303 8313 "solver.ml" 260 8303 8317
+)
+"solver.ml" 261 8322 8349 "solver.ml" 261 8322 8351
+type(
+  (Term.pterm * int) list
+)
+"solver.ml" 261 8322 8352 "solver.ml" 261 8322 8356
+type(
+  Term.pterm option
+)
+"solver.ml" 261 8322 8357 "solver.ml" 261 8322 8358
+type(
+  Term.pterm
+)
+ident(
+  int_ref p "solver.ml" 260 8303 8318 "solver.ml" 260 8303 8319
+)
+"solver.ml" 261 8322 8324 "solver.ml" 261 8322 8358
+call(
+  tail
+)
+type(
+  Lf_proof.lf_proof option
+)

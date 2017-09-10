@@ -1,0 +1,520 @@
+"test.ml" 7 140 144 "test.ml" 7 140 149
+type(
+  string -> Term.wff
+)
+ident(
+  def parse "test.ml" 10 208 208 "test.ml" 1 0 -1
+)
+"test.ml" 7 140 150 "test.ml" 7 140 153
+type(
+  string
+)
+ident(
+  def str "test.ml" 8 156 158 "test.ml" 8 156 206
+)
+"test.ml" 8 156 158 "test.ml" 8 156 169
+type(
+  (Lexing.lexbuf -> Parser.token) -> Lexing.lexbuf -> Term.wff
+)
+ident(
+  ext_ref Parser.main
+)
+"test.ml" 8 156 170 "test.ml" 8 156 181
+type(
+  Lexing.lexbuf -> Parser.token
+)
+ident(
+  ext_ref Lexer.token
+)
+"test.ml" 8 156 183 "test.ml" 8 156 201
+type(
+  string -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_string
+)
+"test.ml" 8 156 202 "test.ml" 8 156 205
+type(
+  string
+)
+ident(
+  int_ref str "test.ml" 7 140 150 "test.ml" 7 140 153
+)
+"test.ml" 8 156 182 "test.ml" 8 156 206
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"test.ml" 8 156 158 "test.ml" 8 156 206
+call(
+  tail
+)
+type(
+  Term.wff
+)
+"test.ml" 10 208 212 "test.ml" 10 208 223
+type(
+  string -> bool
+)
+ident(
+  def start_solve "test.ml" 16 335 335 "test.ml" 1 0 -1
+)
+"test.ml" 10 208 224 "test.ml" 10 208 225
+type(
+  string
+)
+ident(
+  def p "test.ml" 11 228 230 "test.ml" 14 310 333
+)
+"test.ml" 11 228 234 "test.ml" 11 228 235
+type(
+  Term.wff
+)
+ident(
+  def p "test.ml" 12 249 251 "test.ml" 14 310 333
+)
+"test.ml" 11 228 238 "test.ml" 11 228 243
+type(
+  string -> Term.wff
+)
+ident(
+  int_ref parse "test.ml" 7 140 144 "test.ml" 7 140 149
+)
+"test.ml" 11 228 244 "test.ml" 11 228 245
+type(
+  string
+)
+ident(
+  int_ref p "test.ml" 10 208 224 "test.ml" 10 208 225
+)
+"test.ml" 11 228 238 "test.ml" 11 228 245
+call(
+  stack
+)
+type(
+  Term.wff
+)
+"test.ml" 12 249 256 "test.ml" 12 249 257
+type(
+  Term.wffi
+)
+ident(
+  def p "test.ml" 13 287 289 "test.ml" 14 310 333
+)
+"test.ml" 12 249 258 "test.ml" 12 249 261
+type(
+  Term.name_env
+)
+ident(
+  def env "test.ml" 13 287 289 "test.ml" 14 310 333
+)
+"test.ml" 12 249 262 "test.ml" 12 249 265
+type(
+  int
+)
+ident(
+  def num "test.ml" 13 287 289 "test.ml" 14 310 333
+)
+"test.ml" 12 249 255 "test.ml" 12 249 266
+type(
+  Term.wffi * Term.name_env * int
+)
+"test.ml" 12 249 269 "test.ml" 12 249 281
+type(
+  Term.wff -> Term.wffi * Term.name_env * int
+)
+ident(
+  ext_ref Term.convert_name
+)
+"test.ml" 12 249 282 "test.ml" 12 249 283
+type(
+  Term.wff
+)
+ident(
+  int_ref p "test.ml" 11 228 234 "test.ml" 11 228 235
+)
+"test.ml" 12 249 269 "test.ml" 12 249 283
+call(
+  stack
+)
+type(
+  Term.wffi * Term.name_env * int
+)
+"test.ml" 13 287 293 "test.ml" 13 287 295
+type(
+  Term.swffi
+)
+ident(
+  def p' "test.ml" 14 310 312 "test.ml" 14 310 333
+)
+"test.ml" 13 287 298 "test.ml" 13 287 304
+type(
+  Term.wffi -> Term.swffi
+)
+ident(
+  ext_ref Term.swffif
+)
+"test.ml" 13 287 305 "test.ml" 13 287 306
+type(
+  Term.wffi
+)
+ident(
+  int_ref p "test.ml" 12 249 256 "test.ml" 12 249 257
+)
+"test.ml" 13 287 298 "test.ml" 13 287 306
+call(
+  stack
+)
+type(
+  Term.swffi
+)
+"test.ml" 14 310 312 "test.ml" 14 310 326
+type(
+  int -> Term.swffi -> bool
+)
+ident(
+  ext_ref Tb_proof.solve
+)
+"test.ml" 14 310 327 "test.ml" 14 310 330
+type(
+  int
+)
+ident(
+  int_ref num "test.ml" 12 249 262 "test.ml" 12 249 265
+)
+"test.ml" 14 310 331 "test.ml" 14 310 333
+type(
+  Term.swffi
+)
+ident(
+  int_ref p' "test.ml" 13 287 293 "test.ml" 13 287 295
+)
+"test.ml" 14 310 312 "test.ml" 14 310 333
+call(
+  tail
+)
+type(
+  bool
+)
+"test.ml" 13 287 289 "test.ml" 14 310 333
+type(
+  bool
+)
+"test.ml" 12 249 251 "test.ml" 14 310 333
+type(
+  bool
+)
+"test.ml" 11 228 230 "test.ml" 14 310 333
+type(
+  bool
+)
+"test.ml" 16 335 339 "test.ml" 16 335 349
+type(
+  string -> bool
+)
+ident(
+  def test_solve "test.ml" 22 444 444 "test.ml" 1 0 -1
+)
+"test.ml" 16 335 350 "test.ml" 16 335 353
+type(
+  string
+)
+ident(
+  def str "test.ml" 17 356 358 "test.ml" 19 421 441
+)
+"test.ml" 17 356 362 "test.ml" 17 356 365
+type(
+  Term.wff
+)
+ident(
+  def wff "test.ml" 18 381 383 "test.ml" 19 421 441
+)
+"test.ml" 17 356 368 "test.ml" 17 356 373
+type(
+  string -> Term.wff
+)
+ident(
+  int_ref parse "test.ml" 7 140 144 "test.ml" 7 140 149
+)
+"test.ml" 17 356 374 "test.ml" 17 356 377
+type(
+  string
+)
+ident(
+  int_ref str "test.ml" 16 335 350 "test.ml" 16 335 353
+)
+"test.ml" 17 356 368 "test.ml" 17 356 377
+call(
+  stack
+)
+type(
+  Term.wff
+)
+"test.ml" 18 381 388 "test.ml" 18 381 389
+type(
+  Term.wffi
+)
+ident(
+  def t "test.ml" 19 421 423 "test.ml" 19 421 441
+)
+"test.ml" 18 381 390 "test.ml" 18 381 393
+type(
+  Term.name_env
+)
+ident(
+  def env "test.ml" 19 421 423 "test.ml" 19 421 441
+)
+"test.ml" 18 381 394 "test.ml" 18 381 397
+type(
+  int
+)
+ident(
+  def num "test.ml" 19 421 423 "test.ml" 19 421 441
+)
+"test.ml" 18 381 387 "test.ml" 18 381 398
+type(
+  Term.wffi * Term.name_env * int
+)
+"test.ml" 18 381 401 "test.ml" 18 381 413
+type(
+  Term.wff -> Term.wffi * Term.name_env * int
+)
+ident(
+  ext_ref Term.convert_name
+)
+"test.ml" 18 381 414 "test.ml" 18 381 417
+type(
+  Term.wff
+)
+ident(
+  int_ref wff "test.ml" 17 356 362 "test.ml" 17 356 365
+)
+"test.ml" 18 381 401 "test.ml" 18 381 417
+call(
+  stack
+)
+type(
+  Term.wffi * Term.name_env * int
+)
+"test.ml" 19 421 423 "test.ml" 19 421 435
+type(
+  int -> Term.wffi -> bool
+)
+ident(
+  ext_ref Solver.solve
+)
+"test.ml" 19 421 436 "test.ml" 19 421 439
+type(
+  int
+)
+ident(
+  int_ref num "test.ml" 18 381 394 "test.ml" 18 381 397
+)
+"test.ml" 19 421 440 "test.ml" 19 421 441
+type(
+  Term.wffi
+)
+ident(
+  int_ref t "test.ml" 18 381 388 "test.ml" 18 381 389
+)
+"test.ml" 19 421 423 "test.ml" 19 421 441
+call(
+  tail
+)
+type(
+  bool
+)
+"test.ml" 18 381 383 "test.ml" 19 421 441
+type(
+  bool
+)
+"test.ml" 17 356 358 "test.ml" 19 421 441
+type(
+  bool
+)
+"test.ml" 22 444 448 "test.ml" 22 444 465
+type(
+  Term.wff list -> Term.swffi list
+)
+ident(
+  def convert_name_list "test.ml" 27 597 602 "test.ml" 1 0 -1
+)
+"test.ml" 22 444 466 "test.ml" 22 444 467
+type(
+  Term.wff list
+)
+ident(
+  def l "test.ml" 23 470 472 "test.ml" 27 597 602
+)
+"test.ml" 23 470 476 "test.ml" 23 470 477
+type(
+  (Term.wffi * Term.name_env * int) list
+)
+ident(
+  def s "test.ml" 24 507 509 "test.ml" 27 597 602
+)
+"test.ml" 23 470 480 "test.ml" 23 470 488
+type(
+  (Term.wff -> Term.wffi * Term.name_env * int) ->
+  Term.wff list -> (Term.wffi * Term.name_env * int) list
+)
+ident(
+  ext_ref List.map
+)
+"test.ml" 23 470 489 "test.ml" 23 470 501
+type(
+  Term.wff -> Term.wffi * Term.name_env * int
+)
+ident(
+  ext_ref Term.convert_name
+)
+"test.ml" 23 470 502 "test.ml" 23 470 503
+type(
+  Term.wff list
+)
+ident(
+  int_ref l "test.ml" 22 444 466 "test.ml" 22 444 467
+)
+"test.ml" 23 470 480 "test.ml" 23 470 503
+call(
+  stack
+)
+type(
+  (Term.wffi * Term.name_env * int) list
+)
+"test.ml" 24 507 517 "test.ml" 24 507 518
+type(
+  (Term.wffi * 'a * 'b) list -> Term.swffi list
+)
+ident(
+  def f "test.ml" 24 507 509 "test.ml" 27 597 602
+)
+"test.ml" 24 507 519 "test.ml" 24 507 520
+type(
+  (Term.wffi * 'a * 'b) list
+)
+ident(
+  def s "test.ml" 24 507 523 "test.ml" 26 551 593
+)
+"test.ml" 24 507 529 "test.ml" 24 507 530
+type(
+  (Term.wffi * 'a * 'b) list
+)
+ident(
+  int_ref s "test.ml" 24 507 519 "test.ml" 24 507 520
+)
+"test.ml" 25 536 542 "test.ml" 25 536 544
+type(
+  (Term.wffi * 'a * 'b) list
+)
+"test.ml" 25 536 548 "test.ml" 25 536 550
+type(
+  Term.swffi list
+)
+"test.ml" 26 551 558 "test.ml" 26 551 559
+type(
+  Term.wffi
+)
+ident(
+  def p "test.ml" 26 551 577 "test.ml" 26 551 593
+)
+"test.ml" 26 551 560 "test.ml" 26 551 563
+type(
+  'a
+)
+ident(
+  def env "test.ml" 26 551 577 "test.ml" 26 551 593
+)
+"test.ml" 26 551 564 "test.ml" 26 551 567
+type(
+  'b
+)
+ident(
+  def num "test.ml" 26 551 577 "test.ml" 26 551 593
+)
+"test.ml" 26 551 557 "test.ml" 26 551 568
+type(
+  Term.wffi * 'a * 'b
+)
+"test.ml" 26 551 572 "test.ml" 26 551 573
+type(
+  (Term.wffi * 'a * 'b) list
+)
+ident(
+  def l "test.ml" 26 551 577 "test.ml" 26 551 593
+)
+"test.ml" 26 551 557 "test.ml" 26 551 573
+type(
+  (Term.wffi * 'a * 'b) list
+)
+"test.ml" 26 551 583 "test.ml" 26 551 586
+type(
+  Term.wffi
+)
+ident(
+  int_ref p "test.ml" 26 551 558 "test.ml" 26 551 559
+)
+"test.ml" 26 551 577 "test.ml" 26 551 586
+type(
+  Term.swffi
+)
+"test.ml" 26 551 590 "test.ml" 26 551 591
+type(
+  (Term.wffi * 'a * 'b) list -> Term.swffi list
+)
+ident(
+  int_ref f "test.ml" 24 507 517 "test.ml" 24 507 518
+)
+"test.ml" 26 551 592 "test.ml" 26 551 593
+type(
+  (Term.wffi * 'a * 'b) list
+)
+ident(
+  int_ref l "test.ml" 26 551 572 "test.ml" 26 551 573
+)
+"test.ml" 26 551 590 "test.ml" 26 551 593
+call(
+  stack
+)
+type(
+  Term.swffi list
+)
+"test.ml" 26 551 577 "test.ml" 26 551 593
+type(
+  Term.swffi list
+)
+"test.ml" 24 507 523 "test.ml" 26 551 593
+type(
+  Term.swffi list
+)
+"test.ml" 27 597 599 "test.ml" 27 597 600
+type(
+  (Term.wffi * Term.name_env * int) list -> Term.swffi list
+)
+ident(
+  int_ref f "test.ml" 24 507 517 "test.ml" 24 507 518
+)
+"test.ml" 27 597 601 "test.ml" 27 597 602
+type(
+  (Term.wffi * Term.name_env * int) list
+)
+ident(
+  int_ref s "test.ml" 23 470 476 "test.ml" 23 470 477
+)
+"test.ml" 27 597 599 "test.ml" 27 597 602
+call(
+  tail
+)
+type(
+  Term.swffi list
+)
+"test.ml" 24 507 509 "test.ml" 27 597 602
+type(
+  Term.swffi list
+)
+"test.ml" 23 470 472 "test.ml" 27 597 602
+type(
+  Term.swffi list
+)

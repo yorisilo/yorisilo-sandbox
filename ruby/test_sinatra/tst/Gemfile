@@ -1,0 +1,11 @@
+source "https://rubygems.org"
+ruby "2.2.2"
+gem 'sinatra'
+gem 'sinatra-contrib'
+gem 'foreman'
+
+group :development, :test do
+  gem 'what_methods'
+  gem 'wirb'
+  gem 'irb-history'
+end

@@ -1,0 +1,321 @@
+"main.ml" 9 49 53 "main.ml" 9 49 55
+type(
+  unit
+)
+"main.ml" 10 58 64 "main.ml" 10 58 70
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "main.ml" 11 102 104 "main.ml" 24 540 545
+)
+"main.ml" 10 58 73 "main.ml" 10 58 92
+type(
+  in_channel -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_channel
+)
+"main.ml" 10 58 93 "main.ml" 10 58 98
+type(
+  in_channel
+)
+ident(
+  ext_ref Pervasives.stdin
+)
+"main.ml" 10 58 73 "main.ml" 10 58 98
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"main.ml" 12 114 122 "main.ml" 12 114 124
+type(
+  Term.wff
+)
+ident(
+  def tn "main.ml" 14 218 222 "main.ml" 20 446 466
+)
+"main.ml" 12 114 127 "main.ml" 12 114 138
+type(
+  (Lexing.lexbuf -> Parser.token) -> Lexing.lexbuf -> Term.wff
+)
+ident(
+  ext_ref Parser.main
+)
+"main.ml" 12 114 139 "main.ml" 12 114 150
+type(
+  Lexing.lexbuf -> Parser.token
+)
+ident(
+  ext_ref Lexer.token
+)
+"main.ml" 12 114 151 "main.ml" 12 114 157
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "main.ml" 10 58 64 "main.ml" 10 58 70
+)
+"main.ml" 12 114 127 "main.ml" 12 114 157
+call(
+  stack
+)
+type(
+  Term.wff
+)
+"main.ml" 14 218 227 "main.ml" 14 218 228
+type(
+  Term.wffi
+)
+ident(
+  def t "main.ml" 16 318 322 "main.ml" 20 446 466
+)
+"main.ml" 14 218 229 "main.ml" 14 218 232
+type(
+  Term.name_env
+)
+ident(
+  def env "main.ml" 16 318 322 "main.ml" 20 446 466
+)
+"main.ml" 14 218 233 "main.ml" 14 218 236
+type(
+  int
+)
+ident(
+  def num "main.ml" 16 318 322 "main.ml" 20 446 466
+)
+"main.ml" 14 218 226 "main.ml" 14 218 237
+type(
+  Term.wffi * Term.name_env * int
+)
+"main.ml" 14 218 240 "main.ml" 14 218 252
+type(
+  Term.wff -> Term.wffi * Term.name_env * int
+)
+ident(
+  ext_ref Term.convert_name
+)
+"main.ml" 14 218 253 "main.ml" 14 218 255
+type(
+  Term.wff
+)
+ident(
+  int_ref tn "main.ml" 12 114 122 "main.ml" 12 114 124
+)
+"main.ml" 14 218 240 "main.ml" 14 218 255
+call(
+  stack
+)
+type(
+  Term.wffi * Term.name_env * int
+)
+"main.ml" 16 318 326 "main.ml" 16 318 327
+type(
+  Term.swffi
+)
+ident(
+  def t "main.ml" 17 342 346 "main.ml" 20 446 466
+)
+"main.ml" 16 318 330 "main.ml" 16 318 336
+type(
+  Term.wffi -> Term.swffi
+)
+ident(
+  ext_ref Term.swffif
+)
+"main.ml" 16 318 337 "main.ml" 16 318 338
+type(
+  Term.wffi
+)
+ident(
+  int_ref t "main.ml" 14 218 227 "main.ml" 14 218 228
+)
+"main.ml" 16 318 330 "main.ml" 16 318 338
+call(
+  stack
+)
+type(
+  Term.swffi
+)
+"main.ml" 17 342 350 "main.ml" 17 342 354
+type(
+  float
+)
+ident(
+  def time "main.ml" 18 372 376 "main.ml" 20 446 466
+)
+"main.ml" 17 342 357 "main.ml" 17 342 365
+type(
+  unit -> float
+)
+ident(
+  ext_ref Sys.time
+)
+"main.ml" 17 342 366 "main.ml" 17 342 368
+type(
+  unit
+)
+"main.ml" 17 342 357 "main.ml" 17 342 368
+type(
+  float
+)
+"main.ml" 18 372 376 "main.ml" 18 372 382
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"main.ml" 18 372 384 "main.ml" 18 372 398
+type(
+  int -> Term.swffi -> unit
+)
+ident(
+  ext_ref Tb_proof.solve
+)
+"main.ml" 18 372 399 "main.ml" 18 372 402
+type(
+  int
+)
+ident(
+  int_ref num "main.ml" 14 218 233 "main.ml" 14 218 236
+)
+"main.ml" 18 372 403 "main.ml" 18 372 404
+type(
+  Term.swffi
+)
+ident(
+  int_ref t "main.ml" 16 318 326 "main.ml" 16 318 327
+)
+"main.ml" 18 372 383 "main.ml" 18 372 405
+call(
+  stack
+)
+type(
+  unit
+)
+"main.ml" 18 372 376 "main.ml" 18 372 405
+type(
+  unit
+)
+"main.ml" 19 407 411 "main.ml" 19 407 422
+type(
+  float -> unit
+)
+ident(
+  ext_ref Format.print_float
+)
+"main.ml" 19 407 424 "main.ml" 19 407 432
+type(
+  unit -> float
+)
+ident(
+  ext_ref Sys.time
+)
+"main.ml" 19 407 433 "main.ml" 19 407 435
+type(
+  unit
+)
+"main.ml" 19 407 424 "main.ml" 19 407 435
+type(
+  float
+)
+"main.ml" 19 407 436 "main.ml" 19 407 438
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"main.ml" 19 407 439 "main.ml" 19 407 443
+type(
+  float
+)
+ident(
+  int_ref time "main.ml" 17 342 350 "main.ml" 17 342 354
+)
+"main.ml" 19 407 423 "main.ml" 19 407 444
+type(
+  float
+)
+"main.ml" 19 407 411 "main.ml" 19 407 444
+call(
+  stack
+)
+type(
+  unit
+)
+"main.ml" 20 446 450 "main.ml" 20 446 463
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Format.print_newline
+)
+"main.ml" 20 446 464 "main.ml" 20 446 466
+type(
+  unit
+)
+"main.ml" 20 446 450 "main.ml" 20 446 466
+call(
+  stack
+)
+type(
+  unit
+)
+"main.ml" 19 407 411 "main.ml" 20 446 466
+type(
+  unit
+)
+"main.ml" 18 372 376 "main.ml" 20 446 466
+type(
+  unit
+)
+"main.ml" 17 342 346 "main.ml" 20 446 466
+type(
+  unit
+)
+"main.ml" 16 318 322 "main.ml" 20 446 466
+type(
+  unit
+)
+"main.ml" 14 218 222 "main.ml" 20 446 466
+type(
+  unit
+)
+"main.ml" 12 114 118 "main.ml" 20 446 466
+type(
+  unit
+)
+"main.ml" 22 476 484 "main.ml" 22 476 503
+type(
+  exn
+)
+"main.ml" 23 507 516 "main.ml" 23 507 523
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"main.ml" 23 507 524 "main.ml" 23 507 539
+type(
+  (unit, Format.formatter, unit) format
+)
+"main.ml" 23 507 516 "main.ml" 23 507 539
+call(
+  stack
+)
+type(
+  unit
+)
+"main.ml" 11 102 104 "main.ml" 24 540 545
+type(
+  unit
+)
+"main.ml" 10 58 60 "main.ml" 24 540 545
+type(
+  unit
+)

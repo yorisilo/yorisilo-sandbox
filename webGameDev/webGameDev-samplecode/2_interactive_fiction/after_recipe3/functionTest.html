@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<title>即時関数テスト</title>
+
+<script>
+var testObject = (function(){
+	var myProp = "テスト";
+	var myAction = function(str){
+		console.log("アクション: " + str);
+		}
+	return {
+		myProp : myProp,
+		myAction : myAction
+	}
+	})();
+
+console.log(testObject.myProp);
+testObject.myAction("大魔王");
+
+</script>
+</head>
+
+<body>
+</body>
+</html>

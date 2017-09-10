@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8" />
+    <title>palette テスト</title>
+    
+	</head>
+  <body>
+    <p id="info"></p>
+    
+    <script>
+    	// var shades = 204; // red OK, green OK blue NG
+    	var shades = 300; // 300でもgreenは"rgb(254,200,52)"
+      var initialWallColors = [[85, 68, 102], 
+                               [255, 53, 91], 
+                               [255, 201, 52], 
+                               [118, 204, 159]];
+      var walls = [];
+      for(var i = 0; i < initialWallColors.length; i++){
+        walls[i] = [];
+        for(var j = 0; j < shades; j++){
+          var red = Math.round(initialWallColors[i][0] * j / shades); 
+          var green = Math.round(initialWallColors[i][1] * j / shades);
+          var blue =  Math.round(initialWallColors[i][2] * j / shades);
+          var color = "rgb("+red+","+green+","+blue+")";
+          walls[i].push(color);
+        };
+      };
+      console.log(walls[3]);
+    </script>
+  </body>
+</html>

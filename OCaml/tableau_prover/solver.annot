@@ -1,0 +1,4538 @@
+"solver.ml" 16 315 319 "solver.ml" 16 315 335
+type(
+  bool
+)
+ident(
+  def do_debug_sequent "solver.ml" 18 344 344 "solver.ml" 1 0 -1
+)
+"solver.ml" 16 315 338 "solver.ml" 16 315 342
+type(
+  bool
+)
+"solver.ml" 18 344 348 "solver.ml" 18 344 361
+type(
+  string ->
+  (Term.wffi * 'a) list ->
+  (Term.wffi * 'b) list -> Term.wffi option -> Term.wffi -> unit
+)
+ident(
+  def debug_sequent "solver.ml" 48 1188 1188 "solver.ml" 1 0 -1
+)
+"solver.ml" 18 344 362 "solver.ml" 18 344 366
+type(
+  string
+)
+ident(
+  def name "solver.ml" 18 344 367 "solver.ml" 36 979 992
+)
+"solver.ml" 18 344 367 "solver.ml" 18 344 371
+type(
+  (Term.wffi * 'a) list
+)
+ident(
+  def ant1 "solver.ml" 18 344 372 "solver.ml" 36 979 992
+)
+"solver.ml" 18 344 372 "solver.ml" 18 344 376
+type(
+  (Term.wffi * 'b) list
+)
+ident(
+  def ant2 "solver.ml" 18 344 377 "solver.ml" 36 979 992
+)
+"solver.ml" 18 344 377 "solver.ml" 18 344 381
+type(
+  Term.wffi option
+)
+ident(
+  def sucL "solver.ml" 18 344 382 "solver.ml" 36 979 992
+)
+"solver.ml" 18 344 382 "solver.ml" 18 344 386
+type(
+  Term.wffi
+)
+ident(
+  def sucR "solver.ml" 19 389 391 "solver.ml" 36 979 992
+)
+"solver.ml" 19 389 394 "solver.ml" 19 389 410
+type(
+  bool
+)
+ident(
+  int_ref do_debug_sequent "solver.ml" 16 315 319 "solver.ml" 16 315 335
+)
+"solver.ml" 20 422 426 "solver.ml" 20 422 440
+type(
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"solver.ml" 20 422 441 "solver.ml" 20 422 447
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"solver.ml" 20 422 448 "solver.ml" 20 422 452
+type(
+  string
+)
+ident(
+  int_ref name "solver.ml" 18 344 362 "solver.ml" 18 344 366
+)
+"solver.ml" 20 422 426 "solver.ml" 20 422 452
+call(
+  stack
+)
+type(
+  unit
+)
+"solver.ml" 21 454 458 "solver.ml" 21 454 467
+type(
+  (Term.wffi * 'b -> unit) -> (Term.wffi * 'b) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"solver.ml" 21 454 474 "solver.ml" 21 454 475
+type(
+  Term.wffi
+)
+ident(
+  def x "solver.ml" 21 454 482 "solver.ml" 22 504 536
+)
+"solver.ml" 21 454 476 "solver.ml" 21 454 477
+type(
+  'b
+)
+"solver.ml" 21 454 473 "solver.ml" 21 454 478
+type(
+  Term.wffi * 'b
+)
+"solver.ml" 21 454 482 "solver.ml" 21 454 496
+type(
+  ((Format.formatter -> Term.wffi -> unit) -> Term.wffi -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Term.wffi -> unit) -> Term.wffi -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"solver.ml" 21 454 497 "solver.ml" 21 454 503
+type(
+  ((Format.formatter -> Term.wffi -> unit) -> Term.wffi -> unit,
+   Format.formatter, unit)
+  format
+)
+"solver.ml" 22 504 511 "solver.ml" 22 504 521
+type(
+  Term.name_env -> int -> Format.formatter -> Term.wffi -> unit
+)
+ident(
+  ext_ref Term.print_wffi
+)
+"solver.ml" 22 504 522 "solver.ml" 22 504 531
+type(
+  Term.name_env
+)
+ident(
+  ext_ref Term.empty_env
+)
+"solver.ml" 22 504 532 "solver.ml" 22 504 533
+type(
+  int
+)
+"solver.ml" 22 504 510 "solver.ml" 22 504 534
+call(
+  stack
+)
+type(
+  Format.formatter -> Term.wffi -> unit
+)
+"solver.ml" 22 504 535 "solver.ml" 22 504 536
+type(
+  Term.wffi
+)
+ident(
+  int_ref x "solver.ml" 21 454 474 "solver.ml" 21 454 475
+)
+"solver.ml" 21 454 482 "solver.ml" 22 504 536
+call(
+  tail
+)
+type(
+  unit
+)
+"solver.ml" 21 454 468 "solver.ml" 22 504 537
+type(
+  Term.wffi * 'b -> unit
+)
+"solver.ml" 22 504 539 "solver.ml" 22 504 547
+type(
+  (Term.wffi * 'b) list -> (Term.wffi * 'b) list
+)
+ident(
+  ext_ref List.rev
+)
+"solver.ml" 22 504 548 "solver.ml" 22 504 552
+type(
+  (Term.wffi * 'b) list
+)
+ident(
+  int_ref ant2 "solver.ml" 18 344 372 "solver.ml" 18 344 376
+)
+"solver.ml" 22 504 538 "solver.ml" 22 504 553
+call(
+  stack
+)
+type(
+  (Term.wffi * 'b) list
+)
+"solver.ml" 21 454 458 "solver.ml" 22 504 553
+call(
+  stack
+)
+type(
+  unit
+)
+"solver.ml" 23 555 559 "solver.ml" 23 555 573
+type(
+  (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"solver.ml" 23 555 574 "solver.ml" 23 555 579
+type(
+  (unit, Format.formatter, unit) format
+)
+"solver.ml" 23 555 559 "solver.ml" 23 555 579
+call(
+  stack
+)
+type(
+  unit
+)
+"solver.ml" 24 581 585 "solver.ml" 24 581 594
+type(
+  (Term.wffi * 'a -> unit) -> (Term.wffi * 'a) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"solver.ml" 24 581 601 "solver.ml" 24 581 602
+type(
+  Term.wffi
+)
+ident(
+  def x "solver.ml" 24 581 609 "solver.ml" 25 631 663
+)
+"solver.ml" 24 581 603 "solver.ml" 24 581 604
+type(
+  'a
+)
+"solver.ml" 24 581 600 "solver.ml" 24 581 605
+type(
+  Term.wffi * 'a
+)
+"solver.ml" 24 581 609 "solver.ml" 24 581 623
+type(
+  ((Format.formatter -> Term.wffi -> unit) -> Term.wffi -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Term.wffi -> unit) -> Term.wffi -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"solver.ml" 24 581 624 "solver.ml" 24 581 630
+type(
+  ((Format.formatter -> Term.wffi -> unit) -> Term.wffi -> unit,
+   Format.formatter, unit)
+  format
+)
+"solver.ml" 25 631 638 "solver.ml" 25 631 648
+type(
+  Term.name_env -> int -> Format.formatter -> Term.wffi -> unit
+)
+ident(
+  ext_ref Term.print_wffi
+)
+"solver.ml" 25 631 649 "solver.ml" 25 631 658
+type(
+  Term.name_env
+)
+ident(
+  ext_ref Term.empty_env
+)
+"solver.ml" 25 631 659 "solver.ml" 25 631 660
+type(
+  int
+)
+"solver.ml" 25 631 637 "solver.ml" 25 631 661
+call(
+  stack
+)
+type(
+  Format.formatter -> Term.wffi -> unit
+)
+"solver.ml" 25 631 662 "solver.ml" 25 631 663
+type(
+  Term.wffi
+)
+ident(
+  int_ref x "solver.ml" 24 581 601 "solver.ml" 24 581 602
+)
+"solver.ml" 24 581 609 "solver.ml" 25 631 663
+call(
+  tail
+)
+type(
+  unit
+)
+"solver.ml" 24 581 595 "solver.ml" 25 631 664
+type(
+  Term.wffi * 'a -> unit
+)
+"solver.ml" 25 631 665 "solver.ml" 25 631 669
+type(
+  (Term.wffi * 'a) list
+)
+ident(
+  int_ref ant1 "solver.ml" 18 344 367 "solver.ml" 18 344 371
+)
+"solver.ml" 24 581 585 "solver.ml" 25 631 669
+call(
+  stack
+)
+type(
+  unit
+)
+"solver.ml" 26 671 687 "solver.ml" 26 671 691
+type(
+  Term.wffi option
+)
+ident(
+  int_ref sucL "solver.ml" 18 344 377 "solver.ml" 18 344 381
+)
+"solver.ml" 27 697 703 "solver.ml" 27 697 707
+type(
+  Term.wffi option
+)
+"solver.ml" 28 711 719 "solver.ml" 28 711 733
+type(
+  ((Format.formatter -> Term.wffi -> unit) -> Term.wffi -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Term.wffi -> unit) -> Term.wffi -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"solver.ml" 28 711 734 "solver.ml" 28 711 743
+type(
+  ((Format.formatter -> Term.wffi -> unit) -> Term.wffi -> unit,
+   Format.formatter, unit)
+  format
+)
+"solver.ml" 29 744 755 "solver.ml" 29 744 765
+type(
+  Term.name_env -> int -> Format.formatter -> Term.wffi -> unit
+)
+ident(
+  ext_ref Term.print_wffi
+)
+"solver.ml" 29 744 766 "solver.ml" 29 744 775
+type(
+  Term.name_env
+)
+ident(
+  ext_ref Term.empty_env
+)
+"solver.ml" 29 744 776 "solver.ml" 29 744 777
+type(
+  int
+)
+"solver.ml" 29 744 754 "solver.ml" 29 744 778
+call(
+  stack
+)
+type(
+  Format.formatter -> Term.wffi -> unit
+)
+"solver.ml" 29 744 779 "solver.ml" 29 744 783
+type(
+  Term.wffi
+)
+ident(
+  int_ref sucR "solver.ml" 18 344 382 "solver.ml" 18 344 386
+)
+"solver.ml" 28 711 719 "solver.ml" 29 744 783
+call(
+  tail
+)
+type(
+  unit
+)
+"solver.ml" 30 784 795 "solver.ml" 30 784 800
+type(
+  Term.wffi
+)
+ident(
+  def sucLS "solver.ml" 31 804 812 "solver.ml" 34 931 970
+)
+"solver.ml" 30 784 790 "solver.ml" 30 784 800
+type(
+  Term.wffi option
+)
+"solver.ml" 31 804 812 "solver.ml" 31 804 826
+type(
+  ((Format.formatter -> Term.wffi -> unit) ->
+   Term.wffi ->
+   (Format.formatter -> Term.wffi -> unit) ->
+   Term.wffi -> (Format.formatter -> Term.wffi -> unit) -> Term.wffi -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Term.wffi -> unit) ->
+  Term.wffi ->
+  (Format.formatter -> Term.wffi -> unit) ->
+  Term.wffi -> (Format.formatter -> Term.wffi -> unit) -> Term.wffi -> unit
+)
+ident(
+  ext_ref Format.eprintf
+)
+"solver.ml" 31 804 827 "solver.ml" 31 804 849
+type(
+  ((Format.formatter -> Term.wffi -> unit) ->
+   Term.wffi ->
+   (Format.formatter -> Term.wffi -> unit) ->
+   Term.wffi -> (Format.formatter -> Term.wffi -> unit) -> Term.wffi -> unit,
+   Format.formatter, unit)
+  format
+)
+"solver.ml" 32 850 861 "solver.ml" 32 850 871
+type(
+  Term.name_env -> int -> Format.formatter -> Term.wffi -> unit
+)
+ident(
+  ext_ref Term.print_wffi
+)
+"solver.ml" 32 850 872 "solver.ml" 32 850 881
+type(
+  Term.name_env
+)
+ident(
+  ext_ref Term.empty_env
+)
+"solver.ml" 32 850 882 "solver.ml" 32 850 883
+type(
+  int
+)
+"solver.ml" 32 850 860 "solver.ml" 32 850 884
+call(
+  stack
+)
+type(
+  Format.formatter -> Term.wffi -> unit
+)
+"solver.ml" 32 850 885 "solver.ml" 32 850 889
+type(
+  Term.wffi
+)
+ident(
+  int_ref sucR "solver.ml" 18 344 382 "solver.ml" 18 344 386
+)
+"solver.ml" 33 890 901 "solver.ml" 33 890 911
+type(
+  Term.name_env -> int -> Format.formatter -> Term.wffi -> unit
+)
+ident(
+  ext_ref Term.print_wffi
+)
+"solver.ml" 33 890 912 "solver.ml" 33 890 921
+type(
+  Term.name_env
+)
+ident(
+  ext_ref Term.empty_env
+)
+"solver.ml" 33 890 922 "solver.ml" 33 890 923
+type(
+  int
+)
+"solver.ml" 33 890 900 "solver.ml" 33 890 924
+call(
+  stack
+)
+type(
+  Format.formatter -> Term.wffi -> unit
+)
+"solver.ml" 33 890 925 "solver.ml" 33 890 930
+type(
+  Term.wffi
+)
+ident(
+  int_ref sucLS "solver.ml" 30 784 795 "solver.ml" 30 784 800
+)
+"solver.ml" 34 931 942 "solver.ml" 34 931 952
+type(
+  Term.name_env -> int -> Format.formatter -> Term.wffi -> unit
+)
+ident(
+  ext_ref Term.print_wffi
+)
+"solver.ml" 34 931 953 "solver.ml" 34 931 962
+type(
+  Term.name_env
+)
+ident(
+  ext_ref Term.empty_env
+)
+"solver.ml" 34 931 963 "solver.ml" 34 931 964
+type(
+  int
+)
+"solver.ml" 34 931 941 "solver.ml" 34 931 965
+call(
+  stack
+)
+type(
+  Format.formatter -> Term.wffi -> unit
+)
+"solver.ml" 34 931 966 "solver.ml" 34 931 970
+type(
+  Term.wffi
+)
+ident(
+  int_ref sucR "solver.ml" 18 344 382 "solver.ml" 18 344 386
+)
+"solver.ml" 31 804 812 "solver.ml" 34 931 970
+call(
+  tail
+)
+type(
+  unit
+)
+"solver.ml" 26 671 675 "solver.ml" 35 971 978
+type(
+  unit
+)
+"solver.ml" 24 581 585 "solver.ml" 35 971 978
+type(
+  unit
+)
+"solver.ml" 23 555 559 "solver.ml" 35 971 978
+type(
+  unit
+)
+"solver.ml" 21 454 458 "solver.ml" 35 971 978
+type(
+  unit
+)
+"solver.ml" 19 389 416 "solver.ml" 36 979 984
+type(
+  unit
+)
+"solver.ml" 36 979 990 "solver.ml" 36 979 992
+type(
+  unit
+)
+"solver.ml" 19 389 391 "solver.ml" 36 979 992
+type(
+  unit
+)
+"solver.ml" 48 1188 1196 "solver.ml" 48 1188 1213
+type(
+  int ->
+  int -> (Term.wffi * int) list -> Term.wffi option -> Term.wffi -> bool
+)
+ident(
+  def solve1_internal_s "solver.ml" 48 1188 1188 "solver.ml" 1 0 -1
+)
+"solver.ml" 48 1188 1214 "solver.ml" 48 1188 1218
+type(
+  int
+)
+ident(
+  def anum "solver.ml" 48 1188 1219 "solver.ml" 58 1584 1589
+)
+"solver.ml" 48 1188 1219 "solver.ml" 48 1188 1223
+type(
+  int
+)
+ident(
+  def pnum "solver.ml" 48 1188 1224 "solver.ml" 58 1584 1589
+)
+"solver.ml" 48 1188 1224 "solver.ml" 48 1188 1227
+type(
+  (Term.wffi * int) list
+)
+ident(
+  def ant "solver.ml" 48 1188 1228 "solver.ml" 58 1584 1589
+)
+"solver.ml" 48 1188 1228 "solver.ml" 48 1188 1232
+type(
+  Term.wffi option
+)
+ident(
+  def sucL "solver.ml" 48 1188 1233 "solver.ml" 58 1584 1589
+)
+"solver.ml" 48 1188 1233 "solver.ml" 48 1188 1237
+type(
+  Term.wffi
+)
+ident(
+  def sucR "solver.ml" 49 1240 1242 "solver.ml" 58 1584 1589
+)
+"solver.ml" 49 1240 1242 "solver.ml" 49 1240 1255
+type(
+  string ->
+  (Term.wffi * int) list ->
+  (Term.wffi * '_a) list -> Term.wffi option -> Term.wffi -> unit
+)
+ident(
+  int_ref debug_sequent "solver.ml" 18 344 348 "solver.ml" 18 344 361
+)
+"solver.ml" 49 1240 1256 "solver.ml" 49 1240 1260
+type(
+  string
+)
+"solver.ml" 49 1240 1261 "solver.ml" 49 1240 1264
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant "solver.ml" 48 1188 1224 "solver.ml" 48 1188 1227
+)
+"solver.ml" 49 1240 1265 "solver.ml" 49 1240 1267
+type(
+  (Term.wffi * '_a) list
+)
+"solver.ml" 49 1240 1268 "solver.ml" 49 1240 1272
+type(
+  Term.wffi option
+)
+ident(
+  int_ref sucL "solver.ml" 48 1188 1228 "solver.ml" 48 1188 1232
+)
+"solver.ml" 49 1240 1273 "solver.ml" 49 1240 1277
+type(
+  Term.wffi
+)
+ident(
+  int_ref sucR "solver.ml" 48 1188 1233 "solver.ml" 48 1188 1237
+)
+"solver.ml" 49 1240 1242 "solver.ml" 49 1240 1277
+call(
+  stack
+)
+type(
+  unit
+)
+"solver.ml" 50 1279 1293 "solver.ml" 50 1279 1297
+type(
+  Term.wffi
+)
+ident(
+  int_ref sucR "solver.ml" 48 1188 1233 "solver.ml" 48 1188 1237
+)
+"solver.ml" 51 1303 1318 "solver.ml" 51 1303 1320
+type(
+  Term.wffi
+)
+ident(
+  def t1 "solver.ml" 52 1328 1334 "solver.ml" 52 1328 1390
+)
+"solver.ml" 51 1303 1321 "solver.ml" 51 1303 1323
+type(
+  Term.wffi
+)
+ident(
+  def t2 "solver.ml" 52 1328 1334 "solver.ml" 52 1328 1390
+)
+"solver.ml" 51 1303 1307 "solver.ml" 51 1303 1324
+type(
+  Term.wffi
+)
+"solver.ml" 52 1328 1334 "solver.ml" 52 1328 1351
+type(
+  int ->
+  int -> (Term.wffi * int) list -> Term.wffi option -> Term.wffi -> bool
+)
+ident(
+  int_ref solve1_internal_s "solver.ml" 48 1188 1196 "solver.ml" 48 1188 1213
+)
+"solver.ml" 52 1328 1353 "solver.ml" 52 1328 1357
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 48 1188 1214 "solver.ml" 48 1188 1218
+)
+"solver.ml" 52 1328 1357 "solver.ml" 52 1328 1358
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 52 1328 1358 "solver.ml" 52 1328 1359
+type(
+  int
+)
+"solver.ml" 52 1328 1352 "solver.ml" 52 1328 1360
+type(
+  int
+)
+"solver.ml" 52 1328 1361 "solver.ml" 52 1328 1365
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 48 1188 1219 "solver.ml" 48 1188 1223
+)
+"solver.ml" 52 1328 1368 "solver.ml" 52 1328 1370
+type(
+  Term.wffi
+)
+ident(
+  int_ref t1 "solver.ml" 51 1303 1318 "solver.ml" 51 1303 1320
+)
+"solver.ml" 52 1328 1371 "solver.ml" 52 1328 1375
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 48 1188 1214 "solver.ml" 48 1188 1218
+)
+"solver.ml" 52 1328 1367 "solver.ml" 52 1328 1376
+type(
+  Term.wffi * int
+)
+"solver.ml" 52 1328 1378 "solver.ml" 52 1328 1381
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant "solver.ml" 48 1188 1224 "solver.ml" 48 1188 1227
+)
+"solver.ml" 52 1328 1366 "solver.ml" 52 1328 1382
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 52 1328 1383 "solver.ml" 52 1328 1387
+type(
+  Term.wffi option
+)
+ident(
+  int_ref sucL "solver.ml" 48 1188 1228 "solver.ml" 48 1188 1232
+)
+"solver.ml" 52 1328 1388 "solver.ml" 52 1328 1390
+type(
+  Term.wffi
+)
+ident(
+  int_ref t2 "solver.ml" 51 1303 1321 "solver.ml" 51 1303 1323
+)
+"solver.ml" 52 1328 1334 "solver.ml" 52 1328 1390
+call(
+  tail
+)
+type(
+  bool
+)
+"solver.ml" 53 1391 1404 "solver.ml" 53 1391 1406
+type(
+  Term.wffi
+)
+ident(
+  def t1 "solver.ml" 54 1414 1420 "solver.ml" 55 1463 1508
+)
+"solver.ml" 53 1391 1407 "solver.ml" 53 1391 1409
+type(
+  Term.wffi
+)
+ident(
+  def t2 "solver.ml" 54 1414 1420 "solver.ml" 55 1463 1508
+)
+"solver.ml" 53 1391 1395 "solver.ml" 53 1391 1410
+type(
+  Term.wffi
+)
+"solver.ml" 54 1414 1420 "solver.ml" 54 1414 1437
+type(
+  int ->
+  int -> (Term.wffi * int) list -> Term.wffi option -> Term.wffi -> bool
+)
+ident(
+  int_ref solve1_internal_s "solver.ml" 48 1188 1196 "solver.ml" 48 1188 1213
+)
+"solver.ml" 54 1414 1438 "solver.ml" 54 1414 1442
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 48 1188 1214 "solver.ml" 48 1188 1218
+)
+"solver.ml" 54 1414 1443 "solver.ml" 54 1414 1447
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 48 1188 1219 "solver.ml" 48 1188 1223
+)
+"solver.ml" 54 1414 1448 "solver.ml" 54 1414 1451
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant "solver.ml" 48 1188 1224 "solver.ml" 48 1188 1227
+)
+"solver.ml" 54 1414 1452 "solver.ml" 54 1414 1456
+type(
+  Term.wffi option
+)
+ident(
+  int_ref sucL "solver.ml" 48 1188 1228 "solver.ml" 48 1188 1232
+)
+"solver.ml" 54 1414 1457 "solver.ml" 54 1414 1459
+type(
+  Term.wffi
+)
+ident(
+  int_ref t1 "solver.ml" 53 1391 1404 "solver.ml" 53 1391 1406
+)
+"solver.ml" 54 1414 1420 "solver.ml" 54 1414 1459
+call(
+  stack
+)
+type(
+  bool
+)
+"solver.ml" 54 1414 1460 "solver.ml" 54 1414 1462
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"solver.ml" 55 1463 1469 "solver.ml" 55 1463 1486
+type(
+  int ->
+  int -> (Term.wffi * int) list -> Term.wffi option -> Term.wffi -> bool
+)
+ident(
+  int_ref solve1_internal_s "solver.ml" 48 1188 1196 "solver.ml" 48 1188 1213
+)
+"solver.ml" 55 1463 1487 "solver.ml" 55 1463 1491
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 48 1188 1214 "solver.ml" 48 1188 1218
+)
+"solver.ml" 55 1463 1492 "solver.ml" 55 1463 1496
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 48 1188 1219 "solver.ml" 48 1188 1223
+)
+"solver.ml" 55 1463 1497 "solver.ml" 55 1463 1500
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant "solver.ml" 48 1188 1224 "solver.ml" 48 1188 1227
+)
+"solver.ml" 55 1463 1501 "solver.ml" 55 1463 1505
+type(
+  Term.wffi option
+)
+ident(
+  int_ref sucL "solver.ml" 48 1188 1228 "solver.ml" 48 1188 1232
+)
+"solver.ml" 55 1463 1506 "solver.ml" 55 1463 1508
+type(
+  Term.wffi
+)
+ident(
+  int_ref t2 "solver.ml" 53 1391 1407 "solver.ml" 53 1391 1409
+)
+"solver.ml" 55 1463 1469 "solver.ml" 55 1463 1508
+call(
+  tail
+)
+type(
+  bool
+)
+"solver.ml" 54 1414 1420 "solver.ml" 55 1463 1508
+type(
+  bool
+)
+"solver.ml" 56 1509 1513 "solver.ml" 56 1509 1520
+type(
+  Term.wffi
+)
+"solver.ml" 56 1509 1524 "solver.ml" 56 1509 1528
+type(
+  bool
+)
+"solver.ml" 57 1529 1533 "solver.ml" 57 1529 1534
+type(
+  Term.wffi
+)
+"solver.ml" 57 1529 1538 "solver.ml" 57 1529 1556
+type(
+  int ->
+  int ->
+  (Term.wffi * int) list ->
+  (Term.wffi * int) list -> Term.wffi option -> Term.wffi -> bool
+)
+ident(
+  int_ref solve1_internal_a1 "solver.ml" 78 2031 2035 "solver.ml" 78 2031 2053
+)
+"solver.ml" 57 1529 1557 "solver.ml" 57 1529 1561
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 48 1188 1214 "solver.ml" 48 1188 1218
+)
+"solver.ml" 57 1529 1562 "solver.ml" 57 1529 1566
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 48 1188 1219 "solver.ml" 48 1188 1223
+)
+"solver.ml" 57 1529 1567 "solver.ml" 57 1529 1570
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant "solver.ml" 48 1188 1224 "solver.ml" 48 1188 1227
+)
+"solver.ml" 57 1529 1571 "solver.ml" 57 1529 1573
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 57 1529 1574 "solver.ml" 57 1529 1578
+type(
+  Term.wffi option
+)
+ident(
+  int_ref sucL "solver.ml" 48 1188 1228 "solver.ml" 48 1188 1232
+)
+"solver.ml" 57 1529 1579 "solver.ml" 57 1529 1583
+type(
+  Term.wffi
+)
+ident(
+  int_ref sucR "solver.ml" 48 1188 1233 "solver.ml" 48 1188 1237
+)
+"solver.ml" 57 1529 1538 "solver.ml" 57 1529 1583
+call(
+  tail
+)
+type(
+  bool
+)
+"solver.ml" 50 1279 1281 "solver.ml" 58 1584 1589
+type(
+  bool
+)
+"solver.ml" 49 1240 1242 "solver.ml" 58 1584 1589
+type(
+  bool
+)
+"solver.ml" 78 2031 2035 "solver.ml" 78 2031 2053
+type(
+  int ->
+  int ->
+  (Term.wffi * int) list ->
+  (Term.wffi * int) list -> Term.wffi option -> Term.wffi -> bool
+)
+ident(
+  def solve1_internal_a1 "solver.ml" 48 1188 1188 "solver.ml" 1 0 -1
+)
+"solver.ml" 78 2031 2054 "solver.ml" 78 2031 2058
+type(
+  int
+)
+ident(
+  def anum "solver.ml" 78 2031 2059 "solver.ml" 115 3693 3698
+)
+"solver.ml" 78 2031 2059 "solver.ml" 78 2031 2063
+type(
+  int
+)
+ident(
+  def pnum "solver.ml" 78 2031 2064 "solver.ml" 115 3693 3698
+)
+"solver.ml" 78 2031 2064 "solver.ml" 78 2031 2068
+type(
+  (Term.wffi * int) list
+)
+ident(
+  def ant1 "solver.ml" 78 2031 2069 "solver.ml" 115 3693 3698
+)
+"solver.ml" 78 2031 2069 "solver.ml" 78 2031 2073
+type(
+  (Term.wffi * int) list
+)
+ident(
+  def ant2 "solver.ml" 78 2031 2074 "solver.ml" 115 3693 3698
+)
+"solver.ml" 78 2031 2074 "solver.ml" 78 2031 2078
+type(
+  Term.wffi option
+)
+ident(
+  def sucL "solver.ml" 78 2031 2079 "solver.ml" 115 3693 3698
+)
+"solver.ml" 78 2031 2079 "solver.ml" 78 2031 2083
+type(
+  Term.wffi
+)
+ident(
+  def sucR "solver.ml" 79 2086 2088 "solver.ml" 115 3693 3698
+)
+"solver.ml" 79 2086 2088 "solver.ml" 79 2086 2101
+type(
+  string ->
+  (Term.wffi * int) list ->
+  (Term.wffi * int) list -> Term.wffi option -> Term.wffi -> unit
+)
+ident(
+  int_ref debug_sequent "solver.ml" 18 344 348 "solver.ml" 18 344 361
+)
+"solver.ml" 79 2086 2102 "solver.ml" 79 2086 2107
+type(
+  string
+)
+"solver.ml" 79 2086 2108 "solver.ml" 79 2086 2112
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant1 "solver.ml" 78 2031 2064 "solver.ml" 78 2031 2068
+)
+"solver.ml" 79 2086 2113 "solver.ml" 79 2086 2117
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 78 2031 2069 "solver.ml" 78 2031 2073
+)
+"solver.ml" 79 2086 2118 "solver.ml" 79 2086 2122
+type(
+  Term.wffi option
+)
+ident(
+  int_ref sucL "solver.ml" 78 2031 2074 "solver.ml" 78 2031 2078
+)
+"solver.ml" 79 2086 2123 "solver.ml" 79 2086 2127
+type(
+  Term.wffi
+)
+ident(
+  int_ref sucR "solver.ml" 78 2031 2079 "solver.ml" 78 2031 2083
+)
+"solver.ml" 79 2086 2088 "solver.ml" 79 2086 2127
+call(
+  stack
+)
+type(
+  unit
+)
+"solver.ml" 80 2129 2143 "solver.ml" 80 2129 2147
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant1 "solver.ml" 78 2031 2064 "solver.ml" 78 2031 2068
+)
+"solver.ml" 81 2153 2157 "solver.ml" 81 2153 2159
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 81 2153 2163 "solver.ml" 81 2153 2181
+type(
+  int ->
+  int ->
+  (Term.wffi * int) list ->
+  (Term.wffi * int) list -> Term.wffi option -> Term.wffi -> bool
+)
+ident(
+  int_ref solve1_internal_a2 "solver.ml" 125 4001 4005 "solver.ml" 125 4001 4023
+)
+"solver.ml" 81 2153 2182 "solver.ml" 81 2153 2186
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 78 2031 2054 "solver.ml" 78 2031 2058
+)
+"solver.ml" 81 2153 2187 "solver.ml" 81 2153 2191
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 78 2031 2059 "solver.ml" 78 2031 2063
+)
+"solver.ml" 81 2153 2192 "solver.ml" 81 2153 2196
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 78 2031 2069 "solver.ml" 78 2031 2073
+)
+"solver.ml" 81 2153 2197 "solver.ml" 81 2153 2199
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 81 2153 2200 "solver.ml" 81 2153 2204
+type(
+  Term.wffi option
+)
+ident(
+  int_ref sucL "solver.ml" 78 2031 2074 "solver.ml" 78 2031 2078
+)
+"solver.ml" 81 2153 2205 "solver.ml" 81 2153 2209
+type(
+  Term.wffi
+)
+ident(
+  int_ref sucR "solver.ml" 78 2031 2079 "solver.ml" 78 2031 2083
+)
+"solver.ml" 81 2153 2163 "solver.ml" 81 2153 2209
+call(
+  tail
+)
+type(
+  bool
+)
+"solver.ml" 82 2210 2224 "solver.ml" 82 2210 2226
+type(
+  Term.wffi
+)
+ident(
+  def t1 "solver.ml" 83 2247 2253 "solver.ml" 84 2286 2340
+)
+"solver.ml" 82 2210 2227 "solver.ml" 82 2210 2229
+type(
+  Term.wffi
+)
+ident(
+  def t2 "solver.ml" 83 2247 2253 "solver.ml" 84 2286 2340
+)
+"solver.ml" 82 2210 2215 "solver.ml" 82 2210 2230
+type(
+  Term.wffi
+)
+"solver.ml" 82 2210 2231 "solver.ml" 82 2210 2233
+type(
+  int
+)
+ident(
+  def ti "solver.ml" 83 2247 2253 "solver.ml" 84 2286 2340
+)
+"solver.ml" 82 2210 2214 "solver.ml" 82 2210 2234
+type(
+  Term.wffi * int
+)
+"solver.ml" 82 2210 2238 "solver.ml" 82 2210 2243
+type(
+  (Term.wffi * int) list
+)
+ident(
+  def ant1t "solver.ml" 83 2247 2253 "solver.ml" 84 2286 2340
+)
+"solver.ml" 82 2210 2214 "solver.ml" 82 2210 2243
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 83 2247 2253 "solver.ml" 83 2247 2271
+type(
+  int ->
+  int ->
+  (Term.wffi * int) list ->
+  (Term.wffi * int) list -> Term.wffi option -> Term.wffi -> bool
+)
+ident(
+  int_ref solve1_internal_a1 "solver.ml" 78 2031 2035 "solver.ml" 78 2031 2053
+)
+"solver.ml" 83 2247 2273 "solver.ml" 83 2247 2277
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 78 2031 2054 "solver.ml" 78 2031 2058
+)
+"solver.ml" 83 2247 2277 "solver.ml" 83 2247 2278
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 83 2247 2278 "solver.ml" 83 2247 2279
+type(
+  int
+)
+"solver.ml" 83 2247 2272 "solver.ml" 83 2247 2280
+type(
+  int
+)
+"solver.ml" 83 2247 2281 "solver.ml" 83 2247 2285
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 78 2031 2059 "solver.ml" 78 2031 2063
+)
+"solver.ml" 84 2286 2296 "solver.ml" 84 2286 2298
+type(
+  Term.wffi
+)
+ident(
+  int_ref t1 "solver.ml" 82 2210 2224 "solver.ml" 82 2210 2226
+)
+"solver.ml" 84 2286 2299 "solver.ml" 84 2286 2303
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 78 2031 2054 "solver.ml" 78 2031 2058
+)
+"solver.ml" 84 2286 2295 "solver.ml" 84 2286 2304
+type(
+  Term.wffi * int
+)
+"solver.ml" 84 2286 2307 "solver.ml" 84 2286 2309
+type(
+  Term.wffi
+)
+ident(
+  int_ref t2 "solver.ml" 82 2210 2227 "solver.ml" 82 2210 2229
+)
+"solver.ml" 84 2286 2310 "solver.ml" 84 2286 2314
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 78 2031 2054 "solver.ml" 78 2031 2058
+)
+"solver.ml" 84 2286 2314 "solver.ml" 84 2286 2315
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 84 2286 2315 "solver.ml" 84 2286 2316
+type(
+  int
+)
+"solver.ml" 84 2286 2310 "solver.ml" 84 2286 2316
+type(
+  int
+)
+"solver.ml" 84 2286 2306 "solver.ml" 84 2286 2317
+type(
+  Term.wffi * int
+)
+"solver.ml" 84 2286 2319 "solver.ml" 84 2286 2324
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant1t "solver.ml" 82 2210 2238 "solver.ml" 82 2210 2243
+)
+"solver.ml" 84 2286 2306 "solver.ml" 84 2286 2324
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 84 2286 2294 "solver.ml" 84 2286 2325
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 84 2286 2326 "solver.ml" 84 2286 2330
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 78 2031 2069 "solver.ml" 78 2031 2073
+)
+"solver.ml" 84 2286 2331 "solver.ml" 84 2286 2335
+type(
+  Term.wffi option
+)
+ident(
+  int_ref sucL "solver.ml" 78 2031 2074 "solver.ml" 78 2031 2078
+)
+"solver.ml" 84 2286 2336 "solver.ml" 84 2286 2340
+type(
+  Term.wffi
+)
+ident(
+  int_ref sucR "solver.ml" 78 2031 2079 "solver.ml" 78 2031 2083
+)
+"solver.ml" 83 2247 2253 "solver.ml" 84 2286 2340
+call(
+  tail
+)
+type(
+  bool
+)
+"solver.ml" 85 2341 2354 "solver.ml" 85 2341 2356
+type(
+  Term.wffi
+)
+ident(
+  def t1 "solver.ml" 86 2377 2383 "solver.ml" 89 2500 2543
+)
+"solver.ml" 85 2341 2357 "solver.ml" 85 2341 2359
+type(
+  Term.wffi
+)
+ident(
+  def t2 "solver.ml" 86 2377 2383 "solver.ml" 89 2500 2543
+)
+"solver.ml" 85 2341 2346 "solver.ml" 85 2341 2360
+type(
+  Term.wffi
+)
+"solver.ml" 85 2341 2361 "solver.ml" 85 2341 2363
+type(
+  int
+)
+ident(
+  def ti "solver.ml" 86 2377 2383 "solver.ml" 89 2500 2543
+)
+"solver.ml" 85 2341 2345 "solver.ml" 85 2341 2364
+type(
+  Term.wffi * int
+)
+"solver.ml" 85 2341 2368 "solver.ml" 85 2341 2373
+type(
+  (Term.wffi * int) list
+)
+ident(
+  def ant1t "solver.ml" 86 2377 2383 "solver.ml" 89 2500 2543
+)
+"solver.ml" 85 2341 2345 "solver.ml" 85 2341 2373
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 86 2377 2383 "solver.ml" 86 2377 2401
+type(
+  int ->
+  int ->
+  (Term.wffi * int) list ->
+  (Term.wffi * int) list -> Term.wffi option -> Term.wffi -> bool
+)
+ident(
+  int_ref solve1_internal_a1 "solver.ml" 78 2031 2035 "solver.ml" 78 2031 2053
+)
+"solver.ml" 86 2377 2403 "solver.ml" 86 2377 2407
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 78 2031 2054 "solver.ml" 78 2031 2058
+)
+"solver.ml" 86 2377 2407 "solver.ml" 86 2377 2408
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 86 2377 2408 "solver.ml" 86 2377 2409
+type(
+  int
+)
+"solver.ml" 86 2377 2402 "solver.ml" 86 2377 2410
+type(
+  int
+)
+"solver.ml" 86 2377 2411 "solver.ml" 86 2377 2415
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 78 2031 2059 "solver.ml" 78 2031 2063
+)
+"solver.ml" 87 2416 2426 "solver.ml" 87 2416 2428
+type(
+  Term.wffi
+)
+ident(
+  int_ref t1 "solver.ml" 85 2341 2354 "solver.ml" 85 2341 2356
+)
+"solver.ml" 87 2416 2429 "solver.ml" 87 2416 2433
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 78 2031 2054 "solver.ml" 78 2031 2058
+)
+"solver.ml" 87 2416 2425 "solver.ml" 87 2416 2434
+type(
+  Term.wffi * int
+)
+"solver.ml" 87 2416 2436 "solver.ml" 87 2416 2441
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant1t "solver.ml" 85 2341 2368 "solver.ml" 85 2341 2373
+)
+"solver.ml" 87 2416 2424 "solver.ml" 87 2416 2442
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 87 2416 2443 "solver.ml" 87 2416 2447
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 78 2031 2069 "solver.ml" 78 2031 2073
+)
+"solver.ml" 87 2416 2448 "solver.ml" 87 2416 2452
+type(
+  Term.wffi option
+)
+ident(
+  int_ref sucL "solver.ml" 78 2031 2074 "solver.ml" 78 2031 2078
+)
+"solver.ml" 87 2416 2453 "solver.ml" 87 2416 2457
+type(
+  Term.wffi
+)
+ident(
+  int_ref sucR "solver.ml" 78 2031 2079 "solver.ml" 78 2031 2083
+)
+"solver.ml" 86 2377 2383 "solver.ml" 87 2416 2457
+call(
+  stack
+)
+type(
+  bool
+)
+"solver.ml" 87 2416 2458 "solver.ml" 87 2416 2460
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"solver.ml" 88 2461 2467 "solver.ml" 88 2461 2485
+type(
+  int ->
+  int ->
+  (Term.wffi * int) list ->
+  (Term.wffi * int) list -> Term.wffi option -> Term.wffi -> bool
+)
+ident(
+  int_ref solve1_internal_a1 "solver.ml" 78 2031 2035 "solver.ml" 78 2031 2053
+)
+"solver.ml" 88 2461 2487 "solver.ml" 88 2461 2491
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 78 2031 2054 "solver.ml" 78 2031 2058
+)
+"solver.ml" 88 2461 2491 "solver.ml" 88 2461 2492
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 88 2461 2492 "solver.ml" 88 2461 2493
+type(
+  int
+)
+"solver.ml" 88 2461 2486 "solver.ml" 88 2461 2494
+type(
+  int
+)
+"solver.ml" 88 2461 2495 "solver.ml" 88 2461 2499
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 78 2031 2059 "solver.ml" 78 2031 2063
+)
+"solver.ml" 89 2500 2510 "solver.ml" 89 2500 2512
+type(
+  Term.wffi
+)
+ident(
+  int_ref t2 "solver.ml" 85 2341 2357 "solver.ml" 85 2341 2359
+)
+"solver.ml" 89 2500 2513 "solver.ml" 89 2500 2517
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 78 2031 2054 "solver.ml" 78 2031 2058
+)
+"solver.ml" 89 2500 2517 "solver.ml" 89 2500 2518
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 89 2500 2518 "solver.ml" 89 2500 2519
+type(
+  int
+)
+"solver.ml" 89 2500 2513 "solver.ml" 89 2500 2519
+type(
+  int
+)
+"solver.ml" 89 2500 2509 "solver.ml" 89 2500 2520
+type(
+  Term.wffi * int
+)
+"solver.ml" 89 2500 2522 "solver.ml" 89 2500 2527
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant1t "solver.ml" 85 2341 2368 "solver.ml" 85 2341 2373
+)
+"solver.ml" 89 2500 2508 "solver.ml" 89 2500 2528
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 89 2500 2529 "solver.ml" 89 2500 2533
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 78 2031 2069 "solver.ml" 78 2031 2073
+)
+"solver.ml" 89 2500 2534 "solver.ml" 89 2500 2538
+type(
+  Term.wffi option
+)
+ident(
+  int_ref sucL "solver.ml" 78 2031 2074 "solver.ml" 78 2031 2078
+)
+"solver.ml" 89 2500 2539 "solver.ml" 89 2500 2543
+type(
+  Term.wffi
+)
+ident(
+  int_ref sucR "solver.ml" 78 2031 2079 "solver.ml" 78 2031 2083
+)
+"solver.ml" 88 2461 2467 "solver.ml" 89 2500 2543
+call(
+  tail
+)
+type(
+  bool
+)
+"solver.ml" 86 2377 2383 "solver.ml" 89 2500 2543
+type(
+  bool
+)
+"solver.ml" 90 2544 2549 "solver.ml" 90 2544 2556
+type(
+  Term.wffi
+)
+"solver.ml" 90 2544 2557 "solver.ml" 90 2544 2559
+type(
+  int
+)
+ident(
+  def ti "solver.ml" 91 2573 2579 "solver.ml" 91 2573 2628
+)
+"solver.ml" 90 2544 2548 "solver.ml" 90 2544 2560
+type(
+  Term.wffi * int
+)
+"solver.ml" 90 2544 2564 "solver.ml" 90 2544 2569
+type(
+  (Term.wffi * int) list
+)
+ident(
+  def ant1t "solver.ml" 91 2573 2579 "solver.ml" 91 2573 2628
+)
+"solver.ml" 90 2544 2548 "solver.ml" 90 2544 2569
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 91 2573 2579 "solver.ml" 91 2573 2597
+type(
+  int ->
+  int ->
+  (Term.wffi * int) list ->
+  (Term.wffi * int) list -> Term.wffi option -> Term.wffi -> bool
+)
+ident(
+  int_ref solve1_internal_a1 "solver.ml" 78 2031 2035 "solver.ml" 78 2031 2053
+)
+"solver.ml" 91 2573 2598 "solver.ml" 91 2573 2602
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 78 2031 2054 "solver.ml" 78 2031 2058
+)
+"solver.ml" 91 2573 2603 "solver.ml" 91 2573 2607
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 78 2031 2059 "solver.ml" 78 2031 2063
+)
+"solver.ml" 91 2573 2608 "solver.ml" 91 2573 2613
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant1t "solver.ml" 90 2544 2564 "solver.ml" 90 2544 2569
+)
+"solver.ml" 91 2573 2614 "solver.ml" 91 2573 2618
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 78 2031 2069 "solver.ml" 78 2031 2073
+)
+"solver.ml" 91 2573 2619 "solver.ml" 91 2573 2623
+type(
+  Term.wffi option
+)
+ident(
+  int_ref sucL "solver.ml" 78 2031 2074 "solver.ml" 78 2031 2078
+)
+"solver.ml" 91 2573 2624 "solver.ml" 91 2573 2628
+type(
+  Term.wffi
+)
+ident(
+  int_ref sucR "solver.ml" 78 2031 2079 "solver.ml" 78 2031 2083
+)
+"solver.ml" 91 2573 2579 "solver.ml" 91 2573 2628
+call(
+  tail
+)
+type(
+  bool
+)
+"solver.ml" 92 2629 2634 "solver.ml" 92 2629 2641
+type(
+  Term.wffi
+)
+"solver.ml" 92 2629 2642 "solver.ml" 92 2629 2644
+type(
+  int
+)
+ident(
+  def ti "solver.ml" 92 2629 2658 "solver.ml" 92 2629 2662
+)
+"solver.ml" 92 2629 2633 "solver.ml" 92 2629 2645
+type(
+  Term.wffi * int
+)
+"solver.ml" 92 2629 2649 "solver.ml" 92 2629 2654
+type(
+  (Term.wffi * int) list
+)
+ident(
+  def ant1t "solver.ml" 92 2629 2658 "solver.ml" 92 2629 2662
+)
+"solver.ml" 92 2629 2633 "solver.ml" 92 2629 2654
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 92 2629 2658 "solver.ml" 92 2629 2662
+type(
+  bool
+)
+"solver.ml" 93 2663 2677 "solver.ml" 93 2663 2678
+type(
+  int
+)
+ident(
+  def p "solver.ml" 93 2663 2697 "solver.ml" 93 2663 2722
+)
+"solver.ml" 93 2663 2668 "solver.ml" 93 2663 2678
+type(
+  Term.wffi
+)
+"solver.ml" 93 2663 2679 "solver.ml" 93 2663 2681
+type(
+  int
+)
+ident(
+  def ti "solver.ml" 93 2663 2697 "solver.ml" 93 2663 2722
+)
+"solver.ml" 93 2663 2667 "solver.ml" 93 2663 2682
+type(
+  Term.wffi * int
+)
+"solver.ml" 93 2663 2686 "solver.ml" 93 2663 2691
+type(
+  (Term.wffi * int) list
+)
+ident(
+  def ant1t "solver.ml" 93 2663 2697 "solver.ml" 93 2663 2722
+)
+"solver.ml" 93 2663 2667 "solver.ml" 93 2663 2691
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 93 2663 2697 "solver.ml" 93 2663 2701
+type(
+  Term.wffi
+)
+ident(
+  int_ref sucR "solver.ml" 78 2031 2079 "solver.ml" 78 2031 2083
+)
+"solver.ml" 93 2663 2702 "solver.ml" 93 2663 2703
+type(
+  Term.wffi -> Term.wffi -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"solver.ml" 93 2663 2713 "solver.ml" 93 2663 2714
+type(
+  int
+)
+ident(
+  int_ref p "solver.ml" 93 2663 2677 "solver.ml" 93 2663 2678
+)
+"solver.ml" 93 2663 2704 "solver.ml" 93 2663 2714
+type(
+  Term.wffi
+)
+"solver.ml" 93 2663 2697 "solver.ml" 93 2663 2714
+type(
+  bool
+)
+"solver.ml" 93 2663 2718 "solver.ml" 93 2663 2722
+type(
+  bool
+)
+"solver.ml" 94 2723 2739 "solver.ml" 94 2723 2746
+type(
+  Term.wffi
+)
+"solver.ml" 94 2723 2747 "solver.ml" 94 2723 2749
+type(
+  Term.wffi
+)
+ident(
+  def t3 "solver.ml" 95 2767 2773 "solver.ml" 96 2806 2847
+)
+"solver.ml" 94 2723 2728 "solver.ml" 94 2723 2750
+type(
+  Term.wffi
+)
+"solver.ml" 94 2723 2751 "solver.ml" 94 2723 2753
+type(
+  int
+)
+ident(
+  def ti "solver.ml" 95 2767 2773 "solver.ml" 96 2806 2847
+)
+"solver.ml" 94 2723 2727 "solver.ml" 94 2723 2754
+type(
+  Term.wffi * int
+)
+"solver.ml" 94 2723 2758 "solver.ml" 94 2723 2763
+type(
+  (Term.wffi * int) list
+)
+ident(
+  def ant1t "solver.ml" 95 2767 2773 "solver.ml" 96 2806 2847
+)
+"solver.ml" 94 2723 2727 "solver.ml" 94 2723 2763
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 95 2767 2773 "solver.ml" 95 2767 2791
+type(
+  int ->
+  int ->
+  (Term.wffi * int) list ->
+  (Term.wffi * int) list -> Term.wffi option -> Term.wffi -> bool
+)
+ident(
+  int_ref solve1_internal_a1 "solver.ml" 78 2031 2035 "solver.ml" 78 2031 2053
+)
+"solver.ml" 95 2767 2793 "solver.ml" 95 2767 2797
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 78 2031 2054 "solver.ml" 78 2031 2058
+)
+"solver.ml" 95 2767 2797 "solver.ml" 95 2767 2798
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 95 2767 2798 "solver.ml" 95 2767 2799
+type(
+  int
+)
+"solver.ml" 95 2767 2792 "solver.ml" 95 2767 2800
+type(
+  int
+)
+"solver.ml" 95 2767 2801 "solver.ml" 95 2767 2805
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 78 2031 2059 "solver.ml" 78 2031 2063
+)
+"solver.ml" 96 2806 2816 "solver.ml" 96 2806 2818
+type(
+  Term.wffi
+)
+ident(
+  int_ref t3 "solver.ml" 94 2723 2747 "solver.ml" 94 2723 2749
+)
+"solver.ml" 96 2806 2819 "solver.ml" 96 2806 2823
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 78 2031 2054 "solver.ml" 78 2031 2058
+)
+"solver.ml" 96 2806 2815 "solver.ml" 96 2806 2824
+type(
+  Term.wffi * int
+)
+"solver.ml" 96 2806 2826 "solver.ml" 96 2806 2831
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant1t "solver.ml" 94 2723 2758 "solver.ml" 94 2723 2763
+)
+"solver.ml" 96 2806 2814 "solver.ml" 96 2806 2832
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 96 2806 2833 "solver.ml" 96 2806 2837
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 78 2031 2069 "solver.ml" 78 2031 2073
+)
+"solver.ml" 96 2806 2838 "solver.ml" 96 2806 2842
+type(
+  Term.wffi option
+)
+ident(
+  int_ref sucL "solver.ml" 78 2031 2074 "solver.ml" 78 2031 2078
+)
+"solver.ml" 96 2806 2843 "solver.ml" 96 2806 2847
+type(
+  Term.wffi
+)
+ident(
+  int_ref sucR "solver.ml" 78 2031 2079 "solver.ml" 78 2031 2083
+)
+"solver.ml" 95 2767 2773 "solver.ml" 96 2806 2847
+call(
+  tail
+)
+type(
+  bool
+)
+"solver.ml" 97 2848 2864 "solver.ml" 97 2848 2871
+type(
+  Term.wffi
+)
+"solver.ml" 97 2848 2872 "solver.ml" 97 2848 2874
+type(
+  Term.wffi
+)
+ident(
+  def t3 "solver.ml" 98 2892 2898 "solver.ml" 98 2892 2947
+)
+"solver.ml" 97 2848 2853 "solver.ml" 97 2848 2875
+type(
+  Term.wffi
+)
+"solver.ml" 97 2848 2876 "solver.ml" 97 2848 2878
+type(
+  int
+)
+ident(
+  def ti "solver.ml" 98 2892 2898 "solver.ml" 98 2892 2947
+)
+"solver.ml" 97 2848 2852 "solver.ml" 97 2848 2879
+type(
+  Term.wffi * int
+)
+"solver.ml" 97 2848 2883 "solver.ml" 97 2848 2888
+type(
+  (Term.wffi * int) list
+)
+ident(
+  def ant1t "solver.ml" 98 2892 2898 "solver.ml" 98 2892 2947
+)
+"solver.ml" 97 2848 2852 "solver.ml" 97 2848 2888
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 98 2892 2898 "solver.ml" 98 2892 2916
+type(
+  int ->
+  int ->
+  (Term.wffi * int) list ->
+  (Term.wffi * int) list -> Term.wffi option -> Term.wffi -> bool
+)
+ident(
+  int_ref solve1_internal_a1 "solver.ml" 78 2031 2035 "solver.ml" 78 2031 2053
+)
+"solver.ml" 98 2892 2917 "solver.ml" 98 2892 2921
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 78 2031 2054 "solver.ml" 78 2031 2058
+)
+"solver.ml" 98 2892 2922 "solver.ml" 98 2892 2926
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 78 2031 2059 "solver.ml" 78 2031 2063
+)
+"solver.ml" 98 2892 2927 "solver.ml" 98 2892 2932
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant1t "solver.ml" 97 2848 2883 "solver.ml" 97 2848 2888
+)
+"solver.ml" 98 2892 2933 "solver.ml" 98 2892 2937
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 78 2031 2069 "solver.ml" 78 2031 2073
+)
+"solver.ml" 98 2892 2938 "solver.ml" 98 2892 2942
+type(
+  Term.wffi option
+)
+ident(
+  int_ref sucL "solver.ml" 78 2031 2074 "solver.ml" 78 2031 2078
+)
+"solver.ml" 98 2892 2943 "solver.ml" 98 2892 2947
+type(
+  Term.wffi
+)
+ident(
+  int_ref sucR "solver.ml" 78 2031 2079 "solver.ml" 78 2031 2083
+)
+"solver.ml" 98 2892 2898 "solver.ml" 98 2892 2947
+call(
+  tail
+)
+type(
+  bool
+)
+"solver.ml" 99 2948 2973 "solver.ml" 99 2948 2975
+type(
+  Term.wffi
+)
+ident(
+  def t1 "solver.ml" 100 3000 3006 "solver.ml" 101 3039 3110
+)
+"solver.ml" 99 2948 2976 "solver.ml" 99 2948 2978
+type(
+  Term.wffi
+)
+ident(
+  def t2 "solver.ml" 100 3000 3006 "solver.ml" 101 3039 3110
+)
+"solver.ml" 99 2948 2964 "solver.ml" 99 2948 2979
+type(
+  Term.wffi
+)
+"solver.ml" 99 2948 2980 "solver.ml" 99 2948 2982
+type(
+  Term.wffi
+)
+ident(
+  def t3 "solver.ml" 100 3000 3006 "solver.ml" 101 3039 3110
+)
+"solver.ml" 99 2948 2953 "solver.ml" 99 2948 2983
+type(
+  Term.wffi
+)
+"solver.ml" 99 2948 2984 "solver.ml" 99 2948 2986
+type(
+  int
+)
+ident(
+  def ti "solver.ml" 100 3000 3006 "solver.ml" 101 3039 3110
+)
+"solver.ml" 99 2948 2952 "solver.ml" 99 2948 2987
+type(
+  Term.wffi * int
+)
+"solver.ml" 99 2948 2991 "solver.ml" 99 2948 2996
+type(
+  (Term.wffi * int) list
+)
+ident(
+  def ant1t "solver.ml" 100 3000 3006 "solver.ml" 101 3039 3110
+)
+"solver.ml" 99 2948 2952 "solver.ml" 99 2948 2996
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 100 3000 3006 "solver.ml" 100 3000 3024
+type(
+  int ->
+  int ->
+  (Term.wffi * int) list ->
+  (Term.wffi * int) list -> Term.wffi option -> Term.wffi -> bool
+)
+ident(
+  int_ref solve1_internal_a1 "solver.ml" 78 2031 2035 "solver.ml" 78 2031 2053
+)
+"solver.ml" 100 3000 3026 "solver.ml" 100 3000 3030
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 78 2031 2054 "solver.ml" 78 2031 2058
+)
+"solver.ml" 100 3000 3030 "solver.ml" 100 3000 3031
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 100 3000 3031 "solver.ml" 100 3000 3032
+type(
+  int
+)
+"solver.ml" 100 3000 3025 "solver.ml" 100 3000 3033
+type(
+  int
+)
+"solver.ml" 100 3000 3034 "solver.ml" 100 3000 3038
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 78 2031 2059 "solver.ml" 78 2031 2063
+)
+"solver.ml" 101 3039 3060 "solver.ml" 101 3039 3062
+type(
+  Term.wffi
+)
+ident(
+  int_ref t1 "solver.ml" 99 2948 2973 "solver.ml" 99 2948 2975
+)
+"solver.ml" 101 3039 3074 "solver.ml" 101 3039 3076
+type(
+  Term.wffi
+)
+ident(
+  int_ref t2 "solver.ml" 99 2948 2976 "solver.ml" 99 2948 2978
+)
+"solver.ml" 101 3039 3077 "solver.ml" 101 3039 3079
+type(
+  Term.wffi
+)
+ident(
+  int_ref t3 "solver.ml" 99 2948 2980 "solver.ml" 99 2948 2982
+)
+"solver.ml" 101 3039 3063 "solver.ml" 101 3039 3080
+type(
+  Term.wffi
+)
+"solver.ml" 101 3039 3049 "solver.ml" 101 3039 3081
+type(
+  Term.wffi
+)
+"solver.ml" 101 3039 3082 "solver.ml" 101 3039 3086
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 78 2031 2054 "solver.ml" 78 2031 2058
+)
+"solver.ml" 101 3039 3048 "solver.ml" 101 3039 3087
+type(
+  Term.wffi * int
+)
+"solver.ml" 101 3039 3089 "solver.ml" 101 3039 3094
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant1t "solver.ml" 99 2948 2991 "solver.ml" 99 2948 2996
+)
+"solver.ml" 101 3039 3047 "solver.ml" 101 3039 3095
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 101 3039 3096 "solver.ml" 101 3039 3100
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 78 2031 2069 "solver.ml" 78 2031 2073
+)
+"solver.ml" 101 3039 3101 "solver.ml" 101 3039 3105
+type(
+  Term.wffi option
+)
+ident(
+  int_ref sucL "solver.ml" 78 2031 2074 "solver.ml" 78 2031 2078
+)
+"solver.ml" 101 3039 3106 "solver.ml" 101 3039 3110
+type(
+  Term.wffi
+)
+ident(
+  int_ref sucR "solver.ml" 78 2031 2079 "solver.ml" 78 2031 2083
+)
+"solver.ml" 100 3000 3006 "solver.ml" 101 3039 3110
+call(
+  tail
+)
+type(
+  bool
+)
+"solver.ml" 106 3338 3362 "solver.ml" 106 3338 3364
+type(
+  Term.wffi
+)
+ident(
+  def t1 "solver.ml" 107 3389 3395 "solver.ml" 112 3583 3605
+)
+"solver.ml" 106 3338 3365 "solver.ml" 106 3338 3367
+type(
+  Term.wffi
+)
+ident(
+  def t2 "solver.ml" 107 3389 3395 "solver.ml" 112 3583 3605
+)
+"solver.ml" 106 3338 3354 "solver.ml" 106 3338 3368
+type(
+  Term.wffi
+)
+"solver.ml" 106 3338 3369 "solver.ml" 106 3338 3371
+type(
+  Term.wffi
+)
+ident(
+  def t3 "solver.ml" 107 3389 3395 "solver.ml" 112 3583 3605
+)
+"solver.ml" 106 3338 3343 "solver.ml" 106 3338 3372
+type(
+  Term.wffi
+)
+"solver.ml" 106 3338 3373 "solver.ml" 106 3338 3375
+type(
+  int
+)
+ident(
+  def ti "solver.ml" 107 3389 3395 "solver.ml" 112 3583 3605
+)
+"solver.ml" 106 3338 3342 "solver.ml" 106 3338 3376
+type(
+  Term.wffi * int
+)
+"solver.ml" 106 3338 3380 "solver.ml" 106 3338 3385
+type(
+  (Term.wffi * int) list
+)
+ident(
+  def ant1t "solver.ml" 107 3389 3395 "solver.ml" 112 3583 3605
+)
+"solver.ml" 106 3338 3342 "solver.ml" 106 3338 3385
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 107 3389 3399 "solver.ml" 107 3389 3400
+type(
+  Term.wffi
+)
+ident(
+  def p "solver.ml" 108 3420 3426 "solver.ml" 112 3583 3605
+)
+"solver.ml" 107 3389 3412 "solver.ml" 107 3389 3416
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 78 2031 2059 "solver.ml" 78 2031 2063
+)
+"solver.ml" 107 3389 3403 "solver.ml" 107 3389 3416
+type(
+  Term.wffi
+)
+"solver.ml" 108 3420 3426 "solver.ml" 108 3420 3444
+type(
+  int ->
+  int ->
+  (Term.wffi * int) list ->
+  (Term.wffi * int) list -> Term.wffi option -> Term.wffi -> bool
+)
+ident(
+  int_ref solve1_internal_a1 "solver.ml" 78 2031 2035 "solver.ml" 78 2031 2053
+)
+"solver.ml" 108 3420 3446 "solver.ml" 108 3420 3450
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 78 2031 2054 "solver.ml" 78 2031 2058
+)
+"solver.ml" 108 3420 3450 "solver.ml" 108 3420 3451
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 108 3420 3451 "solver.ml" 108 3420 3452
+type(
+  int
+)
+"solver.ml" 108 3420 3445 "solver.ml" 108 3420 3453
+type(
+  int
+)
+"solver.ml" 108 3420 3455 "solver.ml" 108 3420 3459
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 78 2031 2059 "solver.ml" 78 2031 2063
+)
+"solver.ml" 108 3420 3459 "solver.ml" 108 3420 3460
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 108 3420 3460 "solver.ml" 108 3420 3461
+type(
+  int
+)
+"solver.ml" 108 3420 3454 "solver.ml" 108 3420 3462
+type(
+  int
+)
+"solver.ml" 109 3465 3487 "solver.ml" 109 3465 3489
+type(
+  Term.wffi
+)
+ident(
+  int_ref t1 "solver.ml" 106 3338 3362 "solver.ml" 106 3338 3364
+)
+"solver.ml" 109 3465 3490 "solver.ml" 109 3465 3491
+type(
+  Term.wffi
+)
+ident(
+  int_ref p "solver.ml" 107 3389 3399 "solver.ml" 107 3389 3400
+)
+"solver.ml" 109 3465 3476 "solver.ml" 109 3465 3492
+type(
+  Term.wffi
+)
+"solver.ml" 109 3465 3493 "solver.ml" 109 3465 3497
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 78 2031 2054 "solver.ml" 78 2031 2058
+)
+"solver.ml" 109 3465 3475 "solver.ml" 109 3465 3498
+type(
+  Term.wffi * int
+)
+"solver.ml" 110 3501 3523 "solver.ml" 110 3501 3525
+type(
+  Term.wffi
+)
+ident(
+  int_ref t2 "solver.ml" 106 3338 3365 "solver.ml" 106 3338 3367
+)
+"solver.ml" 110 3501 3526 "solver.ml" 110 3501 3527
+type(
+  Term.wffi
+)
+ident(
+  int_ref p "solver.ml" 107 3389 3399 "solver.ml" 107 3389 3400
+)
+"solver.ml" 110 3501 3512 "solver.ml" 110 3501 3528
+type(
+  Term.wffi
+)
+"solver.ml" 110 3501 3529 "solver.ml" 110 3501 3533
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 78 2031 2054 "solver.ml" 78 2031 2058
+)
+"solver.ml" 110 3501 3533 "solver.ml" 110 3501 3534
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 110 3501 3534 "solver.ml" 110 3501 3535
+type(
+  int
+)
+"solver.ml" 110 3501 3529 "solver.ml" 110 3501 3535
+type(
+  int
+)
+"solver.ml" 110 3501 3511 "solver.ml" 110 3501 3536
+type(
+  Term.wffi * int
+)
+"solver.ml" 111 3539 3561 "solver.ml" 111 3539 3562
+type(
+  Term.wffi
+)
+ident(
+  int_ref p "solver.ml" 107 3389 3399 "solver.ml" 107 3389 3400
+)
+"solver.ml" 111 3539 3563 "solver.ml" 111 3539 3565
+type(
+  Term.wffi
+)
+ident(
+  int_ref t3 "solver.ml" 106 3338 3369 "solver.ml" 106 3338 3371
+)
+"solver.ml" 111 3539 3550 "solver.ml" 111 3539 3566
+type(
+  Term.wffi
+)
+"solver.ml" 111 3539 3567 "solver.ml" 111 3539 3571
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 78 2031 2054 "solver.ml" 78 2031 2058
+)
+"solver.ml" 111 3539 3571 "solver.ml" 111 3539 3572
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 111 3539 3572 "solver.ml" 111 3539 3573
+type(
+  int
+)
+"solver.ml" 111 3539 3567 "solver.ml" 111 3539 3573
+type(
+  int
+)
+"solver.ml" 111 3539 3549 "solver.ml" 111 3539 3574
+type(
+  Term.wffi * int
+)
+"solver.ml" 111 3539 3576 "solver.ml" 111 3539 3581
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant1t "solver.ml" 106 3338 3380 "solver.ml" 106 3338 3385
+)
+"solver.ml" 111 3539 3549 "solver.ml" 111 3539 3581
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 110 3501 3511 "solver.ml" 111 3539 3581
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 108 3420 3463 "solver.ml" 111 3539 3582
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 112 3583 3591 "solver.ml" 112 3583 3595
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 78 2031 2069 "solver.ml" 78 2031 2073
+)
+"solver.ml" 112 3583 3596 "solver.ml" 112 3583 3600
+type(
+  Term.wffi option
+)
+ident(
+  int_ref sucL "solver.ml" 78 2031 2074 "solver.ml" 78 2031 2078
+)
+"solver.ml" 112 3583 3601 "solver.ml" 112 3583 3605
+type(
+  Term.wffi
+)
+ident(
+  int_ref sucR "solver.ml" 78 2031 2079 "solver.ml" 78 2031 2083
+)
+"solver.ml" 108 3420 3426 "solver.ml" 112 3583 3605
+call(
+  tail
+)
+type(
+  bool
+)
+"solver.ml" 107 3389 3395 "solver.ml" 112 3583 3605
+type(
+  bool
+)
+"solver.ml" 113 3606 3610 "solver.ml" 113 3606 3615
+type(
+  Term.wffi * int
+)
+ident(
+  def ant1h "solver.ml" 114 3628 3634 "solver.ml" 114 3628 3692
+)
+"solver.ml" 113 3606 3619 "solver.ml" 113 3606 3624
+type(
+  (Term.wffi * int) list
+)
+ident(
+  def ant1t "solver.ml" 114 3628 3634 "solver.ml" 114 3628 3692
+)
+"solver.ml" 113 3606 3610 "solver.ml" 113 3606 3624
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 114 3628 3634 "solver.ml" 114 3628 3652
+type(
+  int ->
+  int ->
+  (Term.wffi * int) list ->
+  (Term.wffi * int) list -> Term.wffi option -> Term.wffi -> bool
+)
+ident(
+  int_ref solve1_internal_a1 "solver.ml" 78 2031 2035 "solver.ml" 78 2031 2053
+)
+"solver.ml" 114 3628 3653 "solver.ml" 114 3628 3657
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 78 2031 2054 "solver.ml" 78 2031 2058
+)
+"solver.ml" 114 3628 3658 "solver.ml" 114 3628 3662
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 78 2031 2059 "solver.ml" 78 2031 2063
+)
+"solver.ml" 114 3628 3663 "solver.ml" 114 3628 3668
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant1t "solver.ml" 113 3606 3619 "solver.ml" 113 3606 3624
+)
+"solver.ml" 114 3628 3670 "solver.ml" 114 3628 3675
+type(
+  Term.wffi * int
+)
+ident(
+  int_ref ant1h "solver.ml" 113 3606 3610 "solver.ml" 113 3606 3615
+)
+"solver.ml" 114 3628 3677 "solver.ml" 114 3628 3681
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 78 2031 2069 "solver.ml" 78 2031 2073
+)
+"solver.ml" 114 3628 3669 "solver.ml" 114 3628 3682
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 114 3628 3683 "solver.ml" 114 3628 3687
+type(
+  Term.wffi option
+)
+ident(
+  int_ref sucL "solver.ml" 78 2031 2074 "solver.ml" 78 2031 2078
+)
+"solver.ml" 114 3628 3688 "solver.ml" 114 3628 3692
+type(
+  Term.wffi
+)
+ident(
+  int_ref sucR "solver.ml" 78 2031 2079 "solver.ml" 78 2031 2083
+)
+"solver.ml" 114 3628 3634 "solver.ml" 114 3628 3692
+call(
+  tail
+)
+type(
+  bool
+)
+"solver.ml" 80 2129 2131 "solver.ml" 115 3693 3698
+type(
+  bool
+)
+"solver.ml" 79 2086 2088 "solver.ml" 115 3693 3698
+type(
+  bool
+)
+"solver.ml" 125 4001 4005 "solver.ml" 125 4001 4023
+type(
+  int ->
+  int ->
+  (Term.wffi * int) list ->
+  (Term.wffi * int) list -> Term.wffi option -> Term.wffi -> bool
+)
+ident(
+  def solve1_internal_a2 "solver.ml" 48 1188 1188 "solver.ml" 1 0 -1
+)
+"solver.ml" 125 4001 4024 "solver.ml" 125 4001 4028
+type(
+  int
+)
+ident(
+  def anum "solver.ml" 125 4001 4029 "solver.ml" 135 4503 4508
+)
+"solver.ml" 125 4001 4029 "solver.ml" 125 4001 4033
+type(
+  int
+)
+ident(
+  def pnum "solver.ml" 125 4001 4034 "solver.ml" 135 4503 4508
+)
+"solver.ml" 125 4001 4034 "solver.ml" 125 4001 4038
+type(
+  (Term.wffi * int) list
+)
+ident(
+  def ant1 "solver.ml" 125 4001 4039 "solver.ml" 135 4503 4508
+)
+"solver.ml" 125 4001 4039 "solver.ml" 125 4001 4043
+type(
+  (Term.wffi * int) list
+)
+ident(
+  def ant2 "solver.ml" 125 4001 4044 "solver.ml" 135 4503 4508
+)
+"solver.ml" 125 4001 4044 "solver.ml" 125 4001 4048
+type(
+  Term.wffi option
+)
+ident(
+  def sucL "solver.ml" 125 4001 4049 "solver.ml" 135 4503 4508
+)
+"solver.ml" 125 4001 4049 "solver.ml" 125 4001 4053
+type(
+  Term.wffi
+)
+ident(
+  def sucR "solver.ml" 126 4056 4058 "solver.ml" 135 4503 4508
+)
+"solver.ml" 126 4056 4058 "solver.ml" 126 4056 4071
+type(
+  string ->
+  (Term.wffi * int) list ->
+  (Term.wffi * int) list -> Term.wffi option -> Term.wffi -> unit
+)
+ident(
+  int_ref debug_sequent "solver.ml" 18 344 348 "solver.ml" 18 344 361
+)
+"solver.ml" 126 4056 4072 "solver.ml" 126 4056 4077
+type(
+  string
+)
+"solver.ml" 126 4056 4078 "solver.ml" 126 4056 4082
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant1 "solver.ml" 125 4001 4034 "solver.ml" 125 4001 4038
+)
+"solver.ml" 126 4056 4083 "solver.ml" 126 4056 4087
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 125 4001 4039 "solver.ml" 125 4001 4043
+)
+"solver.ml" 126 4056 4088 "solver.ml" 126 4056 4092
+type(
+  Term.wffi option
+)
+ident(
+  int_ref sucL "solver.ml" 125 4001 4044 "solver.ml" 125 4001 4048
+)
+"solver.ml" 126 4056 4093 "solver.ml" 126 4056 4097
+type(
+  Term.wffi
+)
+ident(
+  int_ref sucR "solver.ml" 125 4001 4049 "solver.ml" 125 4001 4053
+)
+"solver.ml" 126 4056 4058 "solver.ml" 126 4056 4097
+call(
+  stack
+)
+type(
+  unit
+)
+"solver.ml" 127 4099 4113 "solver.ml" 127 4099 4117
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant1 "solver.ml" 125 4001 4034 "solver.ml" 125 4001 4038
+)
+"solver.ml" 128 4123 4127 "solver.ml" 128 4123 4129
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 128 4123 4133 "solver.ml" 128 4123 4150
+type(
+  int ->
+  int -> (Term.wffi * int) list -> Term.wffi option -> Term.wffi -> bool
+)
+ident(
+  int_ref solve2_internal_s "solver.ml" 142 4590 4594 "solver.ml" 142 4590 4611
+)
+"solver.ml" 128 4123 4151 "solver.ml" 128 4123 4155
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 125 4001 4024 "solver.ml" 125 4001 4028
+)
+"solver.ml" 128 4123 4156 "solver.ml" 128 4123 4160
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 125 4001 4029 "solver.ml" 125 4001 4033
+)
+"solver.ml" 128 4123 4161 "solver.ml" 128 4123 4165
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 125 4001 4039 "solver.ml" 125 4001 4043
+)
+"solver.ml" 128 4123 4166 "solver.ml" 128 4123 4170
+type(
+  Term.wffi option
+)
+ident(
+  int_ref sucL "solver.ml" 125 4001 4044 "solver.ml" 125 4001 4048
+)
+"solver.ml" 128 4123 4171 "solver.ml" 128 4123 4175
+type(
+  Term.wffi
+)
+ident(
+  int_ref sucR "solver.ml" 125 4001 4049 "solver.ml" 125 4001 4053
+)
+"solver.ml" 128 4123 4133 "solver.ml" 128 4123 4175
+call(
+  tail
+)
+type(
+  bool
+)
+"solver.ml" 129 4176 4201 "solver.ml" 129 4176 4202
+type(
+  int
+)
+ident(
+  def p "solver.ml" 130 4220 4231 "solver.ml" 132 4342 4415
+)
+"solver.ml" 129 4176 4192 "solver.ml" 129 4176 4202
+type(
+  Term.wffi
+)
+"solver.ml" 129 4176 4203 "solver.ml" 129 4176 4205
+type(
+  Term.wffi
+)
+ident(
+  def t3 "solver.ml" 130 4220 4231 "solver.ml" 132 4342 4415
+)
+"solver.ml" 129 4176 4181 "solver.ml" 129 4176 4206
+type(
+  Term.wffi
+)
+"solver.ml" 129 4176 4207 "solver.ml" 129 4176 4209
+type(
+  int
+)
+ident(
+  def ti "solver.ml" 130 4220 4231 "solver.ml" 132 4342 4415
+)
+"solver.ml" 129 4176 4180 "solver.ml" 129 4176 4210
+type(
+  Term.wffi * int
+)
+"solver.ml" 129 4176 4214 "solver.ml" 129 4176 4219
+type(
+  (Term.wffi * int) list
+)
+ident(
+  def ant1t "solver.ml" 130 4220 4231 "solver.ml" 132 4342 4415
+)
+"solver.ml" 129 4176 4180 "solver.ml" 129 4176 4219
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 130 4220 4231 "solver.ml" 130 4220 4242
+type(
+  (Term.wffi * int -> bool) -> (Term.wffi * int) list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"solver.ml" 130 4220 4249 "solver.ml" 130 4220 4250
+type(
+  Term.wffi
+)
+ident(
+  def x "solver.ml" 130 4220 4257 "solver.ml" 130 4220 4271
+)
+"solver.ml" 130 4220 4251 "solver.ml" 130 4220 4252
+type(
+  int
+)
+"solver.ml" 130 4220 4248 "solver.ml" 130 4220 4253
+type(
+  Term.wffi * int
+)
+"solver.ml" 130 4220 4257 "solver.ml" 130 4220 4258
+type(
+  Term.wffi
+)
+ident(
+  int_ref x "solver.ml" 130 4220 4249 "solver.ml" 130 4220 4250
+)
+"solver.ml" 130 4220 4259 "solver.ml" 130 4220 4260
+type(
+  Term.wffi -> Term.wffi -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"solver.ml" 130 4220 4270 "solver.ml" 130 4220 4271
+type(
+  int
+)
+ident(
+  int_ref p "solver.ml" 129 4176 4201 "solver.ml" 129 4176 4202
+)
+"solver.ml" 130 4220 4261 "solver.ml" 130 4220 4271
+type(
+  Term.wffi
+)
+"solver.ml" 130 4220 4257 "solver.ml" 130 4220 4271
+type(
+  bool
+)
+"solver.ml" 130 4220 4243 "solver.ml" 130 4220 4272
+type(
+  Term.wffi * int -> bool
+)
+"solver.ml" 130 4220 4273 "solver.ml" 130 4220 4277
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant1 "solver.ml" 125 4001 4034 "solver.ml" 125 4001 4038
+)
+"solver.ml" 130 4220 4231 "solver.ml" 130 4220 4277
+call(
+  stack
+)
+type(
+  bool
+)
+"solver.ml" 130 4220 4278 "solver.ml" 130 4220 4280
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"solver.ml" 131 4281 4292 "solver.ml" 131 4281 4303
+type(
+  (Term.wffi * int -> bool) -> (Term.wffi * int) list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"solver.ml" 131 4281 4310 "solver.ml" 131 4281 4311
+type(
+  Term.wffi
+)
+ident(
+  def x "solver.ml" 131 4281 4318 "solver.ml" 131 4281 4332
+)
+"solver.ml" 131 4281 4312 "solver.ml" 131 4281 4313
+type(
+  int
+)
+"solver.ml" 131 4281 4309 "solver.ml" 131 4281 4314
+type(
+  Term.wffi * int
+)
+"solver.ml" 131 4281 4318 "solver.ml" 131 4281 4319
+type(
+  Term.wffi
+)
+ident(
+  int_ref x "solver.ml" 131 4281 4310 "solver.ml" 131 4281 4311
+)
+"solver.ml" 131 4281 4320 "solver.ml" 131 4281 4321
+type(
+  Term.wffi -> Term.wffi -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"solver.ml" 131 4281 4331 "solver.ml" 131 4281 4332
+type(
+  int
+)
+ident(
+  int_ref p "solver.ml" 129 4176 4201 "solver.ml" 129 4176 4202
+)
+"solver.ml" 131 4281 4322 "solver.ml" 131 4281 4332
+type(
+  Term.wffi
+)
+"solver.ml" 131 4281 4318 "solver.ml" 131 4281 4332
+type(
+  bool
+)
+"solver.ml" 131 4281 4304 "solver.ml" 131 4281 4333
+type(
+  Term.wffi * int -> bool
+)
+"solver.ml" 131 4281 4334 "solver.ml" 131 4281 4338
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 125 4001 4039 "solver.ml" 125 4001 4043
+)
+"solver.ml" 131 4281 4292 "solver.ml" 131 4281 4338
+call(
+  stack
+)
+type(
+  bool
+)
+"solver.ml" 130 4220 4231 "solver.ml" 131 4281 4338
+type(
+  bool
+)
+"solver.ml" 132 4342 4348 "solver.ml" 132 4342 4366
+type(
+  int ->
+  int ->
+  (Term.wffi * int) list ->
+  (Term.wffi * int) list -> Term.wffi option -> Term.wffi -> bool
+)
+ident(
+  int_ref solve1_internal_a1 "solver.ml" 78 2031 2035 "solver.ml" 78 2031 2053
+)
+"solver.ml" 132 4342 4368 "solver.ml" 132 4342 4372
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 125 4001 4024 "solver.ml" 125 4001 4028
+)
+"solver.ml" 132 4342 4372 "solver.ml" 132 4342 4373
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 132 4342 4373 "solver.ml" 132 4342 4374
+type(
+  int
+)
+"solver.ml" 132 4342 4367 "solver.ml" 132 4342 4375
+type(
+  int
+)
+"solver.ml" 132 4342 4376 "solver.ml" 132 4342 4380
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 125 4001 4029 "solver.ml" 125 4001 4033
+)
+"solver.ml" 132 4342 4383 "solver.ml" 132 4342 4385
+type(
+  Term.wffi
+)
+ident(
+  int_ref t3 "solver.ml" 129 4176 4203 "solver.ml" 129 4176 4205
+)
+"solver.ml" 132 4342 4386 "solver.ml" 132 4342 4390
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 125 4001 4024 "solver.ml" 125 4001 4028
+)
+"solver.ml" 132 4342 4382 "solver.ml" 132 4342 4391
+type(
+  Term.wffi * int
+)
+"solver.ml" 132 4342 4381 "solver.ml" 132 4342 4392
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 132 4342 4394 "solver.ml" 132 4342 4398
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 125 4001 4039 "solver.ml" 125 4001 4043
+)
+"solver.ml" 132 4342 4398 "solver.ml" 132 4342 4399
+type(
+  (Term.wffi * int) list -> (Term.wffi * int) list -> (Term.wffi * int) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"solver.ml" 132 4342 4399 "solver.ml" 132 4342 4404
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant1t "solver.ml" 129 4176 4214 "solver.ml" 129 4176 4219
+)
+"solver.ml" 132 4342 4393 "solver.ml" 132 4342 4405
+call(
+  stack
+)
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 132 4342 4406 "solver.ml" 132 4342 4410
+type(
+  Term.wffi option
+)
+ident(
+  int_ref sucL "solver.ml" 125 4001 4044 "solver.ml" 125 4001 4048
+)
+"solver.ml" 132 4342 4411 "solver.ml" 132 4342 4415
+type(
+  Term.wffi
+)
+ident(
+  int_ref sucR "solver.ml" 125 4001 4049 "solver.ml" 125 4001 4053
+)
+"solver.ml" 132 4342 4348 "solver.ml" 132 4342 4415
+call(
+  tail
+)
+type(
+  bool
+)
+"solver.ml" 133 4416 4420 "solver.ml" 133 4416 4425
+type(
+  Term.wffi * int
+)
+ident(
+  def ant1h "solver.ml" 134 4438 4444 "solver.ml" 134 4438 4502
+)
+"solver.ml" 133 4416 4429 "solver.ml" 133 4416 4434
+type(
+  (Term.wffi * int) list
+)
+ident(
+  def ant1t "solver.ml" 134 4438 4444 "solver.ml" 134 4438 4502
+)
+"solver.ml" 133 4416 4420 "solver.ml" 133 4416 4434
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 134 4438 4444 "solver.ml" 134 4438 4462
+type(
+  int ->
+  int ->
+  (Term.wffi * int) list ->
+  (Term.wffi * int) list -> Term.wffi option -> Term.wffi -> bool
+)
+ident(
+  int_ref solve1_internal_a2 "solver.ml" 125 4001 4005 "solver.ml" 125 4001 4023
+)
+"solver.ml" 134 4438 4463 "solver.ml" 134 4438 4467
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 125 4001 4024 "solver.ml" 125 4001 4028
+)
+"solver.ml" 134 4438 4468 "solver.ml" 134 4438 4472
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 125 4001 4029 "solver.ml" 125 4001 4033
+)
+"solver.ml" 134 4438 4473 "solver.ml" 134 4438 4478
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant1t "solver.ml" 133 4416 4429 "solver.ml" 133 4416 4434
+)
+"solver.ml" 134 4438 4480 "solver.ml" 134 4438 4485
+type(
+  Term.wffi * int
+)
+ident(
+  int_ref ant1h "solver.ml" 133 4416 4420 "solver.ml" 133 4416 4425
+)
+"solver.ml" 134 4438 4487 "solver.ml" 134 4438 4491
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 125 4001 4039 "solver.ml" 125 4001 4043
+)
+"solver.ml" 134 4438 4479 "solver.ml" 134 4438 4492
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 134 4438 4493 "solver.ml" 134 4438 4497
+type(
+  Term.wffi option
+)
+ident(
+  int_ref sucL "solver.ml" 125 4001 4044 "solver.ml" 125 4001 4048
+)
+"solver.ml" 134 4438 4498 "solver.ml" 134 4438 4502
+type(
+  Term.wffi
+)
+ident(
+  int_ref sucR "solver.ml" 125 4001 4049 "solver.ml" 125 4001 4053
+)
+"solver.ml" 134 4438 4444 "solver.ml" 134 4438 4502
+call(
+  tail
+)
+type(
+  bool
+)
+"solver.ml" 127 4099 4101 "solver.ml" 135 4503 4508
+type(
+  bool
+)
+"solver.ml" 126 4056 4058 "solver.ml" 135 4503 4508
+type(
+  bool
+)
+"solver.ml" 142 4590 4594 "solver.ml" 142 4590 4611
+type(
+  int ->
+  int -> (Term.wffi * int) list -> Term.wffi option -> Term.wffi -> bool
+)
+ident(
+  def solve2_internal_s "solver.ml" 48 1188 1188 "solver.ml" 1 0 -1
+)
+"solver.ml" 142 4590 4612 "solver.ml" 142 4590 4616
+type(
+  int
+)
+ident(
+  def anum "solver.ml" 142 4590 4617 "solver.ml" 159 5234 5287
+)
+"solver.ml" 142 4590 4617 "solver.ml" 142 4590 4621
+type(
+  int
+)
+ident(
+  def pnum "solver.ml" 142 4590 4622 "solver.ml" 159 5234 5287
+)
+"solver.ml" 142 4590 4622 "solver.ml" 142 4590 4625
+type(
+  (Term.wffi * int) list
+)
+ident(
+  def ant "solver.ml" 142 4590 4626 "solver.ml" 159 5234 5287
+)
+"solver.ml" 142 4590 4626 "solver.ml" 142 4590 4630
+type(
+  Term.wffi option
+)
+ident(
+  def sucL "solver.ml" 142 4590 4631 "solver.ml" 159 5234 5287
+)
+"solver.ml" 142 4590 4631 "solver.ml" 142 4590 4635
+type(
+  Term.wffi
+)
+ident(
+  def sucR "solver.ml" 143 4638 4640 "solver.ml" 159 5234 5287
+)
+"solver.ml" 143 4638 4640 "solver.ml" 143 4638 4653
+type(
+  string ->
+  (Term.wffi * int) list ->
+  (Term.wffi * '_b) list -> Term.wffi option -> Term.wffi -> unit
+)
+ident(
+  int_ref debug_sequent "solver.ml" 18 344 348 "solver.ml" 18 344 361
+)
+"solver.ml" 143 4638 4654 "solver.ml" 143 4638 4658
+type(
+  string
+)
+"solver.ml" 143 4638 4659 "solver.ml" 143 4638 4662
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant "solver.ml" 142 4590 4622 "solver.ml" 142 4590 4625
+)
+"solver.ml" 143 4638 4663 "solver.ml" 143 4638 4665
+type(
+  (Term.wffi * '_b) list
+)
+"solver.ml" 143 4638 4666 "solver.ml" 143 4638 4670
+type(
+  Term.wffi option
+)
+ident(
+  int_ref sucL "solver.ml" 142 4590 4626 "solver.ml" 142 4590 4630
+)
+"solver.ml" 143 4638 4671 "solver.ml" 143 4638 4675
+type(
+  Term.wffi
+)
+ident(
+  int_ref sucR "solver.ml" 142 4590 4631 "solver.ml" 142 4590 4635
+)
+"solver.ml" 143 4638 4640 "solver.ml" 143 4638 4675
+call(
+  stack
+)
+type(
+  unit
+)
+"solver.ml" 144 4677 4691 "solver.ml" 144 4677 4695
+type(
+  Term.wffi
+)
+ident(
+  int_ref sucR "solver.ml" 142 4590 4631 "solver.ml" 142 4590 4635
+)
+"solver.ml" 145 4701 4713 "solver.ml" 145 4701 4715
+type(
+  Term.wffi
+)
+ident(
+  def t1 "solver.ml" 146 4723 4729 "solver.ml" 157 5209 5218
+)
+"solver.ml" 145 4701 4716 "solver.ml" 145 4701 4718
+type(
+  Term.wffi
+)
+ident(
+  def t2 "solver.ml" 146 4723 4729 "solver.ml" 157 5209 5218
+)
+"solver.ml" 145 4701 4705 "solver.ml" 145 4701 4719
+type(
+  Term.wffi
+)
+"solver.ml" 146 4723 4741 "solver.ml" 146 4723 4745
+type(
+  Term.wffi option
+)
+ident(
+  int_ref sucL "solver.ml" 142 4590 4626 "solver.ml" 142 4590 4630
+)
+"solver.ml" 147 4751 4759 "solver.ml" 147 4751 4763
+type(
+  Term.wffi option
+)
+"solver.ml" 148 4767 4777 "solver.ml" 148 4767 4794
+type(
+  int ->
+  int -> (Term.wffi * int) list -> Term.wffi option -> Term.wffi -> bool
+)
+ident(
+  int_ref solve1_internal_s "solver.ml" 48 1188 1196 "solver.ml" 48 1188 1213
+)
+"solver.ml" 148 4767 4795 "solver.ml" 148 4767 4799
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 142 4590 4612 "solver.ml" 142 4590 4616
+)
+"solver.ml" 148 4767 4800 "solver.ml" 148 4767 4804
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 142 4590 4617 "solver.ml" 142 4590 4621
+)
+"solver.ml" 148 4767 4805 "solver.ml" 148 4767 4808
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant "solver.ml" 142 4590 4622 "solver.ml" 142 4590 4625
+)
+"solver.ml" 148 4767 4809 "solver.ml" 148 4767 4813
+type(
+  Term.wffi option
+)
+ident(
+  int_ref sucL "solver.ml" 142 4590 4626 "solver.ml" 142 4590 4630
+)
+"solver.ml" 148 4767 4814 "solver.ml" 148 4767 4816
+type(
+  Term.wffi
+)
+ident(
+  int_ref t1 "solver.ml" 145 4701 4713 "solver.ml" 145 4701 4715
+)
+"solver.ml" 148 4767 4777 "solver.ml" 148 4767 4816
+call(
+  stack
+)
+type(
+  bool
+)
+"solver.ml" 148 4767 4817 "solver.ml" 148 4767 4819
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"solver.ml" 149 4820 4830 "solver.ml" 149 4820 4847
+type(
+  int ->
+  int -> (Term.wffi * int) list -> Term.wffi option -> Term.wffi -> bool
+)
+ident(
+  int_ref solve1_internal_s "solver.ml" 48 1188 1196 "solver.ml" 48 1188 1213
+)
+"solver.ml" 149 4820 4848 "solver.ml" 149 4820 4852
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 142 4590 4612 "solver.ml" 142 4590 4616
+)
+"solver.ml" 149 4820 4853 "solver.ml" 149 4820 4857
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 142 4590 4617 "solver.ml" 142 4590 4621
+)
+"solver.ml" 149 4820 4858 "solver.ml" 149 4820 4861
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant "solver.ml" 142 4590 4622 "solver.ml" 142 4590 4625
+)
+"solver.ml" 149 4820 4862 "solver.ml" 149 4820 4866
+type(
+  Term.wffi option
+)
+ident(
+  int_ref sucL "solver.ml" 142 4590 4626 "solver.ml" 142 4590 4630
+)
+"solver.ml" 149 4820 4867 "solver.ml" 149 4820 4869
+type(
+  Term.wffi
+)
+ident(
+  int_ref t2 "solver.ml" 145 4701 4716 "solver.ml" 145 4701 4718
+)
+"solver.ml" 149 4820 4830 "solver.ml" 149 4820 4869
+call(
+  stack
+)
+type(
+  bool
+)
+"solver.ml" 148 4767 4777 "solver.ml" 149 4820 4869
+type(
+  bool
+)
+"solver.ml" 150 4870 4883 "solver.ml" 150 4870 4888
+type(
+  Term.wffi
+)
+ident(
+  def sucLS "solver.ml" 151 4892 4902 "solver.ml" 156 5130 5208
+)
+"solver.ml" 150 4870 4878 "solver.ml" 150 4870 4888
+type(
+  Term.wffi option
+)
+"solver.ml" 151 4892 4906 "solver.ml" 151 4892 4907
+type(
+  Term.wffi
+)
+ident(
+  def p "solver.ml" 152 4927 4937 "solver.ml" 156 5130 5208
+)
+"solver.ml" 151 4892 4919 "solver.ml" 151 4892 4923
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 142 4590 4617 "solver.ml" 142 4590 4621
+)
+"solver.ml" 151 4892 4910 "solver.ml" 151 4892 4923
+type(
+  Term.wffi
+)
+"solver.ml" 152 4927 4941 "solver.ml" 152 4927 4943
+type(
+  Term.wffi option
+)
+ident(
+  def sp "solver.ml" 153 4956 4966 "solver.ml" 156 5130 5208
+)
+"solver.ml" 152 4927 4951 "solver.ml" 152 4927 4952
+type(
+  Term.wffi
+)
+ident(
+  int_ref p "solver.ml" 151 4892 4906 "solver.ml" 151 4892 4907
+)
+"solver.ml" 152 4927 4946 "solver.ml" 152 4927 4952
+type(
+  Term.wffi option
+)
+"solver.ml" 153 4956 4966 "solver.ml" 153 4956 4983
+type(
+  int ->
+  int -> (Term.wffi * int) list -> Term.wffi option -> Term.wffi -> bool
+)
+ident(
+  int_ref solve1_internal_s "solver.ml" 48 1188 1196 "solver.ml" 48 1188 1213
+)
+"solver.ml" 153 4956 4985 "solver.ml" 153 4956 4989
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 142 4590 4612 "solver.ml" 142 4590 4616
+)
+"solver.ml" 153 4956 4989 "solver.ml" 153 4956 4990
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 153 4956 4990 "solver.ml" 153 4956 4991
+type(
+  int
+)
+"solver.ml" 153 4956 4984 "solver.ml" 153 4956 4992
+type(
+  int
+)
+"solver.ml" 153 4956 4994 "solver.ml" 153 4956 4998
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 142 4590 4617 "solver.ml" 142 4590 4621
+)
+"solver.ml" 153 4956 4998 "solver.ml" 153 4956 4999
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 153 4956 4999 "solver.ml" 153 4956 5000
+type(
+  int
+)
+"solver.ml" 153 4956 4993 "solver.ml" 153 4956 5001
+type(
+  int
+)
+"solver.ml" 154 5002 5027 "solver.ml" 154 5002 5029
+type(
+  Term.wffi
+)
+ident(
+  int_ref t2 "solver.ml" 145 4701 4716 "solver.ml" 145 4701 4718
+)
+"solver.ml" 154 5002 5030 "solver.ml" 154 5002 5031
+type(
+  Term.wffi
+)
+ident(
+  int_ref p "solver.ml" 151 4892 4906 "solver.ml" 151 4892 4907
+)
+"solver.ml" 154 5002 5016 "solver.ml" 154 5002 5032
+type(
+  Term.wffi
+)
+"solver.ml" 154 5002 5033 "solver.ml" 154 5002 5037
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 142 4590 4612 "solver.ml" 142 4590 4616
+)
+"solver.ml" 154 5002 5015 "solver.ml" 154 5002 5038
+type(
+  Term.wffi * int
+)
+"solver.ml" 154 5002 5052 "solver.ml" 154 5002 5053
+type(
+  Term.wffi
+)
+ident(
+  int_ref p "solver.ml" 151 4892 4906 "solver.ml" 151 4892 4907
+)
+"solver.ml" 154 5002 5054 "solver.ml" 154 5002 5059
+type(
+  Term.wffi
+)
+ident(
+  int_ref sucLS "solver.ml" 150 4870 4883 "solver.ml" 150 4870 4888
+)
+"solver.ml" 154 5002 5041 "solver.ml" 154 5002 5060
+type(
+  Term.wffi
+)
+"solver.ml" 154 5002 5061 "solver.ml" 154 5002 5065
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 142 4590 4612 "solver.ml" 142 4590 4616
+)
+"solver.ml" 154 5002 5065 "solver.ml" 154 5002 5066
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 154 5002 5066 "solver.ml" 154 5002 5067
+type(
+  int
+)
+"solver.ml" 154 5002 5061 "solver.ml" 154 5002 5067
+type(
+  int
+)
+"solver.ml" 154 5002 5040 "solver.ml" 154 5002 5068
+type(
+  Term.wffi * int
+)
+"solver.ml" 154 5002 5070 "solver.ml" 154 5002 5073
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant "solver.ml" 142 4590 4622 "solver.ml" 142 4590 4625
+)
+"solver.ml" 154 5002 5040 "solver.ml" 154 5002 5073
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 154 5002 5014 "solver.ml" 154 5002 5074
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 154 5002 5075 "solver.ml" 154 5002 5077
+type(
+  Term.wffi option
+)
+ident(
+  int_ref sp "solver.ml" 152 4927 4941 "solver.ml" 152 4927 4943
+)
+"solver.ml" 154 5002 5078 "solver.ml" 154 5002 5080
+type(
+  Term.wffi
+)
+ident(
+  int_ref t1 "solver.ml" 145 4701 4713 "solver.ml" 145 4701 4715
+)
+"solver.ml" 153 4956 4966 "solver.ml" 154 5002 5080
+call(
+  stack
+)
+type(
+  bool
+)
+"solver.ml" 154 5002 5081 "solver.ml" 154 5002 5083
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"solver.ml" 155 5084 5094 "solver.ml" 155 5084 5111
+type(
+  int ->
+  int -> (Term.wffi * int) list -> Term.wffi option -> Term.wffi -> bool
+)
+ident(
+  int_ref solve1_internal_s "solver.ml" 48 1188 1196 "solver.ml" 48 1188 1213
+)
+"solver.ml" 155 5084 5113 "solver.ml" 155 5084 5117
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 142 4590 4612 "solver.ml" 142 4590 4616
+)
+"solver.ml" 155 5084 5117 "solver.ml" 155 5084 5118
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 155 5084 5118 "solver.ml" 155 5084 5119
+type(
+  int
+)
+"solver.ml" 155 5084 5112 "solver.ml" 155 5084 5120
+type(
+  int
+)
+"solver.ml" 155 5084 5122 "solver.ml" 155 5084 5126
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 142 4590 4617 "solver.ml" 142 4590 4621
+)
+"solver.ml" 155 5084 5126 "solver.ml" 155 5084 5127
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 155 5084 5127 "solver.ml" 155 5084 5128
+type(
+  int
+)
+"solver.ml" 155 5084 5121 "solver.ml" 155 5084 5129
+type(
+  int
+)
+"solver.ml" 156 5130 5155 "solver.ml" 156 5130 5157
+type(
+  Term.wffi
+)
+ident(
+  int_ref t1 "solver.ml" 145 4701 4713 "solver.ml" 145 4701 4715
+)
+"solver.ml" 156 5130 5158 "solver.ml" 156 5130 5159
+type(
+  Term.wffi
+)
+ident(
+  int_ref p "solver.ml" 151 4892 4906 "solver.ml" 151 4892 4907
+)
+"solver.ml" 156 5130 5144 "solver.ml" 156 5130 5160
+type(
+  Term.wffi
+)
+"solver.ml" 156 5130 5161 "solver.ml" 156 5130 5165
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 142 4590 4612 "solver.ml" 142 4590 4616
+)
+"solver.ml" 156 5130 5143 "solver.ml" 156 5130 5166
+type(
+  Term.wffi * int
+)
+"solver.ml" 156 5130 5180 "solver.ml" 156 5130 5181
+type(
+  Term.wffi
+)
+ident(
+  int_ref p "solver.ml" 151 4892 4906 "solver.ml" 151 4892 4907
+)
+"solver.ml" 156 5130 5182 "solver.ml" 156 5130 5187
+type(
+  Term.wffi
+)
+ident(
+  int_ref sucLS "solver.ml" 150 4870 4883 "solver.ml" 150 4870 4888
+)
+"solver.ml" 156 5130 5169 "solver.ml" 156 5130 5188
+type(
+  Term.wffi
+)
+"solver.ml" 156 5130 5189 "solver.ml" 156 5130 5193
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 142 4590 4612 "solver.ml" 142 4590 4616
+)
+"solver.ml" 156 5130 5193 "solver.ml" 156 5130 5194
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 156 5130 5194 "solver.ml" 156 5130 5195
+type(
+  int
+)
+"solver.ml" 156 5130 5189 "solver.ml" 156 5130 5195
+type(
+  int
+)
+"solver.ml" 156 5130 5168 "solver.ml" 156 5130 5196
+type(
+  Term.wffi * int
+)
+"solver.ml" 156 5130 5198 "solver.ml" 156 5130 5201
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant "solver.ml" 142 4590 4622 "solver.ml" 142 4590 4625
+)
+"solver.ml" 156 5130 5168 "solver.ml" 156 5130 5201
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 156 5130 5142 "solver.ml" 156 5130 5202
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 156 5130 5203 "solver.ml" 156 5130 5205
+type(
+  Term.wffi option
+)
+ident(
+  int_ref sp "solver.ml" 152 4927 4941 "solver.ml" 152 4927 4943
+)
+"solver.ml" 156 5130 5206 "solver.ml" 156 5130 5208
+type(
+  Term.wffi
+)
+ident(
+  int_ref t2 "solver.ml" 145 4701 4716 "solver.ml" 145 4701 4718
+)
+"solver.ml" 155 5084 5094 "solver.ml" 156 5130 5208
+call(
+  stack
+)
+type(
+  bool
+)
+"solver.ml" 153 4956 4966 "solver.ml" 156 5130 5208
+type(
+  bool
+)
+"solver.ml" 152 4927 4937 "solver.ml" 156 5130 5208
+type(
+  bool
+)
+"solver.ml" 151 4892 4902 "solver.ml" 156 5130 5208
+type(
+  bool
+)
+"solver.ml" 146 4723 4729 "solver.ml" 157 5209 5218
+type(
+  bool
+)
+"solver.ml" 158 5219 5223 "solver.ml" 158 5219 5224
+type(
+  Term.wffi
+)
+"solver.ml" 158 5219 5228 "solver.ml" 158 5219 5233
+type(
+  bool
+)
+"solver.ml" 144 4677 4679 "solver.ml" 159 5234 5239
+type(
+  bool
+)
+"solver.ml" 159 5234 5240 "solver.ml" 159 5234 5242
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"solver.ml" 159 5234 5243 "solver.ml" 159 5234 5260
+type(
+  int ->
+  int ->
+  (Term.wffi * int) list ->
+  (Term.wffi * int) list -> Term.wffi option -> Term.wffi -> bool
+)
+ident(
+  int_ref solve2_internal_a "solver.ml" 168 5477 5481 "solver.ml" 168 5477 5498
+)
+"solver.ml" 159 5234 5261 "solver.ml" 159 5234 5265
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 142 4590 4612 "solver.ml" 142 4590 4616
+)
+"solver.ml" 159 5234 5266 "solver.ml" 159 5234 5270
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 142 4590 4617 "solver.ml" 142 4590 4621
+)
+"solver.ml" 159 5234 5271 "solver.ml" 159 5234 5274
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant "solver.ml" 142 4590 4622 "solver.ml" 142 4590 4625
+)
+"solver.ml" 159 5234 5275 "solver.ml" 159 5234 5277
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 159 5234 5278 "solver.ml" 159 5234 5282
+type(
+  Term.wffi option
+)
+ident(
+  int_ref sucL "solver.ml" 142 4590 4626 "solver.ml" 142 4590 4630
+)
+"solver.ml" 159 5234 5283 "solver.ml" 159 5234 5287
+type(
+  Term.wffi
+)
+ident(
+  int_ref sucR "solver.ml" 142 4590 4631 "solver.ml" 142 4590 4635
+)
+"solver.ml" 159 5234 5243 "solver.ml" 159 5234 5287
+call(
+  tail
+)
+type(
+  bool
+)
+"solver.ml" 144 4677 4679 "solver.ml" 159 5234 5287
+type(
+  bool
+)
+"solver.ml" 143 4638 4640 "solver.ml" 159 5234 5287
+type(
+  bool
+)
+"solver.ml" 168 5477 5481 "solver.ml" 168 5477 5498
+type(
+  int ->
+  int ->
+  (Term.wffi * int) list ->
+  (Term.wffi * int) list -> Term.wffi option -> Term.wffi -> bool
+)
+ident(
+  def solve2_internal_a "solver.ml" 48 1188 1188 "solver.ml" 1 0 -1
+)
+"solver.ml" 168 5477 5499 "solver.ml" 168 5477 5503
+type(
+  int
+)
+ident(
+  def anum "solver.ml" 168 5477 5504 "solver.ml" 188 6231 6236
+)
+"solver.ml" 168 5477 5504 "solver.ml" 168 5477 5508
+type(
+  int
+)
+ident(
+  def pnum "solver.ml" 168 5477 5509 "solver.ml" 188 6231 6236
+)
+"solver.ml" 168 5477 5509 "solver.ml" 168 5477 5513
+type(
+  (Term.wffi * int) list
+)
+ident(
+  def ant1 "solver.ml" 168 5477 5514 "solver.ml" 188 6231 6236
+)
+"solver.ml" 168 5477 5514 "solver.ml" 168 5477 5518
+type(
+  (Term.wffi * int) list
+)
+ident(
+  def ant2 "solver.ml" 168 5477 5519 "solver.ml" 188 6231 6236
+)
+"solver.ml" 168 5477 5519 "solver.ml" 168 5477 5523
+type(
+  Term.wffi option
+)
+ident(
+  def sucL "solver.ml" 168 5477 5524 "solver.ml" 188 6231 6236
+)
+"solver.ml" 168 5477 5524 "solver.ml" 168 5477 5528
+type(
+  Term.wffi
+)
+ident(
+  def sucR "solver.ml" 169 5531 5533 "solver.ml" 188 6231 6236
+)
+"solver.ml" 169 5531 5533 "solver.ml" 169 5531 5546
+type(
+  string ->
+  (Term.wffi * int) list ->
+  (Term.wffi * int) list -> Term.wffi option -> Term.wffi -> unit
+)
+ident(
+  int_ref debug_sequent "solver.ml" 18 344 348 "solver.ml" 18 344 361
+)
+"solver.ml" 169 5531 5547 "solver.ml" 169 5531 5551
+type(
+  string
+)
+"solver.ml" 169 5531 5552 "solver.ml" 169 5531 5556
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant1 "solver.ml" 168 5477 5509 "solver.ml" 168 5477 5513
+)
+"solver.ml" 169 5531 5557 "solver.ml" 169 5531 5561
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 168 5477 5514 "solver.ml" 168 5477 5518
+)
+"solver.ml" 169 5531 5562 "solver.ml" 169 5531 5566
+type(
+  Term.wffi option
+)
+ident(
+  int_ref sucL "solver.ml" 168 5477 5519 "solver.ml" 168 5477 5523
+)
+"solver.ml" 169 5531 5567 "solver.ml" 169 5531 5571
+type(
+  Term.wffi
+)
+ident(
+  int_ref sucR "solver.ml" 168 5477 5524 "solver.ml" 168 5477 5528
+)
+"solver.ml" 169 5531 5533 "solver.ml" 169 5531 5571
+call(
+  stack
+)
+type(
+  unit
+)
+"solver.ml" 170 5573 5587 "solver.ml" 170 5573 5591
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant1 "solver.ml" 168 5477 5509 "solver.ml" 168 5477 5513
+)
+"solver.ml" 171 5597 5601 "solver.ml" 171 5597 5603
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 171 5597 5607 "solver.ml" 171 5597 5612
+type(
+  bool
+)
+"solver.ml" 172 5613 5617 "solver.ml" 172 5613 5622
+type(
+  Term.wffi * int
+)
+ident(
+  def ant1h "solver.ml" 172 5613 5635 "solver.ml" 187 6167 6230
+)
+"solver.ml" 172 5613 5626 "solver.ml" 172 5613 5631
+type(
+  (Term.wffi * int) list
+)
+ident(
+  def ant1t "solver.ml" 172 5613 5635 "solver.ml" 187 6167 6230
+)
+"solver.ml" 172 5613 5617 "solver.ml" 172 5613 5631
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 172 5613 5647 "solver.ml" 172 5613 5652
+type(
+  Term.wffi * int
+)
+ident(
+  int_ref ant1h "solver.ml" 172 5613 5617 "solver.ml" 172 5613 5622
+)
+"solver.ml" 173 5658 5688 "solver.ml" 173 5658 5690
+type(
+  Term.wffi
+)
+ident(
+  def t1 "solver.ml" 174 5705 5715 "solver.ml" 184 6089 6134
+)
+"solver.ml" 173 5658 5691 "solver.ml" 173 5658 5693
+type(
+  Term.wffi
+)
+ident(
+  def t2 "solver.ml" 174 5705 5715 "solver.ml" 184 6089 6134
+)
+"solver.ml" 173 5658 5677 "solver.ml" 173 5658 5694
+type(
+  Term.wffi
+)
+"solver.ml" 173 5658 5695 "solver.ml" 173 5658 5697
+type(
+  Term.wffi
+)
+ident(
+  def t3 "solver.ml" 174 5705 5715 "solver.ml" 184 6089 6134
+)
+"solver.ml" 173 5658 5666 "solver.ml" 173 5658 5698
+type(
+  Term.wffi
+)
+"solver.ml" 173 5658 5699 "solver.ml" 173 5658 5701
+type(
+  int
+)
+ident(
+  def ti "solver.ml" 174 5705 5715 "solver.ml" 184 6089 6134
+)
+"solver.ml" 173 5658 5666 "solver.ml" 173 5658 5701
+type(
+  Term.wffi * int
+)
+"solver.ml" 174 5705 5727 "solver.ml" 174 5705 5731
+type(
+  Term.wffi option
+)
+ident(
+  int_ref sucL "solver.ml" 168 5477 5519 "solver.ml" 168 5477 5523
+)
+"solver.ml" 175 5737 5749 "solver.ml" 175 5737 5753
+type(
+  Term.wffi option
+)
+"solver.ml" 176 5757 5771 "solver.ml" 176 5757 5788
+type(
+  int ->
+  int -> (Term.wffi * int) list -> Term.wffi option -> Term.wffi -> bool
+)
+ident(
+  int_ref solve1_internal_s "solver.ml" 48 1188 1196 "solver.ml" 48 1188 1213
+)
+"solver.ml" 176 5757 5790 "solver.ml" 176 5757 5794
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 168 5477 5499 "solver.ml" 168 5477 5503
+)
+"solver.ml" 176 5757 5794 "solver.ml" 176 5757 5795
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 176 5757 5795 "solver.ml" 176 5757 5796
+type(
+  int
+)
+"solver.ml" 176 5757 5789 "solver.ml" 176 5757 5797
+type(
+  int
+)
+"solver.ml" 176 5757 5798 "solver.ml" 176 5757 5802
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 168 5477 5504 "solver.ml" 168 5477 5508
+)
+"solver.ml" 177 5803 5821 "solver.ml" 177 5803 5823
+type(
+  Term.wffi
+)
+ident(
+  int_ref t1 "solver.ml" 173 5658 5688 "solver.ml" 173 5658 5690
+)
+"solver.ml" 177 5803 5824 "solver.ml" 177 5803 5828
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 168 5477 5499 "solver.ml" 168 5477 5503
+)
+"solver.ml" 177 5803 5820 "solver.ml" 177 5803 5829
+type(
+  Term.wffi * int
+)
+"solver.ml" 177 5803 5831 "solver.ml" 177 5803 5836
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant1t "solver.ml" 172 5613 5626 "solver.ml" 172 5613 5631
+)
+"solver.ml" 177 5803 5820 "solver.ml" 177 5803 5836
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 177 5803 5836 "solver.ml" 177 5803 5837
+type(
+  (Term.wffi * int) list -> (Term.wffi * int) list -> (Term.wffi * int) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"solver.ml" 177 5803 5837 "solver.ml" 177 5803 5841
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 168 5477 5514 "solver.ml" 168 5477 5518
+)
+"solver.ml" 177 5803 5819 "solver.ml" 177 5803 5842
+call(
+  stack
+)
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 177 5803 5849 "solver.ml" 177 5803 5851
+type(
+  Term.wffi
+)
+ident(
+  int_ref t3 "solver.ml" 173 5658 5695 "solver.ml" 173 5658 5697
+)
+"solver.ml" 177 5803 5843 "solver.ml" 177 5803 5852
+type(
+  Term.wffi option
+)
+"solver.ml" 177 5803 5853 "solver.ml" 177 5803 5855
+type(
+  Term.wffi
+)
+ident(
+  int_ref t2 "solver.ml" 173 5658 5691 "solver.ml" 173 5658 5693
+)
+"solver.ml" 176 5757 5771 "solver.ml" 177 5803 5855
+call(
+  stack
+)
+type(
+  bool
+)
+"solver.ml" 178 5856 5873 "solver.ml" 178 5856 5878
+type(
+  Term.wffi
+)
+ident(
+  def sucLS "solver.ml" 179 5882 5896 "solver.ml" 181 6001 6029
+)
+"solver.ml" 178 5856 5868 "solver.ml" 178 5856 5878
+type(
+  Term.wffi option
+)
+"solver.ml" 179 5882 5896 "solver.ml" 179 5882 5913
+type(
+  int ->
+  int -> (Term.wffi * int) list -> Term.wffi option -> Term.wffi -> bool
+)
+ident(
+  int_ref solve1_internal_s "solver.ml" 48 1188 1196 "solver.ml" 48 1188 1213
+)
+"solver.ml" 179 5882 5915 "solver.ml" 179 5882 5919
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 168 5477 5499 "solver.ml" 168 5477 5503
+)
+"solver.ml" 179 5882 5919 "solver.ml" 179 5882 5920
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 179 5882 5920 "solver.ml" 179 5882 5921
+type(
+  int
+)
+"solver.ml" 179 5882 5914 "solver.ml" 179 5882 5922
+type(
+  int
+)
+"solver.ml" 179 5882 5923 "solver.ml" 179 5882 5927
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 168 5477 5504 "solver.ml" 168 5477 5508
+)
+"solver.ml" 180 5928 5957 "solver.ml" 180 5928 5961
+type(
+  Term.wffi
+)
+ident(
+  int_ref sucR "solver.ml" 168 5477 5524 "solver.ml" 168 5477 5528
+)
+"solver.ml" 180 5928 5962 "solver.ml" 180 5928 5967
+type(
+  Term.wffi
+)
+ident(
+  int_ref sucLS "solver.ml" 178 5856 5873 "solver.ml" 178 5856 5878
+)
+"solver.ml" 180 5928 5946 "solver.ml" 180 5928 5968
+type(
+  Term.wffi
+)
+"solver.ml" 180 5928 5969 "solver.ml" 180 5928 5973
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 168 5477 5499 "solver.ml" 168 5477 5503
+)
+"solver.ml" 180 5928 5945 "solver.ml" 180 5928 5974
+type(
+  Term.wffi * int
+)
+"solver.ml" 180 5928 5977 "solver.ml" 180 5928 5979
+type(
+  Term.wffi
+)
+ident(
+  int_ref t1 "solver.ml" 173 5658 5688 "solver.ml" 173 5658 5690
+)
+"solver.ml" 180 5928 5980 "solver.ml" 180 5928 5984
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 168 5477 5499 "solver.ml" 168 5477 5503
+)
+"solver.ml" 180 5928 5984 "solver.ml" 180 5928 5985
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 180 5928 5985 "solver.ml" 180 5928 5986
+type(
+  int
+)
+"solver.ml" 180 5928 5980 "solver.ml" 180 5928 5986
+type(
+  int
+)
+"solver.ml" 180 5928 5976 "solver.ml" 180 5928 5987
+type(
+  Term.wffi * int
+)
+"solver.ml" 180 5928 5989 "solver.ml" 180 5928 5994
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant1t "solver.ml" 172 5613 5626 "solver.ml" 172 5613 5631
+)
+"solver.ml" 180 5928 5976 "solver.ml" 180 5928 5994
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 180 5928 5945 "solver.ml" 180 5928 5994
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 180 5928 5994 "solver.ml" 180 5928 5995
+type(
+  (Term.wffi * int) list -> (Term.wffi * int) list -> (Term.wffi * int) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"solver.ml" 180 5928 5995 "solver.ml" 180 5928 5999
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 168 5477 5514 "solver.ml" 168 5477 5518
+)
+"solver.ml" 180 5928 5944 "solver.ml" 180 5928 6000
+call(
+  stack
+)
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 181 6001 6023 "solver.ml" 181 6001 6025
+type(
+  Term.wffi
+)
+ident(
+  int_ref t3 "solver.ml" 173 5658 5695 "solver.ml" 173 5658 5697
+)
+"solver.ml" 181 6001 6017 "solver.ml" 181 6001 6026
+type(
+  Term.wffi option
+)
+"solver.ml" 181 6001 6027 "solver.ml" 181 6001 6029
+type(
+  Term.wffi
+)
+ident(
+  int_ref t2 "solver.ml" 173 5658 5691 "solver.ml" 173 5658 5693
+)
+"solver.ml" 179 5882 5896 "solver.ml" 181 6001 6029
+call(
+  stack
+)
+type(
+  bool
+)
+"solver.ml" 174 5705 5715 "solver.ml" 182 6030 6043
+type(
+  bool
+)
+"solver.ml" 182 6030 6044 "solver.ml" 182 6030 6046
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"solver.ml" 183 6047 6057 "solver.ml" 183 6047 6074
+type(
+  int ->
+  int -> (Term.wffi * int) list -> Term.wffi option -> Term.wffi -> bool
+)
+ident(
+  int_ref solve1_internal_s "solver.ml" 48 1188 1196 "solver.ml" 48 1188 1213
+)
+"solver.ml" 183 6047 6076 "solver.ml" 183 6047 6080
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 168 5477 5499 "solver.ml" 168 5477 5503
+)
+"solver.ml" 183 6047 6080 "solver.ml" 183 6047 6081
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"solver.ml" 183 6047 6081 "solver.ml" 183 6047 6082
+type(
+  int
+)
+"solver.ml" 183 6047 6075 "solver.ml" 183 6047 6083
+type(
+  int
+)
+"solver.ml" 183 6047 6084 "solver.ml" 183 6047 6088
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 168 5477 5504 "solver.ml" 168 5477 5508
+)
+"solver.ml" 184 6089 6103 "solver.ml" 184 6089 6105
+type(
+  Term.wffi
+)
+ident(
+  int_ref t3 "solver.ml" 173 5658 5695 "solver.ml" 173 5658 5697
+)
+"solver.ml" 184 6089 6106 "solver.ml" 184 6089 6110
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 168 5477 5499 "solver.ml" 168 5477 5503
+)
+"solver.ml" 184 6089 6102 "solver.ml" 184 6089 6111
+type(
+  Term.wffi * int
+)
+"solver.ml" 184 6089 6113 "solver.ml" 184 6089 6118
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant1t "solver.ml" 172 5613 5626 "solver.ml" 172 5613 5631
+)
+"solver.ml" 184 6089 6102 "solver.ml" 184 6089 6118
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 184 6089 6118 "solver.ml" 184 6089 6119
+type(
+  (Term.wffi * int) list -> (Term.wffi * int) list -> (Term.wffi * int) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"solver.ml" 184 6089 6119 "solver.ml" 184 6089 6123
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 168 5477 5514 "solver.ml" 168 5477 5518
+)
+"solver.ml" 184 6089 6101 "solver.ml" 184 6089 6124
+call(
+  stack
+)
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 184 6089 6125 "solver.ml" 184 6089 6129
+type(
+  Term.wffi option
+)
+ident(
+  int_ref sucL "solver.ml" 168 5477 5519 "solver.ml" 168 5477 5523
+)
+"solver.ml" 184 6089 6130 "solver.ml" 184 6089 6134
+type(
+  Term.wffi
+)
+ident(
+  int_ref sucR "solver.ml" 168 5477 5524 "solver.ml" 168 5477 5528
+)
+"solver.ml" 183 6047 6057 "solver.ml" 184 6089 6134
+call(
+  stack
+)
+type(
+  bool
+)
+"solver.ml" 174 5705 5715 "solver.ml" 184 6089 6134
+type(
+  bool
+)
+"solver.ml" 185 6135 6143 "solver.ml" 185 6135 6144
+type(
+  Term.wffi * int
+)
+"solver.ml" 185 6135 6148 "solver.ml" 185 6135 6153
+type(
+  bool
+)
+"solver.ml" 172 5613 5635 "solver.ml" 186 6154 6163
+type(
+  bool
+)
+"solver.ml" 186 6154 6164 "solver.ml" 186 6154 6166
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"solver.ml" 187 6167 6173 "solver.ml" 187 6167 6190
+type(
+  int ->
+  int ->
+  (Term.wffi * int) list ->
+  (Term.wffi * int) list -> Term.wffi option -> Term.wffi -> bool
+)
+ident(
+  int_ref solve2_internal_a "solver.ml" 168 5477 5481 "solver.ml" 168 5477 5498
+)
+"solver.ml" 187 6167 6191 "solver.ml" 187 6167 6195
+type(
+  int
+)
+ident(
+  int_ref anum "solver.ml" 168 5477 5499 "solver.ml" 168 5477 5503
+)
+"solver.ml" 187 6167 6196 "solver.ml" 187 6167 6200
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 168 5477 5504 "solver.ml" 168 5477 5508
+)
+"solver.ml" 187 6167 6201 "solver.ml" 187 6167 6206
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant1t "solver.ml" 172 5613 5626 "solver.ml" 172 5613 5631
+)
+"solver.ml" 187 6167 6208 "solver.ml" 187 6167 6213
+type(
+  Term.wffi * int
+)
+ident(
+  int_ref ant1h "solver.ml" 172 5613 5617 "solver.ml" 172 5613 5622
+)
+"solver.ml" 187 6167 6215 "solver.ml" 187 6167 6219
+type(
+  (Term.wffi * int) list
+)
+ident(
+  int_ref ant2 "solver.ml" 168 5477 5514 "solver.ml" 168 5477 5518
+)
+"solver.ml" 187 6167 6207 "solver.ml" 187 6167 6220
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 187 6167 6221 "solver.ml" 187 6167 6225
+type(
+  Term.wffi option
+)
+ident(
+  int_ref sucL "solver.ml" 168 5477 5519 "solver.ml" 168 5477 5523
+)
+"solver.ml" 187 6167 6226 "solver.ml" 187 6167 6230
+type(
+  Term.wffi
+)
+ident(
+  int_ref sucR "solver.ml" 168 5477 5524 "solver.ml" 168 5477 5528
+)
+"solver.ml" 187 6167 6173 "solver.ml" 187 6167 6230
+call(
+  tail
+)
+type(
+  bool
+)
+"solver.ml" 172 5613 5635 "solver.ml" 187 6167 6230
+type(
+  bool
+)
+"solver.ml" 170 5573 5575 "solver.ml" 188 6231 6236
+type(
+  bool
+)
+"solver.ml" 169 5531 5533 "solver.ml" 188 6231 6236
+type(
+  bool
+)
+"solver.ml" 190 6238 6242 "solver.ml" 190 6238 6247
+type(
+  int -> Term.wffi -> bool
+)
+ident(
+  def solve "solver.ml" 191 6257 6293 "solver.ml" 1 0 -1
+)
+"solver.ml" 190 6238 6248 "solver.ml" 190 6238 6252
+type(
+  int
+)
+ident(
+  def pnum "solver.ml" 190 6238 6253 "solver.ml" 191 6257 6293
+)
+"solver.ml" 190 6238 6253 "solver.ml" 190 6238 6254
+type(
+  Term.wffi
+)
+ident(
+  def p "solver.ml" 191 6257 6259 "solver.ml" 191 6257 6293
+)
+"solver.ml" 191 6257 6259 "solver.ml" 191 6257 6276
+type(
+  int ->
+  int -> (Term.wffi * int) list -> Term.wffi option -> Term.wffi -> bool
+)
+ident(
+  int_ref solve1_internal_s "solver.ml" 48 1188 1196 "solver.ml" 48 1188 1213
+)
+"solver.ml" 191 6257 6277 "solver.ml" 191 6257 6278
+type(
+  int
+)
+"solver.ml" 191 6257 6279 "solver.ml" 191 6257 6283
+type(
+  int
+)
+ident(
+  int_ref pnum "solver.ml" 190 6238 6248 "solver.ml" 190 6238 6252
+)
+"solver.ml" 191 6257 6284 "solver.ml" 191 6257 6286
+type(
+  (Term.wffi * int) list
+)
+"solver.ml" 191 6257 6287 "solver.ml" 191 6257 6291
+type(
+  Term.wffi option
+)
+"solver.ml" 191 6257 6292 "solver.ml" 191 6257 6293
+type(
+  Term.wffi
+)
+ident(
+  int_ref p "solver.ml" 190 6238 6253 "solver.ml" 190 6238 6254
+)
+"solver.ml" 191 6257 6259 "solver.ml" 191 6257 6293
+call(
+  tail
+)
+type(
+  bool
+)
