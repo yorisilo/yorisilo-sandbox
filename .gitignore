@@ -3,7 +3,7 @@
 .stack*
 */yjpc/problemC/C.in
 .ipynb_checkpoints
-.tern_port
+.tern-port
 nodemodules/
 ### https://raw.github.com/github/gitignore/5f15ed83c7a3d5db29845edae5205ca2d795c3d8/Node.gitignore
 
@@ -65,6 +65,3 @@ typings/
 
 # dotenv environment variables file
 .env
-
-
-
