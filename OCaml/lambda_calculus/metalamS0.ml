@@ -52,7 +52,7 @@ and k = (v -> v)
 (* combinator *)
 let cint (n:int) = fun (n:int) -> .<n>. ;;
 let cbool (b:bool) = fun (b:bool) -> .<b>. ;;
-let capp (cx,cy) = .<cx cy>.;;
+let capp (cx,cy) = .<cx cy>. ;;
 
 exception Not_include_x_in_xs
 exception Error
