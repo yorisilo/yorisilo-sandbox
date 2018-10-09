@@ -16,7 +16,7 @@ data N = Zero | Succ N deriving (Show, Eq)
 step :: Term -> Term
 step (If (Val (Bv T)) t1 t2) = t1
 step (If (Val (Bv F)) t1 t2) = t2
-step (If t t1 t2) = step t
+step (If t t1 t2)            = step t
 
 eval :: Term -> V
 eval (Val v) = v
