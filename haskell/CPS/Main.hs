@@ -1,8 +1,8 @@
 {-# LANGUAGE BangPatterns #-}
 -- practice for CPS
 -- http://pllab.is.ocha.ac.jp/zemi_2.html
-import Control.Monad.State
-import Data.List
+import           Control.Monad.State
+import           Data.List
 
 
 fact :: Int -> Int
@@ -70,8 +70,8 @@ hoge :: (Num a, Num b) => a -> (a -> b) -> b
 hoge s f = f s
 
 zipWith' :: (a -> b -> c) -> [a] -> [b] -> [c]
-zipWith' _ [] _ = []
-zipWith' _ _ [] = []
+zipWith' _ [] _          = []
+zipWith' _ _ []          = []
 zipWith' f (x:xs) (y:ys) = f x y : zipWith' f xs ys
 
 -- cps
@@ -108,5 +108,5 @@ derivative f delta = \x -> (f (x+delta) - f x) / delta
 
 -- べき集合
 powerSet :: [a] -> [[a]]
-powerSet [] = [[]]
+powerSet []     = [[]]
 powerSet (x:xs) = [x:ys | ys <- powerSet xs] ++ powerSet xs

@@ -1,6 +1,8 @@
 -- type system
 -- https://uhideyuki.sakura.ne.jp/studs/index.cgi/ja/HindleyMilnerInHaskell
 
+module Expr where
+
 type Id = String
 
 data Term = Val V

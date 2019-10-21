@@ -1,7 +1,7 @@
 -- % cabal install hspec
 -- % runghc <this_file>
 
-import Small
+import           Small
 
 main :: IO ()
 main = hspec $ do

@@ -69,7 +69,7 @@ instance Types Type where
 
 instance Types a => Types [a] where
   apply s = fmap $ apply s
-  tv = nub.concat.fmap tv
+  tv = nub . concat . fmap tv
 
 data Scheme = Forall Int Type
             deriving Show
