@@ -7,7 +7,7 @@
   "license": "MIT",
   "dependencies": {
     "mecab-lite": "0.0.8",
-    "mongodb": "^2.0.35"
+    "mongodb": "^3.6.1"
   }
 }
 
