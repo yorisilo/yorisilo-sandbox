@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- html5 -->
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8"/>  <!-- for html5 -->
+    <link href="assets/css/main.css" rel="stylesheet"/>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
+    <title>Concentration</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h1>Concentration</h1>
+          <p>Score: <span id="score">0</span></p>
+
+          <p>
+            <button class="btn btn-info" onclick="level(1)">Easy</button>
+            <button class="btn btn-info" onclick="level(2)">Nomal</button>
+            <button class="btn btn-info" onclick="level(3)">Extreme</button>
+          </p>
+
+          <p>
+            <button class="btn btn-warning" onclick="grancecards()">hint</button>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <div id="stage"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <input type="button" id="card_0" value="?" onclick="flip(0)" /> -->
+    <!-- <input type="button" id="card_1" value="?" onclick="flip(1)" /> -->
+    <!-- <input type="button" id="card_2" value="?" onclick="flip(2)" /> -->
+    <!-- <input type="button" id="card_3" value="?" onclick="flip(3)" /><br/> -->
+    <!-- <input type="button" id="card_4" value="?" onclick="flip(4)" /> -->
+    <!-- <input type="button" id="card_5" value="?" onclick="flip(5)" /> -->
+    <!-- <input type="button" id="card_6" value="?" onclick="flip(6)" /> -->
+    <!-- <input type="button" id="card_7" value="?" onclick="flip(7)" /> -->
+
+    <!-- <a href="hoge.html" onClick="window.open('hoge.html','win','width=500,height=400,menubar=yes,status=yes,scrollbars=yes') ; return false ;"></a> -->
+
+    <script type="text/javascript" src="assets/js/main.js"></script>
+  </body>
+</html>

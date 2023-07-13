@@ -1,0 +1,13 @@
+body {
+  background-color: black;
+  color: white;
+  color: #EEB422;
+  font-size: 62.5%              /* 1em が 10px になる*/
+}
+
+#clock1 {
+  /* padding-top: 0.4em; */
+  /* padding-bottom: 0.3em; */
+  font-size: 42em;
+  text-align: center;
+}

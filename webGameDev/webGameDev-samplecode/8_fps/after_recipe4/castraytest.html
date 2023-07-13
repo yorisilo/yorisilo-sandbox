@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8" />
+    <title>FPS</title>
+    
+	</head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <canvas id="minimap"></canvas>
+    <script type="text/javascript" src="jaws.js"></script>
+    <script>
+    	var numberOfRays = 300;
+    	var angleBetweenRays = .2 * Math.PI /180;
+    	var playerAngle = 0; // 0は真右
+    	for (var i=0;i<numberOfRays;i++) {
+      	var rayNumber = -numberOfRays/2 + i;
+        //console.log(rayNumber);
+        var rayAngle = angleBetweenRays * rayNumber + playerAngle;
+        castRay(rayAngle);
+      }
+    	
+      function castRay(rayAngle){
+        var twoPi = Math.PI * 2;
+        // rayAngleをtwoPiで割った余りをrayAngleに代入
+        rayAngle %= twoPi;
+      	// console.log(rayAngle);
+      	var right = (rayAngle > twoPi * 0.75 || rayAngle < twoPi * 0.25);
+      	console.log("right : " + right);
+      	var up = rayAngle > Math.PI;
+      	console.log("up : "+ up);
+      }
+    </script>
+  </body>
+</html>

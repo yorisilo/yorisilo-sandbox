@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- html5 -->
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8"/>  <!-- for html5 -->
+    <link href="assets/css/main.css" rel="stylesheet"/>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <title>Clickくん</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h1>Clickくん</h1>
+          <p>
+            Time: <span id="time">0</span>
+            Click: <span id="click"> </span>
+
+          </p>
+          <p>
+            <button class="btn btn-default" onclick="reload()">はじめから</button>
+          </p>
+
+          <p>
+            <button class="btn btn-info" onclick="level(1)">Easy</button>
+            <button class="btn btn-info" onclick="level(2)">Nomal</button>
+            <button class="btn btn-info" onclick="level(3)">Extreme</button>
+          </p>
+          <img class="img-circle" src="assets/images/yukkuri.png"  width="500" onclick="clicker()">
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <div id="stage"></div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

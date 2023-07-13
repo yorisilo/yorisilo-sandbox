@@ -1,0 +1,193 @@
+"fib.ml" 1 0 8 "fib.ml" 1 0 11
+type(
+  int -> int * int
+)
+ident(
+  def fib "fib.ml" 1 0 0 "fib.ml" 1 0 -1
+)
+"fib.ml" 1 0 12 "fib.ml" 1 0 13
+type(
+  int
+)
+ident(
+  def n "fib.ml" 2 16 18 "fib.ml" 6 92 112
+)
+"fib.ml" 2 16 24 "fib.ml" 2 16 25
+type(
+  int
+)
+ident(
+  int_ref n "fib.ml" 1 0 12 "fib.ml" 1 0 13
+)
+"fib.ml" 3 31 35 "fib.ml" 3 31 36
+type(
+  int
+)
+"fib.ml" 3 31 39 "fib.ml" 3 31 40
+type(
+  int
+)
+"fib.ml" 3 31 35 "fib.ml" 3 31 40
+type(
+  int
+)
+"fib.ml" 3 31 44 "fib.ml" 3 31 45
+type(
+  int
+)
+"fib.ml" 3 31 47 "fib.ml" 3 31 48
+type(
+  int
+)
+"fib.ml" 3 31 44 "fib.ml" 3 31 48
+type(
+  int * int
+)
+"fib.ml" 4 49 53 "fib.ml" 4 49 54
+type(
+  int
+)
+"fib.ml" 5 58 68 "fib.ml" 5 58 71
+type(
+  int
+)
+ident(
+  def f_1 "fib.ml" 6 92 98 "fib.ml" 6 92 112
+)
+"fib.ml" 5 58 73 "fib.ml" 5 58 76
+type(
+  int
+)
+ident(
+  def f_2 "fib.ml" 6 92 98 "fib.ml" 6 92 112
+)
+"fib.ml" 5 58 68 "fib.ml" 5 58 76
+type(
+  int * int
+)
+"fib.ml" 5 58 79 "fib.ml" 5 58 82
+type(
+  int -> int * int
+)
+ident(
+  int_ref fib "fib.ml" 1 0 8 "fib.ml" 1 0 11
+)
+"fib.ml" 5 58 84 "fib.ml" 5 58 85
+type(
+  int
+)
+ident(
+  int_ref n "fib.ml" 1 0 12 "fib.ml" 1 0 13
+)
+"fib.ml" 5 58 85 "fib.ml" 5 58 86
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"fib.ml" 5 58 86 "fib.ml" 5 58 87
+type(
+  int
+)
+"fib.ml" 5 58 83 "fib.ml" 5 58 88
+type(
+  int
+)
+"fib.ml" 5 58 79 "fib.ml" 5 58 88
+call(
+  stack
+)
+type(
+  int * int
+)
+"fib.ml" 6 92 98 "fib.ml" 6 92 101
+type(
+  int
+)
+ident(
+  int_ref f_1 "fib.ml" 5 58 68 "fib.ml" 5 58 71
+)
+"fib.ml" 6 92 102 "fib.ml" 6 92 103
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"fib.ml" 6 92 104 "fib.ml" 6 92 107
+type(
+  int
+)
+ident(
+  int_ref f_2 "fib.ml" 5 58 73 "fib.ml" 5 58 76
+)
+"fib.ml" 6 92 98 "fib.ml" 6 92 107
+type(
+  int
+)
+"fib.ml" 6 92 109 "fib.ml" 6 92 112
+type(
+  int
+)
+ident(
+  int_ref f_1 "fib.ml" 5 58 68 "fib.ml" 5 58 71
+)
+"fib.ml" 6 92 98 "fib.ml" 6 92 112
+type(
+  int * int
+)
+"fib.ml" 5 58 64 "fib.ml" 6 92 112
+type(
+  int * int
+)
+"fib.ml" 2 16 18 "fib.ml" 6 92 112
+type(
+  int * int
+)
+"fib.ml" 8 114 118 "fib.ml" 8 114 121
+type(
+  int -> int
+)
+ident(
+  def fib "fib.ml" 8 114 137 "fib.ml" 1 0 -1
+)
+"fib.ml" 8 114 122 "fib.ml" 8 114 123
+type(
+  int
+)
+ident(
+  def n "fib.ml" 8 114 126 "fib.ml" 8 114 137
+)
+"fib.ml" 8 114 126 "fib.ml" 8 114 129
+type(
+  int * int -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"fib.ml" 8 114 131 "fib.ml" 8 114 134
+type(
+  int -> int * int
+)
+ident(
+  int_ref fib "fib.ml" 1 0 8 "fib.ml" 1 0 11
+)
+"fib.ml" 8 114 135 "fib.ml" 8 114 136
+type(
+  int
+)
+ident(
+  int_ref n "fib.ml" 8 114 122 "fib.ml" 8 114 123
+)
+"fib.ml" 8 114 130 "fib.ml" 8 114 137
+call(
+  stack
+)
+type(
+  int * int
+)
+"fib.ml" 8 114 126 "fib.ml" 8 114 137
+type(
+  int
+)

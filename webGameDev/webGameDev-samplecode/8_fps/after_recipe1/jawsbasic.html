@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8" />
+    <title>Jawsの基本形</title>
+    
+	</head>
+  <body>
+   	<canvas id="canvas"></canvas>
+   	<script type="text/javascript" src="jaws.js"></script>
+   	<script>
+   	var dino = {};
+   		function MyGameState() {
+  			// 1回だけ呼び出される。ここには初期化コードを置く。
+  			this.setup = function() {
+  				console.log("setupが呼び出された。");
+  				dino.sprite = new jaws.Sprite({image: "dino.png", x: 0, y: canvas.height/2, anchor: "center"});
+  			}
+  			// gametickおきに呼び出される。ここにはゲームロジックを置く。
+  			this.update = function() {
+  			 	console.log("updateが呼び出された。");
+  			 }
+  			// gametickおきに、update()の後呼び出される。ここには描画コードを置く。
+  			this.draw = function() {
+  				console.log("drawが呼び出された。");
+  				dino.sprite.draw();
+  				
+				}
+			}
+     	jaws.start(MyGameState);
+   	</script>
+  </body>
+</html>

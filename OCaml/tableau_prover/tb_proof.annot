@@ -1,0 +1,6318 @@
+"tb_proof.ml" 54 1049 1053 "tb_proof.ml" 54 1049 1060
+type(
+  tb_proof -> Term.swffi
+)
+ident(
+  def tb_type "tb_proof.ml" 72 1450 1450 "tb_proof.ml" 1 0 -1
+)
+"tb_proof.ml" 55 1072 1084 "tb_proof.ml" 55 1072 1085
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 55 1072 1086 "tb_proof.ml" 55 1072 1087
+type(
+  Term.swffi
+)
+ident(
+  def h "tb_proof.ml" 55 1072 1092 "tb_proof.ml" 55 1072 1093
+)
+"tb_proof.ml" 55 1072 1076 "tb_proof.ml" 55 1072 1088
+type(
+  tb_proof
+)
+"tb_proof.ml" 55 1072 1092 "tb_proof.ml" 55 1072 1093
+type(
+  Term.swffi
+)
+ident(
+  int_ref h "tb_proof.ml" 55 1072 1086 "tb_proof.ml" 55 1072 1087
+)
+"tb_proof.ml" 56 1094 1106 "tb_proof.ml" 56 1094 1107
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 56 1094 1108 "tb_proof.ml" 56 1094 1109
+type(
+  Term.swffi
+)
+ident(
+  def h "tb_proof.ml" 56 1094 1114 "tb_proof.ml" 56 1094 1115
+)
+"tb_proof.ml" 56 1094 1098 "tb_proof.ml" 56 1094 1110
+type(
+  tb_proof
+)
+"tb_proof.ml" 56 1094 1114 "tb_proof.ml" 56 1094 1115
+type(
+  Term.swffi
+)
+ident(
+  int_ref h "tb_proof.ml" 56 1094 1108 "tb_proof.ml" 56 1094 1109
+)
+"tb_proof.ml" 57 1116 1129 "tb_proof.ml" 57 1116 1130
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 57 1116 1131 "tb_proof.ml" 57 1116 1132
+type(
+  Term.swffi
+)
+ident(
+  def h "tb_proof.ml" 57 1116 1137 "tb_proof.ml" 57 1116 1138
+)
+"tb_proof.ml" 57 1116 1120 "tb_proof.ml" 57 1116 1133
+type(
+  tb_proof
+)
+"tb_proof.ml" 57 1116 1137 "tb_proof.ml" 57 1116 1138
+type(
+  Term.swffi
+)
+ident(
+  int_ref h "tb_proof.ml" 57 1116 1131 "tb_proof.ml" 57 1116 1132
+)
+"tb_proof.ml" 58 1139 1151 "tb_proof.ml" 58 1139 1152
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 58 1139 1153 "tb_proof.ml" 58 1139 1154
+type(
+  Term.swffi
+)
+ident(
+  def h "tb_proof.ml" 58 1139 1159 "tb_proof.ml" 58 1139 1160
+)
+"tb_proof.ml" 58 1139 1143 "tb_proof.ml" 58 1139 1155
+type(
+  tb_proof
+)
+"tb_proof.ml" 58 1139 1159 "tb_proof.ml" 58 1139 1160
+type(
+  Term.swffi
+)
+ident(
+  int_ref h "tb_proof.ml" 58 1139 1153 "tb_proof.ml" 58 1139 1154
+)
+"tb_proof.ml" 59 1161 1173 "tb_proof.ml" 59 1161 1174
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 59 1161 1175 "tb_proof.ml" 59 1161 1176
+type(
+  Term.swffi
+)
+ident(
+  def h "tb_proof.ml" 59 1161 1181 "tb_proof.ml" 59 1161 1182
+)
+"tb_proof.ml" 59 1161 1165 "tb_proof.ml" 59 1161 1177
+type(
+  tb_proof
+)
+"tb_proof.ml" 59 1161 1181 "tb_proof.ml" 59 1161 1182
+type(
+  Term.swffi
+)
+ident(
+  int_ref h "tb_proof.ml" 59 1161 1175 "tb_proof.ml" 59 1161 1176
+)
+"tb_proof.ml" 60 1183 1196 "tb_proof.ml" 60 1183 1197
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 60 1183 1198 "tb_proof.ml" 60 1183 1199
+type(
+  Term.swffi
+)
+ident(
+  def h "tb_proof.ml" 60 1183 1204 "tb_proof.ml" 60 1183 1205
+)
+"tb_proof.ml" 60 1183 1187 "tb_proof.ml" 60 1183 1200
+type(
+  tb_proof
+)
+"tb_proof.ml" 60 1183 1204 "tb_proof.ml" 60 1183 1205
+type(
+  Term.swffi
+)
+ident(
+  int_ref h "tb_proof.ml" 60 1183 1198 "tb_proof.ml" 60 1183 1199
+)
+"tb_proof.ml" 61 1206 1223 "tb_proof.ml" 61 1206 1224
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 61 1206 1225 "tb_proof.ml" 61 1206 1226
+type(
+  Term.swffi
+)
+ident(
+  def h "tb_proof.ml" 61 1206 1231 "tb_proof.ml" 61 1206 1232
+)
+"tb_proof.ml" 61 1206 1210 "tb_proof.ml" 61 1206 1227
+type(
+  tb_proof
+)
+"tb_proof.ml" 61 1206 1231 "tb_proof.ml" 61 1206 1232
+type(
+  Term.swffi
+)
+ident(
+  int_ref h "tb_proof.ml" 61 1206 1225 "tb_proof.ml" 61 1206 1226
+)
+"tb_proof.ml" 62 1233 1245 "tb_proof.ml" 62 1233 1246
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 62 1233 1247 "tb_proof.ml" 62 1233 1248
+type(
+  Term.swffi
+)
+ident(
+  def h "tb_proof.ml" 62 1233 1253 "tb_proof.ml" 62 1233 1254
+)
+"tb_proof.ml" 62 1233 1237 "tb_proof.ml" 62 1233 1249
+type(
+  tb_proof
+)
+"tb_proof.ml" 62 1233 1253 "tb_proof.ml" 62 1233 1254
+type(
+  Term.swffi
+)
+ident(
+  int_ref h "tb_proof.ml" 62 1233 1247 "tb_proof.ml" 62 1233 1248
+)
+"tb_proof.ml" 63 1255 1268 "tb_proof.ml" 63 1255 1269
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 63 1255 1270 "tb_proof.ml" 63 1255 1271
+type(
+  Term.swffi
+)
+ident(
+  def h "tb_proof.ml" 63 1255 1276 "tb_proof.ml" 63 1255 1277
+)
+"tb_proof.ml" 63 1255 1259 "tb_proof.ml" 63 1255 1272
+type(
+  tb_proof
+)
+"tb_proof.ml" 63 1255 1276 "tb_proof.ml" 63 1255 1277
+type(
+  Term.swffi
+)
+ident(
+  int_ref h "tb_proof.ml" 63 1255 1270 "tb_proof.ml" 63 1255 1271
+)
+"tb_proof.ml" 64 1278 1289 "tb_proof.ml" 64 1278 1290
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 64 1278 1291 "tb_proof.ml" 64 1278 1292
+type(
+  Term.swffi
+)
+ident(
+  def h "tb_proof.ml" 64 1278 1297 "tb_proof.ml" 64 1278 1298
+)
+"tb_proof.ml" 64 1278 1282 "tb_proof.ml" 64 1278 1293
+type(
+  tb_proof
+)
+"tb_proof.ml" 64 1278 1297 "tb_proof.ml" 64 1278 1298
+type(
+  Term.swffi
+)
+ident(
+  int_ref h "tb_proof.ml" 64 1278 1291 "tb_proof.ml" 64 1278 1292
+)
+"tb_proof.ml" 65 1299 1310 "tb_proof.ml" 65 1299 1311
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 65 1299 1312 "tb_proof.ml" 65 1299 1313
+type(
+  Term.swffi
+)
+ident(
+  def h "tb_proof.ml" 65 1299 1318 "tb_proof.ml" 65 1299 1319
+)
+"tb_proof.ml" 65 1299 1303 "tb_proof.ml" 65 1299 1314
+type(
+  tb_proof
+)
+"tb_proof.ml" 65 1299 1318 "tb_proof.ml" 65 1299 1319
+type(
+  Term.swffi
+)
+ident(
+  int_ref h "tb_proof.ml" 65 1299 1312 "tb_proof.ml" 65 1299 1313
+)
+"tb_proof.ml" 66 1320 1332 "tb_proof.ml" 66 1320 1333
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 66 1320 1334 "tb_proof.ml" 66 1320 1335
+type(
+  Term.swffi
+)
+ident(
+  def h "tb_proof.ml" 66 1320 1340 "tb_proof.ml" 66 1320 1341
+)
+"tb_proof.ml" 66 1320 1324 "tb_proof.ml" 66 1320 1336
+type(
+  tb_proof
+)
+"tb_proof.ml" 66 1320 1340 "tb_proof.ml" 66 1320 1341
+type(
+  Term.swffi
+)
+ident(
+  int_ref h "tb_proof.ml" 66 1320 1334 "tb_proof.ml" 66 1320 1335
+)
+"tb_proof.ml" 67 1342 1359 "tb_proof.ml" 67 1342 1360
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 67 1342 1361 "tb_proof.ml" 67 1342 1362
+type(
+  Term.swffi
+)
+ident(
+  def h "tb_proof.ml" 67 1342 1367 "tb_proof.ml" 67 1342 1368
+)
+"tb_proof.ml" 67 1342 1346 "tb_proof.ml" 67 1342 1363
+type(
+  tb_proof
+)
+"tb_proof.ml" 67 1342 1367 "tb_proof.ml" 67 1342 1368
+type(
+  Term.swffi
+)
+ident(
+  int_ref h "tb_proof.ml" 67 1342 1361 "tb_proof.ml" 67 1342 1362
+)
+"tb_proof.ml" 68 1369 1385 "tb_proof.ml" 68 1369 1386
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 68 1369 1387 "tb_proof.ml" 68 1369 1388
+type(
+  Term.swffi
+)
+ident(
+  def h "tb_proof.ml" 68 1369 1393 "tb_proof.ml" 68 1369 1394
+)
+"tb_proof.ml" 68 1369 1373 "tb_proof.ml" 68 1369 1389
+type(
+  tb_proof
+)
+"tb_proof.ml" 68 1369 1393 "tb_proof.ml" 68 1369 1394
+type(
+  Term.swffi
+)
+ident(
+  int_ref h "tb_proof.ml" 68 1369 1387 "tb_proof.ml" 68 1369 1388
+)
+"tb_proof.ml" 69 1395 1412 "tb_proof.ml" 69 1395 1413
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 69 1395 1414 "tb_proof.ml" 69 1395 1415
+type(
+  Term.swffi
+)
+ident(
+  def h "tb_proof.ml" 69 1395 1420 "tb_proof.ml" 69 1395 1421
+)
+"tb_proof.ml" 69 1395 1399 "tb_proof.ml" 69 1395 1416
+type(
+  tb_proof
+)
+"tb_proof.ml" 69 1395 1420 "tb_proof.ml" 69 1395 1421
+type(
+  Term.swffi
+)
+ident(
+  int_ref h "tb_proof.ml" 69 1395 1414 "tb_proof.ml" 69 1395 1415
+)
+"tb_proof.ml" 70 1422 1439 "tb_proof.ml" 70 1422 1440
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 70 1422 1441 "tb_proof.ml" 70 1422 1442
+type(
+  Term.swffi
+)
+ident(
+  def h "tb_proof.ml" 70 1422 1447 "tb_proof.ml" 70 1422 1448
+)
+"tb_proof.ml" 70 1422 1426 "tb_proof.ml" 70 1422 1443
+type(
+  tb_proof
+)
+"tb_proof.ml" 70 1422 1447 "tb_proof.ml" 70 1422 1448
+type(
+  Term.swffi
+)
+ident(
+  int_ref h "tb_proof.ml" 70 1422 1441 "tb_proof.ml" 70 1422 1442
+)
+"tb_proof.ml" 54 1049 1063 "tb_proof.ml" 70 1422 1448
+type(
+  tb_proof -> Term.swffi
+)
+"tb_proof.ml" 77 1505 1513 "tb_proof.ml" 77 1505 1527
+type(
+  Term.wffi -> Term.swffi list -> bool
+)
+ident(
+  def mem_atom_arrow "tb_proof.ml" 77 1505 1505 "tb_proof.ml" 1 0 -1
+)
+"tb_proof.ml" 77 1505 1528 "tb_proof.ml" 77 1505 1529
+type(
+  Term.wffi
+)
+ident(
+  def p "tb_proof.ml" 77 1505 1530 "tb_proof.ml" 81 1648 1680
+)
+"tb_proof.ml" 77 1505 1530 "tb_proof.ml" 77 1505 1531
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 78 1534 1536 "tb_proof.ml" 81 1648 1680
+)
+"tb_proof.ml" 78 1534 1542 "tb_proof.ml" 78 1534 1543
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 77 1505 1530 "tb_proof.ml" 77 1505 1531
+)
+"tb_proof.ml" 79 1549 1553 "tb_proof.ml" 79 1549 1555
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 79 1549 1559 "tb_proof.ml" 79 1549 1564
+type(
+  bool
+)
+"tb_proof.ml" 80 1565 1587 "tb_proof.ml" 80 1565 1589
+type(
+  Term.wffi
+)
+ident(
+  def p' "tb_proof.ml" 80 1565 1603 "tb_proof.ml" 80 1565 1647
+)
+"tb_proof.ml" 80 1565 1590 "tb_proof.ml" 80 1565 1591
+type(
+  Term.wffi
+)
+"tb_proof.ml" 80 1565 1575 "tb_proof.ml" 80 1565 1593
+type(
+  Term.wffi
+)
+"tb_proof.ml" 80 1565 1569 "tb_proof.ml" 80 1565 1593
+type(
+  Term.swffi
+)
+"tb_proof.ml" 80 1565 1597 "tb_proof.ml" 80 1565 1599
+type(
+  Term.swffi list
+)
+ident(
+  def hs "tb_proof.ml" 80 1565 1603 "tb_proof.ml" 80 1565 1647
+)
+"tb_proof.ml" 80 1565 1569 "tb_proof.ml" 80 1565 1599
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 80 1565 1606 "tb_proof.ml" 80 1565 1608
+type(
+  Term.wffi
+)
+ident(
+  int_ref p' "tb_proof.ml" 80 1565 1587 "tb_proof.ml" 80 1565 1589
+)
+"tb_proof.ml" 80 1565 1609 "tb_proof.ml" 80 1565 1610
+type(
+  Term.wffi -> Term.wffi -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"tb_proof.ml" 80 1565 1611 "tb_proof.ml" 80 1565 1612
+type(
+  Term.wffi
+)
+ident(
+  int_ref p "tb_proof.ml" 77 1505 1528 "tb_proof.ml" 77 1505 1529
+)
+"tb_proof.ml" 80 1565 1606 "tb_proof.ml" 80 1565 1612
+type(
+  bool
+)
+"tb_proof.ml" 80 1565 1618 "tb_proof.ml" 80 1565 1622
+type(
+  bool
+)
+"tb_proof.ml" 80 1565 1628 "tb_proof.ml" 80 1565 1642
+type(
+  Term.wffi -> Term.swffi list -> bool
+)
+ident(
+  int_ref mem_atom_arrow "tb_proof.ml" 77 1505 1513 "tb_proof.ml" 77 1505 1527
+)
+"tb_proof.ml" 80 1565 1643 "tb_proof.ml" 80 1565 1644
+type(
+  Term.wffi
+)
+ident(
+  int_ref p "tb_proof.ml" 77 1505 1528 "tb_proof.ml" 77 1505 1529
+)
+"tb_proof.ml" 80 1565 1645 "tb_proof.ml" 80 1565 1647
+type(
+  Term.swffi list
+)
+ident(
+  int_ref hs "tb_proof.ml" 80 1565 1597 "tb_proof.ml" 80 1565 1599
+)
+"tb_proof.ml" 80 1565 1628 "tb_proof.ml" 80 1565 1647
+call(
+  tail
+)
+type(
+  bool
+)
+"tb_proof.ml" 80 1565 1603 "tb_proof.ml" 80 1565 1647
+type(
+  bool
+)
+"tb_proof.ml" 81 1648 1652 "tb_proof.ml" 81 1648 1653
+type(
+  Term.swffi
+)
+ident(
+  def h "tb_proof.ml" 81 1648 1661 "tb_proof.ml" 81 1648 1680
+)
+"tb_proof.ml" 81 1648 1655 "tb_proof.ml" 81 1648 1657
+type(
+  Term.swffi list
+)
+ident(
+  def hs "tb_proof.ml" 81 1648 1661 "tb_proof.ml" 81 1648 1680
+)
+"tb_proof.ml" 81 1648 1652 "tb_proof.ml" 81 1648 1657
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 81 1648 1661 "tb_proof.ml" 81 1648 1675
+type(
+  Term.wffi -> Term.swffi list -> bool
+)
+ident(
+  int_ref mem_atom_arrow "tb_proof.ml" 77 1505 1513 "tb_proof.ml" 77 1505 1527
+)
+"tb_proof.ml" 81 1648 1676 "tb_proof.ml" 81 1648 1677
+type(
+  Term.wffi
+)
+ident(
+  int_ref p "tb_proof.ml" 77 1505 1528 "tb_proof.ml" 77 1505 1529
+)
+"tb_proof.ml" 81 1648 1678 "tb_proof.ml" 81 1648 1680
+type(
+  Term.swffi list
+)
+ident(
+  int_ref hs "tb_proof.ml" 81 1648 1655 "tb_proof.ml" 81 1648 1657
+)
+"tb_proof.ml" 81 1648 1661 "tb_proof.ml" 81 1648 1680
+call(
+  tail
+)
+type(
+  bool
+)
+"tb_proof.ml" 78 1534 1536 "tb_proof.ml" 81 1648 1680
+type(
+  bool
+)
+"tb_proof.ml" 84 1773 1781 "tb_proof.ml" 84 1773 1808
+type(
+  Term.wffi -> Term.swffi list -> Term.swffi list
+)
+ident(
+  def remove_atom_arrow_plus_atom "tb_proof.ml" 84 1773 1773 "tb_proof.ml" 1 0 -1
+)
+"tb_proof.ml" 84 1773 1809 "tb_proof.ml" 84 1773 1810
+type(
+  Term.wffi
+)
+ident(
+  def p "tb_proof.ml" 84 1773 1811 "tb_proof.ml" 88 1907 1955
+)
+"tb_proof.ml" 84 1773 1811 "tb_proof.ml" 84 1773 1812
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 85 1815 1817 "tb_proof.ml" 88 1907 1955
+)
+"tb_proof.ml" 85 1815 1823 "tb_proof.ml" 85 1815 1824
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 84 1773 1811 "tb_proof.ml" 84 1773 1812
+)
+"tb_proof.ml" 86 1830 1834 "tb_proof.ml" 86 1830 1836
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 86 1830 1840 "tb_proof.ml" 86 1830 1842
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 87 1843 1865 "tb_proof.ml" 87 1843 1867
+type(
+  Term.wffi
+)
+ident(
+  def p1 "tb_proof.ml" 87 1843 1883 "tb_proof.ml" 87 1843 1906
+)
+"tb_proof.ml" 87 1843 1868 "tb_proof.ml" 87 1843 1870
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 87 1843 1883 "tb_proof.ml" 87 1843 1906
+)
+"tb_proof.ml" 87 1843 1853 "tb_proof.ml" 87 1843 1872
+type(
+  Term.wffi
+)
+"tb_proof.ml" 87 1843 1847 "tb_proof.ml" 87 1843 1872
+type(
+  Term.swffi
+)
+"tb_proof.ml" 87 1843 1876 "tb_proof.ml" 87 1843 1877
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 87 1843 1883 "tb_proof.ml" 87 1843 1906
+)
+"tb_proof.ml" 87 1843 1847 "tb_proof.ml" 87 1843 1877
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 87 1843 1883 "tb_proof.ml" 87 1843 1885
+type(
+  Term.wffi
+)
+ident(
+  int_ref p1 "tb_proof.ml" 87 1843 1865 "tb_proof.ml" 87 1843 1867
+)
+"tb_proof.ml" 87 1843 1886 "tb_proof.ml" 87 1843 1887
+type(
+  Term.wffi -> Term.wffi -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"tb_proof.ml" 87 1843 1888 "tb_proof.ml" 87 1843 1889
+type(
+  Term.wffi
+)
+ident(
+  int_ref p "tb_proof.ml" 84 1773 1809 "tb_proof.ml" 84 1773 1810
+)
+"tb_proof.ml" 87 1843 1883 "tb_proof.ml" 87 1843 1889
+type(
+  bool
+)
+"tb_proof.ml" 87 1843 1899 "tb_proof.ml" 87 1843 1903
+type(
+  Term.wffi
+)
+ident(
+  int_ref p2 "tb_proof.ml" 87 1843 1868 "tb_proof.ml" 87 1843 1870
+)
+"tb_proof.ml" 87 1843 1893 "tb_proof.ml" 87 1843 1903
+type(
+  Term.swffi
+)
+"tb_proof.ml" 87 1843 1905 "tb_proof.ml" 87 1843 1906
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 87 1843 1876 "tb_proof.ml" 87 1843 1877
+)
+"tb_proof.ml" 87 1843 1893 "tb_proof.ml" 87 1843 1906
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 88 1907 1911 "tb_proof.ml" 88 1907 1912
+type(
+  Term.swffi
+)
+ident(
+  def h "tb_proof.ml" 88 1907 1919 "tb_proof.ml" 88 1907 1955
+)
+"tb_proof.ml" 88 1907 1914 "tb_proof.ml" 88 1907 1915
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 88 1907 1919 "tb_proof.ml" 88 1907 1955
+)
+"tb_proof.ml" 88 1907 1911 "tb_proof.ml" 88 1907 1915
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 88 1907 1919 "tb_proof.ml" 88 1907 1920
+type(
+  Term.swffi
+)
+ident(
+  int_ref h "tb_proof.ml" 88 1907 1911 "tb_proof.ml" 88 1907 1912
+)
+"tb_proof.ml" 88 1907 1924 "tb_proof.ml" 88 1907 1951
+type(
+  Term.wffi -> Term.swffi list -> Term.swffi list
+)
+ident(
+  int_ref remove_atom_arrow_plus_atom "tb_proof.ml" 84 1773 1781 "tb_proof.ml" 84 1773 1808
+)
+"tb_proof.ml" 88 1907 1952 "tb_proof.ml" 88 1907 1953
+type(
+  Term.wffi
+)
+ident(
+  int_ref p "tb_proof.ml" 84 1773 1809 "tb_proof.ml" 84 1773 1810
+)
+"tb_proof.ml" 88 1907 1954 "tb_proof.ml" 88 1907 1955
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 88 1907 1914 "tb_proof.ml" 88 1907 1915
+)
+"tb_proof.ml" 88 1907 1924 "tb_proof.ml" 88 1907 1955
+call(
+  stack
+)
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 88 1907 1919 "tb_proof.ml" 88 1907 1955
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 85 1815 1817 "tb_proof.ml" 88 1907 1955
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 90 1957 1965 "tb_proof.ml" 90 1957 1983
+type(
+  Term.swffi list -> bool
+)
+ident(
+  def member_for_C1_rule "tb_proof.ml" 90 1957 1957 "tb_proof.ml" 1 0 -1
+)
+"tb_proof.ml" 90 1957 1984 "tb_proof.ml" 90 1957 1985
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 91 1988 1990 "tb_proof.ml" 101 2469 2484
+)
+"tb_proof.ml" 91 1988 1996 "tb_proof.ml" 91 1988 1997
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 90 1957 1984 "tb_proof.ml" 90 1957 1985
+)
+"tb_proof.ml" 92 2003 2022 "tb_proof.ml" 92 2003 2024
+type(
+  Term.wffi
+)
+ident(
+  def p1 "tb_proof.ml" 92 2003 2039 "tb_proof.ml" 92 2003 2043
+)
+"tb_proof.ml" 92 2003 2026 "tb_proof.ml" 92 2003 2028
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 92 2003 2039 "tb_proof.ml" 92 2003 2043
+)
+"tb_proof.ml" 92 2003 2013 "tb_proof.ml" 92 2003 2030
+type(
+  Term.wffi
+)
+"tb_proof.ml" 92 2003 2007 "tb_proof.ml" 92 2003 2030
+type(
+  Term.swffi
+)
+"tb_proof.ml" 92 2003 2034 "tb_proof.ml" 92 2003 2035
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 92 2003 2039 "tb_proof.ml" 92 2003 2043
+)
+"tb_proof.ml" 92 2003 2007 "tb_proof.ml" 92 2003 2035
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 92 2003 2039 "tb_proof.ml" 92 2003 2043
+type(
+  bool
+)
+"tb_proof.ml" 93 2044 2062 "tb_proof.ml" 93 2044 2064
+type(
+  Term.wffi
+)
+ident(
+  def p1 "tb_proof.ml" 93 2044 2079 "tb_proof.ml" 93 2044 2083
+)
+"tb_proof.ml" 93 2044 2066 "tb_proof.ml" 93 2044 2068
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 93 2044 2079 "tb_proof.ml" 93 2044 2083
+)
+"tb_proof.ml" 93 2044 2054 "tb_proof.ml" 93 2044 2070
+type(
+  Term.wffi
+)
+"tb_proof.ml" 93 2044 2048 "tb_proof.ml" 93 2044 2070
+type(
+  Term.swffi
+)
+"tb_proof.ml" 93 2044 2074 "tb_proof.ml" 93 2044 2075
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 93 2044 2079 "tb_proof.ml" 93 2044 2083
+)
+"tb_proof.ml" 93 2044 2048 "tb_proof.ml" 93 2044 2075
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 93 2044 2079 "tb_proof.ml" 93 2044 2083
+type(
+  bool
+)
+"tb_proof.ml" 94 2084 2103 "tb_proof.ml" 94 2084 2105
+type(
+  Term.wffi
+)
+ident(
+  def p1 "tb_proof.ml" 94 2084 2119 "tb_proof.ml" 94 2084 2123
+)
+"tb_proof.ml" 94 2084 2107 "tb_proof.ml" 94 2084 2109
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 94 2084 2119 "tb_proof.ml" 94 2084 2123
+)
+"tb_proof.ml" 94 2084 2095 "tb_proof.ml" 94 2084 2111
+type(
+  Term.wffi
+)
+"tb_proof.ml" 94 2084 2088 "tb_proof.ml" 94 2084 2111
+type(
+  Term.swffi
+)
+"tb_proof.ml" 94 2084 2115 "tb_proof.ml" 94 2084 2116
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 94 2084 2119 "tb_proof.ml" 94 2084 2123
+)
+"tb_proof.ml" 94 2084 2088 "tb_proof.ml" 94 2084 2116
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 94 2084 2119 "tb_proof.ml" 94 2084 2123
+type(
+  bool
+)
+"tb_proof.ml" 95 2124 2154 "tb_proof.ml" 95 2124 2156
+type(
+  int
+)
+ident(
+  def p1 "tb_proof.ml" 95 2124 2173 "tb_proof.ml" 95 2124 2221
+)
+"tb_proof.ml" 95 2124 2145 "tb_proof.ml" 95 2124 2156
+type(
+  Term.wffi
+)
+"tb_proof.ml" 95 2124 2158 "tb_proof.ml" 95 2124 2160
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 95 2124 2173 "tb_proof.ml" 95 2124 2221
+)
+"tb_proof.ml" 95 2124 2134 "tb_proof.ml" 95 2124 2162
+type(
+  Term.wffi
+)
+"tb_proof.ml" 95 2124 2128 "tb_proof.ml" 95 2124 2162
+type(
+  Term.swffi
+)
+"tb_proof.ml" 95 2124 2166 "tb_proof.ml" 95 2124 2167
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 95 2124 2173 "tb_proof.ml" 95 2124 2221
+)
+"tb_proof.ml" 95 2124 2128 "tb_proof.ml" 95 2124 2167
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 95 2124 2173 "tb_proof.ml" 95 2124 2181
+type(
+  Term.swffi -> Term.swffi list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"tb_proof.ml" 95 2124 2198 "tb_proof.ml" 95 2124 2202
+type(
+  int
+)
+ident(
+  int_ref p1 "tb_proof.ml" 95 2124 2154 "tb_proof.ml" 95 2124 2156
+)
+"tb_proof.ml" 95 2124 2189 "tb_proof.ml" 95 2124 2203
+type(
+  Term.wffi
+)
+"tb_proof.ml" 95 2124 2182 "tb_proof.ml" 95 2124 2204
+type(
+  Term.swffi
+)
+"tb_proof.ml" 95 2124 2205 "tb_proof.ml" 95 2124 2206
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 95 2124 2166 "tb_proof.ml" 95 2124 2167
+)
+"tb_proof.ml" 95 2124 2173 "tb_proof.ml" 95 2124 2206
+call(
+  stack
+)
+type(
+  bool
+)
+"tb_proof.ml" 95 2124 2207 "tb_proof.ml" 95 2124 2208
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"tb_proof.ml" 95 2124 2209 "tb_proof.ml" 95 2124 2213
+type(
+  bool
+)
+"tb_proof.ml" 95 2124 2173 "tb_proof.ml" 95 2124 2213
+type(
+  bool
+)
+"tb_proof.ml" 95 2124 2217 "tb_proof.ml" 95 2124 2221
+type(
+  bool
+)
+"tb_proof.ml" 96 2222 2242 "tb_proof.ml" 96 2222 2243
+type(
+  int
+)
+ident(
+  def p "tb_proof.ml" 96 2222 2255 "tb_proof.ml" 96 2222 2292
+)
+"tb_proof.ml" 96 2222 2232 "tb_proof.ml" 96 2222 2244
+type(
+  Term.wffi
+)
+"tb_proof.ml" 96 2222 2226 "tb_proof.ml" 96 2222 2244
+type(
+  Term.swffi
+)
+"tb_proof.ml" 96 2222 2248 "tb_proof.ml" 96 2222 2249
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 96 2222 2255 "tb_proof.ml" 96 2222 2292
+)
+"tb_proof.ml" 96 2222 2226 "tb_proof.ml" 96 2222 2249
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 96 2222 2255 "tb_proof.ml" 96 2222 2269
+type(
+  Term.wffi -> Term.swffi list -> bool
+)
+ident(
+  int_ref mem_atom_arrow "tb_proof.ml" 77 1505 1513 "tb_proof.ml" 77 1505 1527
+)
+"tb_proof.ml" 96 2222 2280 "tb_proof.ml" 96 2222 2281
+type(
+  int
+)
+ident(
+  int_ref p "tb_proof.ml" 96 2222 2242 "tb_proof.ml" 96 2222 2243
+)
+"tb_proof.ml" 96 2222 2270 "tb_proof.ml" 96 2222 2282
+type(
+  Term.wffi
+)
+"tb_proof.ml" 96 2222 2283 "tb_proof.ml" 96 2222 2284
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 96 2222 2248 "tb_proof.ml" 96 2222 2249
+)
+"tb_proof.ml" 96 2222 2255 "tb_proof.ml" 96 2222 2284
+call(
+  stack
+)
+type(
+  bool
+)
+"tb_proof.ml" 96 2222 2288 "tb_proof.ml" 96 2222 2292
+type(
+  bool
+)
+"tb_proof.ml" 97 2293 2312 "tb_proof.ml" 97 2293 2313
+type(
+  Term.wffi
+)
+ident(
+  def p "tb_proof.ml" 97 2293 2323 "tb_proof.ml" 97 2293 2327
+)
+"tb_proof.ml" 97 2293 2303 "tb_proof.ml" 97 2293 2314
+type(
+  Term.wffi
+)
+"tb_proof.ml" 97 2293 2297 "tb_proof.ml" 97 2293 2314
+type(
+  Term.swffi
+)
+"tb_proof.ml" 97 2293 2318 "tb_proof.ml" 97 2293 2319
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 97 2293 2323 "tb_proof.ml" 97 2293 2327
+)
+"tb_proof.ml" 97 2293 2297 "tb_proof.ml" 97 2293 2319
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 97 2293 2323 "tb_proof.ml" 97 2293 2327
+type(
+  bool
+)
+"tb_proof.ml" 98 2328 2357 "tb_proof.ml" 98 2328 2359
+type(
+  Term.wffi
+)
+ident(
+  def p1 "tb_proof.ml" 98 2328 2377 "tb_proof.ml" 98 2328 2381
+)
+"tb_proof.ml" 98 2328 2360 "tb_proof.ml" 98 2328 2362
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 98 2328 2377 "tb_proof.ml" 98 2328 2381
+)
+"tb_proof.ml" 98 2328 2349 "tb_proof.ml" 98 2328 2363
+type(
+  Term.wffi
+)
+"tb_proof.ml" 98 2328 2364 "tb_proof.ml" 98 2328 2366
+type(
+  Term.wffi
+)
+ident(
+  def p3 "tb_proof.ml" 98 2328 2377 "tb_proof.ml" 98 2328 2381
+)
+"tb_proof.ml" 98 2328 2338 "tb_proof.ml" 98 2328 2368
+type(
+  Term.wffi
+)
+"tb_proof.ml" 98 2328 2332 "tb_proof.ml" 98 2328 2368
+type(
+  Term.swffi
+)
+"tb_proof.ml" 98 2328 2372 "tb_proof.ml" 98 2328 2373
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 98 2328 2377 "tb_proof.ml" 98 2328 2381
+)
+"tb_proof.ml" 98 2328 2332 "tb_proof.ml" 98 2328 2373
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 98 2328 2377 "tb_proof.ml" 98 2328 2381
+type(
+  bool
+)
+"tb_proof.ml" 99 2382 2410 "tb_proof.ml" 99 2382 2412
+type(
+  Term.wffi
+)
+ident(
+  def p1 "tb_proof.ml" 99 2382 2429 "tb_proof.ml" 99 2382 2433
+)
+"tb_proof.ml" 99 2382 2413 "tb_proof.ml" 99 2382 2415
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 99 2382 2429 "tb_proof.ml" 99 2382 2433
+)
+"tb_proof.ml" 99 2382 2403 "tb_proof.ml" 99 2382 2416
+type(
+  Term.wffi
+)
+"tb_proof.ml" 99 2382 2417 "tb_proof.ml" 99 2382 2419
+type(
+  Term.wffi
+)
+ident(
+  def p3 "tb_proof.ml" 99 2382 2429 "tb_proof.ml" 99 2382 2433
+)
+"tb_proof.ml" 99 2382 2392 "tb_proof.ml" 99 2382 2421
+type(
+  Term.wffi
+)
+"tb_proof.ml" 99 2382 2386 "tb_proof.ml" 99 2382 2421
+type(
+  Term.swffi
+)
+"tb_proof.ml" 99 2382 2425 "tb_proof.ml" 99 2382 2426
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 99 2382 2429 "tb_proof.ml" 99 2382 2433
+)
+"tb_proof.ml" 99 2382 2386 "tb_proof.ml" 99 2382 2426
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 99 2382 2429 "tb_proof.ml" 99 2382 2433
+type(
+  bool
+)
+"tb_proof.ml" 100 2434 2438 "tb_proof.ml" 100 2434 2439
+type(
+  Term.swffi
+)
+"tb_proof.ml" 100 2434 2443 "tb_proof.ml" 100 2434 2444
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 100 2434 2448 "tb_proof.ml" 100 2434 2468
+)
+"tb_proof.ml" 100 2434 2438 "tb_proof.ml" 100 2434 2444
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 100 2434 2448 "tb_proof.ml" 100 2434 2466
+type(
+  Term.swffi list -> bool
+)
+ident(
+  int_ref member_for_C1_rule "tb_proof.ml" 90 1957 1965 "tb_proof.ml" 90 1957 1983
+)
+"tb_proof.ml" 100 2434 2467 "tb_proof.ml" 100 2434 2468
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 100 2434 2443 "tb_proof.ml" 100 2434 2444
+)
+"tb_proof.ml" 100 2434 2448 "tb_proof.ml" 100 2434 2468
+call(
+  tail
+)
+type(
+  bool
+)
+"tb_proof.ml" 101 2469 2473 "tb_proof.ml" 101 2469 2475
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 101 2469 2479 "tb_proof.ml" 101 2469 2484
+type(
+  bool
+)
+"tb_proof.ml" 91 1988 1990 "tb_proof.ml" 101 2469 2484
+type(
+  bool
+)
+"tb_proof.ml" 103 2486 2494 "tb_proof.ml" 103 2486 2512
+type(
+  Term.swffi list -> bool
+)
+ident(
+  def member_for_C2_rule "tb_proof.ml" 103 2486 2486 "tb_proof.ml" 1 0 -1
+)
+"tb_proof.ml" 103 2486 2513 "tb_proof.ml" 103 2486 2514
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 104 2517 2519 "tb_proof.ml" 108 2646 2661
+)
+"tb_proof.ml" 104 2517 2525 "tb_proof.ml" 104 2517 2526
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 103 2486 2513 "tb_proof.ml" 103 2486 2514
+)
+"tb_proof.ml" 105 2532 2551 "tb_proof.ml" 105 2532 2553
+type(
+  Term.wffi
+)
+ident(
+  def p1 "tb_proof.ml" 105 2532 2567 "tb_proof.ml" 105 2532 2571
+)
+"tb_proof.ml" 105 2532 2554 "tb_proof.ml" 105 2532 2556
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 105 2532 2567 "tb_proof.ml" 105 2532 2571
+)
+"tb_proof.ml" 105 2532 2542 "tb_proof.ml" 105 2532 2558
+type(
+  Term.wffi
+)
+"tb_proof.ml" 105 2532 2536 "tb_proof.ml" 105 2532 2558
+type(
+  Term.swffi
+)
+"tb_proof.ml" 105 2532 2562 "tb_proof.ml" 105 2532 2563
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 105 2532 2567 "tb_proof.ml" 105 2532 2571
+)
+"tb_proof.ml" 105 2532 2536 "tb_proof.ml" 105 2532 2563
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 105 2532 2567 "tb_proof.ml" 105 2532 2571
+type(
+  bool
+)
+"tb_proof.ml" 106 2572 2590 "tb_proof.ml" 106 2572 2592
+type(
+  Term.wffi
+)
+ident(
+  def p1 "tb_proof.ml" 106 2572 2606 "tb_proof.ml" 106 2572 2610
+)
+"tb_proof.ml" 106 2572 2593 "tb_proof.ml" 106 2572 2595
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 106 2572 2606 "tb_proof.ml" 106 2572 2610
+)
+"tb_proof.ml" 106 2572 2582 "tb_proof.ml" 106 2572 2597
+type(
+  Term.wffi
+)
+"tb_proof.ml" 106 2572 2576 "tb_proof.ml" 106 2572 2597
+type(
+  Term.swffi
+)
+"tb_proof.ml" 106 2572 2601 "tb_proof.ml" 106 2572 2602
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 106 2572 2606 "tb_proof.ml" 106 2572 2610
+)
+"tb_proof.ml" 106 2572 2576 "tb_proof.ml" 106 2572 2602
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 106 2572 2606 "tb_proof.ml" 106 2572 2610
+type(
+  bool
+)
+"tb_proof.ml" 107 2611 2615 "tb_proof.ml" 107 2611 2616
+type(
+  Term.swffi
+)
+"tb_proof.ml" 107 2611 2620 "tb_proof.ml" 107 2611 2621
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 107 2611 2625 "tb_proof.ml" 107 2611 2645
+)
+"tb_proof.ml" 107 2611 2615 "tb_proof.ml" 107 2611 2621
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 107 2611 2625 "tb_proof.ml" 107 2611 2643
+type(
+  Term.swffi list -> bool
+)
+ident(
+  int_ref member_for_C2_rule "tb_proof.ml" 103 2486 2494 "tb_proof.ml" 103 2486 2512
+)
+"tb_proof.ml" 107 2611 2644 "tb_proof.ml" 107 2611 2645
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 107 2611 2620 "tb_proof.ml" 107 2611 2621
+)
+"tb_proof.ml" 107 2611 2625 "tb_proof.ml" 107 2611 2645
+call(
+  tail
+)
+type(
+  bool
+)
+"tb_proof.ml" 108 2646 2650 "tb_proof.ml" 108 2646 2652
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 108 2646 2656 "tb_proof.ml" 108 2646 2661
+type(
+  bool
+)
+"tb_proof.ml" 104 2517 2519 "tb_proof.ml" 108 2646 2661
+type(
+  bool
+)
+"tb_proof.ml" 110 2663 2671 "tb_proof.ml" 110 2663 2689
+type(
+  Term.swffi list -> bool
+)
+ident(
+  def member_for_C3_rule "tb_proof.ml" 110 2663 2663 "tb_proof.ml" 1 0 -1
+)
+"tb_proof.ml" 110 2663 2690 "tb_proof.ml" 110 2663 2691
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 111 2694 2696 "tb_proof.ml" 115 2821 2836
+)
+"tb_proof.ml" 111 2694 2702 "tb_proof.ml" 111 2694 2703
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 110 2663 2690 "tb_proof.ml" 110 2663 2691
+)
+"tb_proof.ml" 112 2709 2730 "tb_proof.ml" 112 2709 2732
+type(
+  Term.wffi
+)
+ident(
+  def p1 "tb_proof.ml" 112 2709 2746 "tb_proof.ml" 112 2709 2750
+)
+"tb_proof.ml" 112 2709 2733 "tb_proof.ml" 112 2709 2735
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 112 2709 2746 "tb_proof.ml" 112 2709 2750
+)
+"tb_proof.ml" 112 2709 2719 "tb_proof.ml" 112 2709 2737
+type(
+  Term.wffi
+)
+"tb_proof.ml" 112 2709 2713 "tb_proof.ml" 112 2709 2737
+type(
+  Term.swffi
+)
+"tb_proof.ml" 112 2709 2741 "tb_proof.ml" 112 2709 2742
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 112 2709 2746 "tb_proof.ml" 112 2709 2750
+)
+"tb_proof.ml" 112 2709 2713 "tb_proof.ml" 112 2709 2742
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 112 2709 2746 "tb_proof.ml" 112 2709 2750
+type(
+  bool
+)
+"tb_proof.ml" 113 2751 2770 "tb_proof.ml" 113 2751 2771
+type(
+  Term.wffi
+)
+ident(
+  def p "tb_proof.ml" 113 2751 2781 "tb_proof.ml" 113 2751 2785
+)
+"tb_proof.ml" 113 2751 2761 "tb_proof.ml" 113 2751 2772
+type(
+  Term.wffi
+)
+"tb_proof.ml" 113 2751 2755 "tb_proof.ml" 113 2751 2772
+type(
+  Term.swffi
+)
+"tb_proof.ml" 113 2751 2776 "tb_proof.ml" 113 2751 2777
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 113 2751 2781 "tb_proof.ml" 113 2751 2785
+)
+"tb_proof.ml" 113 2751 2755 "tb_proof.ml" 113 2751 2777
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 113 2751 2781 "tb_proof.ml" 113 2751 2785
+type(
+  bool
+)
+"tb_proof.ml" 114 2786 2790 "tb_proof.ml" 114 2786 2791
+type(
+  Term.swffi
+)
+"tb_proof.ml" 114 2786 2795 "tb_proof.ml" 114 2786 2796
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 114 2786 2800 "tb_proof.ml" 114 2786 2820
+)
+"tb_proof.ml" 114 2786 2790 "tb_proof.ml" 114 2786 2796
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 114 2786 2800 "tb_proof.ml" 114 2786 2818
+type(
+  Term.swffi list -> bool
+)
+ident(
+  int_ref member_for_C3_rule "tb_proof.ml" 110 2663 2671 "tb_proof.ml" 110 2663 2689
+)
+"tb_proof.ml" 114 2786 2819 "tb_proof.ml" 114 2786 2820
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 114 2786 2795 "tb_proof.ml" 114 2786 2796
+)
+"tb_proof.ml" 114 2786 2800 "tb_proof.ml" 114 2786 2820
+call(
+  tail
+)
+type(
+  bool
+)
+"tb_proof.ml" 115 2821 2825 "tb_proof.ml" 115 2821 2827
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 115 2821 2831 "tb_proof.ml" 115 2821 2836
+type(
+  bool
+)
+"tb_proof.ml" 111 2694 2696 "tb_proof.ml" 115 2821 2836
+type(
+  bool
+)
+"tb_proof.ml" 117 2838 2846 "tb_proof.ml" 117 2838 2864
+type(
+  Term.swffi list -> bool
+)
+ident(
+  def member_for_C4_rule "tb_proof.ml" 117 2838 2838 "tb_proof.ml" 1 0 -1
+)
+"tb_proof.ml" 117 2838 2865 "tb_proof.ml" 117 2838 2866
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 118 2869 2871 "tb_proof.ml" 122 3025 3040
+)
+"tb_proof.ml" 118 2869 2877 "tb_proof.ml" 118 2869 2878
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 117 2838 2865 "tb_proof.ml" 117 2838 2866
+)
+"tb_proof.ml" 119 2884 2913 "tb_proof.ml" 119 2884 2915
+type(
+  Term.wffi
+)
+ident(
+  def p1 "tb_proof.ml" 119 2884 2929 "tb_proof.ml" 119 2884 2933
+)
+"tb_proof.ml" 119 2884 2905 "tb_proof.ml" 119 2884 2915
+type(
+  Term.wffi
+)
+"tb_proof.ml" 119 2884 2916 "tb_proof.ml" 119 2884 2918
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 119 2884 2929 "tb_proof.ml" 119 2884 2933
+)
+"tb_proof.ml" 119 2884 2894 "tb_proof.ml" 119 2884 2920
+type(
+  Term.wffi
+)
+"tb_proof.ml" 119 2884 2888 "tb_proof.ml" 119 2884 2920
+type(
+  Term.swffi
+)
+"tb_proof.ml" 119 2884 2924 "tb_proof.ml" 119 2884 2925
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 119 2884 2929 "tb_proof.ml" 119 2884 2933
+)
+"tb_proof.ml" 119 2884 2888 "tb_proof.ml" 119 2884 2925
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 119 2884 2929 "tb_proof.ml" 119 2884 2933
+type(
+  bool
+)
+"tb_proof.ml" 120 2934 2965 "tb_proof.ml" 120 2934 2967
+type(
+  Term.wffi
+)
+ident(
+  def p1 "tb_proof.ml" 120 2934 2985 "tb_proof.ml" 120 2934 2989
+)
+"tb_proof.ml" 120 2934 2968 "tb_proof.ml" 120 2934 2970
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 120 2934 2985 "tb_proof.ml" 120 2934 2989
+)
+"tb_proof.ml" 120 2934 2955 "tb_proof.ml" 120 2934 2971
+type(
+  Term.wffi
+)
+"tb_proof.ml" 120 2934 2972 "tb_proof.ml" 120 2934 2974
+type(
+  Term.wffi
+)
+ident(
+  def p3 "tb_proof.ml" 120 2934 2985 "tb_proof.ml" 120 2934 2989
+)
+"tb_proof.ml" 120 2934 2944 "tb_proof.ml" 120 2934 2976
+type(
+  Term.wffi
+)
+"tb_proof.ml" 120 2934 2938 "tb_proof.ml" 120 2934 2976
+type(
+  Term.swffi
+)
+"tb_proof.ml" 120 2934 2980 "tb_proof.ml" 120 2934 2981
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 120 2934 2985 "tb_proof.ml" 120 2934 2989
+)
+"tb_proof.ml" 120 2934 2938 "tb_proof.ml" 120 2934 2981
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 120 2934 2985 "tb_proof.ml" 120 2934 2989
+type(
+  bool
+)
+"tb_proof.ml" 121 2990 2994 "tb_proof.ml" 121 2990 2995
+type(
+  Term.swffi
+)
+"tb_proof.ml" 121 2990 2999 "tb_proof.ml" 121 2990 3000
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 121 2990 3004 "tb_proof.ml" 121 2990 3024
+)
+"tb_proof.ml" 121 2990 2994 "tb_proof.ml" 121 2990 3000
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 121 2990 3004 "tb_proof.ml" 121 2990 3022
+type(
+  Term.swffi list -> bool
+)
+ident(
+  int_ref member_for_C4_rule "tb_proof.ml" 117 2838 2846 "tb_proof.ml" 117 2838 2864
+)
+"tb_proof.ml" 121 2990 3023 "tb_proof.ml" 121 2990 3024
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 121 2990 2999 "tb_proof.ml" 121 2990 3000
+)
+"tb_proof.ml" 121 2990 3004 "tb_proof.ml" 121 2990 3024
+call(
+  tail
+)
+type(
+  bool
+)
+"tb_proof.ml" 122 3025 3029 "tb_proof.ml" 122 3025 3031
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 122 3025 3035 "tb_proof.ml" 122 3025 3040
+type(
+  bool
+)
+"tb_proof.ml" 118 2869 2871 "tb_proof.ml" 122 3025 3040
+type(
+  bool
+)
+"tb_proof.ml" 131 3335 3339 "tb_proof.ml" 131 3335 3350
+type(
+  'a list -> 'a list
+)
+ident(
+  def set_of_list "tb_proof.ml" 138 3495 3495 "tb_proof.ml" 1 0 -1
+)
+"tb_proof.ml" 131 3335 3351 "tb_proof.ml" 131 3335 3353
+type(
+  'a list
+)
+ident(
+  def xs "tb_proof.ml" 132 3356 3358 "tb_proof.ml" 136 3481 3493
+)
+"tb_proof.ml" 132 3356 3366 "tb_proof.ml" 132 3356 3370
+type(
+  'b list -> 'b list -> 'b list
+)
+ident(
+  def iter "tb_proof.ml" 132 3356 3358 "tb_proof.ml" 136 3481 3493
+)
+"tb_proof.ml" 132 3356 3371 "tb_proof.ml" 132 3356 3372
+type(
+  'b list
+)
+ident(
+  def a "tb_proof.ml" 132 3356 3375 "tb_proof.ml" 134 3409 3475
+)
+"tb_proof.ml" 133 3384 3390 "tb_proof.ml" 133 3384 3392
+type(
+  'b list
+)
+"tb_proof.ml" 133 3384 3397 "tb_proof.ml" 133 3384 3405
+type(
+  'b list -> 'b list
+)
+ident(
+  ext_ref List.rev
+)
+"tb_proof.ml" 133 3384 3406 "tb_proof.ml" 133 3384 3407
+type(
+  'b list
+)
+ident(
+  int_ref a "tb_proof.ml" 132 3356 3371 "tb_proof.ml" 132 3356 3372
+)
+"tb_proof.ml" 133 3384 3396 "tb_proof.ml" 133 3384 3408
+call(
+  tail
+)
+type(
+  'b list
+)
+"tb_proof.ml" 134 3409 3415 "tb_proof.ml" 134 3409 3416
+type(
+  'b
+)
+ident(
+  def y "tb_proof.ml" 134 3409 3424 "tb_proof.ml" 134 3409 3475
+)
+"tb_proof.ml" 134 3409 3418 "tb_proof.ml" 134 3409 3420
+type(
+  'b list
+)
+ident(
+  def ys "tb_proof.ml" 134 3409 3424 "tb_proof.ml" 134 3409 3475
+)
+"tb_proof.ml" 134 3409 3415 "tb_proof.ml" 134 3409 3420
+type(
+  'b list
+)
+"tb_proof.ml" 134 3409 3427 "tb_proof.ml" 134 3409 3435
+type(
+  'b -> 'b list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"tb_proof.ml" 134 3409 3436 "tb_proof.ml" 134 3409 3437
+type(
+  'b
+)
+ident(
+  int_ref y "tb_proof.ml" 134 3409 3415 "tb_proof.ml" 134 3409 3416
+)
+"tb_proof.ml" 134 3409 3438 "tb_proof.ml" 134 3409 3440
+type(
+  'b list
+)
+ident(
+  int_ref ys "tb_proof.ml" 134 3409 3418 "tb_proof.ml" 134 3409 3420
+)
+"tb_proof.ml" 134 3409 3427 "tb_proof.ml" 134 3409 3440
+call(
+  stack
+)
+type(
+  bool
+)
+"tb_proof.ml" 134 3409 3446 "tb_proof.ml" 134 3409 3450
+type(
+  'b list -> 'b list -> 'b list
+)
+ident(
+  int_ref iter "tb_proof.ml" 132 3356 3366 "tb_proof.ml" 132 3356 3370
+)
+"tb_proof.ml" 134 3409 3451 "tb_proof.ml" 134 3409 3452
+type(
+  'b list
+)
+ident(
+  int_ref a "tb_proof.ml" 132 3356 3371 "tb_proof.ml" 132 3356 3372
+)
+"tb_proof.ml" 134 3409 3453 "tb_proof.ml" 134 3409 3455
+type(
+  'b list
+)
+ident(
+  int_ref ys "tb_proof.ml" 134 3409 3418 "tb_proof.ml" 134 3409 3420
+)
+"tb_proof.ml" 134 3409 3446 "tb_proof.ml" 134 3409 3455
+call(
+  tail
+)
+type(
+  'b list
+)
+"tb_proof.ml" 134 3409 3461 "tb_proof.ml" 134 3409 3465
+type(
+  'b list -> 'b list -> 'b list
+)
+ident(
+  int_ref iter "tb_proof.ml" 132 3356 3366 "tb_proof.ml" 132 3356 3370
+)
+"tb_proof.ml" 134 3409 3467 "tb_proof.ml" 134 3409 3468
+type(
+  'b
+)
+ident(
+  int_ref y "tb_proof.ml" 134 3409 3415 "tb_proof.ml" 134 3409 3416
+)
+"tb_proof.ml" 134 3409 3470 "tb_proof.ml" 134 3409 3471
+type(
+  'b list
+)
+ident(
+  int_ref a "tb_proof.ml" 132 3356 3371 "tb_proof.ml" 132 3356 3372
+)
+"tb_proof.ml" 134 3409 3466 "tb_proof.ml" 134 3409 3472
+type(
+  'b list
+)
+"tb_proof.ml" 134 3409 3473 "tb_proof.ml" 134 3409 3475
+type(
+  'b list
+)
+ident(
+  int_ref ys "tb_proof.ml" 134 3409 3418 "tb_proof.ml" 134 3409 3420
+)
+"tb_proof.ml" 134 3409 3461 "tb_proof.ml" 134 3409 3475
+call(
+  tail
+)
+type(
+  'b list
+)
+"tb_proof.ml" 134 3409 3424 "tb_proof.ml" 134 3409 3475
+type(
+  'b list
+)
+"tb_proof.ml" 132 3356 3375 "tb_proof.ml" 134 3409 3475
+type(
+  'b list -> 'b list
+)
+"tb_proof.ml" 136 3481 3483 "tb_proof.ml" 136 3481 3487
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref iter "tb_proof.ml" 132 3356 3366 "tb_proof.ml" 132 3356 3370
+)
+"tb_proof.ml" 136 3481 3488 "tb_proof.ml" 136 3481 3490
+type(
+  'a list
+)
+"tb_proof.ml" 136 3481 3491 "tb_proof.ml" 136 3481 3493
+type(
+  'a list
+)
+ident(
+  int_ref xs "tb_proof.ml" 131 3335 3351 "tb_proof.ml" 131 3335 3353
+)
+"tb_proof.ml" 136 3481 3483 "tb_proof.ml" 136 3481 3493
+call(
+  tail
+)
+type(
+  'a list
+)
+"tb_proof.ml" 132 3356 3358 "tb_proof.ml" 136 3481 3493
+type(
+  'a list
+)
+"tb_proof.ml" 138 3495 3503 "tb_proof.ml" 138 3495 3510
+type(
+  Term.swffi list -> Term.swffi list
+)
+ident(
+  def s_to_sc "tb_proof.ml" 138 3495 3495 "tb_proof.ml" 1 0 -1
+)
+"tb_proof.ml" 139 3522 3526 "tb_proof.ml" 139 3522 3528
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 139 3522 3532 "tb_proof.ml" 139 3522 3534
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 140 3535 3546 "tb_proof.ml" 140 3535 3547
+ident(
+  def p "tb_proof.ml" 140 3535 3558 "tb_proof.ml" 140 3535 3568
+)
+"tb_proof.ml" 140 3535 3545 "tb_proof.ml" 140 3535 3548
+type(
+  Term.wffi
+)
+"tb_proof.ml" 140 3535 3539 "tb_proof.ml" 140 3535 3548
+type(
+  Term.swffi
+)
+"tb_proof.ml" 140 3535 3552 "tb_proof.ml" 140 3535 3554
+type(
+  Term.swffi list
+)
+ident(
+  def hs "tb_proof.ml" 140 3535 3558 "tb_proof.ml" 140 3535 3568
+)
+"tb_proof.ml" 140 3535 3539 "tb_proof.ml" 140 3535 3554
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 140 3535 3558 "tb_proof.ml" 140 3535 3565
+type(
+  Term.swffi list -> Term.swffi list
+)
+ident(
+  int_ref s_to_sc "tb_proof.ml" 138 3495 3503 "tb_proof.ml" 138 3495 3510
+)
+"tb_proof.ml" 140 3535 3566 "tb_proof.ml" 140 3535 3568
+type(
+  Term.swffi list
+)
+ident(
+  int_ref hs "tb_proof.ml" 140 3535 3552 "tb_proof.ml" 140 3535 3554
+)
+"tb_proof.ml" 140 3535 3558 "tb_proof.ml" 140 3535 3568
+call(
+  tail
+)
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 141 3569 3573 "tb_proof.ml" 141 3569 3574
+type(
+  Term.swffi
+)
+ident(
+  def h "tb_proof.ml" 141 3569 3584 "tb_proof.ml" 141 3569 3599
+)
+"tb_proof.ml" 141 3569 3578 "tb_proof.ml" 141 3569 3580
+type(
+  Term.swffi list
+)
+ident(
+  def hs "tb_proof.ml" 141 3569 3584 "tb_proof.ml" 141 3569 3599
+)
+"tb_proof.ml" 141 3569 3573 "tb_proof.ml" 141 3569 3580
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 141 3569 3584 "tb_proof.ml" 141 3569 3585
+type(
+  Term.swffi
+)
+ident(
+  int_ref h "tb_proof.ml" 141 3569 3573 "tb_proof.ml" 141 3569 3574
+)
+"tb_proof.ml" 141 3569 3589 "tb_proof.ml" 141 3569 3596
+type(
+  Term.swffi list -> Term.swffi list
+)
+ident(
+  int_ref s_to_sc "tb_proof.ml" 138 3495 3503 "tb_proof.ml" 138 3495 3510
+)
+"tb_proof.ml" 141 3569 3597 "tb_proof.ml" 141 3569 3599
+type(
+  Term.swffi list
+)
+ident(
+  int_ref hs "tb_proof.ml" 141 3569 3578 "tb_proof.ml" 141 3569 3580
+)
+"tb_proof.ml" 141 3569 3589 "tb_proof.ml" 141 3569 3599
+call(
+  stack
+)
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 141 3569 3584 "tb_proof.ml" 141 3569 3599
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 138 3495 3513 "tb_proof.ml" 141 3569 3599
+type(
+  Term.swffi list -> Term.swffi list
+)
+"tb_proof.ml" 144 3612 3620 "tb_proof.ml" 144 3612 3626
+type(
+  Term.swffi list -> Term.swffi list
+)
+ident(
+  def t_conj "tb_proof.ml" 144 3612 3612 "tb_proof.ml" 1 0 -1
+)
+"tb_proof.ml" 145 3638 3642 "tb_proof.ml" 145 3638 3644
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 145 3638 3648 "tb_proof.ml" 145 3638 3650
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 146 3651 3670 "tb_proof.ml" 146 3651 3672
+type(
+  Term.wffi
+)
+ident(
+  def p1 "tb_proof.ml" 146 3651 3687 "tb_proof.ml" 146 3651 3716
+)
+"tb_proof.ml" 146 3651 3674 "tb_proof.ml" 146 3651 3676
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 146 3651 3687 "tb_proof.ml" 146 3651 3716
+)
+"tb_proof.ml" 146 3651 3661 "tb_proof.ml" 146 3651 3678
+type(
+  Term.wffi
+)
+"tb_proof.ml" 146 3651 3655 "tb_proof.ml" 146 3651 3678
+type(
+  Term.swffi
+)
+"tb_proof.ml" 146 3651 3682 "tb_proof.ml" 146 3651 3683
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 146 3651 3687 "tb_proof.ml" 146 3651 3716
+)
+"tb_proof.ml" 146 3651 3655 "tb_proof.ml" 146 3651 3683
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 146 3651 3695 "tb_proof.ml" 146 3651 3697
+type(
+  Term.wffi
+)
+ident(
+  int_ref p1 "tb_proof.ml" 146 3651 3670 "tb_proof.ml" 146 3651 3672
+)
+"tb_proof.ml" 146 3651 3688 "tb_proof.ml" 146 3651 3697
+type(
+  Term.swffi
+)
+"tb_proof.ml" 146 3651 3708 "tb_proof.ml" 146 3651 3710
+type(
+  Term.wffi
+)
+ident(
+  int_ref p2 "tb_proof.ml" 146 3651 3674 "tb_proof.ml" 146 3651 3676
+)
+"tb_proof.ml" 146 3651 3701 "tb_proof.ml" 146 3651 3710
+type(
+  Term.swffi
+)
+"tb_proof.ml" 146 3651 3714 "tb_proof.ml" 146 3651 3715
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 146 3651 3682 "tb_proof.ml" 146 3651 3683
+)
+"tb_proof.ml" 146 3651 3701 "tb_proof.ml" 146 3651 3715
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 146 3651 3687 "tb_proof.ml" 146 3651 3716
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 147 3717 3721 "tb_proof.ml" 147 3717 3722
+type(
+  Term.swffi
+)
+ident(
+  def h "tb_proof.ml" 147 3717 3730 "tb_proof.ml" 147 3717 3744
+)
+"tb_proof.ml" 147 3717 3724 "tb_proof.ml" 147 3717 3726
+type(
+  Term.swffi list
+)
+ident(
+  def hs "tb_proof.ml" 147 3717 3730 "tb_proof.ml" 147 3717 3744
+)
+"tb_proof.ml" 147 3717 3721 "tb_proof.ml" 147 3717 3726
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 147 3717 3730 "tb_proof.ml" 147 3717 3731
+type(
+  Term.swffi
+)
+ident(
+  int_ref h "tb_proof.ml" 147 3717 3721 "tb_proof.ml" 147 3717 3722
+)
+"tb_proof.ml" 147 3717 3735 "tb_proof.ml" 147 3717 3741
+type(
+  Term.swffi list -> Term.swffi list
+)
+ident(
+  int_ref t_conj "tb_proof.ml" 144 3612 3620 "tb_proof.ml" 144 3612 3626
+)
+"tb_proof.ml" 147 3717 3742 "tb_proof.ml" 147 3717 3744
+type(
+  Term.swffi list
+)
+ident(
+  int_ref hs "tb_proof.ml" 147 3717 3724 "tb_proof.ml" 147 3717 3726
+)
+"tb_proof.ml" 147 3717 3735 "tb_proof.ml" 147 3717 3744
+call(
+  stack
+)
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 147 3717 3730 "tb_proof.ml" 147 3717 3744
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 144 3612 3629 "tb_proof.ml" 147 3717 3744
+type(
+  Term.swffi list -> Term.swffi list
+)
+"tb_proof.ml" 149 3746 3754 "tb_proof.ml" 149 3746 3760
+type(
+  Term.swffi list -> Term.swffi list
+)
+ident(
+  def f_disj "tb_proof.ml" 149 3746 3746 "tb_proof.ml" 1 0 -1
+)
+"tb_proof.ml" 150 3772 3776 "tb_proof.ml" 150 3772 3778
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 150 3772 3782 "tb_proof.ml" 150 3772 3784
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 151 3785 3803 "tb_proof.ml" 151 3785 3805
+type(
+  Term.wffi
+)
+ident(
+  def p1 "tb_proof.ml" 151 3785 3820 "tb_proof.ml" 151 3785 3849
+)
+"tb_proof.ml" 151 3785 3807 "tb_proof.ml" 151 3785 3809
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 151 3785 3820 "tb_proof.ml" 151 3785 3849
+)
+"tb_proof.ml" 151 3785 3795 "tb_proof.ml" 151 3785 3811
+type(
+  Term.wffi
+)
+"tb_proof.ml" 151 3785 3789 "tb_proof.ml" 151 3785 3811
+type(
+  Term.swffi
+)
+"tb_proof.ml" 151 3785 3815 "tb_proof.ml" 151 3785 3816
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 151 3785 3820 "tb_proof.ml" 151 3785 3849
+)
+"tb_proof.ml" 151 3785 3789 "tb_proof.ml" 151 3785 3816
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 151 3785 3828 "tb_proof.ml" 151 3785 3830
+type(
+  Term.wffi
+)
+ident(
+  int_ref p1 "tb_proof.ml" 151 3785 3803 "tb_proof.ml" 151 3785 3805
+)
+"tb_proof.ml" 151 3785 3821 "tb_proof.ml" 151 3785 3830
+type(
+  Term.swffi
+)
+"tb_proof.ml" 151 3785 3841 "tb_proof.ml" 151 3785 3843
+type(
+  Term.wffi
+)
+ident(
+  int_ref p2 "tb_proof.ml" 151 3785 3807 "tb_proof.ml" 151 3785 3809
+)
+"tb_proof.ml" 151 3785 3834 "tb_proof.ml" 151 3785 3843
+type(
+  Term.swffi
+)
+"tb_proof.ml" 151 3785 3847 "tb_proof.ml" 151 3785 3848
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 151 3785 3815 "tb_proof.ml" 151 3785 3816
+)
+"tb_proof.ml" 151 3785 3834 "tb_proof.ml" 151 3785 3848
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 151 3785 3820 "tb_proof.ml" 151 3785 3849
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 152 3850 3854 "tb_proof.ml" 152 3850 3855
+type(
+  Term.swffi
+)
+ident(
+  def h "tb_proof.ml" 152 3850 3863 "tb_proof.ml" 152 3850 3877
+)
+"tb_proof.ml" 152 3850 3857 "tb_proof.ml" 152 3850 3859
+type(
+  Term.swffi list
+)
+ident(
+  def hs "tb_proof.ml" 152 3850 3863 "tb_proof.ml" 152 3850 3877
+)
+"tb_proof.ml" 152 3850 3854 "tb_proof.ml" 152 3850 3859
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 152 3850 3863 "tb_proof.ml" 152 3850 3864
+type(
+  Term.swffi
+)
+ident(
+  int_ref h "tb_proof.ml" 152 3850 3854 "tb_proof.ml" 152 3850 3855
+)
+"tb_proof.ml" 152 3850 3868 "tb_proof.ml" 152 3850 3874
+type(
+  Term.swffi list -> Term.swffi list
+)
+ident(
+  int_ref f_disj "tb_proof.ml" 149 3746 3754 "tb_proof.ml" 149 3746 3760
+)
+"tb_proof.ml" 152 3850 3875 "tb_proof.ml" 152 3850 3877
+type(
+  Term.swffi list
+)
+ident(
+  int_ref hs "tb_proof.ml" 152 3850 3857 "tb_proof.ml" 152 3850 3859
+)
+"tb_proof.ml" 152 3850 3868 "tb_proof.ml" 152 3850 3877
+call(
+  stack
+)
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 152 3850 3863 "tb_proof.ml" 152 3850 3877
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 149 3746 3763 "tb_proof.ml" 152 3850 3877
+type(
+  Term.swffi list -> Term.swffi list
+)
+"tb_proof.ml" 154 3879 3887 "tb_proof.ml" 154 3879 3894
+type(
+  Term.swffi list -> Term.swffi list
+)
+ident(
+  def fc_disj "tb_proof.ml" 154 3879 3879 "tb_proof.ml" 1 0 -1
+)
+"tb_proof.ml" 155 3906 3910 "tb_proof.ml" 155 3906 3912
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 155 3906 3916 "tb_proof.ml" 155 3906 3918
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 156 3919 3938 "tb_proof.ml" 156 3919 3940
+type(
+  Term.wffi
+)
+ident(
+  def p1 "tb_proof.ml" 156 3919 3955 "tb_proof.ml" 156 3919 3986
+)
+"tb_proof.ml" 156 3919 3942 "tb_proof.ml" 156 3919 3944
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 156 3919 3955 "tb_proof.ml" 156 3919 3986
+)
+"tb_proof.ml" 156 3919 3930 "tb_proof.ml" 156 3919 3946
+type(
+  Term.wffi
+)
+"tb_proof.ml" 156 3919 3923 "tb_proof.ml" 156 3919 3946
+type(
+  Term.swffi
+)
+"tb_proof.ml" 156 3919 3950 "tb_proof.ml" 156 3919 3951
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 156 3919 3955 "tb_proof.ml" 156 3919 3986
+)
+"tb_proof.ml" 156 3919 3923 "tb_proof.ml" 156 3919 3951
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 156 3919 3964 "tb_proof.ml" 156 3919 3966
+type(
+  Term.wffi
+)
+ident(
+  int_ref p1 "tb_proof.ml" 156 3919 3938 "tb_proof.ml" 156 3919 3940
+)
+"tb_proof.ml" 156 3919 3956 "tb_proof.ml" 156 3919 3966
+type(
+  Term.swffi
+)
+"tb_proof.ml" 156 3919 3978 "tb_proof.ml" 156 3919 3980
+type(
+  Term.wffi
+)
+ident(
+  int_ref p2 "tb_proof.ml" 156 3919 3942 "tb_proof.ml" 156 3919 3944
+)
+"tb_proof.ml" 156 3919 3970 "tb_proof.ml" 156 3919 3980
+type(
+  Term.swffi
+)
+"tb_proof.ml" 156 3919 3984 "tb_proof.ml" 156 3919 3985
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 156 3919 3950 "tb_proof.ml" 156 3919 3951
+)
+"tb_proof.ml" 156 3919 3970 "tb_proof.ml" 156 3919 3985
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 156 3919 3955 "tb_proof.ml" 156 3919 3986
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 157 3987 3991 "tb_proof.ml" 157 3987 3992
+type(
+  Term.swffi
+)
+ident(
+  def h "tb_proof.ml" 157 3987 4000 "tb_proof.ml" 157 3987 4015
+)
+"tb_proof.ml" 157 3987 3994 "tb_proof.ml" 157 3987 3996
+type(
+  Term.swffi list
+)
+ident(
+  def hs "tb_proof.ml" 157 3987 4000 "tb_proof.ml" 157 3987 4015
+)
+"tb_proof.ml" 157 3987 3991 "tb_proof.ml" 157 3987 3996
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 157 3987 4000 "tb_proof.ml" 157 3987 4001
+type(
+  Term.swffi
+)
+ident(
+  int_ref h "tb_proof.ml" 157 3987 3991 "tb_proof.ml" 157 3987 3992
+)
+"tb_proof.ml" 157 3987 4005 "tb_proof.ml" 157 3987 4012
+type(
+  Term.swffi list -> Term.swffi list
+)
+ident(
+  int_ref fc_disj "tb_proof.ml" 154 3879 3887 "tb_proof.ml" 154 3879 3894
+)
+"tb_proof.ml" 157 3987 4013 "tb_proof.ml" 157 3987 4015
+type(
+  Term.swffi list
+)
+ident(
+  int_ref hs "tb_proof.ml" 157 3987 3994 "tb_proof.ml" 157 3987 3996
+)
+"tb_proof.ml" 157 3987 4005 "tb_proof.ml" 157 3987 4015
+call(
+  stack
+)
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 157 3987 4000 "tb_proof.ml" 157 3987 4015
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 154 3879 3897 "tb_proof.ml" 157 3987 4015
+type(
+  Term.swffi list -> Term.swffi list
+)
+"tb_proof.ml" 159 4017 4025 "tb_proof.ml" 159 4017 4035
+type(
+  Term.swffi list -> Term.swffi list
+)
+ident(
+  def t_imp_atom "tb_proof.ml" 159 4017 4017 "tb_proof.ml" 1 0 -1
+)
+"tb_proof.ml" 160 4047 4051 "tb_proof.ml" 160 4047 4053
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 160 4047 4057 "tb_proof.ml" 160 4047 4059
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 161 4060 4090 "tb_proof.ml" 161 4060 4092
+type(
+  int
+)
+ident(
+  def p1 "tb_proof.ml" 161 4060 4109 "tb_proof.ml" 161 4060 4169
+)
+"tb_proof.ml" 161 4060 4081 "tb_proof.ml" 161 4060 4092
+type(
+  Term.wffi
+)
+"tb_proof.ml" 161 4060 4094 "tb_proof.ml" 161 4060 4096
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 161 4060 4109 "tb_proof.ml" 161 4060 4169
+)
+"tb_proof.ml" 161 4060 4070 "tb_proof.ml" 161 4060 4098
+type(
+  Term.wffi
+)
+"tb_proof.ml" 161 4060 4064 "tb_proof.ml" 161 4060 4098
+type(
+  Term.swffi
+)
+"tb_proof.ml" 161 4060 4102 "tb_proof.ml" 161 4060 4103
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 161 4060 4109 "tb_proof.ml" 161 4060 4169
+)
+"tb_proof.ml" 161 4060 4064 "tb_proof.ml" 161 4060 4103
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 161 4060 4109 "tb_proof.ml" 161 4060 4117
+type(
+  Term.swffi -> Term.swffi list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"tb_proof.ml" 161 4060 4134 "tb_proof.ml" 161 4060 4138
+type(
+  int
+)
+ident(
+  int_ref p1 "tb_proof.ml" 161 4060 4090 "tb_proof.ml" 161 4060 4092
+)
+"tb_proof.ml" 161 4060 4125 "tb_proof.ml" 161 4060 4139
+type(
+  Term.wffi
+)
+"tb_proof.ml" 161 4060 4118 "tb_proof.ml" 161 4060 4140
+type(
+  Term.swffi
+)
+"tb_proof.ml" 161 4060 4141 "tb_proof.ml" 161 4060 4142
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 161 4060 4102 "tb_proof.ml" 161 4060 4103
+)
+"tb_proof.ml" 161 4060 4109 "tb_proof.ml" 161 4060 4142
+call(
+  stack
+)
+type(
+  bool
+)
+"tb_proof.ml" 161 4060 4143 "tb_proof.ml" 161 4060 4144
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"tb_proof.ml" 161 4060 4145 "tb_proof.ml" 161 4060 4149
+type(
+  bool
+)
+"tb_proof.ml" 161 4060 4109 "tb_proof.ml" 161 4060 4149
+type(
+  bool
+)
+"tb_proof.ml" 161 4060 4161 "tb_proof.ml" 161 4060 4163
+type(
+  Term.wffi
+)
+ident(
+  int_ref p2 "tb_proof.ml" 161 4060 4094 "tb_proof.ml" 161 4060 4096
+)
+"tb_proof.ml" 161 4060 4154 "tb_proof.ml" 161 4060 4163
+type(
+  Term.swffi
+)
+"tb_proof.ml" 161 4060 4167 "tb_proof.ml" 161 4060 4168
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 161 4060 4102 "tb_proof.ml" 161 4060 4103
+)
+"tb_proof.ml" 161 4060 4153 "tb_proof.ml" 161 4060 4169
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 162 4170 4190 "tb_proof.ml" 162 4170 4191
+type(
+  int
+)
+ident(
+  def p "tb_proof.ml" 162 4170 4209 "tb_proof.ml" 162 4170 4287
+)
+"tb_proof.ml" 162 4170 4180 "tb_proof.ml" 162 4170 4192
+type(
+  Term.wffi
+)
+"tb_proof.ml" 162 4170 4174 "tb_proof.ml" 162 4170 4192
+type(
+  Term.swffi
+)
+"tb_proof.ml" 162 4170 4196 "tb_proof.ml" 162 4170 4197
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 162 4170 4209 "tb_proof.ml" 162 4170 4287
+)
+"tb_proof.ml" 162 4170 4174 "tb_proof.ml" 162 4170 4197
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 162 4170 4201 "tb_proof.ml" 162 4170 4203
+ident(
+  def ss "tb_proof.ml" 162 4170 4209 "tb_proof.ml" 162 4170 4287
+)
+"tb_proof.ml" 162 4170 4174 "tb_proof.ml" 162 4170 4203
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 162 4170 4209 "tb_proof.ml" 162 4170 4223
+type(
+  Term.wffi -> Term.swffi list -> bool
+)
+ident(
+  int_ref mem_atom_arrow "tb_proof.ml" 77 1505 1513 "tb_proof.ml" 77 1505 1527
+)
+"tb_proof.ml" 162 4170 4234 "tb_proof.ml" 162 4170 4235
+type(
+  int
+)
+ident(
+  int_ref p "tb_proof.ml" 162 4170 4190 "tb_proof.ml" 162 4170 4191
+)
+"tb_proof.ml" 162 4170 4224 "tb_proof.ml" 162 4170 4236
+type(
+  Term.wffi
+)
+"tb_proof.ml" 162 4170 4237 "tb_proof.ml" 162 4170 4238
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 162 4170 4196 "tb_proof.ml" 162 4170 4197
+)
+"tb_proof.ml" 162 4170 4209 "tb_proof.ml" 162 4170 4238
+call(
+  stack
+)
+type(
+  bool
+)
+"tb_proof.ml" 162 4170 4243 "tb_proof.ml" 162 4170 4270
+type(
+  Term.wffi -> Term.swffi list -> Term.swffi list
+)
+ident(
+  int_ref remove_atom_arrow_plus_atom "tb_proof.ml" 84 1773 1781 "tb_proof.ml" 84 1773 1808
+)
+"tb_proof.ml" 162 4170 4281 "tb_proof.ml" 162 4170 4282
+type(
+  int
+)
+ident(
+  int_ref p "tb_proof.ml" 162 4170 4190 "tb_proof.ml" 162 4170 4191
+)
+"tb_proof.ml" 162 4170 4271 "tb_proof.ml" 162 4170 4283
+type(
+  Term.wffi
+)
+"tb_proof.ml" 162 4170 4284 "tb_proof.ml" 162 4170 4286
+type(
+  Term.swffi list
+)
+ident(
+  int_ref ss "tb_proof.ml" 162 4170 4174 "tb_proof.ml" 162 4170 4203
+)
+"tb_proof.ml" 162 4170 4242 "tb_proof.ml" 162 4170 4287
+call(
+  tail
+)
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 163 4288 4292 "tb_proof.ml" 163 4288 4293
+type(
+  Term.swffi
+)
+ident(
+  def h "tb_proof.ml" 163 4288 4301 "tb_proof.ml" 163 4288 4319
+)
+"tb_proof.ml" 163 4288 4295 "tb_proof.ml" 163 4288 4297
+type(
+  Term.swffi list
+)
+ident(
+  def hs "tb_proof.ml" 163 4288 4301 "tb_proof.ml" 163 4288 4319
+)
+"tb_proof.ml" 163 4288 4292 "tb_proof.ml" 163 4288 4297
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 163 4288 4301 "tb_proof.ml" 163 4288 4302
+type(
+  Term.swffi
+)
+ident(
+  int_ref h "tb_proof.ml" 163 4288 4292 "tb_proof.ml" 163 4288 4293
+)
+"tb_proof.ml" 163 4288 4306 "tb_proof.ml" 163 4288 4316
+type(
+  Term.swffi list -> Term.swffi list
+)
+ident(
+  int_ref t_imp_atom "tb_proof.ml" 159 4017 4025 "tb_proof.ml" 159 4017 4035
+)
+"tb_proof.ml" 163 4288 4317 "tb_proof.ml" 163 4288 4319
+type(
+  Term.swffi list
+)
+ident(
+  int_ref hs "tb_proof.ml" 163 4288 4295 "tb_proof.ml" 163 4288 4297
+)
+"tb_proof.ml" 163 4288 4306 "tb_proof.ml" 163 4288 4319
+call(
+  stack
+)
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 163 4288 4301 "tb_proof.ml" 163 4288 4319
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 159 4017 4038 "tb_proof.ml" 163 4288 4319
+type(
+  Term.swffi list -> Term.swffi list
+)
+"tb_proof.ml" 165 4321 4329 "tb_proof.ml" 165 4321 4334
+type(
+  Term.swffi list -> Term.swffi list
+)
+ident(
+  def t_not "tb_proof.ml" 165 4321 4321 "tb_proof.ml" 1 0 -1
+)
+"tb_proof.ml" 166 4346 4350 "tb_proof.ml" 166 4346 4352
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 166 4346 4356 "tb_proof.ml" 166 4346 4358
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 167 4359 4378 "tb_proof.ml" 167 4359 4379
+type(
+  Term.wffi
+)
+ident(
+  def p "tb_proof.ml" 167 4359 4389 "tb_proof.ml" 167 4359 4405
+)
+"tb_proof.ml" 167 4359 4369 "tb_proof.ml" 167 4359 4380
+type(
+  Term.wffi
+)
+"tb_proof.ml" 167 4359 4363 "tb_proof.ml" 167 4359 4380
+type(
+  Term.swffi
+)
+"tb_proof.ml" 167 4359 4384 "tb_proof.ml" 167 4359 4385
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 167 4359 4389 "tb_proof.ml" 167 4359 4405
+)
+"tb_proof.ml" 167 4359 4363 "tb_proof.ml" 167 4359 4385
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 167 4359 4399 "tb_proof.ml" 167 4359 4400
+type(
+  Term.wffi
+)
+ident(
+  int_ref p "tb_proof.ml" 167 4359 4378 "tb_proof.ml" 167 4359 4379
+)
+"tb_proof.ml" 167 4359 4390 "tb_proof.ml" 167 4359 4401
+type(
+  Term.swffi
+)
+"tb_proof.ml" 167 4359 4403 "tb_proof.ml" 167 4359 4404
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 167 4359 4384 "tb_proof.ml" 167 4359 4385
+)
+"tb_proof.ml" 167 4359 4389 "tb_proof.ml" 167 4359 4405
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 168 4406 4410 "tb_proof.ml" 168 4406 4411
+type(
+  Term.swffi
+)
+ident(
+  def h "tb_proof.ml" 168 4406 4419 "tb_proof.ml" 168 4406 4432
+)
+"tb_proof.ml" 168 4406 4413 "tb_proof.ml" 168 4406 4415
+type(
+  Term.swffi list
+)
+ident(
+  def hs "tb_proof.ml" 168 4406 4419 "tb_proof.ml" 168 4406 4432
+)
+"tb_proof.ml" 168 4406 4410 "tb_proof.ml" 168 4406 4415
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 168 4406 4419 "tb_proof.ml" 168 4406 4420
+type(
+  Term.swffi
+)
+ident(
+  int_ref h "tb_proof.ml" 168 4406 4410 "tb_proof.ml" 168 4406 4411
+)
+"tb_proof.ml" 168 4406 4424 "tb_proof.ml" 168 4406 4429
+type(
+  Term.swffi list -> Term.swffi list
+)
+ident(
+  int_ref t_not "tb_proof.ml" 165 4321 4329 "tb_proof.ml" 165 4321 4334
+)
+"tb_proof.ml" 168 4406 4430 "tb_proof.ml" 168 4406 4432
+type(
+  Term.swffi list
+)
+ident(
+  int_ref hs "tb_proof.ml" 168 4406 4413 "tb_proof.ml" 168 4406 4415
+)
+"tb_proof.ml" 168 4406 4424 "tb_proof.ml" 168 4406 4432
+call(
+  stack
+)
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 168 4406 4419 "tb_proof.ml" 168 4406 4432
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 165 4321 4337 "tb_proof.ml" 168 4406 4432
+type(
+  Term.swffi list -> Term.swffi list
+)
+"tb_proof.ml" 170 4434 4442 "tb_proof.ml" 170 4434 4452
+type(
+  Term.swffi list -> Term.swffi list
+)
+ident(
+  def t_imp_conj "tb_proof.ml" 170 4434 4434 "tb_proof.ml" 1 0 -1
+)
+"tb_proof.ml" 171 4464 4468 "tb_proof.ml" 171 4464 4470
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 171 4464 4474 "tb_proof.ml" 171 4464 4476
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 172 4477 4506 "tb_proof.ml" 172 4477 4508
+type(
+  Term.wffi
+)
+ident(
+  def p1 "tb_proof.ml" 172 4477 4526 "tb_proof.ml" 172 4477 4570
+)
+"tb_proof.ml" 172 4477 4509 "tb_proof.ml" 172 4477 4511
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 172 4477 4526 "tb_proof.ml" 172 4477 4570
+)
+"tb_proof.ml" 172 4477 4498 "tb_proof.ml" 172 4477 4512
+type(
+  Term.wffi
+)
+"tb_proof.ml" 172 4477 4513 "tb_proof.ml" 172 4477 4515
+type(
+  Term.wffi
+)
+ident(
+  def p3 "tb_proof.ml" 172 4477 4526 "tb_proof.ml" 172 4477 4570
+)
+"tb_proof.ml" 172 4477 4487 "tb_proof.ml" 172 4477 4517
+type(
+  Term.wffi
+)
+"tb_proof.ml" 172 4477 4481 "tb_proof.ml" 172 4477 4517
+type(
+  Term.swffi
+)
+"tb_proof.ml" 172 4477 4521 "tb_proof.ml" 172 4477 4522
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 172 4477 4526 "tb_proof.ml" 172 4477 4570
+)
+"tb_proof.ml" 172 4477 4481 "tb_proof.ml" 172 4477 4522
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 172 4477 4544 "tb_proof.ml" 172 4477 4546
+type(
+  Term.wffi
+)
+ident(
+  int_ref p1 "tb_proof.ml" 172 4477 4506 "tb_proof.ml" 172 4477 4508
+)
+"tb_proof.ml" 172 4477 4555 "tb_proof.ml" 172 4477 4557
+type(
+  Term.wffi
+)
+ident(
+  int_ref p1 "tb_proof.ml" 172 4477 4506 "tb_proof.ml" 172 4477 4508
+)
+"tb_proof.ml" 172 4477 4559 "tb_proof.ml" 172 4477 4561
+type(
+  Term.wffi
+)
+ident(
+  int_ref p2 "tb_proof.ml" 172 4477 4509 "tb_proof.ml" 172 4477 4511
+)
+"tb_proof.ml" 172 4477 4547 "tb_proof.ml" 172 4477 4562
+type(
+  Term.wffi
+)
+"tb_proof.ml" 172 4477 4533 "tb_proof.ml" 172 4477 4564
+type(
+  Term.wffi
+)
+"tb_proof.ml" 172 4477 4527 "tb_proof.ml" 172 4477 4564
+type(
+  Term.swffi
+)
+"tb_proof.ml" 172 4477 4568 "tb_proof.ml" 172 4477 4569
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 172 4477 4521 "tb_proof.ml" 172 4477 4522
+)
+"tb_proof.ml" 172 4477 4526 "tb_proof.ml" 172 4477 4570
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 173 4571 4575 "tb_proof.ml" 173 4571 4576
+type(
+  Term.swffi
+)
+ident(
+  def h "tb_proof.ml" 173 4571 4584 "tb_proof.ml" 173 4571 4602
+)
+"tb_proof.ml" 173 4571 4578 "tb_proof.ml" 173 4571 4580
+type(
+  Term.swffi list
+)
+ident(
+  def hs "tb_proof.ml" 173 4571 4584 "tb_proof.ml" 173 4571 4602
+)
+"tb_proof.ml" 173 4571 4575 "tb_proof.ml" 173 4571 4580
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 173 4571 4584 "tb_proof.ml" 173 4571 4585
+type(
+  Term.swffi
+)
+ident(
+  int_ref h "tb_proof.ml" 173 4571 4575 "tb_proof.ml" 173 4571 4576
+)
+"tb_proof.ml" 173 4571 4589 "tb_proof.ml" 173 4571 4599
+type(
+  Term.swffi list -> Term.swffi list
+)
+ident(
+  int_ref t_imp_conj "tb_proof.ml" 170 4434 4442 "tb_proof.ml" 170 4434 4452
+)
+"tb_proof.ml" 173 4571 4600 "tb_proof.ml" 173 4571 4602
+type(
+  Term.swffi list
+)
+ident(
+  int_ref hs "tb_proof.ml" 173 4571 4578 "tb_proof.ml" 173 4571 4580
+)
+"tb_proof.ml" 173 4571 4589 "tb_proof.ml" 173 4571 4602
+call(
+  stack
+)
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 173 4571 4584 "tb_proof.ml" 173 4571 4602
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 170 4434 4455 "tb_proof.ml" 173 4571 4602
+type(
+  Term.swffi list -> Term.swffi list
+)
+"tb_proof.ml" 176 4625 4633 "tb_proof.ml" 176 4625 4643
+type(
+  int -> Term.swffi list -> Term.swffi list
+)
+ident(
+  def t_imp_disj "tb_proof.ml" 176 4625 4625 "tb_proof.ml" 1 0 -1
+)
+"tb_proof.ml" 176 4625 4644 "tb_proof.ml" 176 4625 4647
+type(
+  int
+)
+ident(
+  def num "tb_proof.ml" 176 4625 4650 "tb_proof.ml" 179 4834 4869
+)
+"tb_proof.ml" 177 4659 4663 "tb_proof.ml" 177 4659 4665
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 177 4659 4669 "tb_proof.ml" 177 4659 4671
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 178 4672 4700 "tb_proof.ml" 178 4672 4702
+type(
+  Term.wffi
+)
+ident(
+  def p1 "tb_proof.ml" 178 4672 4720 "tb_proof.ml" 178 4672 4833
+)
+"tb_proof.ml" 178 4672 4703 "tb_proof.ml" 178 4672 4705
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 178 4672 4720 "tb_proof.ml" 178 4672 4833
+)
+"tb_proof.ml" 178 4672 4693 "tb_proof.ml" 178 4672 4706
+type(
+  Term.wffi
+)
+"tb_proof.ml" 178 4672 4707 "tb_proof.ml" 178 4672 4709
+type(
+  Term.wffi
+)
+ident(
+  def p3 "tb_proof.ml" 178 4672 4720 "tb_proof.ml" 178 4672 4833
+)
+"tb_proof.ml" 178 4672 4682 "tb_proof.ml" 178 4672 4711
+type(
+  Term.wffi
+)
+"tb_proof.ml" 178 4672 4676 "tb_proof.ml" 178 4672 4711
+type(
+  Term.swffi
+)
+"tb_proof.ml" 178 4672 4715 "tb_proof.ml" 178 4672 4716
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 178 4672 4720 "tb_proof.ml" 178 4672 4833
+)
+"tb_proof.ml" 178 4672 4676 "tb_proof.ml" 178 4672 4716
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 178 4672 4738 "tb_proof.ml" 178 4672 4740
+type(
+  Term.wffi
+)
+ident(
+  int_ref p1 "tb_proof.ml" 178 4672 4700 "tb_proof.ml" 178 4672 4702
+)
+"tb_proof.ml" 178 4672 4750 "tb_proof.ml" 178 4672 4753
+type(
+  int
+)
+ident(
+  int_ref num "tb_proof.ml" 176 4625 4644 "tb_proof.ml" 176 4625 4647
+)
+"tb_proof.ml" 178 4672 4741 "tb_proof.ml" 178 4672 4753
+type(
+  Term.wffi
+)
+"tb_proof.ml" 178 4672 4727 "tb_proof.ml" 178 4672 4755
+type(
+  Term.wffi
+)
+"tb_proof.ml" 178 4672 4721 "tb_proof.ml" 178 4672 4755
+type(
+  Term.swffi
+)
+"tb_proof.ml" 178 4672 4774 "tb_proof.ml" 178 4672 4776
+type(
+  Term.wffi
+)
+ident(
+  int_ref p2 "tb_proof.ml" 178 4672 4703 "tb_proof.ml" 178 4672 4705
+)
+"tb_proof.ml" 178 4672 4786 "tb_proof.ml" 178 4672 4789
+type(
+  int
+)
+ident(
+  int_ref num "tb_proof.ml" 176 4625 4644 "tb_proof.ml" 176 4625 4647
+)
+"tb_proof.ml" 178 4672 4777 "tb_proof.ml" 178 4672 4789
+type(
+  Term.wffi
+)
+"tb_proof.ml" 178 4672 4763 "tb_proof.ml" 178 4672 4791
+type(
+  Term.wffi
+)
+"tb_proof.ml" 178 4672 4757 "tb_proof.ml" 178 4672 4791
+type(
+  Term.swffi
+)
+"tb_proof.ml" 178 4672 4819 "tb_proof.ml" 178 4672 4822
+type(
+  int
+)
+ident(
+  int_ref num "tb_proof.ml" 176 4625 4644 "tb_proof.ml" 176 4625 4647
+)
+"tb_proof.ml" 178 4672 4810 "tb_proof.ml" 178 4672 4822
+type(
+  Term.wffi
+)
+"tb_proof.ml" 178 4672 4823 "tb_proof.ml" 178 4672 4825
+type(
+  Term.wffi
+)
+ident(
+  int_ref p3 "tb_proof.ml" 178 4672 4707 "tb_proof.ml" 178 4672 4709
+)
+"tb_proof.ml" 178 4672 4799 "tb_proof.ml" 178 4672 4827
+type(
+  Term.wffi
+)
+"tb_proof.ml" 178 4672 4793 "tb_proof.ml" 178 4672 4827
+type(
+  Term.swffi
+)
+"tb_proof.ml" 178 4672 4831 "tb_proof.ml" 178 4672 4832
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 178 4672 4715 "tb_proof.ml" 178 4672 4716
+)
+"tb_proof.ml" 178 4672 4793 "tb_proof.ml" 178 4672 4832
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 178 4672 4757 "tb_proof.ml" 178 4672 4832
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 178 4672 4720 "tb_proof.ml" 178 4672 4833
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 179 4834 4838 "tb_proof.ml" 179 4834 4839
+type(
+  Term.swffi
+)
+ident(
+  def h "tb_proof.ml" 179 4834 4847 "tb_proof.ml" 179 4834 4869
+)
+"tb_proof.ml" 179 4834 4841 "tb_proof.ml" 179 4834 4843
+type(
+  Term.swffi list
+)
+ident(
+  def hs "tb_proof.ml" 179 4834 4847 "tb_proof.ml" 179 4834 4869
+)
+"tb_proof.ml" 179 4834 4838 "tb_proof.ml" 179 4834 4843
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 179 4834 4847 "tb_proof.ml" 179 4834 4848
+type(
+  Term.swffi
+)
+ident(
+  int_ref h "tb_proof.ml" 179 4834 4838 "tb_proof.ml" 179 4834 4839
+)
+"tb_proof.ml" 179 4834 4852 "tb_proof.ml" 179 4834 4862
+type(
+  int -> Term.swffi list -> Term.swffi list
+)
+ident(
+  int_ref t_imp_disj "tb_proof.ml" 176 4625 4633 "tb_proof.ml" 176 4625 4643
+)
+"tb_proof.ml" 179 4834 4863 "tb_proof.ml" 179 4834 4866
+type(
+  int
+)
+ident(
+  int_ref num "tb_proof.ml" 176 4625 4644 "tb_proof.ml" 176 4625 4647
+)
+"tb_proof.ml" 179 4834 4867 "tb_proof.ml" 179 4834 4869
+type(
+  Term.swffi list
+)
+ident(
+  int_ref hs "tb_proof.ml" 179 4834 4841 "tb_proof.ml" 179 4834 4843
+)
+"tb_proof.ml" 179 4834 4852 "tb_proof.ml" 179 4834 4869
+call(
+  stack
+)
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 179 4834 4847 "tb_proof.ml" 179 4834 4869
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 176 4625 4650 "tb_proof.ml" 179 4834 4869
+type(
+  Term.swffi list -> Term.swffi list
+)
+"tb_proof.ml" 181 4871 4879 "tb_proof.ml" 181 4871 4885
+type(
+  Term.swffi list -> Term.swffi list
+)
+ident(
+  def f_conj "tb_proof.ml" 181 4871 4871 "tb_proof.ml" 1 0 -1
+)
+"tb_proof.ml" 182 4897 4901 "tb_proof.ml" 182 4897 4903
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 182 4897 4907 "tb_proof.ml" 182 4897 4909
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 183 4910 4929 "tb_proof.ml" 183 4910 4931
+type(
+  Term.wffi
+)
+ident(
+  def p1 "tb_proof.ml" 183 4910 4947 "tb_proof.ml" 183 4910 4983
+)
+"tb_proof.ml" 183 4910 4932 "tb_proof.ml" 183 4910 4934
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 183 4910 4947 "tb_proof.ml" 183 4910 4983
+)
+"tb_proof.ml" 183 4910 4920 "tb_proof.ml" 183 4910 4936
+type(
+  Term.wffi
+)
+"tb_proof.ml" 183 4910 4914 "tb_proof.ml" 183 4910 4936
+type(
+  Term.swffi
+)
+"tb_proof.ml" 183 4910 4940 "tb_proof.ml" 183 4910 4941
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 183 4910 4947 "tb_proof.ml" 183 4910 4983
+)
+"tb_proof.ml" 183 4910 4914 "tb_proof.ml" 183 4910 4941
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 183 4910 4955 "tb_proof.ml" 183 4910 4957
+type(
+  Term.wffi
+)
+ident(
+  int_ref p1 "tb_proof.ml" 183 4910 4929 "tb_proof.ml" 183 4910 4931
+)
+"tb_proof.ml" 183 4910 4948 "tb_proof.ml" 183 4910 4957
+type(
+  Term.swffi
+)
+"tb_proof.ml" 183 4910 4961 "tb_proof.ml" 183 4910 4962
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 183 4910 4940 "tb_proof.ml" 183 4910 4941
+)
+"tb_proof.ml" 183 4910 4947 "tb_proof.ml" 183 4910 4963
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 183 4910 4964 "tb_proof.ml" 183 4910 4965
+type(
+  Term.swffi list -> Term.swffi list -> Term.swffi list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"tb_proof.ml" 183 4910 4974 "tb_proof.ml" 183 4910 4976
+type(
+  Term.wffi
+)
+ident(
+  int_ref p2 "tb_proof.ml" 183 4910 4932 "tb_proof.ml" 183 4910 4934
+)
+"tb_proof.ml" 183 4910 4967 "tb_proof.ml" 183 4910 4976
+type(
+  Term.swffi
+)
+"tb_proof.ml" 183 4910 4981 "tb_proof.ml" 183 4910 4982
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 183 4910 4940 "tb_proof.ml" 183 4910 4941
+)
+"tb_proof.ml" 183 4910 4966 "tb_proof.ml" 183 4910 4983
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 183 4910 4947 "tb_proof.ml" 183 4910 4983
+call(
+  tail
+)
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 184 4984 4988 "tb_proof.ml" 184 4984 4989
+type(
+  Term.swffi
+)
+ident(
+  def h "tb_proof.ml" 184 4984 4997 "tb_proof.ml" 184 4984 5011
+)
+"tb_proof.ml" 184 4984 4991 "tb_proof.ml" 184 4984 4993
+type(
+  Term.swffi list
+)
+ident(
+  def hs "tb_proof.ml" 184 4984 4997 "tb_proof.ml" 184 4984 5011
+)
+"tb_proof.ml" 184 4984 4988 "tb_proof.ml" 184 4984 4993
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 184 4984 4997 "tb_proof.ml" 184 4984 4998
+type(
+  Term.swffi
+)
+ident(
+  int_ref h "tb_proof.ml" 184 4984 4988 "tb_proof.ml" 184 4984 4989
+)
+"tb_proof.ml" 184 4984 5002 "tb_proof.ml" 184 4984 5008
+type(
+  Term.swffi list -> Term.swffi list
+)
+ident(
+  int_ref f_conj "tb_proof.ml" 181 4871 4879 "tb_proof.ml" 181 4871 4885
+)
+"tb_proof.ml" 184 4984 5009 "tb_proof.ml" 184 4984 5011
+type(
+  Term.swffi list
+)
+ident(
+  int_ref hs "tb_proof.ml" 184 4984 4991 "tb_proof.ml" 184 4984 4993
+)
+"tb_proof.ml" 184 4984 5002 "tb_proof.ml" 184 4984 5011
+call(
+  stack
+)
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 184 4984 4997 "tb_proof.ml" 184 4984 5011
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 181 4871 4888 "tb_proof.ml" 184 4984 5011
+type(
+  Term.swffi list -> Term.swffi list
+)
+"tb_proof.ml" 186 5013 5021 "tb_proof.ml" 186 5013 5027
+type(
+  Term.swffi list -> Term.swffi list
+)
+ident(
+  def t_disj "tb_proof.ml" 186 5013 5013 "tb_proof.ml" 1 0 -1
+)
+"tb_proof.ml" 187 5039 5043 "tb_proof.ml" 187 5039 5045
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 187 5039 5049 "tb_proof.ml" 187 5039 5051
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 188 5052 5070 "tb_proof.ml" 188 5052 5072
+type(
+  Term.wffi
+)
+ident(
+  def p1 "tb_proof.ml" 188 5052 5086 "tb_proof.ml" 188 5052 5123
+)
+"tb_proof.ml" 188 5052 5073 "tb_proof.ml" 188 5052 5075
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 188 5052 5086 "tb_proof.ml" 188 5052 5123
+)
+"tb_proof.ml" 188 5052 5062 "tb_proof.ml" 188 5052 5077
+type(
+  Term.wffi
+)
+"tb_proof.ml" 188 5052 5056 "tb_proof.ml" 188 5052 5077
+type(
+  Term.swffi
+)
+"tb_proof.ml" 188 5052 5081 "tb_proof.ml" 188 5052 5082
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 188 5052 5086 "tb_proof.ml" 188 5052 5123
+)
+"tb_proof.ml" 188 5052 5056 "tb_proof.ml" 188 5052 5082
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 188 5052 5093 "tb_proof.ml" 188 5052 5097
+type(
+  Term.wffi
+)
+ident(
+  int_ref p1 "tb_proof.ml" 188 5052 5070 "tb_proof.ml" 188 5052 5072
+)
+"tb_proof.ml" 188 5052 5087 "tb_proof.ml" 188 5052 5097
+type(
+  Term.swffi
+)
+"tb_proof.ml" 188 5052 5101 "tb_proof.ml" 188 5052 5102
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 188 5052 5081 "tb_proof.ml" 188 5052 5082
+)
+"tb_proof.ml" 188 5052 5086 "tb_proof.ml" 188 5052 5103
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 188 5052 5104 "tb_proof.ml" 188 5052 5105
+type(
+  Term.swffi list -> Term.swffi list -> Term.swffi list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"tb_proof.ml" 188 5052 5113 "tb_proof.ml" 188 5052 5117
+type(
+  Term.wffi
+)
+ident(
+  int_ref p2 "tb_proof.ml" 188 5052 5073 "tb_proof.ml" 188 5052 5075
+)
+"tb_proof.ml" 188 5052 5107 "tb_proof.ml" 188 5052 5117
+type(
+  Term.swffi
+)
+"tb_proof.ml" 188 5052 5121 "tb_proof.ml" 188 5052 5122
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 188 5052 5081 "tb_proof.ml" 188 5052 5082
+)
+"tb_proof.ml" 188 5052 5106 "tb_proof.ml" 188 5052 5123
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 188 5052 5086 "tb_proof.ml" 188 5052 5123
+call(
+  tail
+)
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 189 5124 5128 "tb_proof.ml" 189 5124 5129
+type(
+  Term.swffi
+)
+ident(
+  def h "tb_proof.ml" 189 5124 5137 "tb_proof.ml" 189 5124 5151
+)
+"tb_proof.ml" 189 5124 5131 "tb_proof.ml" 189 5124 5133
+type(
+  Term.swffi list
+)
+ident(
+  def hs "tb_proof.ml" 189 5124 5137 "tb_proof.ml" 189 5124 5151
+)
+"tb_proof.ml" 189 5124 5128 "tb_proof.ml" 189 5124 5133
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 189 5124 5137 "tb_proof.ml" 189 5124 5138
+type(
+  Term.swffi
+)
+ident(
+  int_ref h "tb_proof.ml" 189 5124 5128 "tb_proof.ml" 189 5124 5129
+)
+"tb_proof.ml" 189 5124 5142 "tb_proof.ml" 189 5124 5148
+type(
+  Term.swffi list -> Term.swffi list
+)
+ident(
+  int_ref t_disj "tb_proof.ml" 186 5013 5021 "tb_proof.ml" 186 5013 5027
+)
+"tb_proof.ml" 189 5124 5149 "tb_proof.ml" 189 5124 5151
+type(
+  Term.swffi list
+)
+ident(
+  int_ref hs "tb_proof.ml" 189 5124 5131 "tb_proof.ml" 189 5124 5133
+)
+"tb_proof.ml" 189 5124 5142 "tb_proof.ml" 189 5124 5151
+call(
+  stack
+)
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 189 5124 5137 "tb_proof.ml" 189 5124 5151
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 186 5013 5030 "tb_proof.ml" 189 5124 5151
+type(
+  Term.swffi list -> Term.swffi list
+)
+"tb_proof.ml" 191 5153 5161 "tb_proof.ml" 191 5153 5166
+type(
+  Term.swffi list -> Term.swffi list
+)
+ident(
+  def f_imp "tb_proof.ml" 191 5153 5153 "tb_proof.ml" 1 0 -1
+)
+"tb_proof.ml" 192 5178 5182 "tb_proof.ml" 192 5178 5184
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 192 5178 5188 "tb_proof.ml" 192 5178 5190
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 193 5191 5212 "tb_proof.ml" 193 5191 5214
+type(
+  Term.wffi
+)
+ident(
+  def p1 "tb_proof.ml" 193 5191 5228 "tb_proof.ml" 193 5191 5282
+)
+"tb_proof.ml" 193 5191 5215 "tb_proof.ml" 193 5191 5217
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 193 5191 5228 "tb_proof.ml" 193 5191 5282
+)
+"tb_proof.ml" 193 5191 5201 "tb_proof.ml" 193 5191 5219
+type(
+  Term.wffi
+)
+"tb_proof.ml" 193 5191 5195 "tb_proof.ml" 193 5191 5219
+type(
+  Term.swffi
+)
+"tb_proof.ml" 193 5191 5223 "tb_proof.ml" 193 5191 5224
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 193 5191 5228 "tb_proof.ml" 193 5191 5282
+)
+"tb_proof.ml" 193 5191 5195 "tb_proof.ml" 193 5191 5224
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 193 5191 5232 "tb_proof.ml" 193 5191 5234
+type(
+  Term.swffi list
+)
+ident(
+  def sc "tb_proof.ml" 193 5191 5250 "tb_proof.ml" 193 5191 5282
+)
+"tb_proof.ml" 193 5191 5237 "tb_proof.ml" 193 5191 5244
+type(
+  Term.swffi list -> Term.swffi list
+)
+ident(
+  int_ref s_to_sc "tb_proof.ml" 138 3495 3503 "tb_proof.ml" 138 3495 3510
+)
+"tb_proof.ml" 193 5191 5245 "tb_proof.ml" 193 5191 5246
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 193 5191 5223 "tb_proof.ml" 193 5191 5224
+)
+"tb_proof.ml" 193 5191 5237 "tb_proof.ml" 193 5191 5246
+call(
+  stack
+)
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 193 5191 5257 "tb_proof.ml" 193 5191 5261
+type(
+  Term.wffi
+)
+ident(
+  int_ref p1 "tb_proof.ml" 193 5191 5212 "tb_proof.ml" 193 5191 5214
+)
+"tb_proof.ml" 193 5191 5251 "tb_proof.ml" 193 5191 5261
+type(
+  Term.swffi
+)
+"tb_proof.ml" 193 5191 5271 "tb_proof.ml" 193 5191 5275
+type(
+  Term.wffi
+)
+ident(
+  int_ref p2 "tb_proof.ml" 193 5191 5215 "tb_proof.ml" 193 5191 5217
+)
+"tb_proof.ml" 193 5191 5265 "tb_proof.ml" 193 5191 5275
+type(
+  Term.swffi
+)
+"tb_proof.ml" 193 5191 5279 "tb_proof.ml" 193 5191 5281
+type(
+  Term.swffi list
+)
+ident(
+  int_ref sc "tb_proof.ml" 193 5191 5232 "tb_proof.ml" 193 5191 5234
+)
+"tb_proof.ml" 193 5191 5265 "tb_proof.ml" 193 5191 5281
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 193 5191 5250 "tb_proof.ml" 193 5191 5282
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 193 5191 5228 "tb_proof.ml" 193 5191 5282
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 194 5283 5287 "tb_proof.ml" 194 5283 5288
+type(
+  Term.swffi
+)
+ident(
+  def h "tb_proof.ml" 194 5283 5296 "tb_proof.ml" 194 5283 5309
+)
+"tb_proof.ml" 194 5283 5290 "tb_proof.ml" 194 5283 5292
+type(
+  Term.swffi list
+)
+ident(
+  def hs "tb_proof.ml" 194 5283 5296 "tb_proof.ml" 194 5283 5309
+)
+"tb_proof.ml" 194 5283 5287 "tb_proof.ml" 194 5283 5292
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 194 5283 5296 "tb_proof.ml" 194 5283 5297
+type(
+  Term.swffi
+)
+ident(
+  int_ref h "tb_proof.ml" 194 5283 5287 "tb_proof.ml" 194 5283 5288
+)
+"tb_proof.ml" 194 5283 5301 "tb_proof.ml" 194 5283 5306
+type(
+  Term.swffi list -> Term.swffi list
+)
+ident(
+  int_ref f_imp "tb_proof.ml" 191 5153 5161 "tb_proof.ml" 191 5153 5166
+)
+"tb_proof.ml" 194 5283 5307 "tb_proof.ml" 194 5283 5309
+type(
+  Term.swffi list
+)
+ident(
+  int_ref hs "tb_proof.ml" 194 5283 5290 "tb_proof.ml" 194 5283 5292
+)
+"tb_proof.ml" 194 5283 5301 "tb_proof.ml" 194 5283 5309
+call(
+  stack
+)
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 194 5283 5296 "tb_proof.ml" 194 5283 5309
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 191 5153 5169 "tb_proof.ml" 194 5283 5309
+type(
+  Term.swffi list -> Term.swffi list
+)
+"tb_proof.ml" 205 5762 5766 "tb_proof.ml" 205 5762 5768
+type(
+  'a -> Term.swffi list -> 'a * Term.swffi list
+)
+ident(
+  def c2 "tb_proof.ml" 213 6006 6006 "tb_proof.ml" 1 0 -1
+)
+"tb_proof.ml" 205 5762 5769 "tb_proof.ml" 205 5762 5772
+type(
+  'a
+)
+ident(
+  def num "tb_proof.ml" 205 5762 5773 "tb_proof.ml" 209 5910 5935
+)
+"tb_proof.ml" 205 5762 5773 "tb_proof.ml" 205 5762 5774
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 205 5762 5777 "tb_proof.ml" 209 5910 5935
+)
+"tb_proof.ml" 205 5762 5780 "tb_proof.ml" 205 5762 5798
+type(
+  Term.swffi list -> bool
+)
+ident(
+  int_ref member_for_C2_rule "tb_proof.ml" 103 2486 2494 "tb_proof.ml" 103 2486 2512
+)
+"tb_proof.ml" 205 5762 5799 "tb_proof.ml" 205 5762 5800
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 205 5762 5773 "tb_proof.ml" 205 5762 5774
+)
+"tb_proof.ml" 205 5762 5780 "tb_proof.ml" 205 5762 5800
+call(
+  stack
+)
+type(
+  bool
+)
+"tb_proof.ml" 206 5806 5827 "tb_proof.ml" 206 5806 5829
+type(
+  Term.swffi list
+)
+ident(
+  def s1 "tb_proof.ml" 207 5841 5861 "tb_proof.ml" 208 5880 5909
+)
+"tb_proof.ml" 206 5806 5832 "tb_proof.ml" 206 5806 5838
+type(
+  Term.swffi list -> Term.swffi list
+)
+ident(
+  int_ref f_conj "tb_proof.ml" 181 4871 4879 "tb_proof.ml" 181 4871 4885
+)
+"tb_proof.ml" 206 5806 5839 "tb_proof.ml" 206 5806 5840
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 205 5762 5773 "tb_proof.ml" 205 5762 5774
+)
+"tb_proof.ml" 206 5806 5832 "tb_proof.ml" 206 5806 5840
+call(
+  stack
+)
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 207 5841 5865 "tb_proof.ml" 207 5841 5867
+type(
+  Term.swffi list
+)
+ident(
+  def s2 "tb_proof.ml" 208 5880 5903 "tb_proof.ml" 208 5880 5909
+)
+"tb_proof.ml" 207 5841 5870 "tb_proof.ml" 207 5841 5876
+type(
+  Term.swffi list -> Term.swffi list
+)
+ident(
+  int_ref t_disj "tb_proof.ml" 186 5013 5021 "tb_proof.ml" 186 5013 5027
+)
+"tb_proof.ml" 207 5841 5877 "tb_proof.ml" 207 5841 5879
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s1 "tb_proof.ml" 206 5806 5827 "tb_proof.ml" 206 5806 5829
+)
+"tb_proof.ml" 207 5841 5870 "tb_proof.ml" 207 5841 5879
+call(
+  stack
+)
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 208 5880 5903 "tb_proof.ml" 208 5880 5906
+type(
+  'a
+)
+ident(
+  int_ref num "tb_proof.ml" 205 5762 5769 "tb_proof.ml" 205 5762 5772
+)
+"tb_proof.ml" 208 5880 5907 "tb_proof.ml" 208 5880 5909
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s2 "tb_proof.ml" 207 5841 5865 "tb_proof.ml" 207 5841 5867
+)
+"tb_proof.ml" 208 5880 5903 "tb_proof.ml" 208 5880 5909
+type(
+  'a * Term.swffi list
+)
+"tb_proof.ml" 207 5841 5861 "tb_proof.ml" 208 5880 5909
+type(
+  'a * Term.swffi list
+)
+"tb_proof.ml" 206 5806 5823 "tb_proof.ml" 208 5880 5909
+type(
+  'a * Term.swffi list
+)
+"tb_proof.ml" 209 5910 5930 "tb_proof.ml" 209 5910 5933
+type(
+  'a
+)
+ident(
+  int_ref num "tb_proof.ml" 205 5762 5769 "tb_proof.ml" 205 5762 5772
+)
+"tb_proof.ml" 209 5910 5934 "tb_proof.ml" 209 5910 5935
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 205 5762 5773 "tb_proof.ml" 205 5762 5774
+)
+"tb_proof.ml" 209 5910 5930 "tb_proof.ml" 209 5910 5935
+type(
+  'a * Term.swffi list
+)
+"tb_proof.ml" 205 5762 5777 "tb_proof.ml" 209 5910 5935
+type(
+  'a * Term.swffi list
+)
+"tb_proof.ml" 213 6006 6014 "tb_proof.ml" 213 6006 6020
+type(
+  'a -> 'a list -> 'a list
+)
+ident(
+  def remove "tb_proof.ml" 213 6006 6006 "tb_proof.ml" 1 0 -1
+)
+"tb_proof.ml" 213 6006 6021 "tb_proof.ml" 213 6006 6022
+type(
+  'a
+)
+ident(
+  def a "tb_proof.ml" 213 6006 6025 "tb_proof.ml" 215 6047 6095
+)
+"tb_proof.ml" 214 6034 6038 "tb_proof.ml" 214 6034 6040
+type(
+  'a list
+)
+"tb_proof.ml" 214 6034 6044 "tb_proof.ml" 214 6034 6046
+type(
+  'a list
+)
+"tb_proof.ml" 215 6047 6051 "tb_proof.ml" 215 6047 6052
+type(
+  'a
+)
+ident(
+  def h "tb_proof.ml" 215 6047 6059 "tb_proof.ml" 215 6047 6095
+)
+"tb_proof.ml" 215 6047 6054 "tb_proof.ml" 215 6047 6055
+type(
+  'a list
+)
+ident(
+  def s "tb_proof.ml" 215 6047 6059 "tb_proof.ml" 215 6047 6095
+)
+"tb_proof.ml" 215 6047 6051 "tb_proof.ml" 215 6047 6055
+type(
+  'a list
+)
+"tb_proof.ml" 215 6047 6062 "tb_proof.ml" 215 6047 6063
+type(
+  'a
+)
+ident(
+  int_ref a "tb_proof.ml" 213 6006 6021 "tb_proof.ml" 213 6006 6022
+)
+"tb_proof.ml" 215 6047 6064 "tb_proof.ml" 215 6047 6065
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"tb_proof.ml" 215 6047 6066 "tb_proof.ml" 215 6047 6067
+type(
+  'a
+)
+ident(
+  int_ref h "tb_proof.ml" 215 6047 6051 "tb_proof.ml" 215 6047 6052
+)
+"tb_proof.ml" 215 6047 6062 "tb_proof.ml" 215 6047 6067
+type(
+  bool
+)
+"tb_proof.ml" 215 6047 6073 "tb_proof.ml" 215 6047 6074
+type(
+  'a list
+)
+ident(
+  int_ref s "tb_proof.ml" 215 6047 6054 "tb_proof.ml" 215 6047 6055
+)
+"tb_proof.ml" 215 6047 6080 "tb_proof.ml" 215 6047 6081
+type(
+  'a
+)
+ident(
+  int_ref h "tb_proof.ml" 215 6047 6051 "tb_proof.ml" 215 6047 6052
+)
+"tb_proof.ml" 215 6047 6085 "tb_proof.ml" 215 6047 6091
+type(
+  'a -> 'a list -> 'a list
+)
+ident(
+  int_ref remove "tb_proof.ml" 213 6006 6014 "tb_proof.ml" 213 6006 6020
+)
+"tb_proof.ml" 215 6047 6092 "tb_proof.ml" 215 6047 6093
+type(
+  'a
+)
+ident(
+  int_ref a "tb_proof.ml" 213 6006 6021 "tb_proof.ml" 213 6006 6022
+)
+"tb_proof.ml" 215 6047 6094 "tb_proof.ml" 215 6047 6095
+type(
+  'a list
+)
+ident(
+  int_ref s "tb_proof.ml" 215 6047 6054 "tb_proof.ml" 215 6047 6055
+)
+"tb_proof.ml" 215 6047 6085 "tb_proof.ml" 215 6047 6095
+call(
+  stack
+)
+type(
+  'a list
+)
+"tb_proof.ml" 215 6047 6080 "tb_proof.ml" 215 6047 6095
+type(
+  'a list
+)
+"tb_proof.ml" 215 6047 6059 "tb_proof.ml" 215 6047 6095
+type(
+  'a list
+)
+"tb_proof.ml" 213 6006 6025 "tb_proof.ml" 215 6047 6095
+type(
+  'a list -> 'a list
+)
+"tb_proof.ml" 218 6178 6186 "tb_proof.ml" 218 6178 6193
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  def removes "tb_proof.ml" 218 6178 6178 "tb_proof.ml" 1 0 -1
+)
+"tb_proof.ml" 218 6178 6194 "tb_proof.ml" 218 6178 6196
+type(
+  'a list
+)
+ident(
+  def hs "tb_proof.ml" 218 6178 6197 "tb_proof.ml" 220 6227 6263
+)
+"tb_proof.ml" 218 6178 6197 "tb_proof.ml" 218 6178 6198
+type(
+  'a list
+)
+ident(
+  def s "tb_proof.ml" 218 6178 6201 "tb_proof.ml" 220 6227 6263
+)
+"tb_proof.ml" 218 6178 6207 "tb_proof.ml" 218 6178 6209
+type(
+  'a list
+)
+ident(
+  int_ref hs "tb_proof.ml" 218 6178 6194 "tb_proof.ml" 218 6178 6196
+)
+"tb_proof.ml" 219 6215 6219 "tb_proof.ml" 219 6215 6221
+type(
+  'a list
+)
+"tb_proof.ml" 219 6215 6225 "tb_proof.ml" 219 6215 6226
+type(
+  'a list
+)
+ident(
+  int_ref s "tb_proof.ml" 218 6178 6197 "tb_proof.ml" 218 6178 6198
+)
+"tb_proof.ml" 220 6227 6231 "tb_proof.ml" 220 6227 6232
+type(
+  'a
+)
+ident(
+  def h "tb_proof.ml" 220 6227 6240 "tb_proof.ml" 220 6227 6263
+)
+"tb_proof.ml" 220 6227 6234 "tb_proof.ml" 220 6227 6236
+type(
+  'a list
+)
+ident(
+  def hs "tb_proof.ml" 220 6227 6240 "tb_proof.ml" 220 6227 6263
+)
+"tb_proof.ml" 220 6227 6231 "tb_proof.ml" 220 6227 6236
+type(
+  'a list
+)
+"tb_proof.ml" 220 6227 6240 "tb_proof.ml" 220 6227 6247
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref removes "tb_proof.ml" 218 6178 6186 "tb_proof.ml" 218 6178 6193
+)
+"tb_proof.ml" 220 6227 6248 "tb_proof.ml" 220 6227 6250
+type(
+  'a list
+)
+ident(
+  int_ref hs "tb_proof.ml" 220 6227 6234 "tb_proof.ml" 220 6227 6236
+)
+"tb_proof.ml" 220 6227 6252 "tb_proof.ml" 220 6227 6258
+type(
+  'a -> 'a list -> 'a list
+)
+ident(
+  int_ref remove "tb_proof.ml" 213 6006 6014 "tb_proof.ml" 213 6006 6020
+)
+"tb_proof.ml" 220 6227 6259 "tb_proof.ml" 220 6227 6260
+type(
+  'a
+)
+ident(
+  int_ref h "tb_proof.ml" 220 6227 6231 "tb_proof.ml" 220 6227 6232
+)
+"tb_proof.ml" 220 6227 6261 "tb_proof.ml" 220 6227 6262
+type(
+  'a list
+)
+ident(
+  int_ref s "tb_proof.ml" 218 6178 6197 "tb_proof.ml" 218 6178 6198
+)
+"tb_proof.ml" 220 6227 6251 "tb_proof.ml" 220 6227 6263
+call(
+  stack
+)
+type(
+  'a list
+)
+"tb_proof.ml" 220 6227 6240 "tb_proof.ml" 220 6227 6263
+call(
+  tail
+)
+type(
+  'a list
+)
+"tb_proof.ml" 218 6178 6201 "tb_proof.ml" 220 6227 6263
+type(
+  'a list
+)
+"tb_proof.ml" 225 6329 6333 "tb_proof.ml" 225 6329 6342
+type(
+  Term.swffi list -> bool
+)
+ident(
+  def comp_pair "tb_proof.ml" 237 6677 6677 "tb_proof.ml" 1 0 -1
+)
+"tb_proof.ml" 225 6329 6343 "tb_proof.ml" 225 6329 6344
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 226 6347 6349 "tb_proof.ml" 233 6580 6603
+)
+"tb_proof.ml" 226 6347 6357 "tb_proof.ml" 226 6347 6358
+type(
+  Term.swffi list -> bool
+)
+ident(
+  def f "tb_proof.ml" 226 6347 6349 "tb_proof.ml" 233 6580 6603
+)
+"tb_proof.ml" 226 6347 6359 "tb_proof.ml" 226 6347 6360
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 226 6347 6363 "tb_proof.ml" 231 6537 6554
+)
+"tb_proof.ml" 226 6347 6369 "tb_proof.ml" 226 6347 6370
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 226 6347 6359 "tb_proof.ml" 226 6347 6360
+)
+"tb_proof.ml" 227 6376 6382 "tb_proof.ml" 227 6376 6384
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 227 6376 6388 "tb_proof.ml" 227 6376 6393
+type(
+  bool
+)
+"tb_proof.ml" 228 6394 6407 "tb_proof.ml" 228 6394 6408
+type(
+  Term.wffi
+)
+ident(
+  def p "tb_proof.ml" 228 6394 6417 "tb_proof.ml" 230 6505 6536
+)
+"tb_proof.ml" 228 6394 6400 "tb_proof.ml" 228 6394 6408
+type(
+  Term.swffi
+)
+"tb_proof.ml" 228 6394 6412 "tb_proof.ml" 228 6394 6413
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 228 6394 6417 "tb_proof.ml" 230 6505 6536
+)
+"tb_proof.ml" 228 6394 6400 "tb_proof.ml" 228 6394 6413
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 228 6394 6421 "tb_proof.ml" 228 6394 6429
+type(
+  Term.swffi -> Term.swffi list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"tb_proof.ml" 228 6394 6438 "tb_proof.ml" 228 6394 6439
+type(
+  Term.wffi
+)
+ident(
+  int_ref p "tb_proof.ml" 228 6394 6407 "tb_proof.ml" 228 6394 6408
+)
+"tb_proof.ml" 228 6394 6430 "tb_proof.ml" 228 6394 6440
+type(
+  Term.swffi
+)
+"tb_proof.ml" 228 6394 6441 "tb_proof.ml" 228 6394 6442
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 228 6394 6412 "tb_proof.ml" 228 6394 6413
+)
+"tb_proof.ml" 228 6394 6420 "tb_proof.ml" 228 6394 6443
+call(
+  stack
+)
+type(
+  bool
+)
+"tb_proof.ml" 228 6394 6444 "tb_proof.ml" 228 6394 6446
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"tb_proof.ml" 228 6394 6448 "tb_proof.ml" 228 6394 6456
+type(
+  Term.swffi -> Term.swffi list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"tb_proof.ml" 228 6394 6466 "tb_proof.ml" 228 6394 6467
+type(
+  Term.wffi
+)
+ident(
+  int_ref p "tb_proof.ml" 228 6394 6407 "tb_proof.ml" 228 6394 6408
+)
+"tb_proof.ml" 228 6394 6457 "tb_proof.ml" 228 6394 6468
+type(
+  Term.swffi
+)
+"tb_proof.ml" 228 6394 6469 "tb_proof.ml" 228 6394 6470
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 228 6394 6412 "tb_proof.ml" 228 6394 6413
+)
+"tb_proof.ml" 228 6394 6447 "tb_proof.ml" 228 6394 6471
+call(
+  stack
+)
+type(
+  bool
+)
+"tb_proof.ml" 228 6394 6420 "tb_proof.ml" 228 6394 6471
+type(
+  bool
+)
+"tb_proof.ml" 229 6472 6500 "tb_proof.ml" 229 6472 6504
+type(
+  bool
+)
+"tb_proof.ml" 230 6505 6533 "tb_proof.ml" 230 6505 6534
+type(
+  Term.swffi list -> bool
+)
+ident(
+  int_ref f "tb_proof.ml" 226 6347 6357 "tb_proof.ml" 226 6347 6358
+)
+"tb_proof.ml" 230 6505 6535 "tb_proof.ml" 230 6505 6536
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 228 6394 6412 "tb_proof.ml" 228 6394 6413
+)
+"tb_proof.ml" 230 6505 6533 "tb_proof.ml" 230 6505 6536
+call(
+  tail
+)
+type(
+  bool
+)
+"tb_proof.ml" 228 6394 6417 "tb_proof.ml" 230 6505 6536
+type(
+  bool
+)
+"tb_proof.ml" 231 6537 6543 "tb_proof.ml" 231 6537 6544
+type(
+  Term.swffi
+)
+"tb_proof.ml" 231 6537 6546 "tb_proof.ml" 231 6537 6547
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 231 6537 6551 "tb_proof.ml" 231 6537 6554
+)
+"tb_proof.ml" 231 6537 6543 "tb_proof.ml" 231 6537 6547
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 231 6537 6551 "tb_proof.ml" 231 6537 6552
+type(
+  Term.swffi list -> bool
+)
+ident(
+  int_ref f "tb_proof.ml" 226 6347 6357 "tb_proof.ml" 226 6347 6358
+)
+"tb_proof.ml" 231 6537 6553 "tb_proof.ml" 231 6537 6554
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 231 6537 6546 "tb_proof.ml" 231 6537 6547
+)
+"tb_proof.ml" 231 6537 6551 "tb_proof.ml" 231 6537 6554
+call(
+  tail
+)
+type(
+  bool
+)
+"tb_proof.ml" 226 6347 6363 "tb_proof.ml" 231 6537 6554
+type(
+  bool
+)
+"tb_proof.ml" 232 6555 6564 "tb_proof.ml" 232 6555 6566
+type(
+  Term.swffi list
+)
+ident(
+  def rs "tb_proof.ml" 233 6580 6588 "tb_proof.ml" 233 6580 6603
+)
+"tb_proof.ml" 232 6555 6569 "tb_proof.ml" 232 6555 6577
+type(
+  Term.swffi list -> Term.swffi list
+)
+ident(
+  ext_ref List.rev
+)
+"tb_proof.ml" 232 6555 6578 "tb_proof.ml" 232 6555 6579
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 225 6329 6343 "tb_proof.ml" 225 6329 6344
+)
+"tb_proof.ml" 232 6555 6569 "tb_proof.ml" 232 6555 6579
+call(
+  stack
+)
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 233 6580 6589 "tb_proof.ml" 233 6580 6590
+type(
+  Term.swffi list -> bool
+)
+ident(
+  int_ref f "tb_proof.ml" 226 6347 6357 "tb_proof.ml" 226 6347 6358
+)
+"tb_proof.ml" 233 6580 6591 "tb_proof.ml" 233 6580 6592
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 225 6329 6343 "tb_proof.ml" 225 6329 6344
+)
+"tb_proof.ml" 233 6580 6588 "tb_proof.ml" 233 6580 6593
+call(
+  stack
+)
+type(
+  bool
+)
+"tb_proof.ml" 233 6580 6594 "tb_proof.ml" 233 6580 6596
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"tb_proof.ml" 233 6580 6598 "tb_proof.ml" 233 6580 6599
+type(
+  Term.swffi list -> bool
+)
+ident(
+  int_ref f "tb_proof.ml" 226 6347 6357 "tb_proof.ml" 226 6347 6358
+)
+"tb_proof.ml" 233 6580 6600 "tb_proof.ml" 233 6580 6602
+type(
+  Term.swffi list
+)
+ident(
+  int_ref rs "tb_proof.ml" 232 6555 6564 "tb_proof.ml" 232 6555 6566
+)
+"tb_proof.ml" 233 6580 6597 "tb_proof.ml" 233 6580 6603
+call(
+  tail
+)
+type(
+  bool
+)
+"tb_proof.ml" 233 6580 6588 "tb_proof.ml" 233 6580 6603
+type(
+  bool
+)
+"tb_proof.ml" 232 6555 6560 "tb_proof.ml" 233 6580 6603
+type(
+  bool
+)
+"tb_proof.ml" 226 6347 6349 "tb_proof.ml" 233 6580 6603
+type(
+  bool
+)
+"tb_proof.ml" 237 6677 6685 "tb_proof.ml" 237 6677 6703
+type(
+  Term.swffi list -> bool
+)
+ident(
+  def member_for_Ci_rule "tb_proof.ml" 237 6677 6677 "tb_proof.ml" 1 0 -1
+)
+"tb_proof.ml" 237 6677 6704 "tb_proof.ml" 237 6677 6705
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 238 6708 6710 "tb_proof.ml" 257 7572 7587
+)
+"tb_proof.ml" 238 6708 6716 "tb_proof.ml" 238 6708 6717
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 237 6677 6704 "tb_proof.ml" 237 6677 6705
+)
+"tb_proof.ml" 239 6723 6742 "tb_proof.ml" 239 6723 6744
+type(
+  Term.wffi
+)
+ident(
+  def p1 "tb_proof.ml" 239 6723 6759 "tb_proof.ml" 239 6723 6763
+)
+"tb_proof.ml" 239 6723 6746 "tb_proof.ml" 239 6723 6748
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 239 6723 6759 "tb_proof.ml" 239 6723 6763
+)
+"tb_proof.ml" 239 6723 6733 "tb_proof.ml" 239 6723 6750
+type(
+  Term.wffi
+)
+"tb_proof.ml" 239 6723 6727 "tb_proof.ml" 239 6723 6750
+type(
+  Term.swffi
+)
+"tb_proof.ml" 239 6723 6754 "tb_proof.ml" 239 6723 6755
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 239 6723 6759 "tb_proof.ml" 239 6723 6763
+)
+"tb_proof.ml" 239 6723 6727 "tb_proof.ml" 239 6723 6755
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 239 6723 6759 "tb_proof.ml" 239 6723 6763
+type(
+  bool
+)
+"tb_proof.ml" 240 6764 6782 "tb_proof.ml" 240 6764 6784
+type(
+  Term.wffi
+)
+ident(
+  def p1 "tb_proof.ml" 240 6764 6799 "tb_proof.ml" 240 6764 6803
+)
+"tb_proof.ml" 240 6764 6786 "tb_proof.ml" 240 6764 6788
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 240 6764 6799 "tb_proof.ml" 240 6764 6803
+)
+"tb_proof.ml" 240 6764 6774 "tb_proof.ml" 240 6764 6790
+type(
+  Term.wffi
+)
+"tb_proof.ml" 240 6764 6768 "tb_proof.ml" 240 6764 6790
+type(
+  Term.swffi
+)
+"tb_proof.ml" 240 6764 6794 "tb_proof.ml" 240 6764 6795
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 240 6764 6799 "tb_proof.ml" 240 6764 6803
+)
+"tb_proof.ml" 240 6764 6768 "tb_proof.ml" 240 6764 6795
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 240 6764 6799 "tb_proof.ml" 240 6764 6803
+type(
+  bool
+)
+"tb_proof.ml" 241 6804 6823 "tb_proof.ml" 241 6804 6825
+type(
+  Term.wffi
+)
+ident(
+  def p1 "tb_proof.ml" 241 6804 6839 "tb_proof.ml" 241 6804 6843
+)
+"tb_proof.ml" 241 6804 6827 "tb_proof.ml" 241 6804 6829
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 241 6804 6839 "tb_proof.ml" 241 6804 6843
+)
+"tb_proof.ml" 241 6804 6815 "tb_proof.ml" 241 6804 6831
+type(
+  Term.wffi
+)
+"tb_proof.ml" 241 6804 6808 "tb_proof.ml" 241 6804 6831
+type(
+  Term.swffi
+)
+"tb_proof.ml" 241 6804 6835 "tb_proof.ml" 241 6804 6836
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 241 6804 6839 "tb_proof.ml" 241 6804 6843
+)
+"tb_proof.ml" 241 6804 6808 "tb_proof.ml" 241 6804 6836
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 241 6804 6839 "tb_proof.ml" 241 6804 6843
+type(
+  bool
+)
+"tb_proof.ml" 242 6844 6874 "tb_proof.ml" 242 6844 6876
+type(
+  int
+)
+ident(
+  def p1 "tb_proof.ml" 242 6844 6893 "tb_proof.ml" 242 6844 6941
+)
+"tb_proof.ml" 242 6844 6865 "tb_proof.ml" 242 6844 6876
+type(
+  Term.wffi
+)
+"tb_proof.ml" 242 6844 6878 "tb_proof.ml" 242 6844 6880
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 242 6844 6893 "tb_proof.ml" 242 6844 6941
+)
+"tb_proof.ml" 242 6844 6854 "tb_proof.ml" 242 6844 6882
+type(
+  Term.wffi
+)
+"tb_proof.ml" 242 6844 6848 "tb_proof.ml" 242 6844 6882
+type(
+  Term.swffi
+)
+"tb_proof.ml" 242 6844 6886 "tb_proof.ml" 242 6844 6887
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 242 6844 6893 "tb_proof.ml" 242 6844 6941
+)
+"tb_proof.ml" 242 6844 6848 "tb_proof.ml" 242 6844 6887
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 242 6844 6893 "tb_proof.ml" 242 6844 6901
+type(
+  Term.swffi -> Term.swffi list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"tb_proof.ml" 242 6844 6918 "tb_proof.ml" 242 6844 6922
+type(
+  int
+)
+ident(
+  int_ref p1 "tb_proof.ml" 242 6844 6874 "tb_proof.ml" 242 6844 6876
+)
+"tb_proof.ml" 242 6844 6909 "tb_proof.ml" 242 6844 6923
+type(
+  Term.wffi
+)
+"tb_proof.ml" 242 6844 6902 "tb_proof.ml" 242 6844 6924
+type(
+  Term.swffi
+)
+"tb_proof.ml" 242 6844 6925 "tb_proof.ml" 242 6844 6926
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 242 6844 6886 "tb_proof.ml" 242 6844 6887
+)
+"tb_proof.ml" 242 6844 6893 "tb_proof.ml" 242 6844 6926
+call(
+  stack
+)
+type(
+  bool
+)
+"tb_proof.ml" 242 6844 6927 "tb_proof.ml" 242 6844 6928
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"tb_proof.ml" 242 6844 6929 "tb_proof.ml" 242 6844 6933
+type(
+  bool
+)
+"tb_proof.ml" 242 6844 6893 "tb_proof.ml" 242 6844 6933
+type(
+  bool
+)
+"tb_proof.ml" 242 6844 6937 "tb_proof.ml" 242 6844 6941
+type(
+  bool
+)
+"tb_proof.ml" 243 6942 6962 "tb_proof.ml" 243 6942 6963
+type(
+  int
+)
+ident(
+  def p "tb_proof.ml" 243 6942 6975 "tb_proof.ml" 243 6942 7012
+)
+"tb_proof.ml" 243 6942 6952 "tb_proof.ml" 243 6942 6964
+type(
+  Term.wffi
+)
+"tb_proof.ml" 243 6942 6946 "tb_proof.ml" 243 6942 6964
+type(
+  Term.swffi
+)
+"tb_proof.ml" 243 6942 6968 "tb_proof.ml" 243 6942 6969
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 243 6942 6975 "tb_proof.ml" 243 6942 7012
+)
+"tb_proof.ml" 243 6942 6946 "tb_proof.ml" 243 6942 6969
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 243 6942 6975 "tb_proof.ml" 243 6942 6989
+type(
+  Term.wffi -> Term.swffi list -> bool
+)
+ident(
+  int_ref mem_atom_arrow "tb_proof.ml" 77 1505 1513 "tb_proof.ml" 77 1505 1527
+)
+"tb_proof.ml" 243 6942 7000 "tb_proof.ml" 243 6942 7001
+type(
+  int
+)
+ident(
+  int_ref p "tb_proof.ml" 243 6942 6962 "tb_proof.ml" 243 6942 6963
+)
+"tb_proof.ml" 243 6942 6990 "tb_proof.ml" 243 6942 7002
+type(
+  Term.wffi
+)
+"tb_proof.ml" 243 6942 7003 "tb_proof.ml" 243 6942 7004
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 243 6942 6968 "tb_proof.ml" 243 6942 6969
+)
+"tb_proof.ml" 243 6942 6975 "tb_proof.ml" 243 6942 7004
+call(
+  stack
+)
+type(
+  bool
+)
+"tb_proof.ml" 243 6942 7008 "tb_proof.ml" 243 6942 7012
+type(
+  bool
+)
+"tb_proof.ml" 244 7013 7032 "tb_proof.ml" 244 7013 7033
+type(
+  Term.wffi
+)
+ident(
+  def p "tb_proof.ml" 244 7013 7043 "tb_proof.ml" 244 7013 7047
+)
+"tb_proof.ml" 244 7013 7023 "tb_proof.ml" 244 7013 7034
+type(
+  Term.wffi
+)
+"tb_proof.ml" 244 7013 7017 "tb_proof.ml" 244 7013 7034
+type(
+  Term.swffi
+)
+"tb_proof.ml" 244 7013 7038 "tb_proof.ml" 244 7013 7039
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 244 7013 7043 "tb_proof.ml" 244 7013 7047
+)
+"tb_proof.ml" 244 7013 7017 "tb_proof.ml" 244 7013 7039
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 244 7013 7043 "tb_proof.ml" 244 7013 7047
+type(
+  bool
+)
+"tb_proof.ml" 245 7048 7077 "tb_proof.ml" 245 7048 7079
+type(
+  Term.wffi
+)
+ident(
+  def p1 "tb_proof.ml" 245 7048 7097 "tb_proof.ml" 245 7048 7101
+)
+"tb_proof.ml" 245 7048 7080 "tb_proof.ml" 245 7048 7082
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 245 7048 7097 "tb_proof.ml" 245 7048 7101
+)
+"tb_proof.ml" 245 7048 7069 "tb_proof.ml" 245 7048 7083
+type(
+  Term.wffi
+)
+"tb_proof.ml" 245 7048 7084 "tb_proof.ml" 245 7048 7086
+type(
+  Term.wffi
+)
+ident(
+  def p3 "tb_proof.ml" 245 7048 7097 "tb_proof.ml" 245 7048 7101
+)
+"tb_proof.ml" 245 7048 7058 "tb_proof.ml" 245 7048 7088
+type(
+  Term.wffi
+)
+"tb_proof.ml" 245 7048 7052 "tb_proof.ml" 245 7048 7088
+type(
+  Term.swffi
+)
+"tb_proof.ml" 245 7048 7092 "tb_proof.ml" 245 7048 7093
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 245 7048 7097 "tb_proof.ml" 245 7048 7101
+)
+"tb_proof.ml" 245 7048 7052 "tb_proof.ml" 245 7048 7093
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 245 7048 7097 "tb_proof.ml" 245 7048 7101
+type(
+  bool
+)
+"tb_proof.ml" 246 7102 7130 "tb_proof.ml" 246 7102 7132
+type(
+  Term.wffi
+)
+ident(
+  def p1 "tb_proof.ml" 246 7102 7149 "tb_proof.ml" 246 7102 7153
+)
+"tb_proof.ml" 246 7102 7133 "tb_proof.ml" 246 7102 7135
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 246 7102 7149 "tb_proof.ml" 246 7102 7153
+)
+"tb_proof.ml" 246 7102 7123 "tb_proof.ml" 246 7102 7136
+type(
+  Term.wffi
+)
+"tb_proof.ml" 246 7102 7137 "tb_proof.ml" 246 7102 7139
+type(
+  Term.wffi
+)
+ident(
+  def p3 "tb_proof.ml" 246 7102 7149 "tb_proof.ml" 246 7102 7153
+)
+"tb_proof.ml" 246 7102 7112 "tb_proof.ml" 246 7102 7141
+type(
+  Term.wffi
+)
+"tb_proof.ml" 246 7102 7106 "tb_proof.ml" 246 7102 7141
+type(
+  Term.swffi
+)
+"tb_proof.ml" 246 7102 7145 "tb_proof.ml" 246 7102 7146
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 246 7102 7149 "tb_proof.ml" 246 7102 7153
+)
+"tb_proof.ml" 246 7102 7106 "tb_proof.ml" 246 7102 7146
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 246 7102 7149 "tb_proof.ml" 246 7102 7153
+type(
+  bool
+)
+"tb_proof.ml" 247 7154 7173 "tb_proof.ml" 247 7154 7175
+type(
+  Term.wffi
+)
+ident(
+  def p1 "tb_proof.ml" 247 7154 7189 "tb_proof.ml" 247 7154 7193
+)
+"tb_proof.ml" 247 7154 7176 "tb_proof.ml" 247 7154 7178
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 247 7154 7189 "tb_proof.ml" 247 7154 7193
+)
+"tb_proof.ml" 247 7154 7164 "tb_proof.ml" 247 7154 7180
+type(
+  Term.wffi
+)
+"tb_proof.ml" 247 7154 7158 "tb_proof.ml" 247 7154 7180
+type(
+  Term.swffi
+)
+"tb_proof.ml" 247 7154 7184 "tb_proof.ml" 247 7154 7185
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 247 7154 7189 "tb_proof.ml" 247 7154 7193
+)
+"tb_proof.ml" 247 7154 7158 "tb_proof.ml" 247 7154 7185
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 247 7154 7189 "tb_proof.ml" 247 7154 7193
+type(
+  bool
+)
+"tb_proof.ml" 248 7194 7212 "tb_proof.ml" 248 7194 7214
+type(
+  Term.wffi
+)
+ident(
+  def p1 "tb_proof.ml" 248 7194 7228 "tb_proof.ml" 248 7194 7232
+)
+"tb_proof.ml" 248 7194 7215 "tb_proof.ml" 248 7194 7217
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 248 7194 7228 "tb_proof.ml" 248 7194 7232
+)
+"tb_proof.ml" 248 7194 7204 "tb_proof.ml" 248 7194 7219
+type(
+  Term.wffi
+)
+"tb_proof.ml" 248 7194 7198 "tb_proof.ml" 248 7194 7219
+type(
+  Term.swffi
+)
+"tb_proof.ml" 248 7194 7223 "tb_proof.ml" 248 7194 7224
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 248 7194 7228 "tb_proof.ml" 248 7194 7232
+)
+"tb_proof.ml" 248 7194 7198 "tb_proof.ml" 248 7194 7224
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 248 7194 7228 "tb_proof.ml" 248 7194 7232
+type(
+  bool
+)
+"tb_proof.ml" 249 7233 7254 "tb_proof.ml" 249 7233 7256
+type(
+  Term.wffi
+)
+ident(
+  def p1 "tb_proof.ml" 249 7233 7270 "tb_proof.ml" 249 7233 7274
+)
+"tb_proof.ml" 249 7233 7257 "tb_proof.ml" 249 7233 7259
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 249 7233 7270 "tb_proof.ml" 249 7233 7274
+)
+"tb_proof.ml" 249 7233 7243 "tb_proof.ml" 249 7233 7261
+type(
+  Term.wffi
+)
+"tb_proof.ml" 249 7233 7237 "tb_proof.ml" 249 7233 7261
+type(
+  Term.swffi
+)
+"tb_proof.ml" 249 7233 7265 "tb_proof.ml" 249 7233 7266
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 249 7233 7270 "tb_proof.ml" 249 7233 7274
+)
+"tb_proof.ml" 249 7233 7237 "tb_proof.ml" 249 7233 7266
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 249 7233 7270 "tb_proof.ml" 249 7233 7274
+type(
+  bool
+)
+"tb_proof.ml" 250 7275 7294 "tb_proof.ml" 250 7275 7295
+type(
+  Term.wffi
+)
+ident(
+  def p "tb_proof.ml" 250 7275 7305 "tb_proof.ml" 250 7275 7309
+)
+"tb_proof.ml" 250 7275 7285 "tb_proof.ml" 250 7275 7296
+type(
+  Term.wffi
+)
+"tb_proof.ml" 250 7275 7279 "tb_proof.ml" 250 7275 7296
+type(
+  Term.swffi
+)
+"tb_proof.ml" 250 7275 7300 "tb_proof.ml" 250 7275 7301
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 250 7275 7305 "tb_proof.ml" 250 7275 7309
+)
+"tb_proof.ml" 250 7275 7279 "tb_proof.ml" 250 7275 7301
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 250 7275 7305 "tb_proof.ml" 250 7275 7309
+type(
+  bool
+)
+"tb_proof.ml" 251 7310 7339 "tb_proof.ml" 251 7310 7341
+type(
+  Term.wffi
+)
+ident(
+  def p1 "tb_proof.ml" 251 7310 7355 "tb_proof.ml" 251 7310 7359
+)
+"tb_proof.ml" 251 7310 7331 "tb_proof.ml" 251 7310 7341
+type(
+  Term.wffi
+)
+"tb_proof.ml" 251 7310 7342 "tb_proof.ml" 251 7310 7344
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 251 7310 7355 "tb_proof.ml" 251 7310 7359
+)
+"tb_proof.ml" 251 7310 7320 "tb_proof.ml" 251 7310 7346
+type(
+  Term.wffi
+)
+"tb_proof.ml" 251 7310 7314 "tb_proof.ml" 251 7310 7346
+type(
+  Term.swffi
+)
+"tb_proof.ml" 251 7310 7350 "tb_proof.ml" 251 7310 7351
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 251 7310 7355 "tb_proof.ml" 251 7310 7359
+)
+"tb_proof.ml" 251 7310 7314 "tb_proof.ml" 251 7310 7351
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 251 7310 7355 "tb_proof.ml" 251 7310 7359
+type(
+  bool
+)
+"tb_proof.ml" 252 7360 7391 "tb_proof.ml" 252 7360 7393
+type(
+  Term.wffi
+)
+ident(
+  def p1 "tb_proof.ml" 252 7360 7411 "tb_proof.ml" 252 7360 7415
+)
+"tb_proof.ml" 252 7360 7394 "tb_proof.ml" 252 7360 7396
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 252 7360 7411 "tb_proof.ml" 252 7360 7415
+)
+"tb_proof.ml" 252 7360 7381 "tb_proof.ml" 252 7360 7397
+type(
+  Term.wffi
+)
+"tb_proof.ml" 252 7360 7398 "tb_proof.ml" 252 7360 7400
+type(
+  Term.wffi
+)
+ident(
+  def p3 "tb_proof.ml" 252 7360 7411 "tb_proof.ml" 252 7360 7415
+)
+"tb_proof.ml" 252 7360 7370 "tb_proof.ml" 252 7360 7402
+type(
+  Term.wffi
+)
+"tb_proof.ml" 252 7360 7364 "tb_proof.ml" 252 7360 7402
+type(
+  Term.swffi
+)
+"tb_proof.ml" 252 7360 7406 "tb_proof.ml" 252 7360 7407
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 252 7360 7411 "tb_proof.ml" 252 7360 7415
+)
+"tb_proof.ml" 252 7360 7364 "tb_proof.ml" 252 7360 7407
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 252 7360 7411 "tb_proof.ml" 252 7360 7415
+type(
+  bool
+)
+"tb_proof.ml" 253 7416 7438 "tb_proof.ml" 253 7416 7440
+type(
+  Term.wffi
+)
+ident(
+  def p1 "tb_proof.ml" 253 7416 7454 "tb_proof.ml" 253 7416 7458
+)
+"tb_proof.ml" 253 7416 7441 "tb_proof.ml" 253 7416 7443
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 253 7416 7454 "tb_proof.ml" 253 7416 7458
+)
+"tb_proof.ml" 253 7416 7427 "tb_proof.ml" 253 7416 7445
+type(
+  Term.wffi
+)
+"tb_proof.ml" 253 7416 7420 "tb_proof.ml" 253 7416 7445
+type(
+  Term.swffi
+)
+"tb_proof.ml" 253 7416 7449 "tb_proof.ml" 253 7416 7450
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 253 7416 7454 "tb_proof.ml" 253 7416 7458
+)
+"tb_proof.ml" 253 7416 7420 "tb_proof.ml" 253 7416 7450
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 253 7416 7454 "tb_proof.ml" 253 7416 7458
+type(
+  bool
+)
+"tb_proof.ml" 254 7459 7479 "tb_proof.ml" 254 7459 7480
+type(
+  Term.wffi
+)
+ident(
+  def p "tb_proof.ml" 254 7459 7491 "tb_proof.ml" 254 7459 7495
+)
+"tb_proof.ml" 254 7459 7470 "tb_proof.ml" 254 7459 7481
+type(
+  Term.wffi
+)
+"tb_proof.ml" 254 7459 7463 "tb_proof.ml" 254 7459 7481
+type(
+  Term.swffi
+)
+"tb_proof.ml" 254 7459 7485 "tb_proof.ml" 254 7459 7486
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 254 7459 7491 "tb_proof.ml" 254 7459 7495
+)
+"tb_proof.ml" 254 7459 7463 "tb_proof.ml" 254 7459 7486
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 254 7459 7491 "tb_proof.ml" 254 7459 7495
+type(
+  bool
+)
+"tb_proof.ml" 255 7496 7516 "tb_proof.ml" 255 7496 7518
+type(
+  Term.wffi
+)
+ident(
+  def p1 "tb_proof.ml" 255 7496 7532 "tb_proof.ml" 255 7496 7536
+)
+"tb_proof.ml" 255 7496 7519 "tb_proof.ml" 255 7496 7521
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 255 7496 7532 "tb_proof.ml" 255 7496 7536
+)
+"tb_proof.ml" 255 7496 7507 "tb_proof.ml" 255 7496 7523
+type(
+  Term.wffi
+)
+"tb_proof.ml" 255 7496 7500 "tb_proof.ml" 255 7496 7523
+type(
+  Term.swffi
+)
+"tb_proof.ml" 255 7496 7527 "tb_proof.ml" 255 7496 7528
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 255 7496 7532 "tb_proof.ml" 255 7496 7536
+)
+"tb_proof.ml" 255 7496 7500 "tb_proof.ml" 255 7496 7528
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 255 7496 7532 "tb_proof.ml" 255 7496 7536
+type(
+  bool
+)
+"tb_proof.ml" 256 7537 7541 "tb_proof.ml" 256 7537 7542
+type(
+  Term.swffi
+)
+"tb_proof.ml" 256 7537 7546 "tb_proof.ml" 256 7537 7547
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 256 7537 7551 "tb_proof.ml" 256 7537 7571
+)
+"tb_proof.ml" 256 7537 7541 "tb_proof.ml" 256 7537 7547
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 256 7537 7551 "tb_proof.ml" 256 7537 7569
+type(
+  Term.swffi list -> bool
+)
+ident(
+  int_ref member_for_Ci_rule "tb_proof.ml" 237 6677 6685 "tb_proof.ml" 237 6677 6703
+)
+"tb_proof.ml" 256 7537 7570 "tb_proof.ml" 256 7537 7571
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 256 7537 7546 "tb_proof.ml" 256 7537 7547
+)
+"tb_proof.ml" 256 7537 7551 "tb_proof.ml" 256 7537 7571
+call(
+  tail
+)
+type(
+  bool
+)
+"tb_proof.ml" 257 7572 7576 "tb_proof.ml" 257 7572 7578
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 257 7572 7582 "tb_proof.ml" 257 7572 7587
+type(
+  bool
+)
+"tb_proof.ml" 238 6708 6710 "tb_proof.ml" 257 7572 7587
+type(
+  bool
+)
+"tb_proof.ml" 261 7609 7617 "tb_proof.ml" 261 7609 7624
+type(
+  Term.swffi list -> Term.swffi list
+)
+ident(
+  def delta_s "tb_proof.ml" 261 7609 7609 "tb_proof.ml" 1 0 -1
+)
+"tb_proof.ml" 262 7636 7640 "tb_proof.ml" 262 7636 7642
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 262 7636 7646 "tb_proof.ml" 262 7636 7648
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 263 7649 7669 "tb_proof.ml" 263 7649 7670
+type(
+  int
+)
+ident(
+  def p "tb_proof.ml" 263 7649 7686 "tb_proof.ml" 263 7649 7700
+)
+"tb_proof.ml" 263 7649 7659 "tb_proof.ml" 263 7649 7671
+type(
+  Term.wffi
+)
+"tb_proof.ml" 263 7649 7653 "tb_proof.ml" 263 7649 7671
+type(
+  Term.swffi
+)
+"tb_proof.ml" 263 7649 7676 "tb_proof.ml" 263 7649 7677
+ident(
+  def h "tb_proof.ml" 263 7649 7686 "tb_proof.ml" 263 7649 7700
+)
+"tb_proof.ml" 263 7649 7653 "tb_proof.ml" 263 7649 7677
+type(
+  Term.swffi
+)
+"tb_proof.ml" 263 7649 7681 "tb_proof.ml" 263 7649 7682
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 263 7649 7686 "tb_proof.ml" 263 7649 7700
+)
+"tb_proof.ml" 263 7649 7653 "tb_proof.ml" 263 7649 7682
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 263 7649 7686 "tb_proof.ml" 263 7649 7687
+type(
+  Term.swffi
+)
+ident(
+  int_ref h "tb_proof.ml" 263 7649 7653 "tb_proof.ml" 263 7649 7677
+)
+"tb_proof.ml" 263 7649 7691 "tb_proof.ml" 263 7649 7698
+type(
+  Term.swffi list -> Term.swffi list
+)
+ident(
+  int_ref delta_s "tb_proof.ml" 261 7609 7617 "tb_proof.ml" 261 7609 7624
+)
+"tb_proof.ml" 263 7649 7699 "tb_proof.ml" 263 7649 7700
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 263 7649 7681 "tb_proof.ml" 263 7649 7682
+)
+"tb_proof.ml" 263 7649 7691 "tb_proof.ml" 263 7649 7700
+call(
+  stack
+)
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 263 7649 7686 "tb_proof.ml" 263 7649 7700
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 264 7701 7721 "tb_proof.ml" 264 7701 7722
+type(
+  int
+)
+ident(
+  def p "tb_proof.ml" 264 7701 7738 "tb_proof.ml" 264 7701 7752
+)
+"tb_proof.ml" 264 7701 7711 "tb_proof.ml" 264 7701 7723
+type(
+  Term.wffi
+)
+"tb_proof.ml" 264 7701 7705 "tb_proof.ml" 264 7701 7723
+type(
+  Term.swffi
+)
+"tb_proof.ml" 264 7701 7728 "tb_proof.ml" 264 7701 7729
+ident(
+  def h "tb_proof.ml" 264 7701 7738 "tb_proof.ml" 264 7701 7752
+)
+"tb_proof.ml" 264 7701 7705 "tb_proof.ml" 264 7701 7729
+type(
+  Term.swffi
+)
+"tb_proof.ml" 264 7701 7733 "tb_proof.ml" 264 7701 7734
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 264 7701 7738 "tb_proof.ml" 264 7701 7752
+)
+"tb_proof.ml" 264 7701 7705 "tb_proof.ml" 264 7701 7734
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 264 7701 7738 "tb_proof.ml" 264 7701 7739
+type(
+  Term.swffi
+)
+ident(
+  int_ref h "tb_proof.ml" 264 7701 7705 "tb_proof.ml" 264 7701 7729
+)
+"tb_proof.ml" 264 7701 7743 "tb_proof.ml" 264 7701 7750
+type(
+  Term.swffi list -> Term.swffi list
+)
+ident(
+  int_ref delta_s "tb_proof.ml" 261 7609 7617 "tb_proof.ml" 261 7609 7624
+)
+"tb_proof.ml" 264 7701 7751 "tb_proof.ml" 264 7701 7752
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 264 7701 7733 "tb_proof.ml" 264 7701 7734
+)
+"tb_proof.ml" 264 7701 7743 "tb_proof.ml" 264 7701 7752
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 264 7701 7738 "tb_proof.ml" 264 7701 7752
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 265 7753 7774 "tb_proof.ml" 265 7753 7775
+type(
+  int
+)
+ident(
+  def p "tb_proof.ml" 265 7753 7790 "tb_proof.ml" 265 7753 7804
+)
+"tb_proof.ml" 265 7753 7764 "tb_proof.ml" 265 7753 7776
+type(
+  Term.wffi
+)
+"tb_proof.ml" 265 7753 7757 "tb_proof.ml" 265 7753 7776
+type(
+  Term.swffi
+)
+"tb_proof.ml" 265 7753 7780 "tb_proof.ml" 265 7753 7781
+ident(
+  def h "tb_proof.ml" 265 7753 7790 "tb_proof.ml" 265 7753 7804
+)
+"tb_proof.ml" 265 7753 7757 "tb_proof.ml" 265 7753 7781
+type(
+  Term.swffi
+)
+"tb_proof.ml" 265 7753 7785 "tb_proof.ml" 265 7753 7786
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 265 7753 7790 "tb_proof.ml" 265 7753 7804
+)
+"tb_proof.ml" 265 7753 7757 "tb_proof.ml" 265 7753 7786
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 265 7753 7790 "tb_proof.ml" 265 7753 7791
+type(
+  Term.swffi
+)
+ident(
+  int_ref h "tb_proof.ml" 265 7753 7757 "tb_proof.ml" 265 7753 7781
+)
+"tb_proof.ml" 265 7753 7795 "tb_proof.ml" 265 7753 7802
+type(
+  Term.swffi list -> Term.swffi list
+)
+ident(
+  int_ref delta_s "tb_proof.ml" 261 7609 7617 "tb_proof.ml" 261 7609 7624
+)
+"tb_proof.ml" 265 7753 7803 "tb_proof.ml" 265 7753 7804
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 265 7753 7785 "tb_proof.ml" 265 7753 7786
+)
+"tb_proof.ml" 265 7753 7795 "tb_proof.ml" 265 7753 7804
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 265 7753 7790 "tb_proof.ml" 265 7753 7804
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 266 7805 7809 "tb_proof.ml" 266 7805 7810
+type(
+  Term.swffi
+)
+"tb_proof.ml" 266 7805 7814 "tb_proof.ml" 266 7805 7815
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 266 7805 7819 "tb_proof.ml" 266 7805 7828
+)
+"tb_proof.ml" 266 7805 7809 "tb_proof.ml" 266 7805 7815
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 266 7805 7819 "tb_proof.ml" 266 7805 7826
+type(
+  Term.swffi list -> Term.swffi list
+)
+ident(
+  int_ref delta_s "tb_proof.ml" 261 7609 7617 "tb_proof.ml" 261 7609 7624
+)
+"tb_proof.ml" 266 7805 7827 "tb_proof.ml" 266 7805 7828
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 266 7805 7814 "tb_proof.ml" 266 7805 7815
+)
+"tb_proof.ml" 266 7805 7819 "tb_proof.ml" 266 7805 7828
+call(
+  tail
+)
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 261 7609 7627 "tb_proof.ml" 266 7805 7828
+type(
+  Term.swffi list -> Term.swffi list
+)
+"tb_proof.ml" 273 7922 7930 "tb_proof.ml" 273 7922 7942
+type(
+  int -> Term.swffi list -> bool
+)
+ident(
+  def solve_contra "tb_proof.ml" 273 7922 7922 "tb_proof.ml" 1 0 -1
+)
+"tb_proof.ml" 273 7922 7943 "tb_proof.ml" 273 7922 7949
+type(
+  int
+)
+ident(
+  def wffnum "tb_proof.ml" 273 7922 7950 "tb_proof.ml" 280 8161 8166
+)
+"tb_proof.ml" 273 7922 7950 "tb_proof.ml" 273 7922 7951
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 274 7954 7956 "tb_proof.ml" 280 8161 8166
+)
+"tb_proof.ml" 274 7954 7960 "tb_proof.ml" 274 7954 7961
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 275 7981 7983 "tb_proof.ml" 280 8161 8166
+)
+"tb_proof.ml" 274 7954 7964 "tb_proof.ml" 274 7954 7975
+type(
+  Term.swffi list -> Term.swffi list
+)
+ident(
+  int_ref set_of_list "tb_proof.ml" 131 3335 3339 "tb_proof.ml" 131 3335 3350
+)
+"tb_proof.ml" 274 7954 7976 "tb_proof.ml" 274 7954 7977
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 273 7922 7950 "tb_proof.ml" 273 7922 7951
+)
+"tb_proof.ml" 274 7954 7964 "tb_proof.ml" 274 7954 7977
+call(
+  stack
+)
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 276 7989 7999 "tb_proof.ml" 276 7989 8000
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 274 7954 7960 "tb_proof.ml" 274 7954 7961
+)
+"tb_proof.ml" 277 8006 8012 "tb_proof.ml" 277 8006 8014
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 277 8006 8018 "tb_proof.ml" 277 8006 8026
+type(
+  string -> bool
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"tb_proof.ml" 277 8006 8027 "tb_proof.ml" 277 8006 8041
+type(
+  string
+)
+"tb_proof.ml" 277 8006 8018 "tb_proof.ml" 277 8006 8041
+call(
+  tail
+)
+type(
+  bool
+)
+"tb_proof.ml" 278 8042 8048 "tb_proof.ml" 278 8042 8049
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 278 8042 8055 "tb_proof.ml" 278 8042 8074
+)
+"tb_proof.ml" 278 8042 8055 "tb_proof.ml" 278 8042 8064
+type(
+  Term.swffi list -> bool
+)
+ident(
+  int_ref comp_pair "tb_proof.ml" 225 6329 6333 "tb_proof.ml" 225 6329 6342
+)
+"tb_proof.ml" 278 8042 8065 "tb_proof.ml" 278 8042 8066
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 278 8042 8048 "tb_proof.ml" 278 8042 8049
+)
+"tb_proof.ml" 278 8042 8055 "tb_proof.ml" 278 8042 8066
+call(
+  stack
+)
+type(
+  bool
+)
+"tb_proof.ml" 278 8042 8070 "tb_proof.ml" 278 8042 8074
+type(
+  bool
+)
+"tb_proof.ml" 279 8132 8138 "tb_proof.ml" 279 8132 8139
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 279 8132 8143 "tb_proof.ml" 279 8132 8160
+)
+"tb_proof.ml" 279 8132 8143 "tb_proof.ml" 279 8132 8151
+type(
+  int -> Term.swffi list -> bool
+)
+ident(
+  int_ref solve_C1 "tb_proof.ml" 283 8169 8173 "tb_proof.ml" 283 8169 8181
+)
+"tb_proof.ml" 279 8132 8152 "tb_proof.ml" 279 8132 8158
+type(
+  int
+)
+ident(
+  int_ref wffnum "tb_proof.ml" 273 7922 7943 "tb_proof.ml" 273 7922 7949
+)
+"tb_proof.ml" 279 8132 8159 "tb_proof.ml" 279 8132 8160
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 279 8132 8138 "tb_proof.ml" 279 8132 8139
+)
+"tb_proof.ml" 279 8132 8143 "tb_proof.ml" 279 8132 8160
+call(
+  tail
+)
+type(
+  bool
+)
+"tb_proof.ml" 275 7981 7983 "tb_proof.ml" 280 8161 8166
+type(
+  bool
+)
+"tb_proof.ml" 274 7954 7956 "tb_proof.ml" 280 8161 8166
+type(
+  bool
+)
+"tb_proof.ml" 283 8169 8173 "tb_proof.ml" 283 8169 8181
+type(
+  int -> Term.swffi list -> bool
+)
+ident(
+  def solve_C1 "tb_proof.ml" 273 7922 7922 "tb_proof.ml" 1 0 -1
+)
+"tb_proof.ml" 283 8169 8182 "tb_proof.ml" 283 8169 8188
+type(
+  int
+)
+ident(
+  def wffnum "tb_proof.ml" 283 8169 8189 "tb_proof.ml" 297 9235 9240
+)
+"tb_proof.ml" 283 8169 8189 "tb_proof.ml" 283 8169 8190
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 284 8193 8195 "tb_proof.ml" 297 9235 9240
+)
+"tb_proof.ml" 284 8193 8199 "tb_proof.ml" 284 8193 8200
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 285 8220 8222 "tb_proof.ml" 297 9235 9240
+)
+"tb_proof.ml" 284 8193 8203 "tb_proof.ml" 284 8193 8214
+type(
+  Term.swffi list -> Term.swffi list
+)
+ident(
+  int_ref set_of_list "tb_proof.ml" 131 3335 3339 "tb_proof.ml" 131 3335 3350
+)
+"tb_proof.ml" 284 8193 8215 "tb_proof.ml" 284 8193 8216
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 283 8169 8189 "tb_proof.ml" 283 8169 8190
+)
+"tb_proof.ml" 284 8193 8203 "tb_proof.ml" 284 8193 8216
+call(
+  stack
+)
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 286 8228 8238 "tb_proof.ml" 286 8228 8239
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 284 8193 8199 "tb_proof.ml" 284 8193 8200
+)
+"tb_proof.ml" 287 8245 8251 "tb_proof.ml" 287 8245 8253
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 287 8245 8257 "tb_proof.ml" 287 8245 8265
+type(
+  string -> bool
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"tb_proof.ml" 287 8245 8266 "tb_proof.ml" 287 8245 8280
+type(
+  string
+)
+"tb_proof.ml" 287 8245 8257 "tb_proof.ml" 287 8245 8280
+call(
+  tail
+)
+type(
+  bool
+)
+"tb_proof.ml" 288 8281 8302 "tb_proof.ml" 288 8281 8304
+type(
+  Term.wffi
+)
+ident(
+  def p1 "tb_proof.ml" 288 8281 8319 "tb_proof.ml" 288 8281 8369
+)
+"tb_proof.ml" 288 8281 8306 "tb_proof.ml" 288 8281 8308
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 288 8281 8319 "tb_proof.ml" 288 8281 8369
+)
+"tb_proof.ml" 288 8281 8293 "tb_proof.ml" 288 8281 8310
+type(
+  Term.wffi
+)
+"tb_proof.ml" 288 8281 8287 "tb_proof.ml" 288 8281 8310
+type(
+  Term.swffi
+)
+"tb_proof.ml" 288 8281 8314 "tb_proof.ml" 288 8281 8315
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 288 8281 8319 "tb_proof.ml" 288 8281 8369
+)
+"tb_proof.ml" 288 8281 8287 "tb_proof.ml" 288 8281 8315
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 288 8281 8319 "tb_proof.ml" 288 8281 8331
+type(
+  int -> Term.swffi list -> bool
+)
+ident(
+  int_ref solve_contra "tb_proof.ml" 273 7922 7930 "tb_proof.ml" 273 7922 7942
+)
+"tb_proof.ml" 288 8281 8332 "tb_proof.ml" 288 8281 8338
+type(
+  int
+)
+ident(
+  int_ref wffnum "tb_proof.ml" 283 8169 8182 "tb_proof.ml" 283 8169 8188
+)
+"tb_proof.ml" 288 8281 8347 "tb_proof.ml" 288 8281 8349
+type(
+  Term.wffi
+)
+ident(
+  int_ref p1 "tb_proof.ml" 288 8281 8302 "tb_proof.ml" 288 8281 8304
+)
+"tb_proof.ml" 288 8281 8340 "tb_proof.ml" 288 8281 8349
+type(
+  Term.swffi
+)
+"tb_proof.ml" 288 8281 8359 "tb_proof.ml" 288 8281 8363
+type(
+  Term.wffi
+)
+ident(
+  int_ref p2 "tb_proof.ml" 288 8281 8306 "tb_proof.ml" 288 8281 8308
+)
+"tb_proof.ml" 288 8281 8353 "tb_proof.ml" 288 8281 8363
+type(
+  Term.swffi
+)
+"tb_proof.ml" 288 8281 8367 "tb_proof.ml" 288 8281 8368
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 288 8281 8314 "tb_proof.ml" 288 8281 8315
+)
+"tb_proof.ml" 288 8281 8353 "tb_proof.ml" 288 8281 8368
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 288 8281 8339 "tb_proof.ml" 288 8281 8369
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 288 8281 8319 "tb_proof.ml" 288 8281 8369
+call(
+  tail
+)
+type(
+  bool
+)
+"tb_proof.ml" 289 8370 8390 "tb_proof.ml" 289 8370 8392
+type(
+  Term.wffi
+)
+ident(
+  def p1 "tb_proof.ml" 289 8370 8408 "tb_proof.ml" 289 8370 8458
+)
+"tb_proof.ml" 289 8370 8394 "tb_proof.ml" 289 8370 8396
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 289 8370 8408 "tb_proof.ml" 289 8370 8458
+)
+"tb_proof.ml" 289 8370 8382 "tb_proof.ml" 289 8370 8398
+type(
+  Term.wffi
+)
+"tb_proof.ml" 289 8370 8376 "tb_proof.ml" 289 8370 8398
+type(
+  Term.swffi
+)
+"tb_proof.ml" 289 8370 8402 "tb_proof.ml" 289 8370 8403
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 289 8370 8408 "tb_proof.ml" 289 8370 8458
+)
+"tb_proof.ml" 289 8370 8376 "tb_proof.ml" 289 8370 8403
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 289 8370 8408 "tb_proof.ml" 289 8370 8420
+type(
+  int -> Term.swffi list -> bool
+)
+ident(
+  int_ref solve_contra "tb_proof.ml" 273 7922 7930 "tb_proof.ml" 273 7922 7942
+)
+"tb_proof.ml" 289 8370 8421 "tb_proof.ml" 289 8370 8427
+type(
+  int
+)
+ident(
+  int_ref wffnum "tb_proof.ml" 283 8169 8182 "tb_proof.ml" 283 8169 8188
+)
+"tb_proof.ml" 289 8370 8436 "tb_proof.ml" 289 8370 8438
+type(
+  Term.wffi
+)
+ident(
+  int_ref p1 "tb_proof.ml" 289 8370 8390 "tb_proof.ml" 289 8370 8392
+)
+"tb_proof.ml" 289 8370 8429 "tb_proof.ml" 289 8370 8438
+type(
+  Term.swffi
+)
+"tb_proof.ml" 289 8370 8448 "tb_proof.ml" 289 8370 8452
+type(
+  Term.wffi
+)
+ident(
+  int_ref p2 "tb_proof.ml" 289 8370 8394 "tb_proof.ml" 289 8370 8396
+)
+"tb_proof.ml" 289 8370 8442 "tb_proof.ml" 289 8370 8452
+type(
+  Term.swffi
+)
+"tb_proof.ml" 289 8370 8456 "tb_proof.ml" 289 8370 8457
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 289 8370 8402 "tb_proof.ml" 289 8370 8403
+)
+"tb_proof.ml" 289 8370 8442 "tb_proof.ml" 289 8370 8457
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 289 8370 8428 "tb_proof.ml" 289 8370 8458
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 289 8370 8408 "tb_proof.ml" 289 8370 8458
+call(
+  tail
+)
+type(
+  bool
+)
+"tb_proof.ml" 290 8459 8480 "tb_proof.ml" 290 8459 8482
+type(
+  Term.wffi
+)
+ident(
+  def p1 "tb_proof.ml" 290 8459 8497 "tb_proof.ml" 290 8459 8549
+)
+"tb_proof.ml" 290 8459 8484 "tb_proof.ml" 290 8459 8486
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 290 8459 8497 "tb_proof.ml" 290 8459 8549
+)
+"tb_proof.ml" 290 8459 8472 "tb_proof.ml" 290 8459 8488
+type(
+  Term.wffi
+)
+"tb_proof.ml" 290 8459 8465 "tb_proof.ml" 290 8459 8488
+type(
+  Term.swffi
+)
+"tb_proof.ml" 290 8459 8492 "tb_proof.ml" 290 8459 8493
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 290 8459 8497 "tb_proof.ml" 290 8459 8549
+)
+"tb_proof.ml" 290 8459 8465 "tb_proof.ml" 290 8459 8493
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 290 8459 8497 "tb_proof.ml" 290 8459 8509
+type(
+  int -> Term.swffi list -> bool
+)
+ident(
+  int_ref solve_contra "tb_proof.ml" 273 7922 7930 "tb_proof.ml" 273 7922 7942
+)
+"tb_proof.ml" 290 8459 8510 "tb_proof.ml" 290 8459 8516
+type(
+  int
+)
+ident(
+  int_ref wffnum "tb_proof.ml" 283 8169 8182 "tb_proof.ml" 283 8169 8188
+)
+"tb_proof.ml" 290 8459 8526 "tb_proof.ml" 290 8459 8528
+type(
+  Term.wffi
+)
+ident(
+  int_ref p1 "tb_proof.ml" 290 8459 8480 "tb_proof.ml" 290 8459 8482
+)
+"tb_proof.ml" 290 8459 8518 "tb_proof.ml" 290 8459 8528
+type(
+  Term.swffi
+)
+"tb_proof.ml" 290 8459 8539 "tb_proof.ml" 290 8459 8543
+type(
+  Term.wffi
+)
+ident(
+  int_ref p2 "tb_proof.ml" 290 8459 8484 "tb_proof.ml" 290 8459 8486
+)
+"tb_proof.ml" 290 8459 8532 "tb_proof.ml" 290 8459 8543
+type(
+  Term.swffi
+)
+"tb_proof.ml" 290 8459 8547 "tb_proof.ml" 290 8459 8548
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 290 8459 8492 "tb_proof.ml" 290 8459 8493
+)
+"tb_proof.ml" 290 8459 8532 "tb_proof.ml" 290 8459 8548
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 290 8459 8517 "tb_proof.ml" 290 8459 8549
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 290 8459 8497 "tb_proof.ml" 290 8459 8549
+call(
+  tail
+)
+type(
+  bool
+)
+"tb_proof.ml" 291 8550 8582 "tb_proof.ml" 291 8550 8584
+type(
+  int
+)
+ident(
+  def p1 "tb_proof.ml" 291 8550 8601 "tb_proof.ml" 291 8550 8681
+)
+"tb_proof.ml" 291 8550 8573 "tb_proof.ml" 291 8550 8584
+type(
+  Term.wffi
+)
+"tb_proof.ml" 291 8550 8586 "tb_proof.ml" 291 8550 8588
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 291 8550 8601 "tb_proof.ml" 291 8550 8681
+)
+"tb_proof.ml" 291 8550 8562 "tb_proof.ml" 291 8550 8590
+type(
+  Term.wffi
+)
+"tb_proof.ml" 291 8550 8556 "tb_proof.ml" 291 8550 8590
+type(
+  Term.swffi
+)
+"tb_proof.ml" 291 8550 8594 "tb_proof.ml" 291 8550 8595
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 291 8550 8601 "tb_proof.ml" 291 8550 8681
+)
+"tb_proof.ml" 291 8550 8556 "tb_proof.ml" 291 8550 8595
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 291 8550 8601 "tb_proof.ml" 291 8550 8609
+type(
+  Term.swffi -> Term.swffi list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"tb_proof.ml" 291 8550 8626 "tb_proof.ml" 291 8550 8630
+type(
+  int
+)
+ident(
+  int_ref p1 "tb_proof.ml" 291 8550 8582 "tb_proof.ml" 291 8550 8584
+)
+"tb_proof.ml" 291 8550 8617 "tb_proof.ml" 291 8550 8631
+type(
+  Term.wffi
+)
+"tb_proof.ml" 291 8550 8610 "tb_proof.ml" 291 8550 8632
+type(
+  Term.swffi
+)
+"tb_proof.ml" 291 8550 8633 "tb_proof.ml" 291 8550 8634
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 291 8550 8594 "tb_proof.ml" 291 8550 8595
+)
+"tb_proof.ml" 291 8550 8601 "tb_proof.ml" 291 8550 8634
+call(
+  stack
+)
+type(
+  bool
+)
+"tb_proof.ml" 291 8550 8635 "tb_proof.ml" 291 8550 8636
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"tb_proof.ml" 291 8550 8637 "tb_proof.ml" 291 8550 8641
+type(
+  bool
+)
+"tb_proof.ml" 291 8550 8601 "tb_proof.ml" 291 8550 8641
+type(
+  bool
+)
+"tb_proof.ml" 291 8550 8645 "tb_proof.ml" 291 8550 8657
+type(
+  int -> Term.swffi list -> bool
+)
+ident(
+  int_ref solve_contra "tb_proof.ml" 273 7922 7930 "tb_proof.ml" 273 7922 7942
+)
+"tb_proof.ml" 291 8550 8658 "tb_proof.ml" 291 8550 8664
+type(
+  int
+)
+ident(
+  int_ref wffnum "tb_proof.ml" 283 8169 8182 "tb_proof.ml" 283 8169 8188
+)
+"tb_proof.ml" 291 8550 8673 "tb_proof.ml" 291 8550 8675
+type(
+  Term.wffi
+)
+ident(
+  int_ref p2 "tb_proof.ml" 291 8550 8586 "tb_proof.ml" 291 8550 8588
+)
+"tb_proof.ml" 291 8550 8666 "tb_proof.ml" 291 8550 8675
+type(
+  Term.swffi
+)
+"tb_proof.ml" 291 8550 8679 "tb_proof.ml" 291 8550 8680
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 291 8550 8594 "tb_proof.ml" 291 8550 8595
+)
+"tb_proof.ml" 291 8550 8665 "tb_proof.ml" 291 8550 8681
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 291 8550 8645 "tb_proof.ml" 291 8550 8681
+call(
+  tail
+)
+type(
+  bool
+)
+"tb_proof.ml" 292 8682 8704 "tb_proof.ml" 292 8682 8705
+type(
+  int
+)
+ident(
+  def p "tb_proof.ml" 292 8682 8723 "tb_proof.ml" 292 8682 8821
+)
+"tb_proof.ml" 292 8682 8694 "tb_proof.ml" 292 8682 8706
+type(
+  Term.wffi
+)
+"tb_proof.ml" 292 8682 8688 "tb_proof.ml" 292 8682 8706
+type(
+  Term.swffi
+)
+"tb_proof.ml" 292 8682 8710 "tb_proof.ml" 292 8682 8711
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 292 8682 8723 "tb_proof.ml" 292 8682 8821
+)
+"tb_proof.ml" 292 8682 8688 "tb_proof.ml" 292 8682 8711
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 292 8682 8715 "tb_proof.ml" 292 8682 8717
+ident(
+  def ss "tb_proof.ml" 292 8682 8723 "tb_proof.ml" 292 8682 8821
+)
+"tb_proof.ml" 292 8682 8688 "tb_proof.ml" 292 8682 8717
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 292 8682 8723 "tb_proof.ml" 292 8682 8737
+type(
+  Term.wffi -> Term.swffi list -> bool
+)
+ident(
+  int_ref mem_atom_arrow "tb_proof.ml" 77 1505 1513 "tb_proof.ml" 77 1505 1527
+)
+"tb_proof.ml" 292 8682 8748 "tb_proof.ml" 292 8682 8749
+type(
+  int
+)
+ident(
+  int_ref p "tb_proof.ml" 292 8682 8704 "tb_proof.ml" 292 8682 8705
+)
+"tb_proof.ml" 292 8682 8738 "tb_proof.ml" 292 8682 8750
+type(
+  Term.wffi
+)
+"tb_proof.ml" 292 8682 8751 "tb_proof.ml" 292 8682 8752
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 292 8682 8710 "tb_proof.ml" 292 8682 8711
+)
+"tb_proof.ml" 292 8682 8723 "tb_proof.ml" 292 8682 8752
+call(
+  stack
+)
+type(
+  bool
+)
+"tb_proof.ml" 292 8682 8756 "tb_proof.ml" 292 8682 8768
+type(
+  int -> Term.swffi list -> bool
+)
+ident(
+  int_ref solve_contra "tb_proof.ml" 273 7922 7930 "tb_proof.ml" 273 7922 7942
+)
+"tb_proof.ml" 292 8682 8769 "tb_proof.ml" 292 8682 8775
+type(
+  int
+)
+ident(
+  int_ref wffnum "tb_proof.ml" 283 8169 8182 "tb_proof.ml" 283 8169 8188
+)
+"tb_proof.ml" 292 8682 8777 "tb_proof.ml" 292 8682 8804
+type(
+  Term.wffi -> Term.swffi list -> Term.swffi list
+)
+ident(
+  int_ref remove_atom_arrow_plus_atom "tb_proof.ml" 84 1773 1781 "tb_proof.ml" 84 1773 1808
+)
+"tb_proof.ml" 292 8682 8815 "tb_proof.ml" 292 8682 8816
+type(
+  int
+)
+ident(
+  int_ref p "tb_proof.ml" 292 8682 8704 "tb_proof.ml" 292 8682 8705
+)
+"tb_proof.ml" 292 8682 8805 "tb_proof.ml" 292 8682 8817
+type(
+  Term.wffi
+)
+"tb_proof.ml" 292 8682 8818 "tb_proof.ml" 292 8682 8820
+type(
+  Term.swffi list
+)
+ident(
+  int_ref ss "tb_proof.ml" 292 8682 8688 "tb_proof.ml" 292 8682 8717
+)
+"tb_proof.ml" 292 8682 8776 "tb_proof.ml" 292 8682 8821
+call(
+  stack
+)
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 292 8682 8756 "tb_proof.ml" 292 8682 8821
+call(
+  tail
+)
+type(
+  bool
+)
+"tb_proof.ml" 293 8822 8843 "tb_proof.ml" 293 8822 8844
+type(
+  Term.wffi
+)
+ident(
+  def p "tb_proof.ml" 293 8822 8854 "tb_proof.ml" 293 8822 8890
+)
+"tb_proof.ml" 293 8822 8834 "tb_proof.ml" 293 8822 8845
+type(
+  Term.wffi
+)
+"tb_proof.ml" 293 8822 8828 "tb_proof.ml" 293 8822 8845
+type(
+  Term.swffi
+)
+"tb_proof.ml" 293 8822 8849 "tb_proof.ml" 293 8822 8850
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 293 8822 8854 "tb_proof.ml" 293 8822 8890
+)
+"tb_proof.ml" 293 8822 8828 "tb_proof.ml" 293 8822 8850
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 293 8822 8854 "tb_proof.ml" 293 8822 8866
+type(
+  int -> Term.swffi list -> bool
+)
+ident(
+  int_ref solve_contra "tb_proof.ml" 273 7922 7930 "tb_proof.ml" 273 7922 7942
+)
+"tb_proof.ml" 293 8822 8867 "tb_proof.ml" 293 8822 8873
+type(
+  int
+)
+ident(
+  int_ref wffnum "tb_proof.ml" 283 8169 8182 "tb_proof.ml" 283 8169 8188
+)
+"tb_proof.ml" 293 8822 8884 "tb_proof.ml" 293 8822 8885
+type(
+  Term.wffi
+)
+ident(
+  int_ref p "tb_proof.ml" 293 8822 8843 "tb_proof.ml" 293 8822 8844
+)
+"tb_proof.ml" 293 8822 8875 "tb_proof.ml" 293 8822 8886
+type(
+  Term.swffi
+)
+"tb_proof.ml" 293 8822 8888 "tb_proof.ml" 293 8822 8889
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 293 8822 8849 "tb_proof.ml" 293 8822 8850
+)
+"tb_proof.ml" 293 8822 8874 "tb_proof.ml" 293 8822 8890
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 293 8822 8854 "tb_proof.ml" 293 8822 8890
+call(
+  tail
+)
+type(
+  bool
+)
+"tb_proof.ml" 294 8891 8922 "tb_proof.ml" 294 8891 8924
+type(
+  Term.wffi
+)
+ident(
+  def p1 "tb_proof.ml" 294 8891 8942 "tb_proof.ml" 294 8891 9006
+)
+"tb_proof.ml" 294 8891 8925 "tb_proof.ml" 294 8891 8927
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 294 8891 8942 "tb_proof.ml" 294 8891 9006
+)
+"tb_proof.ml" 294 8891 8914 "tb_proof.ml" 294 8891 8928
+type(
+  Term.wffi
+)
+"tb_proof.ml" 294 8891 8929 "tb_proof.ml" 294 8891 8931
+type(
+  Term.wffi
+)
+ident(
+  def p3 "tb_proof.ml" 294 8891 8942 "tb_proof.ml" 294 8891 9006
+)
+"tb_proof.ml" 294 8891 8903 "tb_proof.ml" 294 8891 8933
+type(
+  Term.wffi
+)
+"tb_proof.ml" 294 8891 8897 "tb_proof.ml" 294 8891 8933
+type(
+  Term.swffi
+)
+"tb_proof.ml" 294 8891 8937 "tb_proof.ml" 294 8891 8938
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 294 8891 8942 "tb_proof.ml" 294 8891 9006
+)
+"tb_proof.ml" 294 8891 8897 "tb_proof.ml" 294 8891 8938
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 294 8891 8942 "tb_proof.ml" 294 8891 8954
+type(
+  int -> Term.swffi list -> bool
+)
+ident(
+  int_ref solve_contra "tb_proof.ml" 273 7922 7930 "tb_proof.ml" 273 7922 7942
+)
+"tb_proof.ml" 294 8891 8955 "tb_proof.ml" 294 8891 8961
+type(
+  int
+)
+ident(
+  int_ref wffnum "tb_proof.ml" 283 8169 8182 "tb_proof.ml" 283 8169 8188
+)
+"tb_proof.ml" 294 8891 8980 "tb_proof.ml" 294 8891 8982
+type(
+  Term.wffi
+)
+ident(
+  int_ref p1 "tb_proof.ml" 294 8891 8922 "tb_proof.ml" 294 8891 8924
+)
+"tb_proof.ml" 294 8891 8991 "tb_proof.ml" 294 8891 8993
+type(
+  Term.wffi
+)
+ident(
+  int_ref p1 "tb_proof.ml" 294 8891 8922 "tb_proof.ml" 294 8891 8924
+)
+"tb_proof.ml" 294 8891 8995 "tb_proof.ml" 294 8891 8997
+type(
+  Term.wffi
+)
+ident(
+  int_ref p2 "tb_proof.ml" 294 8891 8925 "tb_proof.ml" 294 8891 8927
+)
+"tb_proof.ml" 294 8891 8983 "tb_proof.ml" 294 8891 8998
+type(
+  Term.wffi
+)
+"tb_proof.ml" 294 8891 8969 "tb_proof.ml" 294 8891 9000
+type(
+  Term.wffi
+)
+"tb_proof.ml" 294 8891 8963 "tb_proof.ml" 294 8891 9000
+type(
+  Term.swffi
+)
+"tb_proof.ml" 294 8891 9004 "tb_proof.ml" 294 8891 9005
+type(
+  Term.swffi list
+)
+ident(
+  int_ref s "tb_proof.ml" 294 8891 8937 "tb_proof.ml" 294 8891 8938
+)
+"tb_proof.ml" 294 8891 8962 "tb_proof.ml" 294 8891 9006
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 294 8891 8942 "tb_proof.ml" 294 8891 9006
+call(
+  tail
+)
+type(
+  bool
+)
+"tb_proof.ml" 295 9007 9037 "tb_proof.ml" 295 9007 9039
+type(
+  Term.wffi
+)
+ident(
+  def p1 "tb_proof.ml" 295 9007 9057 "tb_proof.ml" 295 9007 9203
+)
+"tb_proof.ml" 295 9007 9040 "tb_proof.ml" 295 9007 9042
+type(
+  Term.wffi
+)
+ident(
+  def p2 "tb_proof.ml" 295 9007 9057 "tb_proof.ml" 295 9007 9203
+)
+"tb_proof.ml" 295 9007 9030 "tb_proof.ml" 295 9007 9043
+type(
+  Term.wffi
+)
+"tb_proof.ml" 295 9007 9044 "tb_proof.ml" 295 9007 9046
+type(
+  Term.wffi
+)
+ident(
+  def p3 "tb_proof.ml" 295 9007 9057 "tb_proof.ml" 295 9007 9203
+)
+"tb_proof.ml" 295 9007 9019 "tb_proof.ml" 295 9007 9048
+type(
+  Term.wffi
+)
+"tb_proof.ml" 295 9007 9013 "tb_proof.ml" 295 9007 9048
+type(
+  Term.swffi
+)
+"tb_proof.ml" 295 9007 9052 "tb_proof.ml" 295 9007 9053
+type(
+  Term.swffi list
+)
+ident(
+  def s "tb_proof.ml" 295 9007 9057 "tb_proof.ml" 295 9007 9203
+)
+"tb_proof.ml" 295 9007 9013 "tb_proof.ml" 295 9007 9053
+type(
+  Term.swffi list
+)
+"tb_proof.ml" 295 9007 9057 "tb_proof.ml" 295 9007 9069
+type(
+  int -> Term.swffi list -> bool
+)
+ident(
+  int_ref solve_contra "tb_proof.ml" 273 7922 7930 "tb_proof.ml" 273 7922 7942
+)
+"tb_proof.ml" 295 9007 9071 "tb_proof.ml" 295 9007 9077
+type(
+  int
+)
+ident(
+  int_ref wffnum "tb_proof.ml" 283 8169 8182 "tb_proof.ml" 283 8169 8188
+)
+"tb_proof.ml" 295 9007 9077 "tb_proof.ml" 295 9007 9078

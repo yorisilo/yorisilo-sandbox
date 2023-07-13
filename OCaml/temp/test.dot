@@ -1,0 +1,7 @@
+digraph test {
+  node [shape = plaintext];
+  "0 ||- A /\\ B" -> "0 ||- A";
+  "0 ||- A /\\ B" -> "0 ||- B";
+  "0 ||- B" -> "not A1" [dir = none];
+  "0 ||- A" -> "not A" [dir = none];
+}

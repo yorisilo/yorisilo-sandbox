@@ -1,0 +1,2 @@
+:set -package haskell98
+:set -hide-package base

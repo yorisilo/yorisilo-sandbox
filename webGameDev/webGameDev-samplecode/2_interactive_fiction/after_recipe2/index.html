@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8" />
+	<title>インタラクティブフィクション</title>
+	<link href="main.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="impress">
+		<div id="1" class="step slide">
+			<div class="slide-text">
+				<p>ここにあるのはタイムマシン。スイッチをオンにするかい？</p>
+				<p><a href="#2">オン</a>にする。</p>
+				<p>科学者のパパが帰ってくるのを<a href="#3">待つ</a>。</p>
+			</div>
+		</div>
+		
+		<div id="2" class="step slide" data-x="1500">
+      <div class="slide-text">
+        <p>過去にタイムスリップ！　すごく楽しい。</p>
+      </div>
+      <div class="menu"><a href="#1">やり直し</a></div>
+    </div>
+    
+    <div id="3" class="step slide" data-x="-1500">
+      <div class="slide-text">
+        <p>しばらくしてパパが帰ってきました。</p>
+        <p>パパはあなたの宿題を手伝ってくれました。</p>
+        <p>ラッキーだったけれど、楽しくはなかった。。。</p>
+      </div>
+      <div class="menu"><a href="#1">やり直し</a></div>
+     </div>
+		
+		
+	</div>
+	<script src="impress.js"></script>
+	<script>impress().init();</script>
+</body>
+</html>

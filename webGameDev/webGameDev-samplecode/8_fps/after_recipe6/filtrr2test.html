@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8" />
+    <title>Filtrr2テスト</title>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="filtrr2.js"></script>
+	</head>
+  <body>
+  	<img id="org-img" src="testimage.png">
+    <img id="my-img" src="testimage.png">
+    <script>
+    	var my = Filtrr2($("#my-img"));
+			my.ready(function() {
+    		console.log("Filtrr2 is now ready.");
+    		this.expose(50)
+        		.sharpen()
+        		.subtract(10, 20, 24)
+        		.render()
+			});
+    </script>
+  </body>
+</html>

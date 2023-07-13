@@ -1,0 +1,109 @@
+<html>
+  <head>
+    <script type="text/javascript">
+      function process(from, to) {
+      this.moveFrom = from;
+      this.moveTo = to;
+      }
+      var processList = new Array();
+      var index = 0;
+      function hanoi(from, to, spare, numberOfDisk) {
+      if (numberOfDisk > 1) {
+      hanoi(from, spare, to, numberOfDisk - 1);
+      processList.push(new process(from, to));
+      hanoi(spare, to, from, numberOfDisk - 1);
+      } else {
+      processList.push(new process(from, to));
+      }
+      }
+      var disks = 4;
+      hanoi(0, 2, 1, disks);
+
+      function tower(id) {
+      this.id = id;
+      this.step = new Array();
+      }
+      tower.prototype.set = function(disk) {
+      this.step.push(disk);
+      }
+      tower.prototype.get = function() {
+      if (this.step.length > 0) {
+      return this.step.pop();
+      }
+      return 0;
+      }
+      tower.prototype.move = function(toTower) {
+      toTower.set(this.get());
+      }
+
+      var towers = new Array(new tower(0), new tower(1), new tower(2));
+      for (i = 0; i < disks; i++) {
+                      towers[0].set(disks - i);
+                      }
+                      var diskId = new Array("", "one", "two", "three", "four");
+
+                      function move() {
+                      if (processList.length == 0) {
+                      return;
+                      }
+                      var p = processList.shift();
+                      towers[p.moveFrom].move(towers[p.moveTo]);
+                      displayTower();
+                      }
+
+                      function displayTower() {
+                      for (i = 0; i < 3; i++) {
+                                      for (j = 0; j < disks; j++) {
+                                                      var diskStatus = towers[i].step[j];
+                                                      if (diskStatus > 0) {
+                                      var disk = document.getElementById(diskId[diskStatus]);
+                                      disk.style.top = (3 - j) * 20 + 120;
+                                      disk.style.left = (i * 100) + 60 + (4 - diskStatus) * 10;
+                                      }
+                                      }
+                                      }
+                                      }
+                                      </script>
+    <style type="text/css">
+      .bar {
+      position: absolute;
+      width: 10;
+      height: 150;
+      background-color: gray;
+      }
+    </style>
+  </head>
+  <body onload="displayTower()">
+    <input type="button" value="move" onclick="move()" />
+    <div class="bar" style="top: 50; left: 95;"></div>
+    <div class="bar" style="top: 50; left: 195;"></div>
+    <div class="bar" style="top: 50; left: 295;"></div>
+
+    <div style="position: absolute;
+                width: 310; height: 2;
+                background-color: black;
+                top: 200; left: 50"
+         ></div>
+
+    <div id="four" style="position: absolute;
+                          width: 80; height: 20;
+                          background-color: red;"
+         ></div>
+
+    <div id="three" style="position: absolute;
+                           width: 60; height: 20;
+                           background-color: blue;"
+         ></div>
+
+    <div id="two" style="position: absolute;
+                         width: 40; height: 20;
+                         background-color: green;"
+         ></div>
+
+    <div id="one" style="position: absolute;
+                         width: 20; height: 20;
+                         background-color: orange;"
+         ></div>
+
+  </body>
+</html>

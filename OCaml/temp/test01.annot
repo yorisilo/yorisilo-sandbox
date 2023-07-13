@@ -1,0 +1,245 @@
+"test01.ml" 1 0 4 "test01.ml" 1 0 9
+type(
+  string
+)
+ident(
+  def hello "test01.ml" 3 32 32 "test01.ml" 1 0 -1
+)
+"test01.ml" 1 0 12 "test01.ml" 1 0 20
+type(
+  string
+)
+"test01.ml" 1 0 20 "test01.ml" 1 0 21
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test01.ml" 1 0 21 "test01.ml" 1 0 30
+type(
+  string
+)
+"test01.ml" 1 0 12 "test01.ml" 1 0 30
+call(
+  stack
+)
+type(
+  string
+)
+"test01.ml" 3 32 36 "test01.ml" 3 32 54
+type(
+  in_channel -> string
+)
+ident(
+  def read_whole_channel "test01.ml" 14 260 298 "test01.ml" 1 0 -1
+)
+"test01.ml" 3 32 55 "test01.ml" 3 32 59
+type(
+  in_channel
+)
+ident(
+  def chan "test01.ml" 4 62 64 "test01.ml" 14 260 298
+)
+"test01.ml" 4 62 68 "test01.ml" 4 62 71
+type(
+  Buffer.t
+)
+ident(
+  def buf "test01.ml" 5 96 98 "test01.ml" 14 260 298
+)
+"test01.ml" 4 62 74 "test01.ml" 4 62 87
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"test01.ml" 4 62 88 "test01.ml" 4 62 92
+type(
+  int
+)
+"test01.ml" 4 62 74 "test01.ml" 4 62 92
+call(
+  stack
+)
+type(
+  Buffer.t
+)
+"test01.ml" 5 96 106 "test01.ml" 5 96 110
+type(
+  unit -> 'a
+)
+ident(
+  def loop "test01.ml" 5 96 98 "test01.ml" 14 260 298
+)
+"test01.ml" 5 96 111 "test01.ml" 5 96 113
+type(
+  unit
+)
+"test01.ml" 6 116 124 "test01.ml" 6 116 131
+type(
+  string
+)
+ident(
+  def newline "test01.ml" 7 153 157 "test01.ml" 9 218 229
+)
+"test01.ml" 6 116 134 "test01.ml" 6 116 144
+type(
+  in_channel -> string
+)
+ident(
+  ext_ref Pervasives.input_line
+)
+"test01.ml" 6 116 145 "test01.ml" 6 116 149
+type(
+  in_channel
+)
+ident(
+  int_ref chan "test01.ml" 3 32 55 "test01.ml" 3 32 59
+)
+"test01.ml" 6 116 134 "test01.ml" 6 116 149
+call(
+  stack
+)
+type(
+  string
+)
+"test01.ml" 7 153 157 "test01.ml" 7 153 174
+type(
+  Buffer.t -> string -> unit
+)
+ident(
+  ext_ref Buffer.add_string
+)
+"test01.ml" 7 153 175 "test01.ml" 7 153 178
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "test01.ml" 4 62 68 "test01.ml" 4 62 71
+)
+"test01.ml" 7 153 179 "test01.ml" 7 153 186
+type(
+  string
+)
+ident(
+  int_ref newline "test01.ml" 6 116 124 "test01.ml" 6 116 131
+)
+"test01.ml" 7 153 157 "test01.ml" 7 153 186
+call(
+  stack
+)
+type(
+  unit
+)
+"test01.ml" 8 188 192 "test01.ml" 8 188 207
+type(
+  Buffer.t -> char -> unit
+)
+ident(
+  ext_ref Buffer.add_char
+)
+"test01.ml" 8 188 208 "test01.ml" 8 188 211
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "test01.ml" 4 62 68 "test01.ml" 4 62 71
+)
+"test01.ml" 8 188 212 "test01.ml" 8 188 216
+type(
+  char
+)
+"test01.ml" 8 188 192 "test01.ml" 8 188 216
+call(
+  stack
+)
+type(
+  unit
+)
+"test01.ml" 9 218 222 "test01.ml" 9 218 226
+type(
+  unit -> 'a
+)
+ident(
+  int_ref loop "test01.ml" 5 96 106 "test01.ml" 5 96 110
+)
+"test01.ml" 9 218 227 "test01.ml" 9 218 229
+type(
+  unit
+)
+"test01.ml" 9 218 222 "test01.ml" 9 218 229
+call(
+  tail
+)
+type(
+  'a
+)
+"test01.ml" 8 188 192 "test01.ml" 9 218 229
+type(
+  'a
+)
+"test01.ml" 7 153 157 "test01.ml" 9 218 229
+type(
+  'a
+)
+"test01.ml" 6 116 120 "test01.ml" 9 218 229
+type(
+  'a
+)
+"test01.ml" 12 241 245 "test01.ml" 12 241 249
+type(
+  unit -> string
+)
+ident(
+  int_ref loop "test01.ml" 5 96 106 "test01.ml" 5 96 110
+)
+"test01.ml" 12 241 250 "test01.ml" 12 241 252
+type(
+  unit
+)
+"test01.ml" 12 241 245 "test01.ml" 12 241 252
+call(
+  stack
+)
+type(
+  string
+)
+"test01.ml" 14 260 264 "test01.ml" 14 260 275
+type(
+  exn
+)
+"test01.ml" 14 260 279 "test01.ml" 14 260 294
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"test01.ml" 14 260 295 "test01.ml" 14 260 298
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "test01.ml" 4 62 68 "test01.ml" 4 62 71
+)
+"test01.ml" 14 260 279 "test01.ml" 14 260 298
+call(
+  tail
+)
+type(
+  string
+)
+"test01.ml" 11 235 237 "test01.ml" 14 260 298
+type(
+  string
+)
+"test01.ml" 5 96 98 "test01.ml" 14 260 298
+type(
+  string
+)
+"test01.ml" 4 62 64 "test01.ml" 14 260 298
+type(
+  string
+)

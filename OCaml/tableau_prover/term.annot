@@ -1,0 +1,3607 @@
+"term.ml" 20 341 349 "term.ml" 20 341 358
+type(
+  int -> Format.formatter -> wff -> unit
+)
+ident(
+  def print_wff "term.ml" 20 341 341 "term.ml" 1 0 -1
+)
+"term.ml" 20 341 359 "term.ml" 20 341 361
+type(
+  int
+)
+ident(
+  def pr "term.ml" 20 341 362 "term.ml" 62 1529 1557
+)
+"term.ml" 20 341 362 "term.ml" 20 341 365
+type(
+  Format.formatter
+)
+ident(
+  def ppf "term.ml" 20 341 368 "term.ml" 62 1529 1557
+)
+"term.ml" 21 377 389 "term.ml" 21 377 390
+type(
+  string
+)
+ident(
+  def s "term.ml" 22 394 399 "term.ml" 22 394 417
+)
+"term.ml" 21 377 381 "term.ml" 21 377 390
+type(
+  wff
+)
+"term.ml" 22 394 399 "term.ml" 22 394 406
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 22 394 407 "term.ml" 22 394 410
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 20 341 362 "term.ml" 20 341 365
+)
+"term.ml" 22 394 411 "term.ml" 22 394 415
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"term.ml" 22 394 416 "term.ml" 22 394 417
+type(
+  string
+)
+ident(
+  int_ref s "term.ml" 21 377 389 "term.ml" 21 377 390
+)
+"term.ml" 22 394 399 "term.ml" 22 394 417
+call(
+  tail
+)
+type(
+  unit
+)
+"term.ml" 23 418 432 "term.ml" 23 418 434
+type(
+  wff
+)
+ident(
+  def t1 "term.ml" 24 442 447 "term.ml" 30 630 651
+)
+"term.ml" 23 418 435 "term.ml" 23 418 437
+type(
+  wff
+)
+ident(
+  def t2 "term.ml" 24 442 447 "term.ml" 30 630 651
+)
+"term.ml" 23 418 422 "term.ml" 23 418 438
+type(
+  wff
+)
+"term.ml" 24 442 447 "term.ml" 24 442 454
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 24 442 455 "term.ml" 24 442 458
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 20 341 362 "term.ml" 20 341 365
+)
+"term.ml" 24 442 459 "term.ml" 24 442 463
+type(
+  (unit, Format.formatter, unit) format
+)
+"term.ml" 24 442 447 "term.ml" 24 442 463
+call(
+  stack
+)
+type(
+  unit
+)
+"term.ml" 25 465 473 "term.ml" 25 465 475
+type(
+  int
+)
+ident(
+  int_ref pr "term.ml" 20 341 359 "term.ml" 20 341 361
+)
+"term.ml" 25 465 476 "term.ml" 25 465 477
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"term.ml" 25 465 478 "term.ml" 25 465 479
+type(
+  int
+)
+"term.ml" 25 465 473 "term.ml" 25 465 479
+type(
+  bool
+)
+"term.ml" 25 465 485 "term.ml" 25 465 492
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 25 465 493 "term.ml" 25 465 496
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 20 341 362 "term.ml" 20 341 365
+)
+"term.ml" 25 465 497 "term.ml" 25 465 500
+type(
+  (unit, Format.formatter, unit) format
+)
+"term.ml" 25 465 485 "term.ml" 25 465 500
+call(
+  stack
+)
+type(
+  unit
+)
+"term.ml" 25 465 470 "term.ml" 25 465 500
+type(
+  unit
+)
+"term.ml" 26 502 507 "term.ml" 26 502 514
+type(
+  Format.formatter ->
+  ((Format.formatter -> wff -> unit) ->
+   wff -> (Format.formatter -> wff -> unit) -> wff -> unit, Format.formatter,
+   unit)
+  format ->
+  (Format.formatter -> wff -> unit) ->
+  wff -> (Format.formatter -> wff -> unit) -> wff -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 26 502 515 "term.ml" 26 502 518
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 20 341 362 "term.ml" 20 341 365
+)
+"term.ml" 26 502 519 "term.ml" 26 502 531
+type(
+  ((Format.formatter -> wff -> unit) ->
+   wff -> (Format.formatter -> wff -> unit) -> wff -> unit, Format.formatter,
+   unit)
+  format
+)
+"term.ml" 27 532 546 "term.ml" 27 532 555
+type(
+  int -> Format.formatter -> wff -> unit
+)
+ident(
+  int_ref print_wff "term.ml" 20 341 349 "term.ml" 20 341 358
+)
+"term.ml" 27 532 556 "term.ml" 27 532 557
+type(
+  int
+)
+"term.ml" 27 532 545 "term.ml" 27 532 558
+call(
+  stack
+)
+type(
+  Format.formatter -> wff -> unit
+)
+"term.ml" 27 532 559 "term.ml" 27 532 561
+type(
+  wff
+)
+ident(
+  int_ref t1 "term.ml" 23 418 432 "term.ml" 23 418 434
+)
+"term.ml" 28 562 576 "term.ml" 28 562 585
+type(
+  int -> Format.formatter -> wff -> unit
+)
+ident(
+  int_ref print_wff "term.ml" 20 341 349 "term.ml" 20 341 358
+)
+"term.ml" 28 562 586 "term.ml" 28 562 587
+type(
+  int
+)
+"term.ml" 28 562 575 "term.ml" 28 562 588
+call(
+  stack
+)
+type(
+  Format.formatter -> wff -> unit
+)
+"term.ml" 28 562 589 "term.ml" 28 562 591
+type(
+  wff
+)
+ident(
+  int_ref t2 "term.ml" 23 418 435 "term.ml" 23 418 437
+)
+"term.ml" 26 502 507 "term.ml" 28 562 591
+call(
+  stack
+)
+type(
+  unit
+)
+"term.ml" 29 593 601 "term.ml" 29 593 603
+type(
+  int
+)
+ident(
+  int_ref pr "term.ml" 20 341 359 "term.ml" 20 341 361
+)
+"term.ml" 29 593 604 "term.ml" 29 593 605
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"term.ml" 29 593 606 "term.ml" 29 593 607
+type(
+  int
+)
+"term.ml" 29 593 601 "term.ml" 29 593 607
+type(
+  bool
+)
+"term.ml" 29 593 613 "term.ml" 29 593 620
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 29 593 621 "term.ml" 29 593 624
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 20 341 362 "term.ml" 20 341 365
+)
+"term.ml" 29 593 625 "term.ml" 29 593 628
+type(
+  (unit, Format.formatter, unit) format
+)
+"term.ml" 29 593 613 "term.ml" 29 593 628
+call(
+  stack
+)
+type(
+  unit
+)
+"term.ml" 29 593 598 "term.ml" 29 593 628
+type(
+  unit
+)
+"term.ml" 30 630 635 "term.ml" 30 630 642
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 30 630 643 "term.ml" 30 630 646
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 20 341 362 "term.ml" 20 341 365
+)
+"term.ml" 30 630 647 "term.ml" 30 630 651
+type(
+  (unit, Format.formatter, unit) format
+)
+"term.ml" 30 630 635 "term.ml" 30 630 651
+call(
+  tail
+)
+type(
+  unit
+)
+"term.ml" 29 593 598 "term.ml" 30 630 651
+type(
+  unit
+)
+"term.ml" 26 502 507 "term.ml" 30 630 651
+type(
+  unit
+)
+"term.ml" 25 465 470 "term.ml" 30 630 651
+type(
+  unit
+)
+"term.ml" 24 442 447 "term.ml" 30 630 651
+type(
+  unit
+)
+"term.ml" 31 652 674 "term.ml" 31 652 676
+type(
+  wff
+)
+ident(
+  def t1 "term.ml" 32 701 713 "term.ml" 39 922 943
+)
+"term.ml" 31 652 677 "term.ml" 31 652 679
+type(
+  wff
+)
+ident(
+  def t2 "term.ml" 32 701 713 "term.ml" 39 922 943
+)
+"term.ml" 31 652 664 "term.ml" 31 652 680
+type(
+  wff
+)
+"term.ml" 31 652 691 "term.ml" 31 652 694
+type(
+  wff
+)
+ident(
+  def t2t "term.ml" 32 701 713 "term.ml" 39 922 943
+)
+"term.ml" 31 652 695 "term.ml" 31 652 698
+type(
+  wff
+)
+ident(
+  def t1t "term.ml" 32 701 713 "term.ml" 39 922 943
+)
+"term.ml" 31 652 681 "term.ml" 31 652 699
+type(
+  wff
+)
+"term.ml" 31 652 656 "term.ml" 31 652 700
+type(
+  wff
+)
+"term.ml" 32 701 713 "term.ml" 32 701 715
+type(
+  wff
+)
+ident(
+  int_ref t1 "term.ml" 31 652 674 "term.ml" 31 652 676
+)
+"term.ml" 32 701 715 "term.ml" 32 701 716
+type(
+  wff -> wff -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"term.ml" 32 701 716 "term.ml" 32 701 719
+type(
+  wff
+)
+ident(
+  int_ref t1t "term.ml" 31 652 695 "term.ml" 31 652 698
+)
+"term.ml" 32 701 713 "term.ml" 32 701 719
+type(
+  bool
+)
+"term.ml" 32 701 720 "term.ml" 32 701 722
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"term.ml" 32 701 723 "term.ml" 32 701 725
+type(
+  wff
+)
+ident(
+  int_ref t2 "term.ml" 31 652 677 "term.ml" 31 652 679
+)
+"term.ml" 32 701 725 "term.ml" 32 701 726
+type(
+  wff -> wff -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"term.ml" 32 701 726 "term.ml" 32 701 729
+type(
+  wff
+)
+ident(
+  int_ref t2t "term.ml" 31 652 691 "term.ml" 31 652 694
+)
+"term.ml" 32 701 723 "term.ml" 32 701 729
+type(
+  bool
+)
+"term.ml" 32 701 713 "term.ml" 32 701 729
+type(
+  bool
+)
+"term.ml" 33 733 738 "term.ml" 33 733 745
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 33 733 746 "term.ml" 33 733 749
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 20 341 362 "term.ml" 20 341 365
+)
+"term.ml" 33 733 750 "term.ml" 33 733 754
+type(
+  (unit, Format.formatter, unit) format
+)
+"term.ml" 33 733 738 "term.ml" 33 733 754
+call(
+  stack
+)
+type(
+  unit
+)
+"term.ml" 34 756 764 "term.ml" 34 756 766
+type(
+  int
+)
+ident(
+  int_ref pr "term.ml" 20 341 359 "term.ml" 20 341 361
+)
+"term.ml" 34 756 767 "term.ml" 34 756 768
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"term.ml" 34 756 769 "term.ml" 34 756 770
+type(
+  int
+)
+"term.ml" 34 756 764 "term.ml" 34 756 770
+type(
+  bool
+)
+"term.ml" 34 756 776 "term.ml" 34 756 783
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 34 756 784 "term.ml" 34 756 787
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 20 341 362 "term.ml" 20 341 365
+)
+"term.ml" 34 756 788 "term.ml" 34 756 791
+type(
+  (unit, Format.formatter, unit) format
+)
+"term.ml" 34 756 776 "term.ml" 34 756 791
+call(
+  stack
+)
+type(
+  unit
+)
+"term.ml" 34 756 761 "term.ml" 34 756 791
+type(
+  unit
+)
+"term.ml" 35 793 798 "term.ml" 35 793 805
+type(
+  Format.formatter ->
+  ((Format.formatter -> wff -> unit) ->
+   wff -> (Format.formatter -> wff -> unit) -> wff -> unit, Format.formatter,
+   unit)
+  format ->
+  (Format.formatter -> wff -> unit) ->
+  wff -> (Format.formatter -> wff -> unit) -> wff -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 35 793 806 "term.ml" 35 793 809
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 20 341 362 "term.ml" 20 341 365
+)
+"term.ml" 35 793 810 "term.ml" 35 793 823
+type(
+  ((Format.formatter -> wff -> unit) ->
+   wff -> (Format.formatter -> wff -> unit) -> wff -> unit, Format.formatter,
+   unit)
+  format
+)
+"term.ml" 36 824 838 "term.ml" 36 824 847
+type(
+  int -> Format.formatter -> wff -> unit
+)
+ident(
+  int_ref print_wff "term.ml" 20 341 349 "term.ml" 20 341 358
+)
+"term.ml" 36 824 848 "term.ml" 36 824 849
+type(
+  int
+)
+"term.ml" 36 824 837 "term.ml" 36 824 850
+call(
+  stack
+)
+type(
+  Format.formatter -> wff -> unit
+)
+"term.ml" 36 824 851 "term.ml" 36 824 853
+type(
+  wff
+)
+ident(
+  int_ref t1 "term.ml" 31 652 674 "term.ml" 31 652 676
+)
+"term.ml" 37 854 868 "term.ml" 37 854 877
+type(
+  int -> Format.formatter -> wff -> unit
+)
+ident(
+  int_ref print_wff "term.ml" 20 341 349 "term.ml" 20 341 358
+)
+"term.ml" 37 854 878 "term.ml" 37 854 879
+type(
+  int
+)
+"term.ml" 37 854 867 "term.ml" 37 854 880
+call(
+  stack
+)
+type(
+  Format.formatter -> wff -> unit
+)
+"term.ml" 37 854 881 "term.ml" 37 854 883
+type(
+  wff
+)
+ident(
+  int_ref t2 "term.ml" 31 652 677 "term.ml" 31 652 679
+)
+"term.ml" 35 793 798 "term.ml" 37 854 883
+call(
+  stack
+)
+type(
+  unit
+)
+"term.ml" 38 885 893 "term.ml" 38 885 895
+type(
+  int
+)
+ident(
+  int_ref pr "term.ml" 20 341 359 "term.ml" 20 341 361
+)
+"term.ml" 38 885 896 "term.ml" 38 885 897
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"term.ml" 38 885 898 "term.ml" 38 885 899
+type(
+  int
+)
+"term.ml" 38 885 893 "term.ml" 38 885 899
+type(
+  bool
+)
+"term.ml" 38 885 905 "term.ml" 38 885 912
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 38 885 913 "term.ml" 38 885 916
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 20 341 362 "term.ml" 20 341 365
+)
+"term.ml" 38 885 917 "term.ml" 38 885 920
+type(
+  (unit, Format.formatter, unit) format
+)
+"term.ml" 38 885 905 "term.ml" 38 885 920
+call(
+  stack
+)
+type(
+  unit
+)
+"term.ml" 38 885 890 "term.ml" 38 885 920
+type(
+  unit
+)
+"term.ml" 39 922 927 "term.ml" 39 922 934
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 39 922 935 "term.ml" 39 922 938
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 20 341 362 "term.ml" 20 341 365
+)
+"term.ml" 39 922 939 "term.ml" 39 922 943
+type(
+  (unit, Format.formatter, unit) format
+)
+"term.ml" 39 922 927 "term.ml" 39 922 943
+call(
+  tail
+)
+type(
+  unit
+)
+"term.ml" 38 885 890 "term.ml" 39 922 943
+type(
+  unit
+)
+"term.ml" 35 793 798 "term.ml" 39 922 943
+type(
+  unit
+)
+"term.ml" 34 756 761 "term.ml" 39 922 943
+type(
+  unit
+)
+"term.ml" 33 733 738 "term.ml" 39 922 943
+type(
+  unit
+)
+"term.ml" 40 944 956 "term.ml" 40 944 958
+type(
+  wff
+)
+ident(
+  def t1 "term.ml" 41 966 971 "term.ml" 47 1155 1176
+)
+"term.ml" 40 944 959 "term.ml" 40 944 961
+type(
+  wff
+)
+ident(
+  def t2 "term.ml" 41 966 971 "term.ml" 47 1155 1176
+)
+"term.ml" 40 944 948 "term.ml" 40 944 962
+type(
+  wff
+)
+"term.ml" 41 966 971 "term.ml" 41 966 978
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 41 966 979 "term.ml" 41 966 982
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 20 341 362 "term.ml" 20 341 365
+)
+"term.ml" 41 966 983 "term.ml" 41 966 987
+type(
+  (unit, Format.formatter, unit) format
+)
+"term.ml" 41 966 971 "term.ml" 41 966 987
+call(
+  stack
+)
+type(
+  unit
+)
+"term.ml" 42 989 997 "term.ml" 42 989 999
+type(
+  int
+)
+ident(
+  int_ref pr "term.ml" 20 341 359 "term.ml" 20 341 361
+)
+"term.ml" 42 989 1000 "term.ml" 42 989 1001
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"term.ml" 42 989 1002 "term.ml" 42 989 1003
+type(
+  int
+)
+"term.ml" 42 989 997 "term.ml" 42 989 1003
+type(
+  bool
+)
+"term.ml" 42 989 1009 "term.ml" 42 989 1016
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 42 989 1017 "term.ml" 42 989 1020
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 20 341 362 "term.ml" 20 341 365
+)
+"term.ml" 42 989 1021 "term.ml" 42 989 1024
+type(
+  (unit, Format.formatter, unit) format
+)
+"term.ml" 42 989 1009 "term.ml" 42 989 1024
+call(
+  stack
+)
+type(
+  unit
+)
+"term.ml" 42 989 994 "term.ml" 42 989 1024
+type(
+  unit
+)
+"term.ml" 43 1026 1031 "term.ml" 43 1026 1038
+type(
+  Format.formatter ->
+  ((Format.formatter -> wff -> unit) ->
+   wff -> (Format.formatter -> wff -> unit) -> wff -> unit, Format.formatter,
+   unit)
+  format ->
+  (Format.formatter -> wff -> unit) ->
+  wff -> (Format.formatter -> wff -> unit) -> wff -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 43 1026 1039 "term.ml" 43 1026 1042
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 20 341 362 "term.ml" 20 341 365
+)
+"term.ml" 43 1026 1043 "term.ml" 43 1026 1056
+type(
+  ((Format.formatter -> wff -> unit) ->
+   wff -> (Format.formatter -> wff -> unit) -> wff -> unit, Format.formatter,
+   unit)
+  format
+)
+"term.ml" 44 1057 1071 "term.ml" 44 1057 1080
+type(
+  int -> Format.formatter -> wff -> unit
+)
+ident(
+  int_ref print_wff "term.ml" 20 341 349 "term.ml" 20 341 358
+)
+"term.ml" 44 1057 1081 "term.ml" 44 1057 1082
+type(
+  int
+)
+"term.ml" 44 1057 1070 "term.ml" 44 1057 1083
+call(
+  stack
+)
+type(
+  Format.formatter -> wff -> unit
+)
+"term.ml" 44 1057 1084 "term.ml" 44 1057 1086
+type(
+  wff
+)
+ident(
+  int_ref t1 "term.ml" 40 944 956 "term.ml" 40 944 958
+)
+"term.ml" 45 1087 1101 "term.ml" 45 1087 1110
+type(
+  int -> Format.formatter -> wff -> unit
+)
+ident(
+  int_ref print_wff "term.ml" 20 341 349 "term.ml" 20 341 358
+)
+"term.ml" 45 1087 1111 "term.ml" 45 1087 1112
+type(
+  int
+)
+"term.ml" 45 1087 1100 "term.ml" 45 1087 1113
+call(
+  stack
+)
+type(
+  Format.formatter -> wff -> unit
+)
+"term.ml" 45 1087 1114 "term.ml" 45 1087 1116
+type(
+  wff
+)
+ident(
+  int_ref t2 "term.ml" 40 944 959 "term.ml" 40 944 961
+)
+"term.ml" 43 1026 1031 "term.ml" 45 1087 1116
+call(
+  stack
+)
+type(
+  unit
+)
+"term.ml" 46 1118 1126 "term.ml" 46 1118 1128
+type(
+  int
+)
+ident(
+  int_ref pr "term.ml" 20 341 359 "term.ml" 20 341 361
+)
+"term.ml" 46 1118 1129 "term.ml" 46 1118 1130
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"term.ml" 46 1118 1131 "term.ml" 46 1118 1132
+type(
+  int
+)
+"term.ml" 46 1118 1126 "term.ml" 46 1118 1132
+type(
+  bool
+)
+"term.ml" 46 1118 1138 "term.ml" 46 1118 1145
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 46 1118 1146 "term.ml" 46 1118 1149
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 20 341 362 "term.ml" 20 341 365
+)
+"term.ml" 46 1118 1150 "term.ml" 46 1118 1153
+type(
+  (unit, Format.formatter, unit) format
+)
+"term.ml" 46 1118 1138 "term.ml" 46 1118 1153
+call(
+  stack
+)
+type(
+  unit
+)
+"term.ml" 46 1118 1123 "term.ml" 46 1118 1153
+type(
+  unit
+)
+"term.ml" 47 1155 1160 "term.ml" 47 1155 1167
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 47 1155 1168 "term.ml" 47 1155 1171
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 20 341 362 "term.ml" 20 341 365
+)
+"term.ml" 47 1155 1172 "term.ml" 47 1155 1176
+type(
+  (unit, Format.formatter, unit) format
+)
+"term.ml" 47 1155 1160 "term.ml" 47 1155 1176
+call(
+  tail
+)
+type(
+  unit
+)
+"term.ml" 46 1118 1123 "term.ml" 47 1155 1176
+type(
+  unit
+)
+"term.ml" 43 1026 1031 "term.ml" 47 1155 1176
+type(
+  unit
+)
+"term.ml" 42 989 994 "term.ml" 47 1155 1176
+type(
+  unit
+)
+"term.ml" 41 966 971 "term.ml" 47 1155 1176
+type(
+  unit
+)
+"term.ml" 48 1177 1188 "term.ml" 48 1177 1190
+type(
+  wff
+)
+ident(
+  def t1 "term.ml" 49 1198 1203 "term.ml" 55 1387 1408
+)
+"term.ml" 48 1177 1191 "term.ml" 48 1177 1193
+type(
+  wff
+)
+ident(
+  def t2 "term.ml" 49 1198 1203 "term.ml" 55 1387 1408
+)
+"term.ml" 48 1177 1181 "term.ml" 48 1177 1194
+type(
+  wff
+)
+"term.ml" 49 1198 1203 "term.ml" 49 1198 1210
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 49 1198 1211 "term.ml" 49 1198 1214
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 20 341 362 "term.ml" 20 341 365
+)
+"term.ml" 49 1198 1215 "term.ml" 49 1198 1219
+type(
+  (unit, Format.formatter, unit) format
+)
+"term.ml" 49 1198 1203 "term.ml" 49 1198 1219
+call(
+  stack
+)
+type(
+  unit
+)
+"term.ml" 50 1221 1229 "term.ml" 50 1221 1231
+type(
+  int
+)
+ident(
+  int_ref pr "term.ml" 20 341 359 "term.ml" 20 341 361
+)
+"term.ml" 50 1221 1232 "term.ml" 50 1221 1233
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"term.ml" 50 1221 1234 "term.ml" 50 1221 1235
+type(
+  int
+)
+"term.ml" 50 1221 1229 "term.ml" 50 1221 1235
+type(
+  bool
+)
+"term.ml" 50 1221 1241 "term.ml" 50 1221 1248
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 50 1221 1249 "term.ml" 50 1221 1252
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 20 341 362 "term.ml" 20 341 365
+)
+"term.ml" 50 1221 1253 "term.ml" 50 1221 1256
+type(
+  (unit, Format.formatter, unit) format
+)
+"term.ml" 50 1221 1241 "term.ml" 50 1221 1256
+call(
+  stack
+)
+type(
+  unit
+)
+"term.ml" 50 1221 1226 "term.ml" 50 1221 1256
+type(
+  unit
+)
+"term.ml" 51 1258 1263 "term.ml" 51 1258 1270
+type(
+  Format.formatter ->
+  ((Format.formatter -> wff -> unit) ->
+   wff -> (Format.formatter -> wff -> unit) -> wff -> unit, Format.formatter,
+   unit)
+  format ->
+  (Format.formatter -> wff -> unit) ->
+  wff -> (Format.formatter -> wff -> unit) -> wff -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 51 1258 1271 "term.ml" 51 1258 1274
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 20 341 362 "term.ml" 20 341 365
+)
+"term.ml" 51 1258 1275 "term.ml" 51 1258 1288
+type(
+  ((Format.formatter -> wff -> unit) ->
+   wff -> (Format.formatter -> wff -> unit) -> wff -> unit, Format.formatter,
+   unit)
+  format
+)
+"term.ml" 52 1289 1303 "term.ml" 52 1289 1312
+type(
+  int -> Format.formatter -> wff -> unit
+)
+ident(
+  int_ref print_wff "term.ml" 20 341 349 "term.ml" 20 341 358
+)
+"term.ml" 52 1289 1313 "term.ml" 52 1289 1314
+type(
+  int
+)
+"term.ml" 52 1289 1302 "term.ml" 52 1289 1315
+call(
+  stack
+)
+type(
+  Format.formatter -> wff -> unit
+)
+"term.ml" 52 1289 1316 "term.ml" 52 1289 1318
+type(
+  wff
+)
+ident(
+  int_ref t1 "term.ml" 48 1177 1188 "term.ml" 48 1177 1190
+)
+"term.ml" 53 1319 1333 "term.ml" 53 1319 1342
+type(
+  int -> Format.formatter -> wff -> unit
+)
+ident(
+  int_ref print_wff "term.ml" 20 341 349 "term.ml" 20 341 358
+)
+"term.ml" 53 1319 1343 "term.ml" 53 1319 1344
+type(
+  int
+)
+"term.ml" 53 1319 1332 "term.ml" 53 1319 1345
+call(
+  stack
+)
+type(
+  Format.formatter -> wff -> unit
+)
+"term.ml" 53 1319 1346 "term.ml" 53 1319 1348
+type(
+  wff
+)
+ident(
+  int_ref t2 "term.ml" 48 1177 1191 "term.ml" 48 1177 1193
+)
+"term.ml" 51 1258 1263 "term.ml" 53 1319 1348
+call(
+  stack
+)
+type(
+  unit
+)
+"term.ml" 54 1350 1358 "term.ml" 54 1350 1360
+type(
+  int
+)
+ident(
+  int_ref pr "term.ml" 20 341 359 "term.ml" 20 341 361
+)
+"term.ml" 54 1350 1361 "term.ml" 54 1350 1362
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"term.ml" 54 1350 1363 "term.ml" 54 1350 1364
+type(
+  int
+)
+"term.ml" 54 1350 1358 "term.ml" 54 1350 1364
+type(
+  bool
+)
+"term.ml" 54 1350 1370 "term.ml" 54 1350 1377
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 54 1350 1378 "term.ml" 54 1350 1381
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 20 341 362 "term.ml" 20 341 365
+)
+"term.ml" 54 1350 1382 "term.ml" 54 1350 1385
+type(
+  (unit, Format.formatter, unit) format
+)
+"term.ml" 54 1350 1370 "term.ml" 54 1350 1385
+call(
+  stack
+)
+type(
+  unit
+)
+"term.ml" 54 1350 1355 "term.ml" 54 1350 1385
+type(
+  unit
+)
+"term.ml" 55 1387 1392 "term.ml" 55 1387 1399
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 55 1387 1400 "term.ml" 55 1387 1403
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 20 341 362 "term.ml" 20 341 365
+)
+"term.ml" 55 1387 1404 "term.ml" 55 1387 1408
+type(
+  (unit, Format.formatter, unit) format
+)
+"term.ml" 55 1387 1392 "term.ml" 55 1387 1408
+call(
+  tail
+)
+type(
+  unit
+)
+"term.ml" 54 1350 1355 "term.ml" 55 1387 1408
+type(
+  unit
+)
+"term.ml" 51 1258 1263 "term.ml" 55 1387 1408
+type(
+  unit
+)
+"term.ml" 50 1221 1226 "term.ml" 55 1387 1408
+type(
+  unit
+)
+"term.ml" 49 1198 1203 "term.ml" 55 1387 1408
+type(
+  unit
+)
+"term.ml" 56 1409 1413 "term.ml" 56 1409 1419
+type(
+  wff
+)
+"term.ml" 57 1423 1428 "term.ml" 57 1423 1435
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 57 1423 1436 "term.ml" 57 1423 1439
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 20 341 362 "term.ml" 20 341 365
+)
+"term.ml" 57 1423 1440 "term.ml" 57 1423 1446
+type(
+  (unit, Format.formatter, unit) format
+)
+"term.ml" 57 1423 1428 "term.ml" 57 1423 1446
+call(
+  tail
+)
+type(
+  unit
+)
+"term.ml" 58 1447 1451 "term.ml" 58 1447 1457
+type(
+  wff
+)
+"term.ml" 59 1461 1466 "term.ml" 59 1461 1473
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 59 1461 1474 "term.ml" 59 1461 1477
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 20 341 362 "term.ml" 20 341 365
+)
+"term.ml" 59 1461 1478 "term.ml" 59 1461 1485
+type(
+  (unit, Format.formatter, unit) format
+)
+"term.ml" 59 1461 1466 "term.ml" 59 1461 1485
+call(
+  tail
+)
+type(
+  unit
+)
+"term.ml" 60 1486 1497 "term.ml" 60 1486 1498
+type(
+  wff
+)
+ident(
+  def t "term.ml" 61 1502 1507 "term.ml" 62 1529 1557
+)
+"term.ml" 60 1486 1490 "term.ml" 60 1486 1498
+type(
+  wff
+)
+"term.ml" 61 1502 1507 "term.ml" 61 1502 1514
+type(
+  Format.formatter ->
+  ((Format.formatter -> wff -> unit) -> wff -> unit, Format.formatter, unit)
+  format -> (Format.formatter -> wff -> unit) -> wff -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 61 1502 1515 "term.ml" 61 1502 1518
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 20 341 362 "term.ml" 20 341 365
+)
+"term.ml" 61 1502 1519 "term.ml" 61 1502 1528
+type(
+  ((Format.formatter -> wff -> unit) -> wff -> unit, Format.formatter, unit)
+  format
+)
+"term.ml" 62 1529 1543 "term.ml" 62 1529 1552
+type(
+  int -> Format.formatter -> wff -> unit
+)
+ident(
+  int_ref print_wff "term.ml" 20 341 349 "term.ml" 20 341 358
+)
+"term.ml" 62 1529 1553 "term.ml" 62 1529 1554
+type(
+  int
+)
+"term.ml" 62 1529 1542 "term.ml" 62 1529 1555
+call(
+  stack
+)
+type(
+  Format.formatter -> wff -> unit
+)
+"term.ml" 62 1529 1556 "term.ml" 62 1529 1557
+type(
+  wff
+)
+ident(
+  int_ref t "term.ml" 60 1486 1497 "term.ml" 60 1486 1498
+)
+"term.ml" 61 1502 1507 "term.ml" 62 1529 1557
+call(
+  tail
+)
+type(
+  unit
+)
+"term.ml" 20 341 368 "term.ml" 62 1529 1557
+type(
+  wff -> unit
+)
+"term.ml" 91 2167 2171 "term.ml" 91 2167 2177
+type(
+  wffi -> swffi
+)
+ident(
+  def swffit "term.ml" 95 2229 2229 "term.ml" 1 0 -1
+)
+"term.ml" 91 2167 2179 "term.ml" 91 2167 2180
+type(
+  wffi
+)
+ident(
+  def t "term.ml" 92 2189 2191 "term.ml" 93 2204 2227
+)
+"term.ml" 92 2189 2197 "term.ml" 92 2189 2198
+type(
+  wffi
+)
+ident(
+  int_ref t "term.ml" 91 2167 2179 "term.ml" 91 2167 2180
+)
+"term.ml" 93 2204 2208 "term.ml" 93 2204 2209
+type(
+  wffi
+)
+"term.ml" 93 2204 2213 "term.ml" 93 2204 2214
+ident(
+  def t "term.ml" 93 2204 2218 "term.ml" 93 2204 2227
+)
+"term.ml" 93 2204 2208 "term.ml" 93 2204 2214
+type(
+  wffi
+)
+"term.ml" 93 2204 2224 "term.ml" 93 2204 2227
+type(
+  wffi
+)
+ident(
+  int_ref t "term.ml" 93 2204 2208 "term.ml" 93 2204 2214
+)
+"term.ml" 93 2204 2218 "term.ml" 93 2204 2227
+type(
+  swffi
+)
+"term.ml" 92 2189 2191 "term.ml" 93 2204 2227
+type(
+  swffi
+)
+"term.ml" 95 2229 2233 "term.ml" 95 2229 2239
+type(
+  wffi -> swffi
+)
+ident(
+  def swffif "term.ml" 99 2291 2291 "term.ml" 1 0 -1
+)
+"term.ml" 95 2229 2241 "term.ml" 95 2229 2242
+type(
+  wffi
+)
+ident(
+  def t "term.ml" 96 2251 2253 "term.ml" 97 2266 2289
+)
+"term.ml" 96 2251 2259 "term.ml" 96 2251 2260
+type(
+  wffi
+)
+ident(
+  int_ref t "term.ml" 95 2229 2241 "term.ml" 95 2229 2242
+)
+"term.ml" 97 2266 2270 "term.ml" 97 2266 2271
+type(
+  wffi
+)
+"term.ml" 97 2266 2275 "term.ml" 97 2266 2276
+ident(
+  def t "term.ml" 97 2266 2280 "term.ml" 97 2266 2289
+)
+"term.ml" 97 2266 2270 "term.ml" 97 2266 2276
+type(
+  wffi
+)
+"term.ml" 97 2266 2286 "term.ml" 97 2266 2289
+type(
+  wffi
+)
+ident(
+  int_ref t "term.ml" 97 2266 2270 "term.ml" 97 2266 2276
+)
+"term.ml" 97 2266 2280 "term.ml" 97 2266 2289
+type(
+  swffi
+)
+"term.ml" 96 2251 2253 "term.ml" 97 2266 2289
+type(
+  swffi
+)
+"term.ml" 99 2291 2295 "term.ml" 99 2291 2302
+type(
+  wffi -> swffi
+)
+ident(
+  def swffifc "term.ml" 103 2355 2355 "term.ml" 1 0 -1
+)
+"term.ml" 99 2291 2304 "term.ml" 99 2291 2305
+type(
+  wffi
+)
+ident(
+  def t "term.ml" 100 2314 2316 "term.ml" 101 2329 2353
+)
+"term.ml" 100 2314 2322 "term.ml" 100 2314 2323
+type(
+  wffi
+)
+ident(
+  int_ref t "term.ml" 99 2291 2304 "term.ml" 99 2291 2305
+)
+"term.ml" 101 2329 2333 "term.ml" 101 2329 2334
+type(
+  wffi
+)
+"term.ml" 101 2329 2338 "term.ml" 101 2329 2339
+ident(
+  def t "term.ml" 101 2329 2343 "term.ml" 101 2329 2353
+)
+"term.ml" 101 2329 2333 "term.ml" 101 2329 2339
+type(
+  wffi
+)
+"term.ml" 101 2329 2350 "term.ml" 101 2329 2353
+type(
+  wffi
+)
+ident(
+  int_ref t "term.ml" 101 2329 2333 "term.ml" 101 2329 2339
+)
+"term.ml" 101 2329 2343 "term.ml" 101 2329 2353
+type(
+  swffi
+)
+"term.ml" 100 2314 2316 "term.ml" 101 2329 2353
+type(
+  swffi
+)
+"term.ml" 108 2455 2459 "term.ml" 108 2455 2471
+type(
+  unit -> name_env
+)
+ident(
+  def new_name_env "term.ml" 112 2551 2551 "term.ml" 1 0 -1
+)
+"term.ml" 108 2455 2472 "term.ml" 108 2455 2474
+type(
+  unit
+)
+"term.ml" 109 2479 2490 "term.ml" 109 2479 2504
+type(
+  ?random:bool -> int -> (string, int) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"term.ml" 109 2479 2505 "term.ml" 109 2479 2507
+type(
+  int
+)
+"term.ml" 109 2479 2490 "term.ml" 109 2479 2507
+call(
+  stack
+)
+type(
+  (string, int) Hashtbl.t
+)
+"term.ml" 110 2509 2528 "term.ml" 110 2509 2542
+type(
+  ?random:bool -> int -> (int, string) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"term.ml" 110 2509 2543 "term.ml" 110 2509 2546
+type(
+  int
+)
+"term.ml" 110 2509 2528 "term.ml" 110 2509 2546
+call(
+  stack
+)
+type(
+  (int, string) Hashtbl.t
+)
+"term.ml" 108 2455 2477 "term.ml" 111 2547 2550
+type(
+  name_env
+)
+"term.ml" 112 2551 2555 "term.ml" 112 2551 2564
+type(
+  name_env
+)
+ident(
+  def empty_env "term.ml" 117 2642 2642 "term.ml" 1 0 -1
+)
+"term.ml" 113 2569 2580 "term.ml" 113 2569 2594
+type(
+  ?random:bool -> int -> (string, int) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"term.ml" 113 2569 2595 "term.ml" 113 2569 2597
+type(
+  int
+)
+"term.ml" 113 2569 2580 "term.ml" 113 2569 2597
+call(
+  stack
+)
+type(
+  (string, int) Hashtbl.t
+)
+"term.ml" 114 2599 2618 "term.ml" 114 2599 2632
+type(
+  ?random:bool -> int -> (int, string) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"term.ml" 114 2599 2633 "term.ml" 114 2599 2636
+type(
+  int
+)
+"term.ml" 114 2599 2618 "term.ml" 114 2599 2636
+call(
+  stack
+)
+type(
+  (int, string) Hashtbl.t
+)
+"term.ml" 112 2551 2567 "term.ml" 115 2637 2640
+type(
+  name_env
+)
+"term.ml" 117 2642 2650 "term.ml" 117 2642 2667
+type(
+  name_env -> int ref -> wff -> wffi
+)
+ident(
+  def convert_name_impl "term.ml" 117 2642 2642 "term.ml" 1 0 -1
+)
+"term.ml" 117 2642 2668 "term.ml" 117 2642 2671
+type(
+  name_env
+)
+ident(
+  def env "term.ml" 117 2642 2672 "term.ml" 144 3589 3610
+)
+"term.ml" 117 2642 2672 "term.ml" 117 2642 2675
+type(
+  int ref
+)
+ident(
+  def num "term.ml" 117 2642 2678 "term.ml" 144 3589 3610
+)
+"term.ml" 118 2687 2699 "term.ml" 118 2687 2700
+type(
+  string
+)
+ident(
+  def s "term.ml" 119 2704 2709 "term.ml" 127 2943 2951
+)
+"term.ml" 118 2687 2691 "term.ml" 118 2687 2700
+type(
+  wff
+)
+"term.ml" 120 2719 2738 "term.ml" 120 2719 2750
+type(
+  (string, int) Hashtbl.t -> string -> int
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"term.ml" 120 2719 2751 "term.ml" 120 2719 2754
+type(
+  name_env
+)
+ident(
+  int_ref env "term.ml" 117 2642 2668 "term.ml" 117 2642 2671
+)
+"term.ml" 120 2719 2751 "term.ml" 120 2719 2759
+type(
+  (string, int) Hashtbl.t
+)
+"term.ml" 120 2719 2760 "term.ml" 120 2719 2761
+type(
+  string
+)
+ident(
+  int_ref s "term.ml" 118 2687 2699 "term.ml" 118 2687 2700
+)
+"term.ml" 120 2719 2737 "term.ml" 120 2719 2762
+call(
+  stack
+)
+type(
+  int
+)
+"term.ml" 120 2719 2728 "term.ml" 120 2719 2762
+type(
+  wffi
+)
+"term.ml" 121 2763 2775 "term.ml" 121 2763 2784
+type(
+  exn
+)
+"term.ml" 122 2788 2801 "term.ml" 122 2788 2802
+type(
+  wffi
+)
+ident(
+  def t "term.ml" 123 2822 2831 "term.ml" 126 2932 2942
+)
+"term.ml" 122 2788 2814 "term.ml" 122 2788 2815
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"term.ml" 122 2788 2815 "term.ml" 122 2788 2818
+type(
+  int ref
+)
+ident(
+  int_ref num "term.ml" 117 2642 2672 "term.ml" 117 2642 2675
+)
+"term.ml" 122 2788 2814 "term.ml" 122 2788 2818
+type(
+  int
+)
+"term.ml" 122 2788 2805 "term.ml" 122 2788 2818
+type(
+  wffi
+)
+"term.ml" 123 2822 2831 "term.ml" 123 2822 2842
+type(
+  (string, int) Hashtbl.t -> string -> int -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"term.ml" 123 2822 2843 "term.ml" 123 2822 2846
+type(
+  name_env
+)
+ident(
+  int_ref env "term.ml" 117 2642 2668 "term.ml" 117 2642 2671
+)
+"term.ml" 123 2822 2843 "term.ml" 123 2822 2851
+type(
+  (string, int) Hashtbl.t
+)
+"term.ml" 123 2822 2852 "term.ml" 123 2822 2853
+type(
+  string
+)
+ident(
+  int_ref s "term.ml" 118 2687 2699 "term.ml" 118 2687 2700
+)
+"term.ml" 123 2822 2854 "term.ml" 123 2822 2855
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"term.ml" 123 2822 2855 "term.ml" 123 2822 2858
+type(
+  int ref
+)
+ident(
+  int_ref num "term.ml" 117 2642 2672 "term.ml" 117 2642 2675
+)
+"term.ml" 123 2822 2854 "term.ml" 123 2822 2858
+type(
+  int
+)
+"term.ml" 123 2822 2831 "term.ml" 123 2822 2858
+call(
+  stack
+)
+type(
+  unit
+)
+"term.ml" 124 2860 2869 "term.ml" 124 2860 2880
+type(
+  (int, string) Hashtbl.t -> int -> string -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"term.ml" 124 2860 2881 "term.ml" 124 2860 2884
+type(
+  name_env
+)
+ident(
+  int_ref env "term.ml" 117 2642 2668 "term.ml" 117 2642 2671
+)
+"term.ml" 124 2860 2881 "term.ml" 124 2860 2897
+type(
+  (int, string) Hashtbl.t
+)
+"term.ml" 124 2860 2898 "term.ml" 124 2860 2899
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"term.ml" 124 2860 2899 "term.ml" 124 2860 2902
+type(
+  int ref
+)
+ident(
+  int_ref num "term.ml" 117 2642 2672 "term.ml" 117 2642 2675
+)
+"term.ml" 124 2860 2898 "term.ml" 124 2860 2902
+type(
+  int
+)
+"term.ml" 124 2860 2903 "term.ml" 124 2860 2904
+type(
+  string
+)
+ident(
+  int_ref s "term.ml" 118 2687 2699 "term.ml" 118 2687 2700
+)
+"term.ml" 124 2860 2869 "term.ml" 124 2860 2904
+call(
+  stack
+)
+type(
+  unit
+)
+"term.ml" 125 2906 2915 "term.ml" 125 2906 2918
+type(
+  int ref
+)
+ident(
+  int_ref num "term.ml" 117 2642 2672 "term.ml" 117 2642 2675
+)
+"term.ml" 125 2906 2919 "term.ml" 125 2906 2921
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"term.ml" 125 2906 2922 "term.ml" 125 2906 2923
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"term.ml" 125 2906 2923 "term.ml" 125 2906 2926
+type(
+  int ref
+)
+ident(
+  int_ref num "term.ml" 117 2642 2672 "term.ml" 117 2642 2675
+)
+"term.ml" 125 2906 2922 "term.ml" 125 2906 2926
+type(
+  int
+)
+"term.ml" 125 2906 2927 "term.ml" 125 2906 2928
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"term.ml" 125 2906 2929 "term.ml" 125 2906 2930
+type(
+  int
+)
+"term.ml" 125 2906 2922 "term.ml" 125 2906 2930
+type(
+  int
+)
+"term.ml" 125 2906 2915 "term.ml" 125 2906 2930
+type(
+  unit
+)
+"term.ml" 126 2932 2941 "term.ml" 126 2932 2942
+type(
+  wffi
+)
+ident(
+  int_ref t "term.ml" 122 2788 2801 "term.ml" 122 2788 2802
+)
+"term.ml" 125 2906 2915 "term.ml" 126 2932 2942
+type(
+  wffi
+)
+"term.ml" 124 2860 2869 "term.ml" 126 2932 2942
+type(
+  wffi
+)
+"term.ml" 123 2822 2831 "term.ml" 126 2932 2942
+type(
+  wffi
+)
+"term.ml" 122 2788 2797 "term.ml" 126 2932 2942
+type(
+  wffi
+)
+"term.ml" 119 2704 2709 "term.ml" 127 2943 2951
+type(
+  wffi
+)
+"term.ml" 128 2952 2966 "term.ml" 128 2952 2968
+type(
+  wff
+)
+ident(
+  def t1 "term.ml" 129 2976 2981 "term.ml" 130 3022 3067
+)
+"term.ml" 128 2952 2969 "term.ml" 128 2952 2971
+type(
+  wff
+)
+ident(
+  def t2 "term.ml" 129 2976 2981 "term.ml" 130 3022 3067
+)
+"term.ml" 128 2952 2956 "term.ml" 128 2952 2972
+type(
+  wff
+)
+"term.ml" 129 2976 2992 "term.ml" 129 2976 3009
+type(
+  name_env -> int ref -> wff -> wffi
+)
+ident(
+  int_ref convert_name_impl "term.ml" 117 2642 2650 "term.ml" 117 2642 2667
+)
+"term.ml" 129 2976 3010 "term.ml" 129 2976 3013
+type(
+  name_env
+)
+ident(
+  int_ref env "term.ml" 117 2642 2668 "term.ml" 117 2642 2671
+)
+"term.ml" 129 2976 3014 "term.ml" 129 2976 3017
+type(
+  int ref
+)
+ident(
+  int_ref num "term.ml" 117 2642 2672 "term.ml" 117 2642 2675
+)
+"term.ml" 129 2976 3018 "term.ml" 129 2976 3020
+type(
+  wff
+)
+ident(
+  int_ref t1 "term.ml" 128 2952 2966 "term.ml" 128 2952 2968
+)
+"term.ml" 129 2976 2992 "term.ml" 129 2976 3020
+call(
+  stack
+)
+type(
+  wffi
+)
+"term.ml" 130 3022 3038 "term.ml" 130 3022 3055
+type(
+  name_env -> int ref -> wff -> wffi
+)
+ident(
+  int_ref convert_name_impl "term.ml" 117 2642 2650 "term.ml" 117 2642 2667
+)
+"term.ml" 130 3022 3056 "term.ml" 130 3022 3059
+type(
+  name_env
+)
+ident(
+  int_ref env "term.ml" 117 2642 2668 "term.ml" 117 2642 2671
+)
+"term.ml" 130 3022 3060 "term.ml" 130 3022 3063
+type(
+  int ref
+)
+ident(
+  int_ref num "term.ml" 117 2642 2672 "term.ml" 117 2642 2675
+)
+"term.ml" 130 3022 3064 "term.ml" 130 3022 3066
+type(
+  wff
+)
+ident(
+  int_ref t2 "term.ml" 128 2952 2969 "term.ml" 128 2952 2971
+)
+"term.ml" 130 3022 3038 "term.ml" 130 3022 3066
+call(
+  stack
+)
+type(
+  wffi
+)
+"term.ml" 129 2976 2981 "term.ml" 130 3022 3067
+type(
+  wffi
+)
+"term.ml" 131 3068 3090 "term.ml" 131 3068 3092
+type(
+  wff
+)
+ident(
+  def t1 "term.ml" 132 3116 3128 "term.ml" 135 3242 3295
+)
+"term.ml" 131 3068 3093 "term.ml" 131 3068 3095
+type(
+  wff
+)
+ident(
+  def t2 "term.ml" 132 3116 3128 "term.ml" 135 3242 3295
+)
+"term.ml" 131 3068 3080 "term.ml" 131 3068 3096
+type(
+  wff
+)
+"term.ml" 131 3068 3106 "term.ml" 131 3068 3109
+type(
+  wff
+)
+ident(
+  def t2t "term.ml" 132 3116 3128 "term.ml" 135 3242 3295
+)
+"term.ml" 131 3068 3110 "term.ml" 131 3068 3113
+type(
+  wff
+)
+ident(
+  def t1t "term.ml" 132 3116 3128 "term.ml" 135 3242 3295
+)
+"term.ml" 131 3068 3097 "term.ml" 131 3068 3114
+type(
+  wff
+)
+"term.ml" 131 3068 3072 "term.ml" 131 3068 3115
+type(
+  wff
+)
+"term.ml" 132 3116 3128 "term.ml" 132 3116 3130
+type(
+  wff
+)
+ident(
+  int_ref t1 "term.ml" 131 3068 3090 "term.ml" 131 3068 3092
+)
+"term.ml" 132 3116 3130 "term.ml" 132 3116 3131
+type(
+  wff -> wff -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"term.ml" 132 3116 3131 "term.ml" 132 3116 3134
+type(
+  wff
+)
+ident(
+  int_ref t1t "term.ml" 131 3068 3110 "term.ml" 131 3068 3113
+)
+"term.ml" 132 3116 3128 "term.ml" 132 3116 3134
+type(
+  bool
+)
+"term.ml" 132 3116 3135 "term.ml" 132 3116 3137
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"term.ml" 132 3116 3138 "term.ml" 132 3116 3140
+type(
+  wff
+)
+ident(
+  int_ref t2 "term.ml" 131 3068 3093 "term.ml" 131 3068 3095
+)
+"term.ml" 132 3116 3140 "term.ml" 132 3116 3141
+type(
+  wff -> wff -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"term.ml" 132 3116 3141 "term.ml" 132 3116 3144
+type(
+  wff
+)
+ident(
+  int_ref t2t "term.ml" 131 3068 3106 "term.ml" 131 3068 3109
+)
+"term.ml" 132 3116 3138 "term.ml" 132 3116 3144
+type(
+  bool
+)
+"term.ml" 132 3116 3128 "term.ml" 132 3116 3144
+type(
+  bool
+)
+"term.ml" 133 3148 3157 "term.ml" 133 3148 3160
+type(
+  wffi
+)
+ident(
+  def ct1 "term.ml" 134 3195 3200 "term.ml" 135 3242 3295
+)
+"term.ml" 133 3148 3163 "term.ml" 133 3148 3180
+type(
+  name_env -> int ref -> wff -> wffi
+)
+ident(
+  int_ref convert_name_impl "term.ml" 117 2642 2650 "term.ml" 117 2642 2667
+)
+"term.ml" 133 3148 3181 "term.ml" 133 3148 3184
+type(
+  name_env
+)
+ident(
+  int_ref env "term.ml" 117 2642 2668 "term.ml" 117 2642 2671
+)
+"term.ml" 133 3148 3185 "term.ml" 133 3148 3188
+type(
+  int ref
+)
+ident(
+  int_ref num "term.ml" 117 2642 2672 "term.ml" 117 2642 2675
+)
+"term.ml" 133 3148 3189 "term.ml" 133 3148 3191
+type(
+  wff
+)
+ident(
+  int_ref t1 "term.ml" 131 3068 3090 "term.ml" 131 3068 3092
+)
+"term.ml" 133 3148 3163 "term.ml" 133 3148 3191
+call(
+  stack
+)
+type(
+  wffi
+)
+"term.ml" 134 3195 3204 "term.ml" 134 3195 3207
+type(
+  wffi
+)
+ident(
+  def ct2 "term.ml" 135 3242 3247 "term.ml" 135 3242 3295
+)
+"term.ml" 134 3195 3210 "term.ml" 134 3195 3227
+type(
+  name_env -> int ref -> wff -> wffi
+)
+ident(
+  int_ref convert_name_impl "term.ml" 117 2642 2650 "term.ml" 117 2642 2667
+)
+"term.ml" 134 3195 3228 "term.ml" 134 3195 3231
+type(
+  name_env
+)
+ident(
+  int_ref env "term.ml" 117 2642 2668 "term.ml" 117 2642 2671
+)
+"term.ml" 134 3195 3232 "term.ml" 134 3195 3235
+type(
+  int ref
+)
+ident(
+  int_ref num "term.ml" 117 2642 2672 "term.ml" 117 2642 2675
+)
+"term.ml" 134 3195 3236 "term.ml" 134 3195 3238
+type(
+  wff
+)
+ident(
+  int_ref t2 "term.ml" 131 3068 3093 "term.ml" 131 3068 3095
+)
+"term.ml" 134 3195 3210 "term.ml" 134 3195 3238
+call(
+  stack
+)
+type(
+  wffi
+)
+"term.ml" 135 3242 3267 "term.ml" 135 3242 3270
+type(
+  wffi
+)
+ident(
+  int_ref ct1 "term.ml" 133 3148 3157 "term.ml" 133 3148 3160
+)
+"term.ml" 135 3242 3271 "term.ml" 135 3242 3274
+type(
+  wffi
+)
+ident(
+  int_ref ct2 "term.ml" 134 3195 3204 "term.ml" 134 3195 3207
+)
+"term.ml" 135 3242 3256 "term.ml" 135 3242 3275
+type(
+  wffi
+)
+"term.ml" 135 3242 3286 "term.ml" 135 3242 3289
+type(
+  wffi
+)
+ident(
+  int_ref ct2 "term.ml" 134 3195 3204 "term.ml" 134 3195 3207
+)
+"term.ml" 135 3242 3290 "term.ml" 135 3242 3293
+type(
+  wffi
+)
+ident(
+  int_ref ct1 "term.ml" 133 3148 3157 "term.ml" 133 3148 3160
+)
+"term.ml" 135 3242 3276 "term.ml" 135 3242 3294
+type(
+  wffi
+)
+"term.ml" 135 3242 3247 "term.ml" 135 3242 3295
+type(
+  wffi
+)
+"term.ml" 134 3195 3200 "term.ml" 135 3242 3295
+type(
+  wffi
+)
+"term.ml" 133 3148 3153 "term.ml" 135 3242 3295
+type(
+  wffi
+)
+"term.ml" 136 3296 3308 "term.ml" 136 3296 3310
+type(
+  wff
+)
+ident(
+  def t1 "term.ml" 137 3318 3323 "term.ml" 138 3362 3405
+)
+"term.ml" 136 3296 3311 "term.ml" 136 3296 3313
+type(
+  wff
+)
+ident(
+  def t2 "term.ml" 137 3318 3323 "term.ml" 138 3362 3405
+)
+"term.ml" 136 3296 3300 "term.ml" 136 3296 3314
+type(
+  wff
+)
+"term.ml" 137 3318 3332 "term.ml" 137 3318 3349
+type(
+  name_env -> int ref -> wff -> wffi
+)
+ident(
+  int_ref convert_name_impl "term.ml" 117 2642 2650 "term.ml" 117 2642 2667
+)
+"term.ml" 137 3318 3350 "term.ml" 137 3318 3353
+type(
+  name_env
+)
+ident(
+  int_ref env "term.ml" 117 2642 2668 "term.ml" 117 2642 2671
+)
+"term.ml" 137 3318 3354 "term.ml" 137 3318 3357
+type(
+  int ref
+)
+ident(
+  int_ref num "term.ml" 117 2642 2672 "term.ml" 117 2642 2675
+)
+"term.ml" 137 3318 3358 "term.ml" 137 3318 3360
+type(
+  wff
+)
+ident(
+  int_ref t1 "term.ml" 136 3296 3308 "term.ml" 136 3296 3310
+)
+"term.ml" 137 3318 3332 "term.ml" 137 3318 3360
+call(
+  stack
+)
+type(
+  wffi
+)
+"term.ml" 138 3362 3376 "term.ml" 138 3362 3393
+type(
+  name_env -> int ref -> wff -> wffi
+)
+ident(
+  int_ref convert_name_impl "term.ml" 117 2642 2650 "term.ml" 117 2642 2667
+)
+"term.ml" 138 3362 3394 "term.ml" 138 3362 3397
+type(
+  name_env
+)
+ident(
+  int_ref env "term.ml" 117 2642 2668 "term.ml" 117 2642 2671
+)
+"term.ml" 138 3362 3398 "term.ml" 138 3362 3401
+type(
+  int ref
+)
+ident(
+  int_ref num "term.ml" 117 2642 2672 "term.ml" 117 2642 2675
+)
+"term.ml" 138 3362 3402 "term.ml" 138 3362 3404
+type(
+  wff
+)
+ident(
+  int_ref t2 "term.ml" 136 3296 3311 "term.ml" 136 3296 3313
+)
+"term.ml" 138 3362 3376 "term.ml" 138 3362 3404
+call(
+  stack
+)
+type(
+  wffi
+)
+"term.ml" 137 3318 3323 "term.ml" 138 3362 3405
+type(
+  wffi
+)
+"term.ml" 139 3406 3417 "term.ml" 139 3406 3419
+type(
+  wff
+)
+ident(
+  def t1 "term.ml" 140 3427 3432 "term.ml" 141 3470 3512
+)
+"term.ml" 139 3406 3420 "term.ml" 139 3406 3422
+type(
+  wff
+)
+ident(
+  def t2 "term.ml" 140 3427 3432 "term.ml" 141 3470 3512
+)
+"term.ml" 139 3406 3410 "term.ml" 139 3406 3423
+type(
+  wff
+)
+"term.ml" 140 3427 3440 "term.ml" 140 3427 3457
+type(
+  name_env -> int ref -> wff -> wffi
+)
+ident(
+  int_ref convert_name_impl "term.ml" 117 2642 2650 "term.ml" 117 2642 2667
+)
+"term.ml" 140 3427 3458 "term.ml" 140 3427 3461
+type(
+  name_env
+)
+ident(
+  int_ref env "term.ml" 117 2642 2668 "term.ml" 117 2642 2671
+)
+"term.ml" 140 3427 3462 "term.ml" 140 3427 3465
+type(
+  int ref
+)
+ident(
+  int_ref num "term.ml" 117 2642 2672 "term.ml" 117 2642 2675
+)
+"term.ml" 140 3427 3466 "term.ml" 140 3427 3468
+type(
+  wff
+)
+ident(
+  int_ref t1 "term.ml" 139 3406 3417 "term.ml" 139 3406 3419
+)
+"term.ml" 140 3427 3440 "term.ml" 140 3427 3468
+call(
+  stack
+)
+type(
+  wffi
+)
+"term.ml" 141 3470 3483 "term.ml" 141 3470 3500
+type(
+  name_env -> int ref -> wff -> wffi
+)
+ident(
+  int_ref convert_name_impl "term.ml" 117 2642 2650 "term.ml" 117 2642 2667
+)
+"term.ml" 141 3470 3501 "term.ml" 141 3470 3504
+type(
+  name_env
+)
+ident(
+  int_ref env "term.ml" 117 2642 2668 "term.ml" 117 2642 2671
+)
+"term.ml" 141 3470 3505 "term.ml" 141 3470 3508
+type(
+  int ref
+)
+ident(
+  int_ref num "term.ml" 117 2642 2672 "term.ml" 117 2642 2675
+)
+"term.ml" 141 3470 3509 "term.ml" 141 3470 3511
+type(
+  wff
+)
+ident(
+  int_ref t2 "term.ml" 139 3406 3420 "term.ml" 139 3406 3422
+)
+"term.ml" 141 3470 3483 "term.ml" 141 3470 3511
+call(
+  stack
+)
+type(
+  wffi
+)
+"term.ml" 140 3427 3432 "term.ml" 141 3470 3512
+type(
+  wffi
+)
+"term.ml" 142 3513 3524 "term.ml" 142 3513 3525
+type(
+  wff
+)
+ident(
+  def t "term.ml" 142 3513 3529 "term.ml" 142 3513 3566
+)
+"term.ml" 142 3513 3517 "term.ml" 142 3513 3525
+type(
+  wff
+)
+"term.ml" 142 3513 3538 "term.ml" 142 3513 3555
+type(
+  name_env -> int ref -> wff -> wffi
+)
+ident(
+  int_ref convert_name_impl "term.ml" 117 2642 2650 "term.ml" 117 2642 2667
+)
+"term.ml" 142 3513 3556 "term.ml" 142 3513 3559
+type(
+  name_env
+)
+ident(
+  int_ref env "term.ml" 117 2642 2668 "term.ml" 117 2642 2671
+)
+"term.ml" 142 3513 3560 "term.ml" 142 3513 3563
+type(
+  int ref
+)
+ident(
+  int_ref num "term.ml" 117 2642 2672 "term.ml" 117 2642 2675
+)
+"term.ml" 142 3513 3564 "term.ml" 142 3513 3565
+type(
+  wff
+)
+ident(
+  int_ref t "term.ml" 142 3513 3524 "term.ml" 142 3513 3525
+)
+"term.ml" 142 3513 3537 "term.ml" 142 3513 3566
+call(
+  stack
+)
+type(
+  wffi
+)
+"term.ml" 142 3513 3529 "term.ml" 142 3513 3566
+type(
+  wffi
+)
+"term.ml" 143 3567 3571 "term.ml" 143 3567 3577
+type(
+  wff
+)
+"term.ml" 143 3567 3581 "term.ml" 143 3567 3588
+type(
+  wffi
+)
+"term.ml" 144 3589 3593 "term.ml" 144 3589 3599
+type(
+  wff
+)
+"term.ml" 144 3589 3603 "term.ml" 144 3589 3610
+type(
+  wffi
+)
+"term.ml" 117 2642 2678 "term.ml" 144 3589 3610
+type(
+  wff -> wffi
+)
+"term.ml" 146 3612 3616 "term.ml" 146 3612 3628
+type(
+  wff -> wffi * name_env * int
+)
+ident(
+  def convert_name "term.ml" 153 3797 3797 "term.ml" 1 0 -1
+)
+"term.ml" 146 3612 3629 "term.ml" 146 3612 3631
+type(
+  wff
+)
+ident(
+  def tn "term.ml" 147 3634 3636 "term.ml" 150 3728 3742
+)
+"term.ml" 147 3634 3640 "term.ml" 147 3634 3643
+type(
+  name_env
+)
+ident(
+  def env "term.ml" 148 3665 3667 "term.ml" 150 3728 3742
+)
+"term.ml" 147 3634 3646 "term.ml" 147 3634 3658
+type(
+  unit -> name_env
+)
+ident(
+  int_ref new_name_env "term.ml" 108 2455 2459 "term.ml" 108 2455 2471
+)
+"term.ml" 147 3634 3659 "term.ml" 147 3634 3661
+type(
+  unit
+)
+"term.ml" 147 3634 3646 "term.ml" 147 3634 3661
+call(
+  stack
+)
+type(
+  name_env
+)
+"term.ml" 148 3665 3671 "term.ml" 148 3665 3674
+type(
+  int ref
+)
+ident(
+  def num "term.ml" 149 3686 3688 "term.ml" 150 3728 3742
+)
+"term.ml" 148 3665 3677 "term.ml" 148 3665 3680
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"term.ml" 148 3665 3681 "term.ml" 148 3665 3682
+type(
+  int
+)
+"term.ml" 148 3665 3677 "term.ml" 148 3665 3682
+type(
+  int ref
+)
+"term.ml" 149 3686 3692 "term.ml" 149 3686 3693
+type(
+  wffi
+)
+ident(
+  def t "term.ml" 150 3728 3730 "term.ml" 150 3728 3742
+)
+"term.ml" 149 3686 3696 "term.ml" 149 3686 3713
+type(
+  name_env -> int ref -> wff -> wffi
+)
+ident(
+  int_ref convert_name_impl "term.ml" 117 2642 2650 "term.ml" 117 2642 2667
+)
+"term.ml" 149 3686 3714 "term.ml" 149 3686 3717
+type(
+  name_env
+)
+ident(
+  int_ref env "term.ml" 147 3634 3640 "term.ml" 147 3634 3643
+)
+"term.ml" 149 3686 3718 "term.ml" 149 3686 3721
+type(
+  int ref
+)
+ident(
+  int_ref num "term.ml" 148 3665 3671 "term.ml" 148 3665 3674
+)
+"term.ml" 149 3686 3722 "term.ml" 149 3686 3724
+type(
+  wff
+)
+ident(
+  int_ref tn "term.ml" 146 3612 3629 "term.ml" 146 3612 3631
+)
+"term.ml" 149 3686 3696 "term.ml" 149 3686 3724
+call(
+  stack
+)
+type(
+  wffi
+)
+"term.ml" 150 3728 3730 "term.ml" 150 3728 3731
+type(
+  wffi
+)
+ident(
+  int_ref t "term.ml" 149 3686 3692 "term.ml" 149 3686 3693
+)
+"term.ml" 150 3728 3733 "term.ml" 150 3728 3736
+type(
+  name_env
+)
+ident(
+  int_ref env "term.ml" 147 3634 3640 "term.ml" 147 3634 3643
+)
+"term.ml" 150 3728 3738 "term.ml" 150 3728 3739
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"term.ml" 150 3728 3739 "term.ml" 150 3728 3742
+type(
+  int ref
+)
+ident(
+  int_ref num "term.ml" 148 3665 3671 "term.ml" 148 3665 3674
+)
+"term.ml" 150 3728 3738 "term.ml" 150 3728 3742
+type(
+  int
+)
+"term.ml" 150 3728 3730 "term.ml" 150 3728 3742
+type(
+  wffi * name_env * int
+)
+"term.ml" 149 3686 3688 "term.ml" 150 3728 3742
+type(
+  wffi * name_env * int
+)
+"term.ml" 148 3665 3667 "term.ml" 150 3728 3742
+type(
+  wffi * name_env * int
+)
+"term.ml" 147 3634 3636 "term.ml" 150 3728 3742
+type(
+  wffi * name_env * int
+)
+"term.ml" 153 3797 3805 "term.ml" 153 3797 3815
+type(
+  name_env -> int -> Format.formatter -> wffi -> unit
+)
+ident(
+  def print_wffi "term.ml" 153 3797 3797 "term.ml" 1 0 -1
+)
+"term.ml" 153 3797 3816 "term.ml" 153 3797 3819
+type(
+  name_env
+)
+ident(
+  def env "term.ml" 153 3797 3820 "term.ml" 190 4843 4867
+)
+"term.ml" 153 3797 3820 "term.ml" 153 3797 3822
+type(
+  int
+)
+ident(
+  def pr "term.ml" 153 3797 3823 "term.ml" 190 4843 4867
+)
+"term.ml" 153 3797 3823 "term.ml" 153 3797 3826
+type(
+  Format.formatter
+)
+ident(
+  def ppf "term.ml" 153 3797 3829 "term.ml" 190 4843 4867
+)
+"term.ml" 154 3838 3851 "term.ml" 154 3838 3852
+type(
+  int
+)
+ident(
+  def n "term.ml" 155 3856 3862 "term.ml" 159 3983 3992
+)
+"term.ml" 154 3838 3842 "term.ml" 154 3838 3852
+type(
+  wffi
+)
+"term.ml" 156 3872 3880 "term.ml" 156 3872 3887
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 156 3872 3888 "term.ml" 156 3872 3891
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 153 3797 3823 "term.ml" 153 3797 3826
+)
+"term.ml" 156 3872 3892 "term.ml" 156 3872 3896
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"term.ml" 156 3872 3898 "term.ml" 156 3872 3910
+type(
+  (int, string) Hashtbl.t -> int -> string
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"term.ml" 156 3872 3911 "term.ml" 156 3872 3914
+type(
+  name_env
+)
+ident(
+  int_ref env "term.ml" 153 3797 3816 "term.ml" 153 3797 3819
+)
+"term.ml" 156 3872 3911 "term.ml" 156 3872 3927
+type(
+  (int, string) Hashtbl.t
+)
+"term.ml" 156 3872 3928 "term.ml" 156 3872 3929
+type(
+  int
+)
+ident(
+  int_ref n "term.ml" 154 3838 3851 "term.ml" 154 3838 3852
+)
+"term.ml" 156 3872 3897 "term.ml" 156 3872 3930
+call(
+  stack
+)
+type(
+  string
+)
+"term.ml" 156 3872 3880 "term.ml" 156 3872 3930
+call(
+  stack
+)
+type(
+  unit
+)
+"term.ml" 157 3931 3942 "term.ml" 157 3931 3951
+type(
+  exn
+)
+"term.ml" 158 3955 3963 "term.ml" 158 3955 3970
+type(
+  Format.formatter ->
+  (int -> unit, Format.formatter, unit) format -> int -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 158 3955 3971 "term.ml" 158 3955 3974
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 153 3797 3823 "term.ml" 153 3797 3826
+)
+"term.ml" 158 3955 3975 "term.ml" 158 3955 3980
+type(
+  (int -> unit, Format.formatter, unit) format
+)
+"term.ml" 158 3955 3981 "term.ml" 158 3955 3982
+type(
+  int
+)
+ident(
+  int_ref n "term.ml" 154 3838 3851 "term.ml" 154 3838 3852
+)
+"term.ml" 158 3955 3963 "term.ml" 158 3955 3982
+call(
+  tail
+)
+type(
+  unit
+)
+"term.ml" 155 3856 3862 "term.ml" 159 3983 3992
+type(
+  unit
+)
+"term.ml" 160 3993 4008 "term.ml" 160 3993 4010
+type(
+  wffi
+)
+ident(
+  def t1 "term.ml" 161 4018 4024 "term.ml" 167 4210 4232
+)
+"term.ml" 160 3993 4011 "term.ml" 160 3993 4013
+type(
+  wffi
+)
+ident(
+  def t2 "term.ml" 161 4018 4024 "term.ml" 167 4210 4232
+)
+"term.ml" 160 3993 3997 "term.ml" 160 3993 4014
+type(
+  wffi
+)
+"term.ml" 161 4018 4024 "term.ml" 161 4018 4031
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 161 4018 4032 "term.ml" 161 4018 4035
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 153 3797 3823 "term.ml" 153 3797 3826
+)
+"term.ml" 161 4018 4036 "term.ml" 161 4018 4040
+type(
+  (unit, Format.formatter, unit) format
+)
+"term.ml" 161 4018 4024 "term.ml" 161 4018 4040
+call(
+  stack
+)
+type(
+  unit
+)
+"term.ml" 162 4042 4051 "term.ml" 162 4042 4053
+type(
+  int
+)
+ident(
+  int_ref pr "term.ml" 153 3797 3820 "term.ml" 153 3797 3822
+)
+"term.ml" 162 4042 4054 "term.ml" 162 4042 4055
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"term.ml" 162 4042 4056 "term.ml" 162 4042 4057
+type(
+  int
+)
+"term.ml" 162 4042 4051 "term.ml" 162 4042 4057
+type(
+  bool
+)
+"term.ml" 162 4042 4063 "term.ml" 162 4042 4070
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 162 4042 4071 "term.ml" 162 4042 4074
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 153 3797 3823 "term.ml" 153 3797 3826
+)
+"term.ml" 162 4042 4075 "term.ml" 162 4042 4078
+type(
+  (unit, Format.formatter, unit) format
+)
+"term.ml" 162 4042 4063 "term.ml" 162 4042 4078
+call(
+  stack
+)
+type(
+  unit
+)
+"term.ml" 162 4042 4048 "term.ml" 162 4042 4078
+type(
+  unit
+)
+"term.ml" 163 4080 4086 "term.ml" 163 4080 4093
+type(
+  Format.formatter ->
+  ((Format.formatter -> wffi -> unit) ->
+   wffi -> (Format.formatter -> wffi -> unit) -> wffi -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> wffi -> unit) ->
+  wffi -> (Format.formatter -> wffi -> unit) -> wffi -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 163 4080 4094 "term.ml" 163 4080 4097
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 153 3797 3823 "term.ml" 153 3797 3826
+)
+"term.ml" 163 4080 4098 "term.ml" 163 4080 4110
+type(
+  ((Format.formatter -> wffi -> unit) ->
+   wffi -> (Format.formatter -> wffi -> unit) -> wffi -> unit,
+   Format.formatter, unit)
+  format
+)
+"term.ml" 164 4111 4120 "term.ml" 164 4111 4130
+type(
+  name_env -> int -> Format.formatter -> wffi -> unit
+)
+ident(
+  int_ref print_wffi "term.ml" 153 3797 3805 "term.ml" 153 3797 3815
+)
+"term.ml" 164 4111 4131 "term.ml" 164 4111 4134
+type(
+  name_env
+)
+ident(
+  int_ref env "term.ml" 153 3797 3816 "term.ml" 153 3797 3819
+)
+"term.ml" 164 4111 4135 "term.ml" 164 4111 4136
+type(
+  int
+)
+"term.ml" 164 4111 4119 "term.ml" 164 4111 4137
+call(
+  stack
+)
+type(
+  Format.formatter -> wffi -> unit
+)
+"term.ml" 164 4111 4138 "term.ml" 164 4111 4140
+type(
+  wffi
+)
+ident(
+  int_ref t1 "term.ml" 160 3993 4008 "term.ml" 160 3993 4010
+)
+"term.ml" 165 4141 4150 "term.ml" 165 4141 4160
+type(
+  name_env -> int -> Format.formatter -> wffi -> unit
+)
+ident(
+  int_ref print_wffi "term.ml" 153 3797 3805 "term.ml" 153 3797 3815
+)
+"term.ml" 165 4141 4161 "term.ml" 165 4141 4164
+type(
+  name_env
+)
+ident(
+  int_ref env "term.ml" 153 3797 3816 "term.ml" 153 3797 3819
+)
+"term.ml" 165 4141 4165 "term.ml" 165 4141 4166
+type(
+  int
+)
+"term.ml" 165 4141 4149 "term.ml" 165 4141 4167
+call(
+  stack
+)
+type(
+  Format.formatter -> wffi -> unit
+)
+"term.ml" 165 4141 4168 "term.ml" 165 4141 4170
+type(
+  wffi
+)
+ident(
+  int_ref t2 "term.ml" 160 3993 4011 "term.ml" 160 3993 4013
+)
+"term.ml" 163 4080 4086 "term.ml" 165 4141 4170
+call(
+  stack
+)
+type(
+  unit
+)
+"term.ml" 166 4172 4181 "term.ml" 166 4172 4183
+type(
+  int
+)
+ident(
+  int_ref pr "term.ml" 153 3797 3820 "term.ml" 153 3797 3822
+)
+"term.ml" 166 4172 4184 "term.ml" 166 4172 4185
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"term.ml" 166 4172 4186 "term.ml" 166 4172 4187
+type(
+  int
+)
+"term.ml" 166 4172 4181 "term.ml" 166 4172 4187
+type(
+  bool
+)
+"term.ml" 166 4172 4193 "term.ml" 166 4172 4200
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 166 4172 4201 "term.ml" 166 4172 4204
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 153 3797 3823 "term.ml" 153 3797 3826
+)
+"term.ml" 166 4172 4205 "term.ml" 166 4172 4208
+type(
+  (unit, Format.formatter, unit) format
+)
+"term.ml" 166 4172 4193 "term.ml" 166 4172 4208
+call(
+  stack
+)
+type(
+  unit
+)
+"term.ml" 166 4172 4178 "term.ml" 166 4172 4208
+type(
+  unit
+)
+"term.ml" 167 4210 4216 "term.ml" 167 4210 4223
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 167 4210 4224 "term.ml" 167 4210 4227
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 153 3797 3823 "term.ml" 153 3797 3826
+)
+"term.ml" 167 4210 4228 "term.ml" 167 4210 4232
+type(
+  (unit, Format.formatter, unit) format
+)
+"term.ml" 167 4210 4216 "term.ml" 167 4210 4232
+call(
+  tail
+)
+type(
+  unit
+)
+"term.ml" 166 4172 4178 "term.ml" 167 4210 4232
+type(
+  unit
+)
+"term.ml" 163 4080 4086 "term.ml" 167 4210 4232
+type(
+  unit
+)
+"term.ml" 162 4042 4048 "term.ml" 167 4210 4232
+type(
+  unit
+)
+"term.ml" 161 4018 4024 "term.ml" 167 4210 4232
+type(
+  unit
+)
+"term.ml" 168 4233 4246 "term.ml" 168 4233 4248
+type(
+  wffi
+)
+ident(
+  def t1 "term.ml" 169 4256 4262 "term.ml" 175 4449 4471
+)
+"term.ml" 168 4233 4249 "term.ml" 168 4233 4251
+type(
+  wffi
+)
+ident(
+  def t2 "term.ml" 169 4256 4262 "term.ml" 175 4449 4471
+)
+"term.ml" 168 4233 4237 "term.ml" 168 4233 4252
+type(
+  wffi
+)
+"term.ml" 169 4256 4262 "term.ml" 169 4256 4269
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 169 4256 4270 "term.ml" 169 4256 4273
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 153 3797 3823 "term.ml" 153 3797 3826
+)
+"term.ml" 169 4256 4274 "term.ml" 169 4256 4278
+type(
+  (unit, Format.formatter, unit) format
+)
+"term.ml" 169 4256 4262 "term.ml" 169 4256 4278
+call(
+  stack
+)
+type(
+  unit
+)
+"term.ml" 170 4280 4289 "term.ml" 170 4280 4291
+type(
+  int
+)
+ident(
+  int_ref pr "term.ml" 153 3797 3820 "term.ml" 153 3797 3822
+)
+"term.ml" 170 4280 4292 "term.ml" 170 4280 4293
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"term.ml" 170 4280 4294 "term.ml" 170 4280 4295
+type(
+  int
+)
+"term.ml" 170 4280 4289 "term.ml" 170 4280 4295
+type(
+  bool
+)
+"term.ml" 170 4280 4301 "term.ml" 170 4280 4308
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 170 4280 4309 "term.ml" 170 4280 4312
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 153 3797 3823 "term.ml" 153 3797 3826
+)
+"term.ml" 170 4280 4313 "term.ml" 170 4280 4316
+type(
+  (unit, Format.formatter, unit) format
+)
+"term.ml" 170 4280 4301 "term.ml" 170 4280 4316
+call(
+  stack
+)
+type(
+  unit
+)
+"term.ml" 170 4280 4286 "term.ml" 170 4280 4316
+type(
+  unit
+)
+"term.ml" 171 4318 4324 "term.ml" 171 4318 4331
+type(
+  Format.formatter ->
+  ((Format.formatter -> wffi -> unit) ->
+   wffi -> (Format.formatter -> wffi -> unit) -> wffi -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> wffi -> unit) ->
+  wffi -> (Format.formatter -> wffi -> unit) -> wffi -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 171 4318 4332 "term.ml" 171 4318 4335
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 153 3797 3823 "term.ml" 153 3797 3826
+)
+"term.ml" 171 4318 4336 "term.ml" 171 4318 4349
+type(
+  ((Format.formatter -> wffi -> unit) ->
+   wffi -> (Format.formatter -> wffi -> unit) -> wffi -> unit,
+   Format.formatter, unit)
+  format
+)
+"term.ml" 172 4350 4359 "term.ml" 172 4350 4369
+type(
+  name_env -> int -> Format.formatter -> wffi -> unit
+)
+ident(
+  int_ref print_wffi "term.ml" 153 3797 3805 "term.ml" 153 3797 3815
+)
+"term.ml" 172 4350 4370 "term.ml" 172 4350 4373
+type(
+  name_env
+)
+ident(
+  int_ref env "term.ml" 153 3797 3816 "term.ml" 153 3797 3819
+)
+"term.ml" 172 4350 4374 "term.ml" 172 4350 4375
+type(
+  int
+)
+"term.ml" 172 4350 4358 "term.ml" 172 4350 4376
+call(
+  stack
+)
+type(
+  Format.formatter -> wffi -> unit
+)
+"term.ml" 172 4350 4377 "term.ml" 172 4350 4379
+type(
+  wffi
+)
+ident(
+  int_ref t1 "term.ml" 168 4233 4246 "term.ml" 168 4233 4248
+)
+"term.ml" 173 4380 4389 "term.ml" 173 4380 4399
+type(
+  name_env -> int -> Format.formatter -> wffi -> unit
+)
+ident(
+  int_ref print_wffi "term.ml" 153 3797 3805 "term.ml" 153 3797 3815
+)
+"term.ml" 173 4380 4400 "term.ml" 173 4380 4403
+type(
+  name_env
+)
+ident(
+  int_ref env "term.ml" 153 3797 3816 "term.ml" 153 3797 3819
+)
+"term.ml" 173 4380 4404 "term.ml" 173 4380 4405
+type(
+  int
+)
+"term.ml" 173 4380 4388 "term.ml" 173 4380 4406
+call(
+  stack
+)
+type(
+  Format.formatter -> wffi -> unit
+)
+"term.ml" 173 4380 4407 "term.ml" 173 4380 4409
+type(
+  wffi
+)
+ident(
+  int_ref t2 "term.ml" 168 4233 4249 "term.ml" 168 4233 4251
+)
+"term.ml" 171 4318 4324 "term.ml" 173 4380 4409
+call(
+  stack
+)
+type(
+  unit
+)
+"term.ml" 174 4411 4420 "term.ml" 174 4411 4422
+type(
+  int
+)
+ident(
+  int_ref pr "term.ml" 153 3797 3820 "term.ml" 153 3797 3822
+)
+"term.ml" 174 4411 4423 "term.ml" 174 4411 4424
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"term.ml" 174 4411 4425 "term.ml" 174 4411 4426
+type(
+  int
+)
+"term.ml" 174 4411 4420 "term.ml" 174 4411 4426
+type(
+  bool
+)
+"term.ml" 174 4411 4432 "term.ml" 174 4411 4439
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 174 4411 4440 "term.ml" 174 4411 4443
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 153 3797 3823 "term.ml" 153 3797 3826
+)
+"term.ml" 174 4411 4444 "term.ml" 174 4411 4447
+type(
+  (unit, Format.formatter, unit) format
+)
+"term.ml" 174 4411 4432 "term.ml" 174 4411 4447
+call(
+  stack
+)
+type(
+  unit
+)
+"term.ml" 174 4411 4417 "term.ml" 174 4411 4447
+type(
+  unit
+)
+"term.ml" 175 4449 4455 "term.ml" 175 4449 4462
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 175 4449 4463 "term.ml" 175 4449 4466
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 153 3797 3823 "term.ml" 153 3797 3826
+)
+"term.ml" 175 4449 4467 "term.ml" 175 4449 4471
+type(
+  (unit, Format.formatter, unit) format
+)
+"term.ml" 175 4449 4455 "term.ml" 175 4449 4471
+call(
+  tail
+)
+type(
+  unit
+)
+"term.ml" 174 4411 4417 "term.ml" 175 4449 4471
+type(
+  unit
+)
+"term.ml" 171 4318 4324 "term.ml" 175 4449 4471
+type(
+  unit
+)
+"term.ml" 170 4280 4286 "term.ml" 175 4449 4471
+type(
+  unit
+)
+"term.ml" 169 4256 4262 "term.ml" 175 4449 4471
+type(
+  unit
+)
+"term.ml" 176 4472 4484 "term.ml" 176 4472 4486
+type(
+  wffi
+)
+ident(
+  def t1 "term.ml" 177 4494 4500 "term.ml" 183 4687 4709
+)
+"term.ml" 176 4472 4487 "term.ml" 176 4472 4489
+type(
+  wffi
+)
+ident(
+  def t2 "term.ml" 177 4494 4500 "term.ml" 183 4687 4709
+)
+"term.ml" 176 4472 4476 "term.ml" 176 4472 4490
+type(
+  wffi
+)
+"term.ml" 177 4494 4500 "term.ml" 177 4494 4507
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 177 4494 4508 "term.ml" 177 4494 4511
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 153 3797 3823 "term.ml" 153 3797 3826
+)
+"term.ml" 177 4494 4512 "term.ml" 177 4494 4516
+type(
+  (unit, Format.formatter, unit) format
+)
+"term.ml" 177 4494 4500 "term.ml" 177 4494 4516
+call(
+  stack
+)
+type(
+  unit
+)
+"term.ml" 178 4518 4527 "term.ml" 178 4518 4529
+type(
+  int
+)
+ident(
+  int_ref pr "term.ml" 153 3797 3820 "term.ml" 153 3797 3822
+)
+"term.ml" 178 4518 4530 "term.ml" 178 4518 4531
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"term.ml" 178 4518 4532 "term.ml" 178 4518 4533
+type(
+  int
+)
+"term.ml" 178 4518 4527 "term.ml" 178 4518 4533
+type(
+  bool
+)
+"term.ml" 178 4518 4539 "term.ml" 178 4518 4546
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 178 4518 4547 "term.ml" 178 4518 4550
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 153 3797 3823 "term.ml" 153 3797 3826
+)
+"term.ml" 178 4518 4551 "term.ml" 178 4518 4554
+type(
+  (unit, Format.formatter, unit) format
+)
+"term.ml" 178 4518 4539 "term.ml" 178 4518 4554
+call(
+  stack
+)
+type(
+  unit
+)
+"term.ml" 178 4518 4524 "term.ml" 178 4518 4554
+type(
+  unit
+)
+"term.ml" 179 4556 4562 "term.ml" 179 4556 4569
+type(
+  Format.formatter ->
+  ((Format.formatter -> wffi -> unit) ->
+   wffi -> (Format.formatter -> wffi -> unit) -> wffi -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> wffi -> unit) ->
+  wffi -> (Format.formatter -> wffi -> unit) -> wffi -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 179 4556 4570 "term.ml" 179 4556 4573
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 153 3797 3823 "term.ml" 153 3797 3826
+)
+"term.ml" 179 4556 4574 "term.ml" 179 4556 4587
+type(
+  ((Format.formatter -> wffi -> unit) ->
+   wffi -> (Format.formatter -> wffi -> unit) -> wffi -> unit,
+   Format.formatter, unit)
+  format
+)
+"term.ml" 180 4588 4597 "term.ml" 180 4588 4607
+type(
+  name_env -> int -> Format.formatter -> wffi -> unit
+)
+ident(
+  int_ref print_wffi "term.ml" 153 3797 3805 "term.ml" 153 3797 3815
+)
+"term.ml" 180 4588 4608 "term.ml" 180 4588 4611
+type(
+  name_env
+)
+ident(
+  int_ref env "term.ml" 153 3797 3816 "term.ml" 153 3797 3819
+)
+"term.ml" 180 4588 4612 "term.ml" 180 4588 4613
+type(
+  int
+)
+"term.ml" 180 4588 4596 "term.ml" 180 4588 4614
+call(
+  stack
+)
+type(
+  Format.formatter -> wffi -> unit
+)
+"term.ml" 180 4588 4615 "term.ml" 180 4588 4617
+type(
+  wffi
+)
+ident(
+  int_ref t1 "term.ml" 176 4472 4484 "term.ml" 176 4472 4486
+)
+"term.ml" 181 4618 4627 "term.ml" 181 4618 4637
+type(
+  name_env -> int -> Format.formatter -> wffi -> unit
+)
+ident(
+  int_ref print_wffi "term.ml" 153 3797 3805 "term.ml" 153 3797 3815
+)
+"term.ml" 181 4618 4638 "term.ml" 181 4618 4641
+type(
+  name_env
+)
+ident(
+  int_ref env "term.ml" 153 3797 3816 "term.ml" 153 3797 3819
+)
+"term.ml" 181 4618 4642 "term.ml" 181 4618 4643
+type(
+  int
+)
+"term.ml" 181 4618 4626 "term.ml" 181 4618 4644
+call(
+  stack
+)
+type(
+  Format.formatter -> wffi -> unit
+)
+"term.ml" 181 4618 4645 "term.ml" 181 4618 4647
+type(
+  wffi
+)
+ident(
+  int_ref t2 "term.ml" 176 4472 4487 "term.ml" 176 4472 4489
+)
+"term.ml" 179 4556 4562 "term.ml" 181 4618 4647
+call(
+  stack
+)
+type(
+  unit
+)
+"term.ml" 182 4649 4658 "term.ml" 182 4649 4660
+type(
+  int
+)
+ident(
+  int_ref pr "term.ml" 153 3797 3820 "term.ml" 153 3797 3822
+)
+"term.ml" 182 4649 4661 "term.ml" 182 4649 4662
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"term.ml" 182 4649 4663 "term.ml" 182 4649 4664
+type(
+  int
+)
+"term.ml" 182 4649 4658 "term.ml" 182 4649 4664
+type(
+  bool
+)
+"term.ml" 182 4649 4670 "term.ml" 182 4649 4677
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 182 4649 4678 "term.ml" 182 4649 4681
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 153 3797 3823 "term.ml" 153 3797 3826
+)
+"term.ml" 182 4649 4682 "term.ml" 182 4649 4685
+type(
+  (unit, Format.formatter, unit) format
+)
+"term.ml" 182 4649 4670 "term.ml" 182 4649 4685
+call(
+  stack
+)
+type(
+  unit
+)
+"term.ml" 182 4649 4655 "term.ml" 182 4649 4685
+type(
+  unit
+)
+"term.ml" 183 4687 4693 "term.ml" 183 4687 4700
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"term.ml" 183 4687 4701 "term.ml" 183 4687 4704
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "term.ml" 153 3797 3823 "term.ml" 153 3797 3826
+)
+"term.ml" 183 4687 4705 "term.ml" 183 4687 4709
+type(
+  (unit, Format.formatter, unit) format
+)
+"term.ml" 183 4687 4693 "term.ml" 183 4687 4709
+call(
+  tail
+)
+type(
+  unit
+)
+"term.ml" 182 4649 4655 "term.ml" 183 4687 4709
+type(
+  unit
+)
+"term.ml" 179 4556 4562 "term.ml" 183 4687 4709
+type(
+  unit
+)
+"term.ml" 178 4518 4524 "term.ml" 183 4687 4709
+type(
+  unit
+)
+"term.ml" 177 4494 4500 "term.ml" 183 4687 4709
+type(
+  unit
+)
+"term.ml" 184 4710 4722 "term.ml" 184 4710 4723
+type(
+  wffi
+)
+ident(
+  def t "term.ml" 185 4727 4732 "term.ml" 186 4754 4787
+)
+"term.ml" 184 4710 4714 "term.ml" 184 4710 4723
+type(
+  wffi
+)
+"term.ml" 185 4727 47

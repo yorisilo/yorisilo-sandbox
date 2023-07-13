@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8" />
+    <title>apply テスト</title>
+    
+	</head>
+  <body>
+    <p id="info"></p>
+    
+    <script>
+    	var obj = {};
+    	obj.someAction = function(enStr, jpStr, num, colorStr){
+    		console.log(enStr + ", " + jpStr + ", " + num + ", " + colorStr);
+    	}
+    	var array = [["apple", "リンゴ", 20, "#FF0000"], ["banana", "バナナ", 55, "#FFFF00"],["sky", "空", 1200, "#0000FF"]];
+    	
+    	for (var i=0; i< array.length; i++){
+    		obj.someAction.apply(obj, array[i]);
+    	}
+    </script>
+  </body>
+</html>

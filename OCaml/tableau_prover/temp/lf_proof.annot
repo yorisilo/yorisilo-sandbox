@@ -1,0 +1,6041 @@
+"lf_proof.ml" 32 621 629 "lf_proof.ml" 32 621 647
+type(
+  Format.formatter -> lf_proof -> unit
+)
+ident(
+  def pp_print_proofitem "lf_proof.ml" 32 621 621 "lf_proof.ml" 1 0 -1
+)
+"lf_proof.ml" 32 621 648 "lf_proof.ml" 32 621 651
+type(
+  Format.formatter
+)
+ident(
+  def ppf "lf_proof.ml" 32 621 654 "lf_proof.ml" 80 2112 2142
+)
+"lf_proof.ml" 33 663 673 "lf_proof.ml" 33 663 674
+type(
+  int
+)
+ident(
+  def x "lf_proof.ml" 34 678 684 "lf_proof.ml" 34 678 715
+)
+"lf_proof.ml" 33 663 667 "lf_proof.ml" 33 663 674
+type(
+  lf_proof
+)
+"lf_proof.ml" 34 678 684 "lf_proof.ml" 34 678 691
+type(
+  Format.formatter ->
+  (int -> unit, Format.formatter, unit) format -> int -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 34 678 692 "lf_proof.ml" 34 678 695
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 32 621 648 "lf_proof.ml" 32 621 651
+)
+"lf_proof.ml" 34 678 696 "lf_proof.ml" 34 678 713
+type(
+  (int -> unit, Format.formatter, unit) format
+)
+"lf_proof.ml" 34 678 714 "lf_proof.ml" 34 678 715
+type(
+  int
+)
+ident(
+  int_ref x "lf_proof.ml" 33 663 673 "lf_proof.ml" 33 663 674
+)
+"lf_proof.ml" 34 678 684 "lf_proof.ml" 34 678 715
+call(
+  tail
+)
+type(
+  unit
+)
+"lf_proof.ml" 35 716 720 "lf_proof.ml" 35 716 725
+type(
+  lf_proof
+)
+"lf_proof.ml" 36 729 735 "lf_proof.ml" 36 729 742
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 36 729 743 "lf_proof.ml" 36 729 746
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 32 621 648 "lf_proof.ml" 32 621 651
+)
+"lf_proof.ml" 36 729 747 "lf_proof.ml" 36 729 760
+type(
+  (unit, Format.formatter, unit) format
+)
+"lf_proof.ml" 36 729 735 "lf_proof.ml" 36 729 760
+call(
+  tail
+)
+type(
+  unit
+)
+"lf_proof.ml" 37 761 772 "lf_proof.ml" 37 761 775
+type(
+  lf_proof
+)
+ident(
+  def pr1 "lf_proof.ml" 38 784 790 "lf_proof.ml" 40 857 887
+)
+"lf_proof.ml" 37 761 776 "lf_proof.ml" 37 761 779
+type(
+  lf_proof
+)
+ident(
+  def pr2 "lf_proof.ml" 38 784 790 "lf_proof.ml" 40 857 887
+)
+"lf_proof.ml" 37 761 765 "lf_proof.ml" 37 761 780
+type(
+  lf_proof
+)
+"lf_proof.ml" 38 784 790 "lf_proof.ml" 38 784 797
+type(
+  Format.formatter ->
+  ((Format.formatter -> lf_proof -> unit) ->
+   lf_proof -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> lf_proof -> unit) ->
+  lf_proof -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 38 784 798 "lf_proof.ml" 38 784 801
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 32 621 648 "lf_proof.ml" 32 621 651
+)
+"lf_proof.ml" 38 784 802 "lf_proof.ml" 38 784 825
+type(
+  ((Format.formatter -> lf_proof -> unit) ->
+   lf_proof -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format
+)
+"lf_proof.ml" 39 826 834 "lf_proof.ml" 39 826 852
+type(
+  Format.formatter -> lf_proof -> unit
+)
+ident(
+  int_ref pp_print_proofitem "lf_proof.ml" 32 621 629 "lf_proof.ml" 32 621 647
+)
+"lf_proof.ml" 39 826 853 "lf_proof.ml" 39 826 856
+type(
+  lf_proof
+)
+ident(
+  int_ref pr1 "lf_proof.ml" 37 761 772 "lf_proof.ml" 37 761 775
+)
+"lf_proof.ml" 40 857 865 "lf_proof.ml" 40 857 883
+type(
+  Format.formatter -> lf_proof -> unit
+)
+ident(
+  int_ref pp_print_proofitem "lf_proof.ml" 32 621 629 "lf_proof.ml" 32 621 647
+)
+"lf_proof.ml" 40 857 884 "lf_proof.ml" 40 857 887
+type(
+  lf_proof
+)
+ident(
+  int_ref pr2 "lf_proof.ml" 37 761 776 "lf_proof.ml" 37 761 779
+)
+"lf_proof.ml" 38 784 790 "lf_proof.ml" 40 857 887
+call(
+  tail
+)
+type(
+  unit
+)
+"lf_proof.ml" 41 888 899 "lf_proof.ml" 41 888 901
+type(
+  lf_proof
+)
+ident(
+  def pr "lf_proof.ml" 42 905 911 "lf_proof.ml" 43 945 974
+)
+"lf_proof.ml" 41 888 892 "lf_proof.ml" 41 888 901
+type(
+  lf_proof
+)
+"lf_proof.ml" 42 905 911 "lf_proof.ml" 42 905 918
+type(
+  Format.formatter ->
+  ((Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 42 905 919 "lf_proof.ml" 42 905 922
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 32 621 648 "lf_proof.ml" 32 621 651
+)
+"lf_proof.ml" 42 905 923 "lf_proof.ml" 42 905 944
+type(
+  ((Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format
+)
+"lf_proof.ml" 43 945 953 "lf_proof.ml" 43 945 971
+type(
+  Format.formatter -> lf_proof -> unit
+)
+ident(
+  int_ref pp_print_proofitem "lf_proof.ml" 32 621 629 "lf_proof.ml" 32 621 647
+)
+"lf_proof.ml" 43 945 972 "lf_proof.ml" 43 945 974
+type(
+  lf_proof
+)
+ident(
+  int_ref pr "lf_proof.ml" 41 888 899 "lf_proof.ml" 41 888 901
+)
+"lf_proof.ml" 42 905 911 "lf_proof.ml" 43 945 974
+call(
+  tail
+)
+type(
+  unit
+)
+"lf_proof.ml" 44 975 986 "lf_proof.ml" 44 975 988
+type(
+  lf_proof
+)
+ident(
+  def pr "lf_proof.ml" 45 992 998 "lf_proof.ml" 46 1032 1061
+)
+"lf_proof.ml" 44 975 979 "lf_proof.ml" 44 975 988
+type(
+  lf_proof
+)
+"lf_proof.ml" 45 992 998 "lf_proof.ml" 45 992 1005
+type(
+  Format.formatter ->
+  ((Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 45 992 1006 "lf_proof.ml" 45 992 1009
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 32 621 648 "lf_proof.ml" 32 621 651
+)
+"lf_proof.ml" 45 992 1010 "lf_proof.ml" 45 992 1031
+type(
+  ((Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format
+)
+"lf_proof.ml" 46 1032 1040 "lf_proof.ml" 46 1032 1058
+type(
+  Format.formatter -> lf_proof -> unit
+)
+ident(
+  int_ref pp_print_proofitem "lf_proof.ml" 32 621 629 "lf_proof.ml" 32 621 647
+)
+"lf_proof.ml" 46 1032 1059 "lf_proof.ml" 46 1032 1061
+type(
+  lf_proof
+)
+ident(
+  int_ref pr "lf_proof.ml" 44 975 986 "lf_proof.ml" 44 975 988
+)
+"lf_proof.ml" 45 992 998 "lf_proof.ml" 46 1032 1061
+call(
+  tail
+)
+type(
+  unit
+)
+"lf_proof.ml" 47 1062 1072 "lf_proof.ml" 47 1062 1074
+type(
+  lf_proof
+)
+ident(
+  def pr "lf_proof.ml" 48 1078 1084 "lf_proof.ml" 49 1115 1144
+)
+"lf_proof.ml" 47 1062 1066 "lf_proof.ml" 47 1062 1074
+type(
+  lf_proof
+)
+"lf_proof.ml" 48 1078 1084 "lf_proof.ml" 48 1078 1091
+type(
+  Format.formatter ->
+  ((Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 48 1078 1092 "lf_proof.ml" 48 1078 1095
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 32 621 648 "lf_proof.ml" 32 621 651
+)
+"lf_proof.ml" 48 1078 1096 "lf_proof.ml" 48 1078 1114
+type(
+  ((Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format
+)
+"lf_proof.ml" 49 1115 1123 "lf_proof.ml" 49 1115 1141
+type(
+  Format.formatter -> lf_proof -> unit
+)
+ident(
+  int_ref pp_print_proofitem "lf_proof.ml" 32 621 629 "lf_proof.ml" 32 621 647
+)
+"lf_proof.ml" 49 1115 1142 "lf_proof.ml" 49 1115 1144
+type(
+  lf_proof
+)
+ident(
+  int_ref pr "lf_proof.ml" 47 1062 1072 "lf_proof.ml" 47 1062 1074
+)
+"lf_proof.ml" 48 1078 1084 "lf_proof.ml" 49 1115 1144
+call(
+  tail
+)
+type(
+  unit
+)
+"lf_proof.ml" 50 1145 1156 "lf_proof.ml" 50 1145 1157
+type(
+  int
+)
+ident(
+  def x "lf_proof.ml" 51 1165 1171 "lf_proof.ml" 52 1207 1236
+)
+"lf_proof.ml" 50 1145 1158 "lf_proof.ml" 50 1145 1160
+type(
+  lf_proof
+)
+ident(
+  def pr "lf_proof.ml" 51 1165 1171 "lf_proof.ml" 52 1207 1236
+)
+"lf_proof.ml" 50 1145 1149 "lf_proof.ml" 50 1145 1161
+type(
+  lf_proof
+)
+"lf_proof.ml" 51 1165 1171 "lf_proof.ml" 51 1165 1178
+type(
+  Format.formatter ->
+  (int -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format -> int -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 51 1165 1179 "lf_proof.ml" 51 1165 1182
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 32 621 648 "lf_proof.ml" 32 621 651
+)
+"lf_proof.ml" 51 1165 1183 "lf_proof.ml" 51 1165 1204
+type(
+  (int -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format
+)
+"lf_proof.ml" 51 1165 1205 "lf_proof.ml" 51 1165 1206
+type(
+  int
+)
+ident(
+  int_ref x "lf_proof.ml" 50 1145 1156 "lf_proof.ml" 50 1145 1157
+)
+"lf_proof.ml" 52 1207 1215 "lf_proof.ml" 52 1207 1233
+type(
+  Format.formatter -> lf_proof -> unit
+)
+ident(
+  int_ref pp_print_proofitem "lf_proof.ml" 32 621 629 "lf_proof.ml" 32 621 647
+)
+"lf_proof.ml" 52 1207 1234 "lf_proof.ml" 52 1207 1236
+type(
+  lf_proof
+)
+ident(
+  int_ref pr "lf_proof.ml" 50 1145 1158 "lf_proof.ml" 50 1145 1160
+)
+"lf_proof.ml" 51 1165 1171 "lf_proof.ml" 52 1207 1236
+call(
+  tail
+)
+type(
+  unit
+)
+"lf_proof.ml" 53 1237 1247 "lf_proof.ml" 53 1237 1248
+type(
+  int
+)
+ident(
+  def x "lf_proof.ml" 54 1252 1258 "lf_proof.ml" 54 1252 1289
+)
+"lf_proof.ml" 53 1237 1241 "lf_proof.ml" 53 1237 1248
+type(
+  lf_proof
+)
+"lf_proof.ml" 54 1252 1258 "lf_proof.ml" 54 1252 1265
+type(
+  Format.formatter ->
+  (int -> unit, Format.formatter, unit) format -> int -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 54 1252 1266 "lf_proof.ml" 54 1252 1269
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 32 621 648 "lf_proof.ml" 32 621 651
+)
+"lf_proof.ml" 54 1252 1270 "lf_proof.ml" 54 1252 1287
+type(
+  (int -> unit, Format.formatter, unit) format
+)
+"lf_proof.ml" 54 1252 1288 "lf_proof.ml" 54 1252 1289
+type(
+  int
+)
+ident(
+  int_ref x "lf_proof.ml" 53 1237 1247 "lf_proof.ml" 53 1237 1248
+)
+"lf_proof.ml" 54 1252 1258 "lf_proof.ml" 54 1252 1289
+call(
+  tail
+)
+type(
+  unit
+)
+"lf_proof.ml" 55 1290 1301 "lf_proof.ml" 55 1290 1302
+type(
+  int
+)
+ident(
+  def x "lf_proof.ml" 56 1310 1316 "lf_proof.ml" 57 1354 1383
+)
+"lf_proof.ml" 55 1290 1303 "lf_proof.ml" 55 1290 1305
+type(
+  lf_proof
+)
+ident(
+  def pr "lf_proof.ml" 56 1310 1316 "lf_proof.ml" 57 1354 1383
+)
+"lf_proof.ml" 55 1290 1294 "lf_proof.ml" 55 1290 1306
+type(
+  lf_proof
+)
+"lf_proof.ml" 56 1310 1316 "lf_proof.ml" 56 1310 1323
+type(
+  Format.formatter ->
+  (int -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format -> int -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 56 1310 1324 "lf_proof.ml" 56 1310 1327
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 32 621 648 "lf_proof.ml" 32 621 651
+)
+"lf_proof.ml" 56 1310 1328 "lf_proof.ml" 56 1310 1351
+type(
+  (int -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format
+)
+"lf_proof.ml" 56 1310 1352 "lf_proof.ml" 56 1310 1353
+type(
+  int
+)
+ident(
+  int_ref x "lf_proof.ml" 55 1290 1301 "lf_proof.ml" 55 1290 1302
+)
+"lf_proof.ml" 57 1354 1362 "lf_proof.ml" 57 1354 1380
+type(
+  Format.formatter -> lf_proof -> unit
+)
+ident(
+  int_ref pp_print_proofitem "lf_proof.ml" 32 621 629 "lf_proof.ml" 32 621 647
+)
+"lf_proof.ml" 57 1354 1381 "lf_proof.ml" 57 1354 1383
+type(
+  lf_proof
+)
+ident(
+  int_ref pr "lf_proof.ml" 55 1290 1303 "lf_proof.ml" 55 1290 1305
+)
+"lf_proof.ml" 56 1310 1316 "lf_proof.ml" 57 1354 1383
+call(
+  tail
+)
+type(
+  unit
+)
+"lf_proof.ml" 58 1384 1395 "lf_proof.ml" 58 1384 1396
+type(
+  int
+)
+ident(
+  def x "lf_proof.ml" 59 1409 1415 "lf_proof.ml" 61 1488 1518
+)
+"lf_proof.ml" 58 1384 1397 "lf_proof.ml" 58 1384 1400
+type(
+  lf_proof
+)
+ident(
+  def pr1 "lf_proof.ml" 59 1409 1415 "lf_proof.ml" 61 1488 1518
+)
+"lf_proof.ml" 58 1384 1401 "lf_proof.ml" 58 1384 1404
+type(
+  lf_proof
+)
+ident(
+  def pr2 "lf_proof.ml" 59 1409 1415 "lf_proof.ml" 61 1488 1518
+)
+"lf_proof.ml" 58 1384 1388 "lf_proof.ml" 58 1384 1405
+type(
+  lf_proof
+)
+"lf_proof.ml" 59 1409 1415 "lf_proof.ml" 59 1409 1422
+type(
+  Format.formatter ->
+  (int ->
+   (Format.formatter -> lf_proof -> unit) ->
+   lf_proof -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format ->
+  int ->
+  (Format.formatter -> lf_proof -> unit) ->
+  lf_proof -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 59 1409 1423 "lf_proof.ml" 59 1409 1426
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 32 621 648 "lf_proof.ml" 32 621 651
+)
+"lf_proof.ml" 59 1409 1427 "lf_proof.ml" 59 1409 1454
+type(
+  (int ->
+   (Format.formatter -> lf_proof -> unit) ->
+   lf_proof -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format
+)
+"lf_proof.ml" 59 1409 1455 "lf_proof.ml" 59 1409 1456
+type(
+  int
+)
+ident(
+  int_ref x "lf_proof.ml" 58 1384 1395 "lf_proof.ml" 58 1384 1396
+)
+"lf_proof.ml" 60 1457 1465 "lf_proof.ml" 60 1457 1483
+type(
+  Format.formatter -> lf_proof -> unit
+)
+ident(
+  int_ref pp_print_proofitem "lf_proof.ml" 32 621 629 "lf_proof.ml" 32 621 647
+)
+"lf_proof.ml" 60 1457 1484 "lf_proof.ml" 60 1457 1487
+type(
+  lf_proof
+)
+ident(
+  int_ref pr1 "lf_proof.ml" 58 1384 1397 "lf_proof.ml" 58 1384 1400
+)
+"lf_proof.ml" 61 1488 1496 "lf_proof.ml" 61 1488 1514
+type(
+  Format.formatter -> lf_proof -> unit
+)
+ident(
+  int_ref pp_print_proofitem "lf_proof.ml" 32 621 629 "lf_proof.ml" 32 621 647
+)
+"lf_proof.ml" 61 1488 1515 "lf_proof.ml" 61 1488 1518
+type(
+  lf_proof
+)
+ident(
+  int_ref pr2 "lf_proof.ml" 58 1384 1401 "lf_proof.ml" 58 1384 1404
+)
+"lf_proof.ml" 59 1409 1415 "lf_proof.ml" 61 1488 1518
+call(
+  tail
+)
+type(
+  unit
+)
+"lf_proof.ml" 62 1519 1531 "lf_proof.ml" 62 1519 1532
+type(
+  int
+)
+ident(
+  def x "lf_proof.ml" 63 1540 1546 "lf_proof.ml" 64 1584 1613
+)
+"lf_proof.ml" 62 1519 1533 "lf_proof.ml" 62 1519 1535
+type(
+  lf_proof
+)
+ident(
+  def pr "lf_proof.ml" 63 1540 1546 "lf_proof.ml" 64 1584 1613
+)
+"lf_proof.ml" 62 1519 1523 "lf_proof.ml" 62 1519 1536
+type(
+  lf_proof
+)
+"lf_proof.ml" 63 1540 1546 "lf_proof.ml" 63 1540 1553
+type(
+  Format.formatter ->
+  (int -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format -> int -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 63 1540 1554 "lf_proof.ml" 63 1540 1557
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 32 621 648 "lf_proof.ml" 32 621 651
+)
+"lf_proof.ml" 63 1540 1558 "lf_proof.ml" 63 1540 1581
+type(
+  (int -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format
+)
+"lf_proof.ml" 63 1540 1582 "lf_proof.ml" 63 1540 1583
+type(
+  int
+)
+ident(
+  int_ref x "lf_proof.ml" 62 1519 1531 "lf_proof.ml" 62 1519 1532
+)
+"lf_proof.ml" 64 1584 1592 "lf_proof.ml" 64 1584 1610
+type(
+  Format.formatter -> lf_proof -> unit
+)
+ident(
+  int_ref pp_print_proofitem "lf_proof.ml" 32 621 629 "lf_proof.ml" 32 621 647
+)
+"lf_proof.ml" 64 1584 1611 "lf_proof.ml" 64 1584 1613
+type(
+  lf_proof
+)
+ident(
+  int_ref pr "lf_proof.ml" 62 1519 1533 "lf_proof.ml" 62 1519 1535
+)
+"lf_proof.ml" 63 1540 1546 "lf_proof.ml" 64 1584 1613
+call(
+  tail
+)
+type(
+  unit
+)
+"lf_proof.ml" 65 1614 1626 "lf_proof.ml" 65 1614 1627
+type(
+  int
+)
+ident(
+  def x "lf_proof.ml" 66 1635 1641 "lf_proof.ml" 67 1679 1708
+)
+"lf_proof.ml" 65 1614 1628 "lf_proof.ml" 65 1614 1630
+type(
+  lf_proof
+)
+ident(
+  def pr "lf_proof.ml" 66 1635 1641 "lf_proof.ml" 67 1679 1708
+)
+"lf_proof.ml" 65 1614 1618 "lf_proof.ml" 65 1614 1631
+type(
+  lf_proof
+)
+"lf_proof.ml" 66 1635 1641 "lf_proof.ml" 66 1635 1648
+type(
+  Format.formatter ->
+  (int -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format -> int -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 66 1635 1649 "lf_proof.ml" 66 1635 1652
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 32 621 648 "lf_proof.ml" 32 621 651
+)
+"lf_proof.ml" 66 1635 1653 "lf_proof.ml" 66 1635 1676
+type(
+  (int -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format
+)
+"lf_proof.ml" 66 1635 1677 "lf_proof.ml" 66 1635 1678
+type(
+  int
+)
+ident(
+  int_ref x "lf_proof.ml" 65 1614 1626 "lf_proof.ml" 65 1614 1627
+)
+"lf_proof.ml" 67 1679 1687 "lf_proof.ml" 67 1679 1705
+type(
+  Format.formatter -> lf_proof -> unit
+)
+ident(
+  int_ref pp_print_proofitem "lf_proof.ml" 32 621 629 "lf_proof.ml" 32 621 647
+)
+"lf_proof.ml" 67 1679 1706 "lf_proof.ml" 67 1679 1708
+type(
+  lf_proof
+)
+ident(
+  int_ref pr "lf_proof.ml" 65 1614 1628 "lf_proof.ml" 65 1614 1630
+)
+"lf_proof.ml" 66 1635 1641 "lf_proof.ml" 67 1679 1708
+call(
+  tail
+)
+type(
+  unit
+)
+"lf_proof.ml" 68 1709 1721 "lf_proof.ml" 68 1709 1722
+type(
+  int
+)
+ident(
+  def x "lf_proof.ml" 69 1732 1738 "lf_proof.ml" 70 1782 1811
+)
+"lf_proof.ml" 68 1709 1723 "lf_proof.ml" 68 1709 1724
+type(
+  int
+)
+ident(
+  def y "lf_proof.ml" 69 1732 1738 "lf_proof.ml" 70 1782 1811
+)
+"lf_proof.ml" 68 1709 1725 "lf_proof.ml" 68 1709 1727
+type(
+  lf_proof
+)
+ident(
+  def pr "lf_proof.ml" 69 1732 1738 "lf_proof.ml" 70 1782 1811
+)
+"lf_proof.ml" 68 1709 1713 "lf_proof.ml" 68 1709 1728
+type(
+  lf_proof
+)
+"lf_proof.ml" 69 1732 1738 "lf_proof.ml" 69 1732 1745
+type(
+  Format.formatter ->
+  (int -> int -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format ->
+  int -> int -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 69 1732 1746 "lf_proof.ml" 69 1732 1749
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 32 621 648 "lf_proof.ml" 32 621 651
+)
+"lf_proof.ml" 69 1732 1750 "lf_proof.ml" 69 1732 1777
+type(
+  (int -> int -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format
+)
+"lf_proof.ml" 69 1732 1778 "lf_proof.ml" 69 1732 1779
+type(
+  int
+)
+ident(
+  int_ref x "lf_proof.ml" 68 1709 1721 "lf_proof.ml" 68 1709 1722
+)
+"lf_proof.ml" 69 1732 1780 "lf_proof.ml" 69 1732 1781
+type(
+  int
+)
+ident(
+  int_ref y "lf_proof.ml" 68 1709 1723 "lf_proof.ml" 68 1709 1724
+)
+"lf_proof.ml" 70 1782 1790 "lf_proof.ml" 70 1782 1808
+type(
+  Format.formatter -> lf_proof -> unit
+)
+ident(
+  int_ref pp_print_proofitem "lf_proof.ml" 32 621 629 "lf_proof.ml" 32 621 647
+)
+"lf_proof.ml" 70 1782 1809 "lf_proof.ml" 70 1782 1811
+type(
+  lf_proof
+)
+ident(
+  int_ref pr "lf_proof.ml" 68 1709 1725 "lf_proof.ml" 68 1709 1727
+)
+"lf_proof.ml" 69 1732 1738 "lf_proof.ml" 70 1782 1811
+call(
+  tail
+)
+type(
+  unit
+)
+"lf_proof.ml" 71 1812 1824 "lf_proof.ml" 71 1812 1825
+type(
+  int
+)
+ident(
+  def x "lf_proof.ml" 72 1833 1839 "lf_proof.ml" 73 1879 1908
+)
+"lf_proof.ml" 71 1812 1826 "lf_proof.ml" 71 1812 1828
+type(
+  lf_proof
+)
+ident(
+  def pr "lf_proof.ml" 72 1833 1839 "lf_proof.ml" 73 1879 1908
+)
+"lf_proof.ml" 71 1812 1816 "lf_proof.ml" 71 1812 1829
+type(
+  lf_proof
+)
+"lf_proof.ml" 72 1833 1839 "lf_proof.ml" 72 1833 1846
+type(
+  Format.formatter ->
+  (int -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format -> int -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 72 1833 1847 "lf_proof.ml" 72 1833 1850
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 32 621 648 "lf_proof.ml" 32 621 651
+)
+"lf_proof.ml" 72 1833 1851 "lf_proof.ml" 72 1833 1876
+type(
+  (int -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format
+)
+"lf_proof.ml" 72 1833 1877 "lf_proof.ml" 72 1833 1878
+type(
+  int
+)
+ident(
+  int_ref x "lf_proof.ml" 71 1812 1824 "lf_proof.ml" 71 1812 1825
+)
+"lf_proof.ml" 73 1879 1887 "lf_proof.ml" 73 1879 1905
+type(
+  Format.formatter -> lf_proof -> unit
+)
+ident(
+  int_ref pp_print_proofitem "lf_proof.ml" 32 621 629 "lf_proof.ml" 32 621 647
+)
+"lf_proof.ml" 73 1879 1906 "lf_proof.ml" 73 1879 1908
+type(
+  lf_proof
+)
+ident(
+  int_ref pr "lf_proof.ml" 71 1812 1826 "lf_proof.ml" 71 1812 1828
+)
+"lf_proof.ml" 72 1833 1839 "lf_proof.ml" 73 1879 1908
+call(
+  tail
+)
+type(
+  unit
+)
+"lf_proof.ml" 74 1909 1921 "lf_proof.ml" 74 1909 1922
+type(
+  int
+)
+ident(
+  def x "lf_proof.ml" 75 1930 1936 "lf_proof.ml" 76 1976 2005
+)
+"lf_proof.ml" 74 1909 1923 "lf_proof.ml" 74 1909 1925
+type(
+  lf_proof
+)
+ident(
+  def pr "lf_proof.ml" 75 1930 1936 "lf_proof.ml" 76 1976 2005
+)
+"lf_proof.ml" 74 1909 1913 "lf_proof.ml" 74 1909 1926
+type(
+  lf_proof
+)
+"lf_proof.ml" 75 1930 1936 "lf_proof.ml" 75 1930 1943
+type(
+  Format.formatter ->
+  (int -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format -> int -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 75 1930 1944 "lf_proof.ml" 75 1930 1947
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 32 621 648 "lf_proof.ml" 32 621 651
+)
+"lf_proof.ml" 75 1930 1948 "lf_proof.ml" 75 1930 1973
+type(
+  (int -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format
+)
+"lf_proof.ml" 75 1930 1974 "lf_proof.ml" 75 1930 1975
+type(
+  int
+)
+ident(
+  int_ref x "lf_proof.ml" 74 1909 1921 "lf_proof.ml" 74 1909 1922
+)
+"lf_proof.ml" 76 1976 1984 "lf_proof.ml" 76 1976 2002
+type(
+  Format.formatter -> lf_proof -> unit
+)
+ident(
+  int_ref pp_print_proofitem "lf_proof.ml" 32 621 629 "lf_proof.ml" 32 621 647
+)
+"lf_proof.ml" 76 1976 2003 "lf_proof.ml" 76 1976 2005
+type(
+  lf_proof
+)
+ident(
+  int_ref pr "lf_proof.ml" 74 1909 1923 "lf_proof.ml" 74 1909 1925
+)
+"lf_proof.ml" 75 1930 1936 "lf_proof.ml" 76 1976 2005
+call(
+  tail
+)
+type(
+  unit
+)
+"lf_proof.ml" 77 2006 2018 "lf_proof.ml" 77 2006 2019
+type(
+  int
+)
+ident(
+  def x "lf_proof.ml" 78 2032 2038 "lf_proof.ml" 80 2112 2142
+)
+"lf_proof.ml" 77 2006 2020 "lf_proof.ml" 77 2006 2023
+type(
+  lf_proof
+)
+ident(
+  def pr1 "lf_proof.ml" 78 2032 2038 "lf_proof.ml" 80 2112 2142
+)
+"lf_proof.ml" 77 2006 2024 "lf_proof.ml" 77 2006 2027
+type(
+  lf_proof
+)
+ident(
+  def pr2 "lf_proof.ml" 78 2032 2038 "lf_proof.ml" 80 2112 2142
+)
+"lf_proof.ml" 77 2006 2010 "lf_proof.ml" 77 2006 2028
+type(
+  lf_proof
+)
+"lf_proof.ml" 78 2032 2038 "lf_proof.ml" 78 2032 2045
+type(
+  Format.formatter ->
+  (int ->
+   (Format.formatter -> lf_proof -> unit) ->
+   lf_proof -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format ->
+  int ->
+  (Format.formatter -> lf_proof -> unit) ->
+  lf_proof -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 78 2032 2046 "lf_proof.ml" 78 2032 2049
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 32 621 648 "lf_proof.ml" 32 621 651
+)
+"lf_proof.ml" 78 2032 2050 "lf_proof.ml" 78 2032 2078
+type(
+  (int ->
+   (Format.formatter -> lf_proof -> unit) ->
+   lf_proof -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format
+)
+"lf_proof.ml" 78 2032 2079 "lf_proof.ml" 78 2032 2080
+type(
+  int
+)
+ident(
+  int_ref x "lf_proof.ml" 77 2006 2018 "lf_proof.ml" 77 2006 2019
+)
+"lf_proof.ml" 79 2081 2089 "lf_proof.ml" 79 2081 2107
+type(
+  Format.formatter -> lf_proof -> unit
+)
+ident(
+  int_ref pp_print_proofitem "lf_proof.ml" 32 621 629 "lf_proof.ml" 32 621 647
+)
+"lf_proof.ml" 79 2081 2108 "lf_proof.ml" 79 2081 2111
+type(
+  lf_proof
+)
+ident(
+  int_ref pr1 "lf_proof.ml" 77 2006 2020 "lf_proof.ml" 77 2006 2023
+)
+"lf_proof.ml" 80 2112 2120 "lf_proof.ml" 80 2112 2138
+type(
+  Format.formatter -> lf_proof -> unit
+)
+ident(
+  int_ref pp_print_proofitem "lf_proof.ml" 32 621 629 "lf_proof.ml" 32 621 647
+)
+"lf_proof.ml" 80 2112 2139 "lf_proof.ml" 80 2112 2142
+type(
+  lf_proof
+)
+ident(
+  int_ref pr2 "lf_proof.ml" 77 2006 2024 "lf_proof.ml" 77 2006 2027
+)
+"lf_proof.ml" 78 2032 2038 "lf_proof.ml" 80 2112 2142
+call(
+  tail
+)
+type(
+  unit
+)
+"lf_proof.ml" 32 621 654 "lf_proof.ml" 80 2112 2142
+type(
+  lf_proof -> unit
+)
+"lf_proof.ml" 82 2144 2152 "lf_proof.ml" 82 2144 2158
+type(
+  ('a * 'b) list -> 'b -> ('a * 'b) list * 'a * ('a * 'b) list
+)
+ident(
+  def cutAnt "lf_proof.ml" 82 2144 2144 "lf_proof.ml" 1 0 -1
+)
+"lf_proof.ml" 82 2144 2159 "lf_proof.ml" 82 2144 2162
+type(
+  ('a * 'b) list
+)
+ident(
+  def ant "lf_proof.ml" 82 2144 2163 "lf_proof.ml" 90 2407 2412
+)
+"lf_proof.ml" 82 2144 2163 "lf_proof.ml" 82 2144 2165
+type(
+  'b
+)
+ident(
+  def id "lf_proof.ml" 83 2168 2170 "lf_proof.ml" 90 2407 2412
+)
+"lf_proof.ml" 83 2168 2182 "lf_proof.ml" 83 2168 2185
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref ant "lf_proof.ml" 82 2144 2159 "lf_proof.ml" 82 2144 2162
+)
+"lf_proof.ml" 84 2191 2195 "lf_proof.ml" 84 2191 2197
+type(
+  ('a * 'b) list
+)
+"lf_proof.ml" 84 2191 2201 "lf_proof.ml" 84 2191 2206
+type(
+  exn -> ('a * 'b) list * 'a * ('a * 'b) list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"lf_proof.ml" 84 2191 2225 "lf_proof.ml" 84 2191 2272
+type(
+  string
+)
+"lf_proof.ml" 84 2191 2207 "lf_proof.ml" 84 2191 2273
+type(
+  exn
+)
+"lf_proof.ml" 84 2191 2201 "lf_proof.ml" 84 2191 2273
+type(
+  ('a * 'b) list * 'a * ('a * 'b) list
+)
+"lf_proof.ml" 85 2274 2279 "lf_proof.ml" 85 2274 2280
+type(
+  'a
+)
+ident(
+  def t "lf_proof.ml" 85 2274 2291 "lf_proof.ml" 86 2307 2324
+)
+"lf_proof.ml" 85 2274 2281 "lf_proof.ml" 85 2274 2283
+type(
+  'b
+)
+ident(
+  def ti "lf_proof.ml" 85 2274 2291 "lf_proof.ml" 86 2307 2324
+)
+"lf_proof.ml" 85 2274 2278 "lf_proof.ml" 85 2274 2284
+type(
+  'a * 'b
+)
+"lf_proof.ml" 85 2274 2286 "lf_proof.ml" 85 2274 2290
+type(
+  ('a * 'b) list
+)
+ident(
+  def antt "lf_proof.ml" 85 2274 2291 "lf_proof.ml" 86 2307 2324
+)
+"lf_proof.ml" 85 2274 2278 "lf_proof.ml" 85 2274 2290
+type(
+  ('a * 'b) list
+)
+"lf_proof.ml" 85 2274 2296 "lf_proof.ml" 85 2274 2298
+type(
+  'b
+)
+ident(
+  int_ref ti "lf_proof.ml" 85 2274 2281 "lf_proof.ml" 85 2274 2283
+)
+"lf_proof.ml" 85 2274 2299 "lf_proof.ml" 85 2274 2300
+type(
+  'b -> 'b -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"lf_proof.ml" 85 2274 2301 "lf_proof.ml" 85 2274 2303
+type(
+  'b
+)
+ident(
+  int_ref id "lf_proof.ml" 82 2144 2163 "lf_proof.ml" 82 2144 2165
+)
+"lf_proof.ml" 85 2274 2296 "lf_proof.ml" 85 2274 2303
+type(
+  bool
+)
+"lf_proof.ml" 86 2307 2314 "lf_proof.ml" 86 2307 2316
+type(
+  ('a * 'b) list
+)
+"lf_proof.ml" 86 2307 2317 "lf_proof.ml" 86 2307 2318
+type(
+  'a
+)
+ident(
+  int_ref t "lf_proof.ml" 85 2274 2279 "lf_proof.ml" 85 2274 2280
+)
+"lf_proof.ml" 86 2307 2319 "lf_proof.ml" 86 2307 2323
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref antt "lf_proof.ml" 85 2274 2286 "lf_proof.ml" 85 2274 2290
+)
+"lf_proof.ml" 86 2307 2313 "lf_proof.ml" 86 2307 2324
+type(
+  ('a * 'b) list * 'a * ('a * 'b) list
+)
+"lf_proof.ml" 87 2325 2329 "lf_proof.ml" 87 2325 2333
+type(
+  'a * 'b
+)
+ident(
+  def anth "lf_proof.ml" 88 2343 2349 "lf_proof.ml" 89 2384 2406
+)
+"lf_proof.ml" 87 2325 2335 "lf_proof.ml" 87 2325 2339
+type(
+  ('a * 'b) list
+)
+ident(
+  def antt "lf_proof.ml" 88 2343 2349 "lf_proof.ml" 89 2384 2406
+)
+"lf_proof.ml" 87 2325 2329 "lf_proof.ml" 87 2325 2339
+type(
+  ('a * 'b) list
+)
+"lf_proof.ml" 88 2343 2354 "lf_proof.ml" 88 2343 2356
+type(
+  ('a * 'b) list
+)
+ident(
+  def c0 "lf_proof.ml" 89 2384 2390 "lf_proof.ml" 89 2384 2406
+)
+"lf_proof.ml" 88 2343 2357 "lf_proof.ml" 88 2343 2359
+type(
+  'a
+)
+ident(
+  def c1 "lf_proof.ml" 89 2384 2390 "lf_proof.ml" 89 2384 2406
+)
+"lf_proof.ml" 88 2343 2360 "lf_proof.ml" 88 2343 2362
+type(
+  ('a * 'b) list
+)
+ident(
+  def c2 "lf_proof.ml" 89 2384 2390 "lf_proof.ml" 89 2384 2406
+)
+"lf_proof.ml" 88 2343 2353 "lf_proof.ml" 88 2343 2363
+type(
+  ('a * 'b) list * 'a * ('a * 'b) list
+)
+"lf_proof.ml" 88 2343 2366 "lf_proof.ml" 88 2343 2372
+type(
+  ('a * 'b) list -> 'b -> ('a * 'b) list * 'a * ('a * 'b) list
+)
+ident(
+  int_ref cutAnt "lf_proof.ml" 82 2144 2152 "lf_proof.ml" 82 2144 2158
+)
+"lf_proof.ml" 88 2343 2373 "lf_proof.ml" 88 2343 2377
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref antt "lf_proof.ml" 87 2325 2335 "lf_proof.ml" 87 2325 2339
+)
+"lf_proof.ml" 88 2343 2378 "lf_proof.ml" 88 2343 2380
+type(
+  'b
+)
+ident(
+  int_ref id "lf_proof.ml" 82 2144 2163 "lf_proof.ml" 82 2144 2165
+)
+"lf_proof.ml" 88 2343 2366 "lf_proof.ml" 88 2343 2380
+call(
+  stack
+)
+type(
+  ('a * 'b) list * 'a * ('a * 'b) list
+)
+"lf_proof.ml" 89 2384 2391 "lf_proof.ml" 89 2384 2395
+type(
+  'a * 'b
+)
+ident(
+  int_ref anth "lf_proof.ml" 87 2325 2329 "lf_proof.ml" 87 2325 2333
+)
+"lf_proof.ml" 89 2384 2397 "lf_proof.ml" 89 2384 2399
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref c0 "lf_proof.ml" 88 2343 2354 "lf_proof.ml" 88 2343 2356
+)
+"lf_proof.ml" 89 2384 2391 "lf_proof.ml" 89 2384 2399
+type(
+  ('a * 'b) list
+)
+"lf_proof.ml" 89 2384 2400 "lf_proof.ml" 89 2384 2402
+type(
+  'a
+)
+ident(
+  int_ref c1 "lf_proof.ml" 88 2343 2357 "lf_proof.ml" 88 2343 2359
+)
+"lf_proof.ml" 89 2384 2403 "lf_proof.ml" 89 2384 2405
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref c2 "lf_proof.ml" 88 2343 2360 "lf_proof.ml" 88 2343 2362
+)
+"lf_proof.ml" 89 2384 2390 "lf_proof.ml" 89 2384 2406
+type(
+  ('a * 'b) list * 'a * ('a * 'b) list
+)
+"lf_proof.ml" 88 2343 2349 "lf_proof.ml" 89 2384 2406
+type(
+  ('a * 'b) list * 'a * ('a * 'b) list
+)
+"lf_proof.ml" 83 2168 2170 "lf_proof.ml" 90 2407 2412
+type(
+  ('a * 'b) list * 'a * ('a * 'b) list
+)
+"lf_proof.ml" 92 2414 2422 "lf_proof.ml" 92 2414 2445
+type(
+  Term.name_env ->
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Format.formatter -> lf_proof -> unit
+)
+ident(
+  def pp_print_proof_internal "lf_proof.ml" 92 2414 2414 "lf_proof.ml" 1 0 -1
+)
+"lf_proof.ml" 92 2414 2446 "lf_proof.ml" 92 2414 2449
+type(
+  Term.name_env
+)
+ident(
+  def env "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 252 8283 8306
+)
+"lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+type(
+  int
+)
+ident(
+  def anum "lf_proof.ml" 92 2414 2455 "lf_proof.ml" 252 8283 8306
+)
+"lf_proof.ml" 92 2414 2455 "lf_proof.ml" 92 2414 2459
+type(
+  int
+)
+ident(
+  def pnum "lf_proof.ml" 92 2414 2460 "lf_proof.ml" 252 8283 8306
+)
+"lf_proof.ml" 92 2414 2460 "lf_proof.ml" 92 2414 2463
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant "lf_proof.ml" 92 2414 2464 "lf_proof.ml" 252 8283 8306
+)
+"lf_proof.ml" 92 2414 2464 "lf_proof.ml" 92 2414 2468
+type(
+  Term.pterm option
+)
+ident(
+  def sucL "lf_proof.ml" 92 2414 2469 "lf_proof.ml" 252 8283 8306
+)
+"lf_proof.ml" 92 2414 2469 "lf_proof.ml" 92 2414 2473
+type(
+  Term.pterm
+)
+ident(
+  def sucR "lf_proof.ml" 92 2414 2474 "lf_proof.ml" 252 8283 8306
+)
+"lf_proof.ml" 92 2414 2474 "lf_proof.ml" 92 2414 2477
+type(
+  Format.formatter
+)
+ident(
+  def ppf "lf_proof.ml" 92 2414 2478 "lf_proof.ml" 252 8283 8306
+)
+"lf_proof.ml" 92 2414 2478 "lf_proof.ml" 92 2414 2480
+type(
+  lf_proof
+)
+ident(
+  def pr "lf_proof.ml" 93 2483 2485 "lf_proof.ml" 252 8283 8306
+)
+"lf_proof.ml" 93 2483 2485 "lf_proof.ml" 93 2483 2492
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 93 2483 2493 "lf_proof.ml" 93 2483 2496
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 92 2414 2474 "lf_proof.ml" 92 2414 2477
+)
+"lf_proof.ml" 93 2483 2497 "lf_proof.ml" 93 2483 2505
+type(
+  (unit, Format.formatter, unit) format
+)
+"lf_proof.ml" 93 2483 2485 "lf_proof.ml" 93 2483 2505
+call(
+  stack
+)
+type(
+  unit
+)
+"lf_proof.ml" 94 2507 2509 "lf_proof.ml" 94 2507 2518
+type(
+  (Term.pterm * int -> unit) -> (Term.pterm * int) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"lf_proof.ml" 94 2507 2525 "lf_proof.ml" 94 2507 2526
+type(
+  Term.pterm
+)
+ident(
+  def x "lf_proof.ml" 95 2533 2537 "lf_proof.ml" 96 2557 2587
+)
+"lf_proof.ml" 94 2507 2527 "lf_proof.ml" 94 2507 2528
+type(
+  int
+)
+"lf_proof.ml" 94 2507 2524 "lf_proof.ml" 94 2507 2529
+type(
+  Term.pterm * int
+)
+"lf_proof.ml" 95 2533 2537 "lf_proof.ml" 95 2533 2544
+type(
+  Format.formatter ->
+  ((Format.formatter -> Term.pterm -> unit) -> Term.pterm -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Term.pterm -> unit) -> Term.pterm -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 95 2533 2545 "lf_proof.ml" 95 2533 2548
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 92 2414 2474 "lf_proof.ml" 92 2414 2477
+)
+"lf_proof.ml" 95 2533 2549 "lf_proof.ml" 95 2533 2556
+type(
+  ((Format.formatter -> Term.pterm -> unit) -> Term.pterm -> unit,
+   Format.formatter, unit)
+  format
+)
+"lf_proof.ml" 96 2557 2564 "lf_proof.ml" 96 2557 2578
+type(
+  Term.name_env -> int -> Format.formatter -> Term.pterm -> unit
+)
+ident(
+  ext_ref Term.pp_print_pterm
+)
+"lf_proof.ml" 96 2557 2579 "lf_proof.ml" 96 2557 2582
+type(
+  Term.name_env
+)
+ident(
+  int_ref env "lf_proof.ml" 92 2414 2446 "lf_proof.ml" 92 2414 2449
+)
+"lf_proof.ml" 96 2557 2583 "lf_proof.ml" 96 2557 2584
+type(
+  int
+)
+"lf_proof.ml" 96 2557 2563 "lf_proof.ml" 96 2557 2585
+call(
+  stack
+)
+type(
+  Format.formatter -> Term.pterm -> unit
+)
+"lf_proof.ml" 96 2557 2586 "lf_proof.ml" 96 2557 2587
+type(
+  Term.pterm
+)
+ident(
+  int_ref x "lf_proof.ml" 94 2507 2525 "lf_proof.ml" 94 2507 2526
+)
+"lf_proof.ml" 95 2533 2537 "lf_proof.ml" 96 2557 2587
+call(
+  tail
+)
+type(
+  unit
+)
+"lf_proof.ml" 94 2507 2519 "lf_proof.ml" 97 2588 2591
+type(
+  Term.pterm * int -> unit
+)
+"lf_proof.ml" 97 2588 2592 "lf_proof.ml" 97 2588 2595
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant "lf_proof.ml" 92 2414 2460 "lf_proof.ml" 92 2414 2463
+)
+"lf_proof.ml" 94 2507 2509 "lf_proof.ml" 97 2588 2595
+call(
+  stack
+)
+type(
+  unit
+)
+"lf_proof.ml" 98 2597 2611 "lf_proof.ml" 98 2597 2615
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "lf_proof.ml" 92 2414 2464 "lf_proof.ml" 92 2414 2468
+)
+"lf_proof.ml" 99 2621 2625 "lf_proof.ml" 99 2621 2629
+type(
+  Term.pterm option
+)
+"lf_proof.ml" 100 2633 2639 "lf_proof.ml" 100 2633 2646
+type(
+  Format.formatter ->
+  ((Format.formatter -> Term.pterm -> unit) -> Term.pterm -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> Term.pterm -> unit) -> Term.pterm -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 100 2633 2647 "lf_proof.ml" 100 2633 2650
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 92 2414 2474 "lf_proof.ml" 92 2414 2477
+)
+"lf_proof.ml" 100 2633 2651 "lf_proof.ml" 100 2633 2661
+type(
+  ((Format.formatter -> Term.pterm -> unit) -> Term.pterm -> unit,
+   Format.formatter, unit)
+  format
+)
+"lf_proof.ml" 101 2662 2671 "lf_proof.ml" 101 2662 2685
+type(
+  Term.name_env -> int -> Format.formatter -> Term.pterm -> unit
+)
+ident(
+  ext_ref Term.pp_print_pterm
+)
+"lf_proof.ml" 101 2662 2686 "lf_proof.ml" 101 2662 2689
+type(
+  Term.name_env
+)
+ident(
+  int_ref env "lf_proof.ml" 92 2414 2446 "lf_proof.ml" 92 2414 2449
+)
+"lf_proof.ml" 101 2662 2690 "lf_proof.ml" 101 2662 2691
+type(
+  int
+)
+"lf_proof.ml" 101 2662 2670 "lf_proof.ml" 101 2662 2692
+call(
+  stack
+)
+type(
+  Format.formatter -> Term.pterm -> unit
+)
+"lf_proof.ml" 101 2662 2693 "lf_proof.ml" 101 2662 2697
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "lf_proof.ml" 92 2414 2469 "lf_proof.ml" 92 2414 2473
+)
+"lf_proof.ml" 100 2633 2639 "lf_proof.ml" 101 2662 2697
+call(
+  stack
+)
+type(
+  unit
+)
+"lf_proof.ml" 102 2698 2707 "lf_proof.ml" 102 2698 2712
+type(
+  Term.pterm
+)
+ident(
+  def sucLS "lf_proof.ml" 103 2716 2722 "lf_proof.ml" 106 2831 2866
+)
+"lf_proof.ml" 102 2698 2702 "lf_proof.ml" 102 2698 2712
+type(
+  Term.pterm option
+)
+"lf_proof.ml" 103 2716 2722 "lf_proof.ml" 103 2716 2729
+type(
+  Format.formatter ->
+  ((Format.formatter -> Term.pterm -> unit) ->
+   Term.pterm ->
+   (Format.formatter -> Term.pterm -> unit) ->
+   Term.pterm ->
+   (Format.formatter -> Term.pterm -> unit) -> Term.pterm -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Term.pterm -> unit) ->
+  Term.pterm ->
+  (Format.formatter -> Term.pterm -> unit) ->
+  Term.pterm ->
+  (Format.formatter -> Term.pterm -> unit) -> Term.pterm -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 103 2716 2730 "lf_proof.ml" 103 2716 2733
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 92 2414 2474 "lf_proof.ml" 92 2414 2477
+)
+"lf_proof.ml" 103 2716 2734 "lf_proof.ml" 103 2716 2757
+type(
+  ((Format.formatter -> Term.pterm -> unit) ->
+   Term.pterm ->
+   (Format.formatter -> Term.pterm -> unit) ->
+   Term.pterm ->
+   (Format.formatter -> Term.pterm -> unit) -> Term.pterm -> unit,
+   Format.formatter, unit)
+  format
+)
+"lf_proof.ml" 104 2758 2767 "lf_proof.ml" 104 2758 2781
+type(
+  Term.name_env -> int -> Format.formatter -> Term.pterm -> unit
+)
+ident(
+  ext_ref Term.pp_print_pterm
+)
+"lf_proof.ml" 104 2758 2782 "lf_proof.ml" 104 2758 2785
+type(
+  Term.name_env
+)
+ident(
+  int_ref env "lf_proof.ml" 92 2414 2446 "lf_proof.ml" 92 2414 2449
+)
+"lf_proof.ml" 104 2758 2786 "lf_proof.ml" 104 2758 2787
+type(
+  int
+)
+"lf_proof.ml" 104 2758 2766 "lf_proof.ml" 104 2758 2788
+call(
+  stack
+)
+type(
+  Format.formatter -> Term.pterm -> unit
+)
+"lf_proof.ml" 104 2758 2789 "lf_proof.ml" 104 2758 2793
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "lf_proof.ml" 92 2414 2469 "lf_proof.ml" 92 2414 2473
+)
+"lf_proof.ml" 105 2794 2803 "lf_proof.ml" 105 2794 2817
+type(
+  Term.name_env -> int -> Format.formatter -> Term.pterm -> unit
+)
+ident(
+  ext_ref Term.pp_print_pterm
+)
+"lf_proof.ml" 105 2794 2818 "lf_proof.ml" 105 2794 2821
+type(
+  Term.name_env
+)
+ident(
+  int_ref env "lf_proof.ml" 92 2414 2446 "lf_proof.ml" 92 2414 2449
+)
+"lf_proof.ml" 105 2794 2822 "lf_proof.ml" 105 2794 2823
+type(
+  int
+)
+"lf_proof.ml" 105 2794 2802 "lf_proof.ml" 105 2794 2824
+call(
+  stack
+)
+type(
+  Format.formatter -> Term.pterm -> unit
+)
+"lf_proof.ml" 105 2794 2825 "lf_proof.ml" 105 2794 2830
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucLS "lf_proof.ml" 102 2698 2707 "lf_proof.ml" 102 2698 2712
+)
+"lf_proof.ml" 106 2831 2840 "lf_proof.ml" 106 2831 2854
+type(
+  Term.name_env -> int -> Format.formatter -> Term.pterm -> unit
+)
+ident(
+  ext_ref Term.pp_print_pterm
+)
+"lf_proof.ml" 106 2831 2855 "lf_proof.ml" 106 2831 2858
+type(
+  Term.name_env
+)
+ident(
+  int_ref env "lf_proof.ml" 92 2414 2446 "lf_proof.ml" 92 2414 2449
+)
+"lf_proof.ml" 106 2831 2859 "lf_proof.ml" 106 2831 2860
+type(
+  int
+)
+"lf_proof.ml" 106 2831 2839 "lf_proof.ml" 106 2831 2861
+call(
+  stack
+)
+type(
+  Format.formatter -> Term.pterm -> unit
+)
+"lf_proof.ml" 106 2831 2862 "lf_proof.ml" 106 2831 2866
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "lf_proof.ml" 92 2414 2469 "lf_proof.ml" 92 2414 2473
+)
+"lf_proof.ml" 103 2716 2722 "lf_proof.ml" 106 2831 2866
+call(
+  stack
+)
+type(
+  unit
+)
+"lf_proof.ml" 98 2597 2599 "lf_proof.ml" 107 2867 2872
+type(
+  unit
+)
+"lf_proof.ml" 108 2874 2888 "lf_proof.ml" 108 2874 2890
+type(
+  lf_proof
+)
+ident(
+  int_ref pr "lf_proof.ml" 92 2414 2478 "lf_proof.ml" 92 2414 2480
+)
+"lf_proof.ml" 109 2896 2906 "lf_proof.ml" 109 2896 2907
+type(
+  int
+)
+ident(
+  def x "lf_proof.ml" 110 2911 2917 "lf_proof.ml" 110 2911 2942
+)
+"lf_proof.ml" 109 2896 2900 "lf_proof.ml" 109 2896 2907
+type(
+  lf_proof
+)
+"lf_proof.ml" 110 2911 2917 "lf_proof.ml" 110 2911 2924
+type(
+  Format.formatter ->
+  (int -> unit, Format.formatter, unit) format -> int -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 110 2911 2925 "lf_proof.ml" 110 2911 2928
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 92 2414 2474 "lf_proof.ml" 92 2414 2477
+)
+"lf_proof.ml" 110 2911 2929 "lf_proof.ml" 110 2911 2940
+type(
+  (int -> unit, Format.formatter, unit) format
+)
+"lf_proof.ml" 110 2911 2941 "lf_proof.ml" 110 2911 2942
+type(
+  int
+)
+ident(
+  int_ref x "lf_proof.ml" 109 2896 2906 "lf_proof.ml" 109 2896 2907
+)
+"lf_proof.ml" 110 2911 2917 "lf_proof.ml" 110 2911 2942
+call(
+  stack
+)
+type(
+  unit
+)
+"lf_proof.ml" 111 2943 2947 "lf_proof.ml" 111 2943 2952
+type(
+  lf_proof
+)
+"lf_proof.ml" 112 2956 2962 "lf_proof.ml" 112 2956 2969
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 112 2956 2970 "lf_proof.ml" 112 2956 2973
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 92 2414 2474 "lf_proof.ml" 92 2414 2477
+)
+"lf_proof.ml" 112 2956 2974 "lf_proof.ml" 112 2956 2982
+type(
+  (unit, Format.formatter, unit) format
+)
+"lf_proof.ml" 112 2956 2962 "lf_proof.ml" 112 2956 2982
+call(
+  stack
+)
+type(
+  unit
+)
+"lf_proof.ml" 113 2983 2994 "lf_proof.ml" 113 2983 2997
+type(
+  lf_proof
+)
+ident(
+  def pr1 "lf_proof.ml" 114 3006 3012 "lf_proof.ml" 120 3302 3311
+)
+"lf_proof.ml" 113 2983 2998 "lf_proof.ml" 113 2983 3001
+type(
+  lf_proof
+)
+ident(
+  def pr2 "lf_proof.ml" 114 3006 3012 "lf_proof.ml" 120 3302 3311
+)
+"lf_proof.ml" 113 2983 2987 "lf_proof.ml" 113 2983 3002
+type(
+  lf_proof
+)
+"lf_proof.ml" 114 3006 3024 "lf_proof.ml" 114 3006 3028
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "lf_proof.ml" 92 2414 2469 "lf_proof.ml" 92 2414 2473
+)
+"lf_proof.ml" 115 3034 3048 "lf_proof.ml" 115 3034 3050
+type(
+  Term.pterm
+)
+ident(
+  def t1 "lf_proof.ml" 116 3058 3068 "lf_proof.ml" 118 3168 3235
+)
+"lf_proof.ml" 115 3034 3051 "lf_proof.ml" 115 3034 3053
+type(
+  Term.pterm
+)
+ident(
+  def t2 "lf_proof.ml" 116 3058 3068 "lf_proof.ml" 118 3168 3235
+)
+"lf_proof.ml" 115 3034 3042 "lf_proof.ml" 115 3034 3054
+type(
+  Term.pterm
+)
+"lf_proof.ml" 116 3058 3068 "lf_proof.ml" 116 3058 3075
+type(
+  Format.formatter ->
+  ((Format.formatter -> lf_proof -> unit) ->
+   lf_proof -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> lf_proof -> unit) ->
+  lf_proof -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 116 3058 3076 "lf_proof.ml" 116 3058 3079
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 92 2414 2474 "lf_proof.ml" 92 2414 2477
+)
+"lf_proof.ml" 116 3058 3080 "lf_proof.ml" 116 3058 3099
+type(
+  ((Format.formatter -> lf_proof -> unit) ->
+   lf_proof -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format
+)
+"lf_proof.ml" 117 3100 3113 "lf_proof.ml" 117 3100 3136
+type(
+  Term.name_env ->
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Format.formatter -> lf_proof -> unit
+)
+ident(
+  int_ref pp_print_proof_internal "lf_proof.ml" 92 2414 2422 "lf_proof.ml" 92 2414 2445
+)
+"lf_proof.ml" 117 3100 3137 "lf_proof.ml" 117 3100 3140
+type(
+  Term.name_env
+)
+ident(
+  int_ref env "lf_proof.ml" 92 2414 2446 "lf_proof.ml" 92 2414 2449
+)
+"lf_proof.ml" 117 3100 3141 "lf_proof.ml" 117 3100 3145
+type(
+  int
+)
+ident(
+  int_ref anum "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+)
+"lf_proof.ml" 117 3100 3146 "lf_proof.ml" 117 3100 3150
+type(
+  int
+)
+ident(
+  int_ref pnum "lf_proof.ml" 92 2414 2455 "lf_proof.ml" 92 2414 2459
+)
+"lf_proof.ml" 117 3100 3151 "lf_proof.ml" 117 3100 3154
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant "lf_proof.ml" 92 2414 2460 "lf_proof.ml" 92 2414 2463
+)
+"lf_proof.ml" 117 3100 3155 "lf_proof.ml" 117 3100 3159
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "lf_proof.ml" 92 2414 2464 "lf_proof.ml" 92 2414 2468
+)
+"lf_proof.ml" 117 3100 3160 "lf_proof.ml" 117 3100 3162
+type(
+  Term.pterm
+)
+ident(
+  int_ref t1 "lf_proof.ml" 115 3034 3048 "lf_proof.ml" 115 3034 3050
+)
+"lf_proof.ml" 117 3100 3112 "lf_proof.ml" 117 3100 3163
+call(
+  stack
+)
+type(
+  Format.formatter -> lf_proof -> unit
+)
+"lf_proof.ml" 117 3100 3164 "lf_proof.ml" 117 3100 3167
+type(
+  lf_proof
+)
+ident(
+  int_ref pr1 "lf_proof.ml" 113 2983 2994 "lf_proof.ml" 113 2983 2997
+)
+"lf_proof.ml" 118 3168 3181 "lf_proof.ml" 118 3168 3204
+type(
+  Term.name_env ->
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Format.formatter -> lf_proof -> unit
+)
+ident(
+  int_ref pp_print_proof_internal "lf_proof.ml" 92 2414 2422 "lf_proof.ml" 92 2414 2445
+)
+"lf_proof.ml" 118 3168 3205 "lf_proof.ml" 118 3168 3208
+type(
+  Term.name_env
+)
+ident(
+  int_ref env "lf_proof.ml" 92 2414 2446 "lf_proof.ml" 92 2414 2449
+)
+"lf_proof.ml" 118 3168 3209 "lf_proof.ml" 118 3168 3213
+type(
+  int
+)
+ident(
+  int_ref anum "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+)
+"lf_proof.ml" 118 3168 3214 "lf_proof.ml" 118 3168 3218
+type(
+  int
+)
+ident(
+  int_ref pnum "lf_proof.ml" 92 2414 2455 "lf_proof.ml" 92 2414 2459
+)
+"lf_proof.ml" 118 3168 3219 "lf_proof.ml" 118 3168 3222
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant "lf_proof.ml" 92 2414 2460 "lf_proof.ml" 92 2414 2463
+)
+"lf_proof.ml" 118 3168 3223 "lf_proof.ml" 118 3168 3227
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "lf_proof.ml" 92 2414 2464 "lf_proof.ml" 92 2414 2468
+)
+"lf_proof.ml" 118 3168 3228 "lf_proof.ml" 118 3168 3230
+type(
+  Term.pterm
+)
+ident(
+  int_ref t2 "lf_proof.ml" 115 3034 3051 "lf_proof.ml" 115 3034 3053
+)
+"lf_proof.ml" 118 3168 3180 "lf_proof.ml" 118 3168 3231
+call(
+  stack
+)
+type(
+  Format.formatter -> lf_proof -> unit
+)
+"lf_proof.ml" 118 3168 3232 "lf_proof.ml" 118 3168 3235
+type(
+  lf_proof
+)
+ident(
+  int_ref pr2 "lf_proof.ml" 113 2983 2998 "lf_proof.ml" 113 2983 3001
+)
+"lf_proof.ml" 116 3058 3068 "lf_proof.ml" 118 3168 3235
+call(
+  stack
+)
+type(
+  unit
+)
+"lf_proof.ml" 119 3236 3244 "lf_proof.ml" 119 3236 3245
+type(
+  Term.pterm
+)
+"lf_proof.ml" 119 3236 3249 "lf_proof.ml" 119 3236 3254
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"lf_proof.ml" 119 3236 3273 "lf_proof.ml" 119 3236 3300
+type(
+  string
+)
+"lf_proof.ml" 119 3236 3255 "lf_proof.ml" 119 3236 3301
+type(
+  exn
+)
+"lf_proof.ml" 119 3236 3249 "lf_proof.ml" 119 3236 3301
+type(
+  unit
+)
+"lf_proof.ml" 114 3006 3012 "lf_proof.ml" 120 3302 3311
+type(
+  unit
+)
+"lf_proof.ml" 121 3312 3323 "lf_proof.ml" 121 3312 3325
+type(
+  lf_proof
+)
+ident(
+  def pr "lf_proof.ml" 122 3329 3335 "lf_proof.ml" 136 3902 3911
+)
+"lf_proof.ml" 121 3312 3316 "lf_proof.ml" 121 3312 3325
+type(
+  lf_proof
+)
+"lf_proof.ml" 122 3329 3347 "lf_proof.ml" 122 3329 3351
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "lf_proof.ml" 92 2414 2469 "lf_proof.ml" 92 2414 2473
+)
+"lf_proof.ml" 123 3357 3370 "lf_proof.ml" 123 3357 3372
+type(
+  Term.pterm
+)
+ident(
+  def t1 "lf_proof.ml" 124 3380 3390 "lf_proof.ml" 134 3822 3835
+)
+"lf_proof.ml" 123 3357 3373 "lf_proof.ml" 123 3357 3375
+type(
+  Term.pterm
+)
+ident(
+  def t2 "lf_proof.ml" 124 3380 3390 "lf_proof.ml" 134 3822 3835
+)
+"lf_proof.ml" 123 3357 3365 "lf_proof.ml" 123 3357 3376
+type(
+  Term.pterm
+)
+"lf_proof.ml" 124 3380 3402 "lf_proof.ml" 124 3380 3406
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "lf_proof.ml" 92 2414 2464 "lf_proof.ml" 92 2414 2468
+)
+"lf_proof.ml" 125 3412 3424 "lf_proof.ml" 125 3412 3428
+type(
+  Term.pterm option
+)
+"lf_proof.ml" 126 3432 3446 "lf_proof.ml" 126 3432 3453
+type(
+  Format.formatter ->
+  ((Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 126 3432 3454 "lf_proof.ml" 126 3432 3457
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 92 2414 2474 "lf_proof.ml" 92 2414 2477
+)
+"lf_proof.ml" 126 3432 3458 "lf_proof.ml" 126 3432 3475
+type(
+  ((Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format
+)
+"lf_proof.ml" 127 3476 3493 "lf_proof.ml" 127 3476 3516
+type(
+  Term.name_env ->
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Format.formatter -> lf_proof -> unit
+)
+ident(
+  int_ref pp_print_proof_internal "lf_proof.ml" 92 2414 2422 "lf_proof.ml" 92 2414 2445
+)
+"lf_proof.ml" 127 3476 3517 "lf_proof.ml" 127 3476 3520
+type(
+  Term.name_env
+)
+ident(
+  int_ref env "lf_proof.ml" 92 2414 2446 "lf_proof.ml" 92 2414 2449
+)
+"lf_proof.ml" 127 3476 3521 "lf_proof.ml" 127 3476 3525
+type(
+  int
+)
+ident(
+  int_ref anum "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+)
+"lf_proof.ml" 127 3476 3526 "lf_proof.ml" 127 3476 3530
+type(
+  int
+)
+ident(
+  int_ref pnum "lf_proof.ml" 92 2414 2455 "lf_proof.ml" 92 2414 2459
+)
+"lf_proof.ml" 127 3476 3531 "lf_proof.ml" 127 3476 3534
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant "lf_proof.ml" 92 2414 2460 "lf_proof.ml" 92 2414 2463
+)
+"lf_proof.ml" 127 3476 3535 "lf_proof.ml" 127 3476 3539
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "lf_proof.ml" 92 2414 2464 "lf_proof.ml" 92 2414 2468
+)
+"lf_proof.ml" 127 3476 3540 "lf_proof.ml" 127 3476 3542
+type(
+  Term.pterm
+)
+ident(
+  int_ref t1 "lf_proof.ml" 123 3357 3370 "lf_proof.ml" 123 3357 3372
+)
+"lf_proof.ml" 127 3476 3492 "lf_proof.ml" 127 3476 3543
+call(
+  stack
+)
+type(
+  Format.formatter -> lf_proof -> unit
+)
+"lf_proof.ml" 127 3476 3544 "lf_proof.ml" 127 3476 3546
+type(
+  lf_proof
+)
+ident(
+  int_ref pr "lf_proof.ml" 121 3312 3323 "lf_proof.ml" 121 3312 3325
+)
+"lf_proof.ml" 126 3432 3446 "lf_proof.ml" 127 3476 3546
+call(
+  stack
+)
+type(
+  unit
+)
+"lf_proof.ml" 128 3547 3564 "lf_proof.ml" 128 3547 3569
+type(
+  Term.pterm
+)
+ident(
+  def sucLS "lf_proof.ml" 129 3573 3587 "lf_proof.ml" 133 3788 3821
+)
+"lf_proof.ml" 128 3547 3559 "lf_proof.ml" 128 3547 3569
+type(
+  Term.pterm option
+)
+"lf_proof.ml" 129 3573 3591 "lf_proof.ml" 129 3573 3592
+type(
+  Term.pterm
+)
+ident(
+  def p "lf_proof.ml" 130 3608 3622 "lf_proof.ml" 133 3788 3821
+)
+"lf_proof.ml" 129 3573 3600 "lf_proof.ml" 129 3573 3604
+type(
+  int
+)
+ident(
+  int_ref pnum "lf_proof.ml" 92 2414 2455 "lf_proof.ml" 92 2414 2459
+)
+"lf_proof.ml" 129 3573 3595 "lf_proof.ml" 129 3573 3604
+type(
+  Term.pterm
+)
+"lf_proof.ml" 130 3608 3622 "lf_proof.ml" 130 3608 3629
+type(
+  Format.formatter ->
+  ((Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 130 3608 3630 "lf_proof.ml" 130 3608 3633
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 92 2414 2474 "lf_proof.ml" 92 2414 2477
+)
+"lf_proof.ml" 130 3608 3634 "lf_proof.ml" 130 3608 3651
+type(
+  ((Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format
+)
+"lf_proof.ml" 131 3652 3669 "lf_proof.ml" 131 3652 3692
+type(
+  Term.name_env ->
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Format.formatter -> lf_proof -> unit
+)
+ident(
+  int_ref pp_print_proof_internal "lf_proof.ml" 92 2414 2422 "lf_proof.ml" 92 2414 2445
+)
+"lf_proof.ml" 131 3652 3693 "lf_proof.ml" 131 3652 3696
+type(
+  Term.name_env
+)
+ident(
+  int_ref env "lf_proof.ml" 92 2414 2446 "lf_proof.ml" 92 2414 2449
+)
+"lf_proof.ml" 131 3652 3698 "lf_proof.ml" 131 3652 3702
+type(
+  int
+)
+ident(
+  int_ref anum "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+)
+"lf_proof.ml" 131 3652 3702 "lf_proof.ml" 131 3652 3703
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"lf_proof.ml" 131 3652 3703 "lf_proof.ml" 131 3652 3704
+type(
+  int
+)
+"lf_proof.ml" 131 3652 3697 "lf_proof.ml" 131 3652 3705
+type(
+  int
+)
+"lf_proof.ml" 131 3652 3707 "lf_proof.ml" 131 3652 3711
+type(
+  int
+)
+ident(
+  int_ref pnum "lf_proof.ml" 92 2414 2455 "lf_proof.ml" 92 2414 2459
+)
+"lf_proof.ml" 131 3652 3711 "lf_proof.ml" 131 3652 3712
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"lf_proof.ml" 131 3652 3712 "lf_proof.ml" 131 3652 3713
+type(
+  int
+)
+"lf_proof.ml" 131 3652 3706 "lf_proof.ml" 131 3652 3714
+type(
+  int
+)
+"lf_proof.ml" 132 3715 3743 "lf_proof.ml" 132 3715 3745
+type(
+  Term.pterm
+)
+ident(
+  int_ref t2 "lf_proof.ml" 123 3357 3373 "lf_proof.ml" 123 3357 3375
+)
+"lf_proof.ml" 132 3715 3746 "lf_proof.ml" 132 3715 3747
+type(
+  Term.pterm
+)
+ident(
+  int_ref p "lf_proof.ml" 129 3573 3591 "lf_proof.ml" 129 3573 3592
+)
+"lf_proof.ml" 132 3715 3735 "lf_proof.ml" 132 3715 3748
+type(
+  Term.pterm
+)
+"lf_proof.ml" 132 3715 3749 "lf_proof.ml" 132 3715 3753
+type(
+  int
+)
+ident(
+  int_ref anum "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+)
+"lf_proof.ml" 132 3715 3734 "lf_proof.ml" 132 3715 3754
+type(
+  Term.pterm * int
+)
+"lf_proof.ml" 132 3715 3765 "lf_proof.ml" 132 3715 3766
+type(
+  Term.pterm
+)
+ident(
+  int_ref p "lf_proof.ml" 129 3573 3591 "lf_proof.ml" 129 3573 3592
+)
+"lf_proof.ml" 132 3715 3767 "lf_proof.ml" 132 3715 3772
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucLS "lf_proof.ml" 128 3547 3564 "lf_proof.ml" 128 3547 3569
+)
+"lf_proof.ml" 132 3715 3757 "lf_proof.ml" 132 3715 3773
+type(
+  Term.pterm
+)
+"lf_proof.ml" 132 3715 3774 "lf_proof.ml" 132 3715 3778
+type(
+  int
+)
+ident(
+  int_ref anum "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+)
+"lf_proof.ml" 132 3715 3778 "lf_proof.ml" 132 3715 3779
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"lf_proof.ml" 132 3715 3779 "lf_proof.ml" 132 3715 3780
+type(
+  int
+)
+"lf_proof.ml" 132 3715 3774 "lf_proof.ml" 132 3715 3780
+type(
+  int
+)
+"lf_proof.ml" 132 3715 3756 "lf_proof.ml" 132 3715 3781
+type(
+  Term.pterm * int
+)
+"lf_proof.ml" 132 3715 3783 "lf_proof.ml" 132 3715 3786
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant "lf_proof.ml" 92 2414 2460 "lf_proof.ml" 92 2414 2463
+)
+"lf_proof.ml" 132 3715 3756 "lf_proof.ml" 132 3715 3786
+type(
+  (Term.pterm * int) list
+)
+"lf_proof.ml" 132 3715 3733 "lf_proof.ml" 132 3715 3787
+type(
+  (Term.pterm * int) list
+)
+"lf_proof.ml" 133 3788 3812 "lf_proof.ml" 133 3788 3813
+type(
+  Term.pterm
+)
+ident(
+  int_ref p "lf_proof.ml" 129 3573 3591 "lf_proof.ml" 129 3573 3592
+)
+"lf_proof.ml" 133 3788 3806 "lf_proof.ml" 133 3788 3814
+type(
+  Term.pterm option
+)
+"lf_proof.ml" 133 3788 3815 "lf_proof.ml" 133 3788 3817
+type(
+  Term.pterm
+)
+ident(
+  int_ref t1 "lf_proof.ml" 123 3357 3370 "lf_proof.ml" 123 3357 3372
+)
+"lf_proof.ml" 131 3652 3668 "lf_proof.ml" 133 3788 3818
+call(
+  stack
+)
+type(
+  Format.formatter -> lf_proof -> unit
+)
+"lf_proof.ml" 133 3788 3819 "lf_proof.ml" 133 3788 3821
+type(
+  lf_proof
+)
+ident(
+  int_ref pr "lf_proof.ml" 121 3312 3323 "lf_proof.ml" 121 3312 3325
+)
+"lf_proof.ml" 130 3608 3622 "lf_proof.ml" 133 3788 3821
+call(
+  stack
+)
+type(
+  unit
+)
+"lf_proof.ml" 129 3573 3587 "lf_proof.ml" 133 3788 3821
+type(
+  unit
+)
+"lf_proof.ml" 124 3380 3390 "lf_proof.ml" 134 3822 3835
+type(
+  unit
+)
+"lf_proof.ml" 135 3836 3844 "lf_proof.ml" 135 3836 3845
+type(
+  Term.pterm
+)
+"lf_proof.ml" 135 3836 3849 "lf_proof.ml" 135 3836 3854
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"lf_proof.ml" 135 3836 3873 "lf_proof.ml" 135 3836 3900
+type(
+  string
+)
+"lf_proof.ml" 135 3836 3855 "lf_proof.ml" 135 3836 3901
+type(
+  exn
+)
+"lf_proof.ml" 135 3836 3849 "lf_proof.ml" 135 3836 3901
+type(
+  unit
+)
+"lf_proof.ml" 122 3329 3335 "lf_proof.ml" 136 3902 3911
+type(
+  unit
+)
+"lf_proof.ml" 137 3912 3923 "lf_proof.ml" 137 3912 3925
+type(
+  lf_proof
+)
+ident(
+  def pr "lf_proof.ml" 138 3929 3935 "lf_proof.ml" 152 4502 4511
+)
+"lf_proof.ml" 137 3912 3916 "lf_proof.ml" 137 3912 3925
+type(
+  lf_proof
+)
+"lf_proof.ml" 138 3929 3947 "lf_proof.ml" 138 3929 3951
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "lf_proof.ml" 92 2414 2469 "lf_proof.ml" 92 2414 2473
+)
+"lf_proof.ml" 139 3957 3970 "lf_proof.ml" 139 3957 3972
+type(
+  Term.pterm
+)
+ident(
+  def t1 "lf_proof.ml" 140 3980 3990 "lf_proof.ml" 150 4422 4435
+)
+"lf_proof.ml" 139 3957 3973 "lf_proof.ml" 139 3957 3975
+type(
+  Term.pterm
+)
+ident(
+  def t2 "lf_proof.ml" 140 3980 3990 "lf_proof.ml" 150 4422 4435
+)
+"lf_proof.ml" 139 3957 3965 "lf_proof.ml" 139 3957 3976
+type(
+  Term.pterm
+)
+"lf_proof.ml" 140 3980 4002 "lf_proof.ml" 140 3980 4006
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "lf_proof.ml" 92 2414 2464 "lf_proof.ml" 92 2414 2468
+)
+"lf_proof.ml" 141 4012 4024 "lf_proof.ml" 141 4012 4028
+type(
+  Term.pterm option
+)
+"lf_proof.ml" 142 4032 4046 "lf_proof.ml" 142 4032 4053
+type(
+  Format.formatter ->
+  ((Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 142 4032 4054 "lf_proof.ml" 142 4032 4057
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 92 2414 2474 "lf_proof.ml" 92 2414 2477
+)
+"lf_proof.ml" 142 4032 4058 "lf_proof.ml" 142 4032 4075
+type(
+  ((Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format
+)
+"lf_proof.ml" 143 4076 4093 "lf_proof.ml" 143 4076 4116
+type(
+  Term.name_env ->
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Format.formatter -> lf_proof -> unit
+)
+ident(
+  int_ref pp_print_proof_internal "lf_proof.ml" 92 2414 2422 "lf_proof.ml" 92 2414 2445
+)
+"lf_proof.ml" 143 4076 4117 "lf_proof.ml" 143 4076 4120
+type(
+  Term.name_env
+)
+ident(
+  int_ref env "lf_proof.ml" 92 2414 2446 "lf_proof.ml" 92 2414 2449
+)
+"lf_proof.ml" 143 4076 4121 "lf_proof.ml" 143 4076 4125
+type(
+  int
+)
+ident(
+  int_ref anum "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+)
+"lf_proof.ml" 143 4076 4126 "lf_proof.ml" 143 4076 4130
+type(
+  int
+)
+ident(
+  int_ref pnum "lf_proof.ml" 92 2414 2455 "lf_proof.ml" 92 2414 2459
+)
+"lf_proof.ml" 143 4076 4131 "lf_proof.ml" 143 4076 4134
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant "lf_proof.ml" 92 2414 2460 "lf_proof.ml" 92 2414 2463
+)
+"lf_proof.ml" 143 4076 4135 "lf_proof.ml" 143 4076 4139
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "lf_proof.ml" 92 2414 2464 "lf_proof.ml" 92 2414 2468
+)
+"lf_proof.ml" 143 4076 4140 "lf_proof.ml" 143 4076 4142
+type(
+  Term.pterm
+)
+ident(
+  int_ref t2 "lf_proof.ml" 139 3957 3973 "lf_proof.ml" 139 3957 3975
+)
+"lf_proof.ml" 143 4076 4092 "lf_proof.ml" 143 4076 4143
+call(
+  stack
+)
+type(
+  Format.formatter -> lf_proof -> unit
+)
+"lf_proof.ml" 143 4076 4144 "lf_proof.ml" 143 4076 4146
+type(
+  lf_proof
+)
+ident(
+  int_ref pr "lf_proof.ml" 137 3912 3923 "lf_proof.ml" 137 3912 3925
+)
+"lf_proof.ml" 142 4032 4046 "lf_proof.ml" 143 4076 4146
+call(
+  stack
+)
+type(
+  unit
+)
+"lf_proof.ml" 144 4147 4164 "lf_proof.ml" 144 4147 4169
+type(
+  Term.pterm
+)
+ident(
+  def sucLS "lf_proof.ml" 145 4173 4187 "lf_proof.ml" 149 4388 4421
+)
+"lf_proof.ml" 144 4147 4159 "lf_proof.ml" 144 4147 4169
+type(
+  Term.pterm option
+)
+"lf_proof.ml" 145 4173 4191 "lf_proof.ml" 145 4173 4192
+type(
+  Term.pterm
+)
+ident(
+  def p "lf_proof.ml" 146 4208 4222 "lf_proof.ml" 149 4388 4421
+)
+"lf_proof.ml" 145 4173 4200 "lf_proof.ml" 145 4173 4204
+type(
+  int
+)
+ident(
+  int_ref pnum "lf_proof.ml" 92 2414 2455 "lf_proof.ml" 92 2414 2459
+)
+"lf_proof.ml" 145 4173 4195 "lf_proof.ml" 145 4173 4204
+type(
+  Term.pterm
+)
+"lf_proof.ml" 146 4208 4222 "lf_proof.ml" 146 4208 4229
+type(
+  Format.formatter ->
+  ((Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 146 4208 4230 "lf_proof.ml" 146 4208 4233
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 92 2414 2474 "lf_proof.ml" 92 2414 2477
+)
+"lf_proof.ml" 146 4208 4234 "lf_proof.ml" 146 4208 4251
+type(
+  ((Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format
+)
+"lf_proof.ml" 147 4252 4269 "lf_proof.ml" 147 4252 4292
+type(
+  Term.name_env ->
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Format.formatter -> lf_proof -> unit
+)
+ident(
+  int_ref pp_print_proof_internal "lf_proof.ml" 92 2414 2422 "lf_proof.ml" 92 2414 2445
+)
+"lf_proof.ml" 147 4252 4293 "lf_proof.ml" 147 4252 4296
+type(
+  Term.name_env
+)
+ident(
+  int_ref env "lf_proof.ml" 92 2414 2446 "lf_proof.ml" 92 2414 2449
+)
+"lf_proof.ml" 147 4252 4298 "lf_proof.ml" 147 4252 4302
+type(
+  int
+)
+ident(
+  int_ref anum "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+)
+"lf_proof.ml" 147 4252 4302 "lf_proof.ml" 147 4252 4303
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"lf_proof.ml" 147 4252 4303 "lf_proof.ml" 147 4252 4304
+type(
+  int
+)
+"lf_proof.ml" 147 4252 4297 "lf_proof.ml" 147 4252 4305
+type(
+  int
+)
+"lf_proof.ml" 147 4252 4307 "lf_proof.ml" 147 4252 4311
+type(
+  int
+)
+ident(
+  int_ref pnum "lf_proof.ml" 92 2414 2455 "lf_proof.ml" 92 2414 2459
+)
+"lf_proof.ml" 147 4252 4311 "lf_proof.ml" 147 4252 4312
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"lf_proof.ml" 147 4252 4312 "lf_proof.ml" 147 4252 4313
+type(
+  int
+)
+"lf_proof.ml" 147 4252 4306 "lf_proof.ml" 147 4252 4314
+type(
+  int
+)
+"lf_proof.ml" 148 4315 4343 "lf_proof.ml" 148 4315 4345
+type(
+  Term.pterm
+)
+ident(
+  int_ref t1 "lf_proof.ml" 139 3957 3970 "lf_proof.ml" 139 3957 3972
+)
+"lf_proof.ml" 148 4315 4346 "lf_proof.ml" 148 4315 4347
+type(
+  Term.pterm
+)
+ident(
+  int_ref p "lf_proof.ml" 145 4173 4191 "lf_proof.ml" 145 4173 4192
+)
+"lf_proof.ml" 148 4315 4335 "lf_proof.ml" 148 4315 4348
+type(
+  Term.pterm
+)
+"lf_proof.ml" 148 4315 4349 "lf_proof.ml" 148 4315 4353
+type(
+  int
+)
+ident(
+  int_ref anum "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+)
+"lf_proof.ml" 148 4315 4334 "lf_proof.ml" 148 4315 4354
+type(
+  Term.pterm * int
+)
+"lf_proof.ml" 148 4315 4365 "lf_proof.ml" 148 4315 4366
+type(
+  Term.pterm
+)
+ident(
+  int_ref p "lf_proof.ml" 145 4173 4191 "lf_proof.ml" 145 4173 4192
+)
+"lf_proof.ml" 148 4315 4367 "lf_proof.ml" 148 4315 4372
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucLS "lf_proof.ml" 144 4147 4164 "lf_proof.ml" 144 4147 4169
+)
+"lf_proof.ml" 148 4315 4357 "lf_proof.ml" 148 4315 4373
+type(
+  Term.pterm
+)
+"lf_proof.ml" 148 4315 4374 "lf_proof.ml" 148 4315 4378
+type(
+  int
+)
+ident(
+  int_ref anum "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+)
+"lf_proof.ml" 148 4315 4378 "lf_proof.ml" 148 4315 4379
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"lf_proof.ml" 148 4315 4379 "lf_proof.ml" 148 4315 4380
+type(
+  int
+)
+"lf_proof.ml" 148 4315 4374 "lf_proof.ml" 148 4315 4380
+type(
+  int
+)
+"lf_proof.ml" 148 4315 4356 "lf_proof.ml" 148 4315 4381
+type(
+  Term.pterm * int
+)
+"lf_proof.ml" 148 4315 4383 "lf_proof.ml" 148 4315 4386
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant "lf_proof.ml" 92 2414 2460 "lf_proof.ml" 92 2414 2463
+)
+"lf_proof.ml" 148 4315 4356 "lf_proof.ml" 148 4315 4386
+type(
+  (Term.pterm * int) list
+)
+"lf_proof.ml" 148 4315 4333 "lf_proof.ml" 148 4315 4387
+type(
+  (Term.pterm * int) list
+)
+"lf_proof.ml" 149 4388 4412 "lf_proof.ml" 149 4388 4413
+type(
+  Term.pterm
+)
+ident(
+  int_ref p "lf_proof.ml" 145 4173 4191 "lf_proof.ml" 145 4173 4192
+)
+"lf_proof.ml" 149 4388 4406 "lf_proof.ml" 149 4388 4414
+type(
+  Term.pterm option
+)
+"lf_proof.ml" 149 4388 4415 "lf_proof.ml" 149 4388 4417
+type(
+  Term.pterm
+)
+ident(
+  int_ref t2 "lf_proof.ml" 139 3957 3973 "lf_proof.ml" 139 3957 3975
+)
+"lf_proof.ml" 147 4252 4268 "lf_proof.ml" 149 4388 4418
+call(
+  stack
+)
+type(
+  Format.formatter -> lf_proof -> unit
+)
+"lf_proof.ml" 149 4388 4419 "lf_proof.ml" 149 4388 4421
+type(
+  lf_proof
+)
+ident(
+  int_ref pr "lf_proof.ml" 137 3912 3923 "lf_proof.ml" 137 3912 3925
+)
+"lf_proof.ml" 146 4208 4222 "lf_proof.ml" 149 4388 4421
+call(
+  stack
+)
+type(
+  unit
+)
+"lf_proof.ml" 145 4173 4187 "lf_proof.ml" 149 4388 4421
+type(
+  unit
+)
+"lf_proof.ml" 140 3980 3990 "lf_proof.ml" 150 4422 4435
+type(
+  unit
+)
+"lf_proof.ml" 151 4436 4444 "lf_proof.ml" 151 4436 4445
+type(
+  Term.pterm
+)
+"lf_proof.ml" 151 4436 4449 "lf_proof.ml" 151 4436 4454
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"lf_proof.ml" 151 4436 4473 "lf_proof.ml" 151 4436 4500
+type(
+  string
+)
+"lf_proof.ml" 151 4436 4455 "lf_proof.ml" 151 4436 4501
+type(
+  exn
+)
+"lf_proof.ml" 151 4436 4449 "lf_proof.ml" 151 4436 4501
+type(
+  unit
+)
+"lf_proof.ml" 138 3929 3935 "lf_proof.ml" 152 4502 4511
+type(
+  unit
+)
+"lf_proof.ml" 153 4512 4522 "lf_proof.ml" 153 4512 4524
+type(
+  lf_proof
+)
+ident(
+  def pr "lf_proof.ml" 154 4528 4534 "lf_proof.ml" 160 4786 4795
+)
+"lf_proof.ml" 153 4512 4516 "lf_proof.ml" 153 4512 4524
+type(
+  lf_proof
+)
+"lf_proof.ml" 154 4528 4546 "lf_proof.ml" 154 4528 4550
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "lf_proof.ml" 92 2414 2469 "lf_proof.ml" 92 2414 2473
+)
+"lf_proof.ml" 155 4556 4572 "lf_proof.ml" 155 4556 4574
+type(
+  Term.pterm
+)
+ident(
+  def t1 "lf_proof.ml" 156 4582 4592 "lf_proof.ml" 158 4692 4717
+)
+"lf_proof.ml" 155 4556 4575 "lf_proof.ml" 155 4556 4577
+type(
+  Term.pterm
+)
+ident(
+  def t2 "lf_proof.ml" 156 4582 4592 "lf_proof.ml" 158 4692 4717
+)
+"lf_proof.ml" 155 4556 4564 "lf_proof.ml" 155 4556 4578
+type(
+  Term.pterm
+)
+"lf_proof.ml" 156 4582 4592 "lf_proof.ml" 156 4582 4599
+type(
+  Format.formatter ->
+  ((Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 156 4582 4600 "lf_proof.ml" 156 4582 4603
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 92 2414 2474 "lf_proof.ml" 92 2414 2477
+)
+"lf_proof.ml" 156 4582 4604 "lf_proof.ml" 156 4582 4618
+type(
+  ((Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format
+)
+"lf_proof.ml" 157 4619 4632 "lf_proof.ml" 157 4619 4655
+type(
+  Term.name_env ->
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Format.formatter -> lf_proof -> unit
+)
+ident(
+  int_ref pp_print_proof_internal "lf_proof.ml" 92 2414 2422 "lf_proof.ml" 92 2414 2445
+)
+"lf_proof.ml" 157 4619 4656 "lf_proof.ml" 157 4619 4659
+type(
+  Term.name_env
+)
+ident(
+  int_ref env "lf_proof.ml" 92 2414 2446 "lf_proof.ml" 92 2414 2449
+)
+"lf_proof.ml" 157 4619 4661 "lf_proof.ml" 157 4619 4665
+type(
+  int
+)
+ident(
+  int_ref anum "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+)
+"lf_proof.ml" 157 4619 4665 "lf_proof.ml" 157 4619 4666
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"lf_proof.ml" 157 4619 4666 "lf_proof.ml" 157 4619 4667
+type(
+  int
+)
+"lf_proof.ml" 157 4619 4660 "lf_proof.ml" 157 4619 4668
+type(
+  int
+)
+"lf_proof.ml" 157 4619 4669 "lf_proof.ml" 157 4619 4673
+type(
+  int
+)
+ident(
+  int_ref pnum "lf_proof.ml" 92 2414 2455 "lf_proof.ml" 92 2414 2459
+)
+"lf_proof.ml" 157 4619 4675 "lf_proof.ml" 157 4619 4678
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant "lf_proof.ml" 92 2414 2460 "lf_proof.ml" 92 2414 2463
+)
+"lf_proof.ml" 157 4619 4678 "lf_proof.ml" 157 4619 4679
+type(
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list -> (Term.pterm * int) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"lf_proof.ml" 157 4619 4681 "lf_proof.ml" 157 4619 4683
+type(
+  Term.pterm
+)
+ident(
+  int_ref t1 "lf_proof.ml" 155 4556 4572 "lf_proof.ml" 155 4556 4574
+)
+"lf_proof.ml" 157 4619 4684 "lf_proof.ml" 157 4619 4688
+type(
+  int
+)
+ident(
+  int_ref anum "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+)
+"lf_proof.ml" 157 4619 4680 "lf_proof.ml" 157 4619 4689
+type(
+  Term.pterm * int
+)
+"lf_proof.ml" 157 4619 4679 "lf_proof.ml" 157 4619 4690
+type(
+  (Term.pterm * int) list
+)
+"lf_proof.ml" 157 4619 4674 "lf_proof.ml" 157 4619 4691
+call(
+  stack
+)
+type(
+  (Term.pterm * int) list
+)
+"lf_proof.ml" 158 4692 4706 "lf_proof.ml" 158 4692 4710
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "lf_proof.ml" 92 2414 2464 "lf_proof.ml" 92 2414 2468
+)
+"lf_proof.ml" 158 4692 4711 "lf_proof.ml" 158 4692 4713
+type(
+  Term.pterm
+)
+ident(
+  int_ref t2 "lf_proof.ml" 155 4556 4575 "lf_proof.ml" 155 4556 4577
+)
+"lf_proof.ml" 157 4619 4631 "lf_proof.ml" 158 4692 4714
+call(
+  stack
+)
+type(
+  Format.formatter -> lf_proof -> unit
+)
+"lf_proof.ml" 158 4692 4715 "lf_proof.ml" 158 4692 4717
+type(
+  lf_proof
+)
+ident(
+  int_ref pr "lf_proof.ml" 153 4512 4522 "lf_proof.ml" 153 4512 4524
+)
+"lf_proof.ml" 156 4582 4592 "lf_proof.ml" 158 4692 4717
+call(
+  stack
+)
+type(
+  unit
+)
+"lf_proof.ml" 159 4718 4726 "lf_proof.ml" 159 4718 4727
+type(
+  Term.pterm
+)
+"lf_proof.ml" 159 4718 4731 "lf_proof.ml" 159 4718 4736
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"lf_proof.ml" 159 4718 4755 "lf_proof.ml" 159 4718 4784
+type(
+  string
+)
+"lf_proof.ml" 159 4718 4737 "lf_proof.ml" 159 4718 4785
+type(
+  exn
+)
+"lf_proof.ml" 159 4718 4731 "lf_proof.ml" 159 4718 4785
+type(
+  unit
+)
+"lf_proof.ml" 154 4528 4534 "lf_proof.ml" 160 4786 4795
+type(
+  unit
+)
+"lf_proof.ml" 161 4796 4807 "lf_proof.ml" 161 4796 4808
+type(
+  int
+)
+ident(
+  def x "lf_proof.ml" 162 4816 4822 "lf_proof.ml" 164 4890 4962
+)
+"lf_proof.ml" 161 4796 4809 "lf_proof.ml" 161 4796 4811
+type(
+  lf_proof
+)
+ident(
+  def pr "lf_proof.ml" 162 4816 4822 "lf_proof.ml" 164 4890 4962
+)
+"lf_proof.ml" 161 4796 4800 "lf_proof.ml" 161 4796 4812
+type(
+  lf_proof
+)
+"lf_proof.ml" 162 4816 4827 "lf_proof.ml" 162 4816 4831
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant0 "lf_proof.ml" 163 4858 4864 "lf_proof.ml" 164 4890 4962
+)
+"lf_proof.ml" 162 4816 4832 "lf_proof.ml" 162 4816 4833
+type(
+  Term.pterm
+)
+ident(
+  def t "lf_proof.ml" 163 4858 4864 "lf_proof.ml" 164 4890 4962
+)
+"lf_proof.ml" 162 4816 4834 "lf_proof.ml" 162 4816 4838
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant1 "lf_proof.ml" 163 4858 4864 "lf_proof.ml" 164 4890 4962
+)
+"lf_proof.ml" 162 4816 4826 "lf_proof.ml" 162 4816 4839
+type(
+  (Term.pterm * int) list * Term.pterm * (Term.pterm * int) list
+)
+"lf_proof.ml" 162 4816 4842 "lf_proof.ml" 162 4816 4848
+type(
+  (Term.pterm * int) list ->
+  int -> (Term.pterm * int) list * Term.pterm * (Term.pterm * int) list
+)
+ident(
+  int_ref cutAnt "lf_proof.ml" 82 2144 2152 "lf_proof.ml" 82 2144 2158
+)
+"lf_proof.ml" 162 4816 4849 "lf_proof.ml" 162 4816 4852
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant "lf_proof.ml" 92 2414 2460 "lf_proof.ml" 92 2414 2463
+)
+"lf_proof.ml" 162 4816 4853 "lf_proof.ml" 162 4816 4854
+type(
+  int
+)
+ident(
+  int_ref x "lf_proof.ml" 161 4796 4807 "lf_proof.ml" 161 4796 4808
+)
+"lf_proof.ml" 162 4816 4842 "lf_proof.ml" 162 4816 4854
+call(
+  stack
+)
+type(
+  (Term.pterm * int) list * Term.pterm * (Term.pterm * int) list
+)
+"lf_proof.ml" 163 4858 4864 "lf_proof.ml" 163 4858 4871
+type(
+  Format.formatter ->
+  ((Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 163 4858 4872 "lf_proof.ml" 163 4858 4875
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 92 2414 2474 "lf_proof.ml" 92 2414 2477
+)
+"lf_proof.ml" 163 4858 4876 "lf_proof.ml" 163 4858 4889
+type(
+  ((Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format
+)
+"lf_proof.ml" 164 4890 4899 "lf_proof.ml" 164 4890 4922
+type(
+  Term.name_env ->
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Format.formatter -> lf_proof -> unit
+)
+ident(
+  int_ref pp_print_proof_internal "lf_proof.ml" 92 2414 2422 "lf_proof.ml" 92 2414 2445
+)
+"lf_proof.ml" 164 4890 4923 "lf_proof.ml" 164 4890 4926
+type(
+  Term.name_env
+)
+ident(
+  int_ref env "lf_proof.ml" 92 2414 2446 "lf_proof.ml" 92 2414 2449
+)
+"lf_proof.ml" 164 4890 4927 "lf_proof.ml" 164 4890 4931
+type(
+  int
+)
+ident(
+  int_ref anum "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+)
+"lf_proof.ml" 164 4890 4932 "lf_proof.ml" 164 4890 4936
+type(
+  int
+)
+ident(
+  int_ref pnum "lf_proof.ml" 92 2414 2455 "lf_proof.ml" 92 2414 2459
+)
+"lf_proof.ml" 164 4890 4938 "lf_proof.ml" 164 4890 4942
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant0 "lf_proof.ml" 162 4816 4827 "lf_proof.ml" 162 4816 4831
+)
+"lf_proof.ml" 164 4890 4942 "lf_proof.ml" 164 4890 4943
+type(
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list -> (Term.pterm * int) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"lf_proof.ml" 164 4890 4943 "lf_proof.ml" 164 4890 4947
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant1 "lf_proof.ml" 162 4816 4834 "lf_proof.ml" 162 4816 4838
+)
+"lf_proof.ml" 164 4890 4937 "lf_proof.ml" 164 4890 4948
+call(
+  stack
+)
+type(
+  (Term.pterm * int) list
+)
+"lf_proof.ml" 164 4890 4949 "lf_proof.ml" 164 4890 4953
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "lf_proof.ml" 92 2414 2464 "lf_proof.ml" 92 2414 2468
+)
+"lf_proof.ml" 164 4890 4954 "lf_proof.ml" 164 4890 4958
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "lf_proof.ml" 92 2414 2469 "lf_proof.ml" 92 2414 2473
+)
+"lf_proof.ml" 164 4890 4898 "lf_proof.ml" 164 4890 4959
+call(
+  stack
+)
+type(
+  Format.formatter -> lf_proof -> unit
+)
+"lf_proof.ml" 164 4890 4960 "lf_proof.ml" 164 4890 4962
+type(
+  lf_proof
+)
+ident(
+  int_ref pr "lf_proof.ml" 161 4796 4809 "lf_proof.ml" 161 4796 4811
+)
+"lf_proof.ml" 163 4858 4864 "lf_proof.ml" 164 4890 4962
+call(
+  stack
+)
+type(
+  unit
+)
+"lf_proof.ml" 162 4816 4822 "lf_proof.ml" 164 4890 4962
+type(
+  unit
+)
+"lf_proof.ml" 165 4963 4973 "lf_proof.ml" 165 4963 4974
+type(
+  int
+)
+ident(
+  def x "lf_proof.ml" 166 4978 4984 "lf_proof.ml" 166 4978 5004
+)
+"lf_proof.ml" 165 4963 4967 "lf_proof.ml" 165 4963 4974
+type(
+  lf_proof
+)
+"lf_proof.ml" 166 4978 4984 "lf_proof.ml" 166 4978 4991
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 166 4978 4992 "lf_proof.ml" 166 4978 4995
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 92 2414 2474 "lf_proof.ml" 92 2414 2477
+)
+"lf_proof.ml" 166 4978 4996 "lf_proof.ml" 166 4978 5004
+type(
+  (unit, Format.formatter, unit) format
+)
+"lf_proof.ml" 166 4978 4984 "lf_proof.ml" 166 4978 5004
+call(
+  stack
+)
+type(
+  unit
+)
+"lf_proof.ml" 167 5005 5016 "lf_proof.ml" 167 5005 5017
+type(
+  int
+)
+ident(
+  def x "lf_proof.ml" 168 5025 5031 "lf_proof.ml" 175 5339 5348
+)
+"lf_proof.ml" 167 5005 5018 "lf_proof.ml" 167 5005 5020
+type(
+  lf_proof
+)
+ident(
+  def pr "lf_proof.ml" 168 5025 5031 "lf_proof.ml" 175 5339 5348
+)
+"lf_proof.ml" 167 5005 5009 "lf_proof.ml" 167 5005 5021
+type(
+  lf_proof
+)
+"lf_proof.ml" 168 5025 5036 "lf_proof.ml" 168 5025 5040
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant0 "lf_proof.ml" 169 5067 5073 "lf_proof.ml" 175 5339 5348
+)
+"lf_proof.ml" 168 5025 5041 "lf_proof.ml" 168 5025 5042
+type(
+  Term.pterm
+)
+ident(
+  def t "lf_proof.ml" 169 5067 5073 "lf_proof.ml" 175 5339 5348
+)
+"lf_proof.ml" 168 5025 5043 "lf_proof.ml" 168 5025 5047
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant1 "lf_proof.ml" 169 5067 5073 "lf_proof.ml" 175 5339 5348
+)
+"lf_proof.ml" 168 5025 5035 "lf_proof.ml" 168 5025 5048
+type(
+  (Term.pterm * int) list * Term.pterm * (Term.pterm * int) list
+)
+"lf_proof.ml" 168 5025 5051 "lf_proof.ml" 168 5025 5057
+type(
+  (Term.pterm * int) list ->
+  int -> (Term.pterm * int) list * Term.pterm * (Term.pterm * int) list
+)
+ident(
+  int_ref cutAnt "lf_proof.ml" 82 2144 2152 "lf_proof.ml" 82 2144 2158
+)
+"lf_proof.ml" 168 5025 5058 "lf_proof.ml" 168 5025 5061
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant "lf_proof.ml" 92 2414 2460 "lf_proof.ml" 92 2414 2463
+)
+"lf_proof.ml" 168 5025 5062 "lf_proof.ml" 168 5025 5063
+type(
+  int
+)
+ident(
+  int_ref x "lf_proof.ml" 167 5005 5016 "lf_proof.ml" 167 5005 5017
+)
+"lf_proof.ml" 168 5025 5051 "lf_proof.ml" 168 5025 5063
+call(
+  stack
+)
+type(
+  (Term.pterm * int) list * Term.pterm * (Term.pterm * int) list
+)
+"lf_proof.ml" 169 5067 5085 "lf_proof.ml" 169 5067 5086
+type(
+  Term.pterm
+)
+ident(
+  int_ref t "lf_proof.ml" 168 5025 5041 "lf_proof.ml" 168 5025 5042
+)
+"lf_proof.ml" 170 5092 5106 "lf_proof.ml" 170 5092 5108
+type(
+  Term.pterm
+)
+ident(
+  def t1 "lf_proof.ml" 171 5116 5126 "lf_proof.ml" 173 5209 5272
+)
+"lf_proof.ml" 170 5092 5109 "lf_proof.ml" 170 5092 5111
+type(
+  Term.pterm
+)
+ident(
+  def t2 "lf_proof.ml" 171 5116 5126 "lf_proof.ml" 173 5209 5272
+)
+"lf_proof.ml" 170 5092 5100 "lf_proof.ml" 170 5092 5112
+type(
+  Term.pterm
+)
+"lf_proof.ml" 171 5116 5126 "lf_proof.ml" 171 5116 5133
+type(
+  Format.formatter ->
+  ((Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 171 5116 5134 "lf_proof.ml" 171 5116 5137
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 92 2414 2474 "lf_proof.ml" 92 2414 2477
+)
+"lf_proof.ml" 171 5116 5138 "lf_proof.ml" 171 5116 5153
+type(
+  ((Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format
+)
+"lf_proof.ml" 172 5154 5167 "lf_proof.ml" 172 5154 5190
+type(
+  Term.name_env ->
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Format.formatter -> lf_proof -> unit
+)
+ident(
+  int_ref pp_print_proof_internal "lf_proof.ml" 92 2414 2422 "lf_proof.ml" 92 2414 2445
+)
+"lf_proof.ml" 172 5154 5191 "lf_proof.ml" 172 5154 5194
+type(
+  Term.name_env
+)
+ident(
+  int_ref env "lf_proof.ml" 92 2414 2446 "lf_proof.ml" 92 2414 2449
+)
+"lf_proof.ml" 172 5154 5196 "lf_proof.ml" 172 5154 5200
+type(
+  int
+)
+ident(
+  int_ref anum "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+)
+"lf_proof.ml" 172 5154 5200 "lf_proof.ml" 172 5154 5201
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"lf_proof.ml" 172 5154 5201 "lf_proof.ml" 172 5154 5202
+type(
+  int
+)
+"lf_proof.ml" 172 5154 5195 "lf_proof.ml" 172 5154 5203
+type(
+  int
+)
+"lf_proof.ml" 172 5154 5204 "lf_proof.ml" 172 5154 5208
+type(
+  int
+)
+ident(
+  int_ref pnum "lf_proof.ml" 92 2414 2455 "lf_proof.ml" 92 2414 2459
+)
+"lf_proof.ml" 173 5209 5224 "lf_proof.ml" 173 5209 5228
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant0 "lf_proof.ml" 168 5025 5036 "lf_proof.ml" 168 5025 5040
+)
+"lf_proof.ml" 173 5209 5228 "lf_proof.ml" 173 5209 5229
+type(
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list -> (Term.pterm * int) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"lf_proof.ml" 173 5209 5230 "lf_proof.ml" 173 5209 5232
+type(
+  Term.pterm
+)
+ident(
+  int_ref t1 "lf_proof.ml" 170 5092 5106 "lf_proof.ml" 170 5092 5108
+)
+"lf_proof.ml" 173 5209 5233 "lf_proof.ml" 173 5209 5237
+type(
+  int
+)
+ident(
+  int_ref anum "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+)
+"lf_proof.ml" 173 5209 5229 "lf_proof.ml" 173 5209 5238
+type(
+  Term.pterm * int
+)
+"lf_proof.ml" 173 5209 5241 "lf_proof.ml" 173 5209 5243
+type(
+  Term.pterm
+)
+ident(
+  int_ref t2 "lf_proof.ml" 170 5092 5109 "lf_proof.ml" 170 5092 5111
+)
+"lf_proof.ml" 173 5209 5244 "lf_proof.ml" 173 5209 5248
+type(
+  int
+)
+ident(
+  int_ref anum "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+)
+"lf_proof.ml" 173 5209 5248 "lf_proof.ml" 173 5209 5249
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"lf_proof.ml" 173 5209 5249 "lf_proof.ml" 173 5209 5250
+type(
+  int
+)
+"lf_proof.ml" 173 5209 5244 "lf_proof.ml" 173 5209 5250
+type(
+  int
+)
+"lf_proof.ml" 173 5209 5240 "lf_proof.ml" 173 5209 5251
+type(
+  Term.pterm * int
+)
+"lf_proof.ml" 173 5209 5253 "lf_proof.ml" 173 5209 5257
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant1 "lf_proof.ml" 168 5025 5043 "lf_proof.ml" 168 5025 5047
+)
+"lf_proof.ml" 173 5209 5240 "lf_proof.ml" 173 5209 5257
+type(
+  (Term.pterm * int) list
+)
+"lf_proof.ml" 173 5209 5229 "lf_proof.ml" 173 5209 5257
+type(
+  (Term.pterm * int) list
+)
+"lf_proof.ml" 173 5209 5223 "lf_proof.ml" 173 5209 5258
+call(
+  stack
+)
+type(
+  (Term.pterm * int) list
+)
+"lf_proof.ml" 173 5209 5259 "lf_proof.ml" 173 5209 5263
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "lf_proof.ml" 92 2414 2464 "lf_proof.ml" 92 2414 2468
+)
+"lf_proof.ml" 173 5209 5264 "lf_proof.ml" 173 5209 5268
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "lf_proof.ml" 92 2414 2469 "lf_proof.ml" 92 2414 2473
+)
+"lf_proof.ml" 172 5154 5166 "lf_proof.ml" 173 5209 5269
+call(
+  stack
+)
+type(
+  Format.formatter -> lf_proof -> unit
+)
+"lf_proof.ml" 173 5209 5270 "lf_proof.ml" 173 5209 5272
+type(
+  lf_proof
+)
+ident(
+  int_ref pr "lf_proof.ml" 167 5005 5018 "lf_proof.ml" 167 5005 5020
+)
+"lf_proof.ml" 171 5116 5126 "lf_proof.ml" 173 5209 5272
+call(
+  stack
+)
+type(
+  unit
+)
+"lf_proof.ml" 174 5273 5281 "lf_proof.ml" 174 5273 5282
+type(
+  Term.pterm
+)
+"lf_proof.ml" 174 5273 5286 "lf_proof.ml" 174 5273 5291
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"lf_proof.ml" 174 5273 5310 "lf_proof.ml" 174 5273 5337
+type(
+  string
+)
+"lf_proof.ml" 174 5273 5292 "lf_proof.ml" 174 5273 5338
+type(
+  exn
+)
+"lf_proof.ml" 174 5273 5286 "lf_proof.ml" 174 5273 5338
+type(
+  unit
+)
+"lf_proof.ml" 169 5067 5073 "lf_proof.ml" 175 5339 5348
+type(
+  unit
+)
+"lf_proof.ml" 168 5025 5031 "lf_proof.ml" 175 5339 5348
+type(
+  unit
+)
+"lf_proof.ml" 176 5349 5360 "lf_proof.ml" 176 5349 5361
+type(
+  int
+)
+ident(
+  def x "lf_proof.ml" 177 5374 5380 "lf_proof.ml" 186 5785 5794
+)
+"lf_proof.ml" 176 5349 5362 "lf_proof.ml" 176 5349 5365
+type(
+  lf_proof
+)
+ident(
+  def pr1 "lf_proof.ml" 177 5374 5380 "lf_proof.ml" 186 5785 5794
+)
+"lf_proof.ml" 176 5349 5366 "lf_proof.ml" 176 5349 5369
+type(
+  lf_proof
+)
+ident(
+  def pr2 "lf_proof.ml" 177 5374 5380 "lf_proof.ml" 186 5785 5794
+)
+"lf_proof.ml" 176 5349 5353 "lf_proof.ml" 176 5349 5370
+type(
+  lf_proof
+)
+"lf_proof.ml" 177 5374 5385 "lf_proof.ml" 177 5374 5389
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant0 "lf_proof.ml" 178 5416 5422 "lf_proof.ml" 186 5785 5794
+)
+"lf_proof.ml" 177 5374 5390 "lf_proof.ml" 177 5374 5391
+type(
+  Term.pterm
+)
+ident(
+  def t "lf_proof.ml" 178 5416 5422 "lf_proof.ml" 186 5785 5794
+)
+"lf_proof.ml" 177 5374 5392 "lf_proof.ml" 177 5374 5396
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant1 "lf_proof.ml" 178 5416 5422 "lf_proof.ml" 186 5785 5794
+)
+"lf_proof.ml" 177 5374 5384 "lf_proof.ml" 177 5374 5397
+type(
+  (Term.pterm * int) list * Term.pterm * (Term.pterm * int) list
+)
+"lf_proof.ml" 177 5374 5400 "lf_proof.ml" 177 5374 5406
+type(
+  (Term.pterm * int) list ->
+  int -> (Term.pterm * int) list * Term.pterm * (Term.pterm * int) list
+)
+ident(
+  int_ref cutAnt "lf_proof.ml" 82 2144 2152 "lf_proof.ml" 82 2144 2158
+)
+"lf_proof.ml" 177 5374 5407 "lf_proof.ml" 177 5374 5410
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant "lf_proof.ml" 92 2414 2460 "lf_proof.ml" 92 2414 2463
+)
+"lf_proof.ml" 177 5374 5411 "lf_proof.ml" 177 5374 5412
+type(
+  int
+)
+ident(
+  int_ref x "lf_proof.ml" 176 5349 5360 "lf_proof.ml" 176 5349 5361
+)
+"lf_proof.ml" 177 5374 5400 "lf_proof.ml" 177 5374 5412
+call(
+  stack
+)
+type(
+  (Term.pterm * int) list * Term.pterm * (Term.pterm * int) list
+)
+"lf_proof.ml" 178 5416 5434 "lf_proof.ml" 178 5416 5435
+type(
+  Term.pterm
+)
+ident(
+  int_ref t "lf_proof.ml" 177 5374 5390 "lf_proof.ml" 177 5374 5391
+)
+"lf_proof.ml" 179 5441 5454 "lf_proof.ml" 179 5441 5456
+type(
+  Term.pterm
+)
+ident(
+  def t1 "lf_proof.ml" 180 5464 5474 "lf_proof.ml" 184 5668 5719
+)
+"lf_proof.ml" 179 5441 5457 "lf_proof.ml" 179 5441 5459
+type(
+  Term.pterm
+)
+ident(
+  def t2 "lf_proof.ml" 180 5464 5474 "lf_proof.ml" 184 5668 5719
+)
+"lf_proof.ml" 179 5441 5449 "lf_proof.ml" 179 5441 5460
+type(
+  Term.pterm
+)
+"lf_proof.ml" 180 5464 5474 "lf_proof.ml" 180 5464 5481
+type(
+  Format.formatter ->
+  ((Format.formatter -> lf_proof -> unit) ->
+   lf_proof -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> lf_proof -> unit) ->
+  lf_proof -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 180 5464 5482 "lf_proof.ml" 180 5464 5485
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 92 2414 2474 "lf_proof.ml" 92 2414 2477
+)
+"lf_proof.ml" 180 5464 5486 "lf_proof.ml" 180 5464 5505
+type(
+  ((Format.formatter -> lf_proof -> unit) ->
+   lf_proof -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format
+)
+"lf_proof.ml" 181 5506 5519 "lf_proof.ml" 181 5506 5542
+type(
+  Term.name_env ->
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Format.formatter -> lf_proof -> unit
+)
+ident(
+  int_ref pp_print_proof_internal "lf_proof.ml" 92 2414 2422 "lf_proof.ml" 92 2414 2445
+)
+"lf_proof.ml" 181 5506 5543 "lf_proof.ml" 181 5506 5546
+type(
+  Term.name_env
+)
+ident(
+  int_ref env "lf_proof.ml" 92 2414 2446 "lf_proof.ml" 92 2414 2449
+)
+"lf_proof.ml" 181 5506 5548 "lf_proof.ml" 181 5506 5552
+type(
+  int
+)
+ident(
+  int_ref anum "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+)
+"lf_proof.ml" 181 5506 5552 "lf_proof.ml" 181 5506 5553
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"lf_proof.ml" 181 5506 5553 "lf_proof.ml" 181 5506 5554
+type(
+  int
+)
+"lf_proof.ml" 181 5506 5547 "lf_proof.ml" 181 5506 5555
+type(
+  int
+)
+"lf_proof.ml" 181 5506 5556 "lf_proof.ml" 181 5506 5560
+type(
+  int
+)
+ident(
+  int_ref pnum "lf_proof.ml" 92 2414 2455 "lf_proof.ml" 92 2414 2459
+)
+"lf_proof.ml" 182 5561 5576 "lf_proof.ml" 182 5561 5580
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant0 "lf_proof.ml" 177 5374 5385 "lf_proof.ml" 177 5374 5389
+)
+"lf_proof.ml" 182 5561 5580 "lf_proof.ml" 182 5561 5581
+type(
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list -> (Term.pterm * int) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"lf_proof.ml" 182 5561 5582 "lf_proof.ml" 182 5561 5584
+type(
+  Term.pterm
+)
+ident(
+  int_ref t1 "lf_proof.ml" 179 5441 5454 "lf_proof.ml" 179 5441 5456
+)
+"lf_proof.ml" 182 5561 5585 "lf_proof.ml" 182 5561 5589
+type(
+  int
+)
+ident(
+  int_ref anum "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+)
+"lf_proof.ml" 182 5561 5581 "lf_proof.ml" 182 5561 5590
+type(
+  Term.pterm * int
+)
+"lf_proof.ml" 182 5561 5592 "lf_proof.ml" 182 5561 5596
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant1 "lf_proof.ml" 177 5374 5392 "lf_proof.ml" 177 5374 5396
+)
+"lf_proof.ml" 182 5561 5581 "lf_proof.ml" 182 5561 5596
+type(
+  (Term.pterm * int) list
+)
+"lf_proof.ml" 182 5561 5575 "lf_proof.ml" 182 5561 5597
+call(
+  stack
+)
+type(
+  (Term.pterm * int) list
+)
+"lf_proof.ml" 182 5561 5598 "lf_proof.ml" 182 5561 5602
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "lf_proof.ml" 92 2414 2464 "lf_proof.ml" 92 2414 2468
+)
+"lf_proof.ml" 182 5561 5603 "lf_proof.ml" 182 5561 5607
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "lf_proof.ml" 92 2414 2469 "lf_proof.ml" 92 2414 2473
+)
+"lf_proof.ml" 181 5506 5518 "lf_proof.ml" 182 5561 5608
+call(
+  stack
+)
+type(
+  Format.formatter -> lf_proof -> unit
+)
+"lf_proof.ml" 182 5561 5609 "lf_proof.ml" 182 5561 5612
+type(
+  lf_proof
+)
+ident(
+  int_ref pr1 "lf_proof.ml" 176 5349 5362 "lf_proof.ml" 176 5349 5365
+)
+"lf_proof.ml" 183 5613 5626 "lf_proof.ml" 183 5613 5649
+type(
+  Term.name_env ->
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Format.formatter -> lf_proof -> unit
+)
+ident(
+  int_ref pp_print_proof_internal "lf_proof.ml" 92 2414 2422 "lf_proof.ml" 92 2414 2445
+)
+"lf_proof.ml" 183 5613 5650 "lf_proof.ml" 183 5613 5653
+type(
+  Term.name_env
+)
+ident(
+  int_ref env "lf_proof.ml" 92 2414 2446 "lf_proof.ml" 92 2414 2449
+)
+"lf_proof.ml" 183 5613 5655 "lf_proof.ml" 183 5613 5659
+type(
+  int
+)
+ident(
+  int_ref anum "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+)
+"lf_proof.ml" 183 5613 5659 "lf_proof.ml" 183 5613 5660
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"lf_proof.ml" 183 5613 5660 "lf_proof.ml" 183 5613 5661
+type(
+  int
+)
+"lf_proof.ml" 183 5613 5654 "lf_proof.ml" 183 5613 5662
+type(
+  int
+)
+"lf_proof.ml" 183 5613 5663 "lf_proof.ml" 183 5613 5667
+type(
+  int
+)
+ident(
+  int_ref pnum "lf_proof.ml" 92 2414 2455 "lf_proof.ml" 92 2414 2459
+)
+"lf_proof.ml" 184 5668 5683 "lf_proof.ml" 184 5668 5687
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant0 "lf_proof.ml" 177 5374 5385 "lf_proof.ml" 177 5374 5389
+)
+"lf_proof.ml" 184 5668 5687 "lf_proof.ml" 184 5668 5688
+type(
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list -> (Term.pterm * int) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"lf_proof.ml" 184 5668 5689 "lf_proof.ml" 184 5668 5691
+type(
+  Term.pterm
+)
+ident(
+  int_ref t2 "lf_proof.ml" 179 5441 5457 "lf_proof.ml" 179 5441 5459
+)
+"lf_proof.ml" 184 5668 5692 "lf_proof.ml" 184 5668 5696
+type(
+  int
+)
+ident(
+  int_ref anum "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+)
+"lf_proof.ml" 184 5668 5688 "lf_proof.ml" 184 5668 5697
+type(
+  Term.pterm * int
+)
+"lf_proof.ml" 184 5668 5699 "lf_proof.ml" 184 5668 5703
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant1 "lf_proof.ml" 177 5374 5392 "lf_proof.ml" 177 5374 5396
+)
+"lf_proof.ml" 184 5668 5688 "lf_proof.ml" 184 5668 5703
+type(
+  (Term.pterm * int) list
+)
+"lf_proof.ml" 184 5668 5682 "lf_proof.ml" 184 5668 5704
+call(
+  stack
+)
+type(
+  (Term.pterm * int) list
+)
+"lf_proof.ml" 184 5668 5705 "lf_proof.ml" 184 5668 5709
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "lf_proof.ml" 92 2414 2464 "lf_proof.ml" 92 2414 2468
+)
+"lf_proof.ml" 184 5668 5710 "lf_proof.ml" 184 5668 5714
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "lf_proof.ml" 92 2414 2469 "lf_proof.ml" 92 2414 2473
+)
+"lf_proof.ml" 183 5613 5625 "lf_proof.ml" 184 5668 5715
+call(
+  stack
+)
+type(
+  Format.formatter -> lf_proof -> unit
+)
+"lf_proof.ml" 184 5668 5716 "lf_proof.ml" 184 5668 5719
+type(
+  lf_proof
+)
+ident(
+  int_ref pr2 "lf_proof.ml" 176 5349 5366 "lf_proof.ml" 176 5349 5369
+)
+"lf_proof.ml" 180 5464 5474 "lf_proof.ml" 184 5668 5719
+call(
+  stack
+)
+type(
+  unit
+)
+"lf_proof.ml" 185 5720 5728 "lf_proof.ml" 185 5720 5729
+type(
+  Term.pterm
+)
+"lf_proof.ml" 185 5720 5733 "lf_proof.ml" 185 5720 5738
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"lf_proof.ml" 185 5720 5757 "lf_proof.ml" 185 5720 5783
+type(
+  string
+)
+"lf_proof.ml" 185 5720 5739 "lf_proof.ml" 185 5720 5784
+type(
+  exn
+)
+"lf_proof.ml" 185 5720 5733 "lf_proof.ml" 185 5720 5784
+type(
+  unit
+)
+"lf_proof.ml" 178 5416 5422 "lf_proof.ml" 186 5785 5794
+type(
+  unit
+)
+"lf_proof.ml" 177 5374 5380 "lf_proof.ml" 186 5785 5794
+type(
+  unit
+)
+"lf_proof.ml" 187 5795 5807 "lf_proof.ml" 187 5795 5808
+type(
+  int
+)
+ident(
+  def x "lf_proof.ml" 188 5816 5822 "lf_proof.ml" 195 6121 6130
+)
+"lf_proof.ml" 187 5795 5809 "lf_proof.ml" 187 5795 5811
+type(
+  lf_proof
+)
+ident(
+  def pr "lf_proof.ml" 188 5816 5822 "lf_proof.ml" 195 6121 6130
+)
+"lf_proof.ml" 187 5795 5799 "lf_proof.ml" 187 5795 5812
+type(
+  lf_proof
+)
+"lf_proof.ml" 188 5816 5827 "lf_proof.ml" 188 5816 5831
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant0 "lf_proof.ml" 189 5858 5864 "lf_proof.ml" 195 6121 6130
+)
+"lf_proof.ml" 188 5816 5832 "lf_proof.ml" 188 5816 5833
+type(
+  Term.pterm
+)
+ident(
+  def t "lf_proof.ml" 189 5858 5864 "lf_proof.ml" 195 6121 6130
+)
+"lf_proof.ml" 188 5816 5834 "lf_proof.ml" 188 5816 5838
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant1 "lf_proof.ml" 189 5858 5864 "lf_proof.ml" 195 6121 6130
+)
+"lf_proof.ml" 188 5816 5826 "lf_proof.ml" 188 5816 5839
+type(
+  (Term.pterm * int) list * Term.pterm * (Term.pterm * int) list
+)
+"lf_proof.ml" 188 5816 5842 "lf_proof.ml" 188 5816 5848
+type(
+  (Term.pterm * int) list ->
+  int -> (Term.pterm * int) list * Term.pterm * (Term.pterm * int) list
+)
+ident(
+  int_ref cutAnt "lf_proof.ml" 82 2144 2152 "lf_proof.ml" 82 2144 2158
+)
+"lf_proof.ml" 188 5816 5849 "lf_proof.ml" 188 5816 5852
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant "lf_proof.ml" 92 2414 2460 "lf_proof.ml" 92 2414 2463
+)
+"lf_proof.ml" 188 5816 5853 "lf_proof.ml" 188 5816 5854
+type(
+  int
+)
+ident(
+  int_ref x "lf_proof.ml" 187 5795 5807 "lf_proof.ml" 187 5795 5808
+)
+"lf_proof.ml" 188 5816 5842 "lf_proof.ml" 188 5816 5854
+call(
+  stack
+)
+type(
+  (Term.pterm * int) list * Term.pterm * (Term.pterm * int) list
+)
+"lf_proof.ml" 189 5858 5876 "lf_proof.ml" 189 5858 5877
+type(
+  Term.pterm
+)
+ident(
+  int_ref t "lf_proof.ml" 188 5816 5832 "lf_proof.ml" 188 5816 5833
+)
+"lf_proof.ml" 190 5883 5899 "lf_proof.ml" 190 5883 5900
+type(
+  Term.pterm
+)
+"lf_proof.ml" 190 5883 5901 "lf_proof.ml" 190 5883 5903
+type(
+  Term.pterm
+)
+ident(
+  def t2 "lf_proof.ml" 191 5908 5918 "lf_proof.ml" 193 6001 6051
+)
+"lf_proof.ml" 190 5883 5891 "lf_proof.ml" 190 5883 5904
+type(
+  Term.pterm
+)
+"lf_proof.ml" 191 5908 5918 "lf_proof.ml" 191 5908 5925
+type(
+  Format.formatter ->
+  ((Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 191 5908 5926 "lf_proof.ml" 191 5908 5929
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 92 2414 2474 "lf_proof.ml" 92 2414 2477
+)
+"lf_proof.ml" 191 5908 5930 "lf_proof.ml" 191 5908 5945
+type(
+  ((Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format
+)
+"lf_proof.ml" 192 5946 5959 "lf_proof.ml" 192 5946 5982
+type(
+  Term.name_env ->
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Format.formatter -> lf_proof -> unit
+)
+ident(
+  int_ref pp_print_proof_internal "lf_proof.ml" 92 2414 2422 "lf_proof.ml" 92 2414 2445
+)
+"lf_proof.ml" 192 5946 5983 "lf_proof.ml" 192 5946 5986
+type(
+  Term.name_env
+)
+ident(
+  int_ref env "lf_proof.ml" 92 2414 2446 "lf_proof.ml" 92 2414 2449
+)
+"lf_proof.ml" 192 5946 5988 "lf_proof.ml" 192 5946 5992
+type(
+  int
+)
+ident(
+  int_ref anum "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+)
+"lf_proof.ml" 192 5946 5992 "lf_proof.ml" 192 5946 5993
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"lf_proof.ml" 192 5946 5993 "lf_proof.ml" 192 5946 5994
+type(
+  int
+)
+"lf_proof.ml" 192 5946 5987 "lf_proof.ml" 192 5946 5995
+type(
+  int
+)
+"lf_proof.ml" 192 5946 5996 "lf_proof.ml" 192 5946 6000
+type(
+  int
+)
+ident(
+  int_ref pnum "lf_proof.ml" 92 2414 2455 "lf_proof.ml" 92 2414 2459
+)
+"lf_proof.ml" 193 6001 6016 "lf_proof.ml" 193 6001 6020
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant0 "lf_proof.ml" 188 5816 5827 "lf_proof.ml" 188 5816 5831
+)
+"lf_proof.ml" 193 6001 6020 "lf_proof.ml" 193 6001 6021
+type(
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list -> (Term.pterm * int) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"lf_proof.ml" 193 6001 6022 "lf_proof.ml" 193 6001 6024
+type(
+  Term.pterm
+)
+ident(
+  int_ref t2 "lf_proof.ml" 190 5883 5901 "lf_proof.ml" 190 5883 5903
+)
+"lf_proof.ml" 193 6001 6025 "lf_proof.ml" 193 6001 6029
+type(
+  int
+)
+ident(
+  int_ref anum "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+)
+"lf_proof.ml" 193 6001 6021 "lf_proof.ml" 193 6001 6030
+type(
+  Term.pterm * int
+)
+"lf_proof.ml" 193 6001 6032 "lf_proof.ml" 193 6001 6036
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant1 "lf_proof.ml" 188 5816 5834 "lf_proof.ml" 188 5816 5838
+)
+"lf_proof.ml" 193 6001 6021 "lf_proof.ml" 193 6001 6036
+type(
+  (Term.pterm * int) list
+)
+"lf_proof.ml" 193 6001 6015 "lf_proof.ml" 193 6001 6037
+call(
+  stack
+)
+type(
+  (Term.pterm * int) list
+)
+"lf_proof.ml" 193 6001 6038 "lf_proof.ml" 193 6001 6042
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "lf_proof.ml" 92 2414 2464 "lf_proof.ml" 92 2414 2468
+)
+"lf_proof.ml" 193 6001 6043 "lf_proof.ml" 193 6001 6047
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "lf_proof.ml" 92 2414 2469 "lf_proof.ml" 92 2414 2473
+)
+"lf_proof.ml" 192 5946 5958 "lf_proof.ml" 193 6001 6048
+call(
+  stack
+)
+type(
+  Format.formatter -> lf_proof -> unit
+)
+"lf_proof.ml" 193 6001 6049 "lf_proof.ml" 193 6001 6051
+type(
+  lf_proof
+)
+ident(
+  int_ref pr "lf_proof.ml" 187 5795 5809 "lf_proof.ml" 187 5795 5811
+)
+"lf_proof.ml" 191 5908 5918 "lf_proof.ml" 193 6001 6051
+call(
+  stack
+)
+type(
+  unit
+)
+"lf_proof.ml" 194 6052 6060 "lf_proof.ml" 194 6052 6061
+type(
+  Term.pterm
+)
+"lf_proof.ml" 194 6052 6065 "lf_proof.ml" 194 6052 6070
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"lf_proof.ml" 194 6052 6089 "lf_proof.ml" 194 6052 6119
+type(
+  string
+)
+"lf_proof.ml" 194 6052 6071 "lf_proof.ml" 194 6052 6120
+type(
+  exn
+)
+"lf_proof.ml" 194 6052 6065 "lf_proof.ml" 194 6052 6120
+type(
+  unit
+)
+"lf_proof.ml" 189 5858 5864 "lf_proof.ml" 195 6121 6130
+type(
+  unit
+)
+"lf_proof.ml" 188 5816 5822 "lf_proof.ml" 195 6121 6130
+type(
+  unit
+)
+"lf_proof.ml" 196 6131 6143 "lf_proof.ml" 196 6131 6144
+type(
+  int
+)
+ident(
+  def x "lf_proof.ml" 197 6152 6158 "lf_proof.ml" 200 6275 6310
+)
+"lf_proof.ml" 196 6131 6145 "lf_proof.ml" 196 6131 6147
+type(
+  lf_proof
+)
+ident(
+  def pr "lf_proof.ml" 197 6152 6158 "lf_proof.ml" 200 6275 6310
+)
+"lf_proof.ml" 196 6131 6135 "lf_proof.ml" 196 6131 6148
+type(
+  lf_proof
+)
+"lf_proof.ml" 197 6152 6163 "lf_proof.ml" 197 6152 6167
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant0 "lf_proof.ml" 198 6194 6200 "lf_proof.ml" 200 6275 6310
+)
+"lf_proof.ml" 197 6152 6168 "lf_proof.ml" 197 6152 6169
+type(
+  Term.pterm
+)
+ident(
+  def t "lf_proof.ml" 198 6194 6200 "lf_proof.ml" 200 6275 6310
+)
+"lf_proof.ml" 197 6152 6170 "lf_proof.ml" 197 6152 6174
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant1 "lf_proof.ml" 198 6194 6200 "lf_proof.ml" 200 6275 6310
+)
+"lf_proof.ml" 197 6152 6162 "lf_proof.ml" 197 6152 6175
+type(
+  (Term.pterm * int) list * Term.pterm * (Term.pterm * int) list
+)
+"lf_proof.ml" 197 6152 6178 "lf_proof.ml" 197 6152 6184
+type(
+  (Term.pterm * int) list ->
+  int -> (Term.pterm * int) list * Term.pterm * (Term.pterm * int) list
+)
+ident(
+  int_ref cutAnt "lf_proof.ml" 82 2144 2152 "lf_proof.ml" 82 2144 2158
+)
+"lf_proof.ml" 197 6152 6185 "lf_proof.ml" 197 6152 6188
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant "lf_proof.ml" 92 2414 2460 "lf_proof.ml" 92 2414 2463
+)
+"lf_proof.ml" 197 6152 6189 "lf_proof.ml" 197 6152 6190
+type(
+  int
+)
+ident(
+  int_ref x "lf_proof.ml" 196 6131 6143 "lf_proof.ml" 196 6131 6144
+)
+"lf_proof.ml" 197 6152 6178 "lf_proof.ml" 197 6152 6190
+call(
+  stack
+)
+type(
+  (Term.pterm * int) list * Term.pterm * (Term.pterm * int) list
+)
+"lf_proof.ml" 198 6194 6200 "lf_proof.ml" 198 6194 6207
+type(
+  Format.formatter ->
+  ((Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 198 6194 6208 "lf_proof.ml" 198 6194 6211
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 92 2414 2474 "lf_proof.ml" 92 2414 2477
+)
+"lf_proof.ml" 198 6194 6212 "lf_proof.ml" 198 6194 6227
+type(
+  ((Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format
+)
+"lf_proof.ml" 199 6228 6237 "lf_proof.ml" 199 6228 6260
+type(
+  Term.name_env ->
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Format.formatter -> lf_proof -> unit
+)
+ident(
+  int_ref pp_print_proof_internal "lf_proof.ml" 92 2414 2422 "lf_proof.ml" 92 2414 2445
+)
+"lf_proof.ml" 199 6228 6261 "lf_proof.ml" 199 6228 6264
+type(
+  Term.name_env
+)
+ident(
+  int_ref env "lf_proof.ml" 92 2414 2446 "lf_proof.ml" 92 2414 2449
+)
+"lf_proof.ml" 199 6228 6265 "lf_proof.ml" 199 6228 6269
+type(
+  int
+)
+ident(
+  int_ref anum "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+)
+"lf_proof.ml" 199 6228 6270 "lf_proof.ml" 199 6228 6274
+type(
+  int
+)
+ident(
+  int_ref pnum "lf_proof.ml" 92 2414 2455 "lf_proof.ml" 92 2414 2459
+)
+"lf_proof.ml" 200 6275 6286 "lf_proof.ml" 200 6275 6290
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant0 "lf_proof.ml" 197 6152 6163 "lf_proof.ml" 197 6152 6167
+)
+"lf_proof.ml" 200 6275 6290 "lf_proof.ml" 200 6275 6291
+type(
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list -> (Term.pterm * int) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"lf_proof.ml" 200 6275 6291 "lf_proof.ml" 200 6275 6295
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant1 "lf_proof.ml" 197 6152 6170 "lf_proof.ml" 197 6152 6174
+)
+"lf_proof.ml" 200 6275 6285 "lf_proof.ml" 200 6275 6296
+call(
+  stack
+)
+type(
+  (Term.pterm * int) list
+)
+"lf_proof.ml" 200 6275 6297 "lf_proof.ml" 200 6275 6301
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "lf_proof.ml" 92 2414 2464 "lf_proof.ml" 92 2414 2468
+)
+"lf_proof.ml" 200 6275 6302 "lf_proof.ml" 200 6275 6306
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "lf_proof.ml" 92 2414 2469 "lf_proof.ml" 92 2414 2473
+)
+"lf_proof.ml" 199 6228 6236 "lf_proof.ml" 200 6275 6307
+call(
+  stack
+)
+type(
+  Format.formatter -> lf_proof -> unit
+)
+"lf_proof.ml" 200 6275 6308 "lf_proof.ml" 200 6275 6310
+type(
+  lf_proof
+)
+ident(
+  int_ref pr "lf_proof.ml" 196 6131 6145 "lf_proof.ml" 196 6131 6147
+)
+"lf_proof.ml" 198 6194 6200 "lf_proof.ml" 200 6275 6310
+call(
+  stack
+)
+type(
+  unit
+)
+"lf_proof.ml" 197 6152 6158 "lf_proof.ml" 200 6275 6310
+type(
+  unit
+)
+"lf_proof.ml" 201 6311 6323 "lf_proof.ml" 201 6311 6324
+type(
+  int
+)
+ident(
+  def x "lf_proof.ml" 202 6334 6340 "lf_proof.ml" 209 6639 6648
+)
+"lf_proof.ml" 201 6311 6325 "lf_proof.ml" 201 6311 6326
+type(
+  int
+)
+ident(
+  def y "lf_proof.ml" 202 6334 6340 "lf_proof.ml" 209 6639 6648
+)
+"lf_proof.ml" 201 6311 6327 "lf_proof.ml" 201 6311 6329
+type(
+  lf_proof
+)
+ident(
+  def pr "lf_proof.ml" 202 6334 6340 "lf_proof.ml" 209 6639 6648
+)
+"lf_proof.ml" 201 6311 6315 "lf_proof.ml" 201 6311 6330
+type(
+  lf_proof
+)
+"lf_proof.ml" 202 6334 6345 "lf_proof.ml" 202 6334 6349
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant0 "lf_proof.ml" 203 6376 6382 "lf_proof.ml" 209 6639 6648
+)
+"lf_proof.ml" 202 6334 6350 "lf_proof.ml" 202 6334 6351
+type(
+  Term.pterm
+)
+ident(
+  def t "lf_proof.ml" 203 6376 6382 "lf_proof.ml" 209 6639 6648
+)
+"lf_proof.ml" 202 6334 6352 "lf_proof.ml" 202 6334 6356
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant1 "lf_proof.ml" 203 6376 6382 "lf_proof.ml" 209 6639 6648
+)
+"lf_proof.ml" 202 6334 6344 "lf_proof.ml" 202 6334 6357
+type(
+  (Term.pterm * int) list * Term.pterm * (Term.pterm * int) list
+)
+"lf_proof.ml" 202 6334 6360 "lf_proof.ml" 202 6334 6366
+type(
+  (Term.pterm * int) list ->
+  int -> (Term.pterm * int) list * Term.pterm * (Term.pterm * int) list
+)
+ident(
+  int_ref cutAnt "lf_proof.ml" 82 2144 2152 "lf_proof.ml" 82 2144 2158
+)
+"lf_proof.ml" 202 6334 6367 "lf_proof.ml" 202 6334 6370
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant "lf_proof.ml" 92 2414 2460 "lf_proof.ml" 92 2414 2463
+)
+"lf_proof.ml" 202 6334 6371 "lf_proof.ml" 202 6334 6372
+type(
+  int
+)
+ident(
+  int_ref x "lf_proof.ml" 201 6311 6323 "lf_proof.ml" 201 6311 6324
+)
+"lf_proof.ml" 202 6334 6360 "lf_proof.ml" 202 6334 6372
+call(
+  stack
+)
+type(
+  (Term.pterm * int) list * Term.pterm * (Term.pterm * int) list
+)
+"lf_proof.ml" 203 6376 6394 "lf_proof.ml" 203 6376 6395
+type(
+  Term.pterm
+)
+ident(
+  int_ref t "lf_proof.ml" 202 6334 6350 "lf_proof.ml" 202 6334 6351
+)
+"lf_proof.ml" 204 6401 6417 "lf_proof.ml" 204 6401 6418
+type(
+  Term.pterm
+)
+"lf_proof.ml" 204 6401 6419 "lf_proof.ml" 204 6401 6421
+type(
+  Term.pterm
+)
+ident(
+  def t2 "lf_proof.ml" 205 6426 6436 "lf_proof.ml" 207 6519 6569
+)
+"lf_proof.ml" 204 6401 6409 "lf_proof.ml" 204 6401 6422
+type(
+  Term.pterm
+)
+"lf_proof.ml" 205 6426 6436 "lf_proof.ml" 205 6426 6443
+type(
+  Format.formatter ->
+  ((Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 205 6426 6444 "lf_proof.ml" 205 6426 6447
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 92 2414 2474 "lf_proof.ml" 92 2414 2477
+)
+"lf_proof.ml" 205 6426 6448 "lf_proof.ml" 205 6426 6463
+type(
+  ((Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format
+)
+"lf_proof.ml" 206 6464 6477 "lf_proof.ml" 206 6464 6500
+type(
+  Term.name_env ->
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Format.formatter -> lf_proof -> unit
+)
+ident(
+  int_ref pp_print_proof_internal "lf_proof.ml" 92 2414 2422 "lf_proof.ml" 92 2414 2445
+)
+"lf_proof.ml" 206 6464 6501 "lf_proof.ml" 206 6464 6504
+type(
+  Term.name_env
+)
+ident(
+  int_ref env "lf_proof.ml" 92 2414 2446 "lf_proof.ml" 92 2414 2449
+)
+"lf_proof.ml" 206 6464 6506 "lf_proof.ml" 206 6464 6510
+type(
+  int
+)
+ident(
+  int_ref anum "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+)
+"lf_proof.ml" 206 6464 6510 "lf_proof.ml" 206 6464 6511
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"lf_proof.ml" 206 6464 6511 "lf_proof.ml" 206 6464 6512
+type(
+  int
+)
+"lf_proof.ml" 206 6464 6505 "lf_proof.ml" 206 6464 6513
+type(
+  int
+)
+"lf_proof.ml" 206 6464 6514 "lf_proof.ml" 206 6464 6518
+type(
+  int
+)
+ident(
+  int_ref pnum "lf_proof.ml" 92 2414 2455 "lf_proof.ml" 92 2414 2459
+)
+"lf_proof.ml" 207 6519 6534 "lf_proof.ml" 207 6519 6538
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant0 "lf_proof.ml" 202 6334 6345 "lf_proof.ml" 202 6334 6349
+)
+"lf_proof.ml" 207 6519 6538 "lf_proof.ml" 207 6519 6539
+type(
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list -> (Term.pterm * int) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"lf_proof.ml" 207 6519 6540 "lf_proof.ml" 207 6519 6542
+type(
+  Term.pterm
+)
+ident(
+  int_ref t2 "lf_proof.ml" 204 6401 6419 "lf_proof.ml" 204 6401 6421
+)
+"lf_proof.ml" 207 6519 6543 "lf_proof.ml" 207 6519 6547
+type(
+  int
+)
+ident(
+  int_ref anum "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+)
+"lf_proof.ml" 207 6519 6539 "lf_proof.ml" 207 6519 6548
+type(
+  Term.pterm * int
+)
+"lf_proof.ml" 207 6519 6550 "lf_proof.ml" 207 6519 6554
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant1 "lf_proof.ml" 202 6334 6352 "lf_proof.ml" 202 6334 6356
+)
+"lf_proof.ml" 207 6519 6539 "lf_proof.ml" 207 6519 6554
+type(
+  (Term.pterm * int) list
+)
+"lf_proof.ml" 207 6519 6533 "lf_proof.ml" 207 6519 6555
+call(
+  stack
+)
+type(
+  (Term.pterm * int) list
+)
+"lf_proof.ml" 207 6519 6556 "lf_proof.ml" 207 6519 6560
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "lf_proof.ml" 92 2414 2464 "lf_proof.ml" 92 2414 2468
+)
+"lf_proof.ml" 207 6519 6561 "lf_proof.ml" 207 6519 6565
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "lf_proof.ml" 92 2414 2469 "lf_proof.ml" 92 2414 2473
+)
+"lf_proof.ml" 206 6464 6476 "lf_proof.ml" 207 6519 6566
+call(
+  stack
+)
+type(
+  Format.formatter -> lf_proof -> unit
+)
+"lf_proof.ml" 207 6519 6567 "lf_proof.ml" 207 6519 6569
+type(
+  lf_proof
+)
+ident(
+  int_ref pr "lf_proof.ml" 201 6311 6327 "lf_proof.ml" 201 6311 6329
+)
+"lf_proof.ml" 205 6426 6436 "lf_proof.ml" 207 6519 6569
+call(
+  stack
+)
+type(
+  unit
+)
+"lf_proof.ml" 208 6570 6578 "lf_proof.ml" 208 6570 6579
+type(
+  Term.pterm
+)
+"lf_proof.ml" 208 6570 6583 "lf_proof.ml" 208 6570 6588
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"lf_proof.ml" 208 6570 6607 "lf_proof.ml" 208 6570 6637
+type(
+  string
+)
+"lf_proof.ml" 208 6570 6589 "lf_proof.ml" 208 6570 6638
+type(
+  exn
+)
+"lf_proof.ml" 208 6570 6583 "lf_proof.ml" 208 6570 6638
+type(
+  unit
+)
+"lf_proof.ml" 203 6376 6382 "lf_proof.ml" 209 6639 6648
+type(
+  unit
+)
+"lf_proof.ml" 202 6334 6340 "lf_proof.ml" 209 6639 6648
+type(
+  unit
+)
+"lf_proof.ml" 210 6649 6661 "lf_proof.ml" 210 6649 6662
+type(
+  int
+)
+ident(
+  def x "lf_proof.ml" 211 6670 6676 "lf_proof.ml" 218 7010 7019
+)
+"lf_proof.ml" 210 6649 6663 "lf_proof.ml" 210 6649 6665
+type(
+  lf_proof
+)
+ident(
+  def pr "lf_proof.ml" 211 6670 6676 "lf_proof.ml" 218 7010 7019
+)
+"lf_proof.ml" 210 6649 6653 "lf_proof.ml" 210 6649 6666
+type(
+  lf_proof
+)
+"lf_proof.ml" 211 6670 6681 "lf_proof.ml" 211 6670 6685
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant0 "lf_proof.ml" 212 6712 6718 "lf_proof.ml" 218 7010 7019
+)
+"lf_proof.ml" 211 6670 6686 "lf_proof.ml" 211 6670 6687
+type(
+  Term.pterm
+)
+ident(
+  def t "lf_proof.ml" 212 6712 6718 "lf_proof.ml" 218 7010 7019
+)
+"lf_proof.ml" 211 6670 6688 "lf_proof.ml" 211 6670 6692
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant1 "lf_proof.ml" 212 6712 6718 "lf_proof.ml" 218 7010 7019
+)
+"lf_proof.ml" 211 6670 6680 "lf_proof.ml" 211 6670 6693
+type(
+  (Term.pterm * int) list * Term.pterm * (Term.pterm * int) list
+)
+"lf_proof.ml" 211 6670 6696 "lf_proof.ml" 211 6670 6702
+type(
+  (Term.pterm * int) list ->
+  int -> (Term.pterm * int) list * Term.pterm * (Term.pterm * int) list
+)
+ident(
+  int_ref cutAnt "lf_proof.ml" 82 2144 2152 "lf_proof.ml" 82 2144 2158
+)
+"lf_proof.ml" 211 6670 6703 "lf_proof.ml" 211 6670 6706
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant "lf_proof.ml" 92 2414 2460 "lf_proof.ml" 92 2414 2463
+)
+"lf_proof.ml" 211 6670 6707 "lf_proof.ml" 211 6670 6708
+type(
+  int
+)
+ident(
+  int_ref x "lf_proof.ml" 210 6649 6661 "lf_proof.ml" 210 6649 6662
+)
+"lf_proof.ml" 211 6670 6696 "lf_proof.ml" 211 6670 6708
+call(
+  stack
+)
+type(
+  (Term.pterm * int) list * Term.pterm * (Term.pterm * int) list
+)
+"lf_proof.ml" 212 6712 6730 "lf_proof.ml" 212 6712 6731
+type(
+  Term.pterm
+)
+ident(
+  int_ref t "lf_proof.ml" 211 6670 6686 "lf_proof.ml" 211 6670 6687
+)
+"lf_proof.ml" 213 6737 6759 "lf_proof.ml" 213 6737 6761
+type(
+  Term.pterm
+)
+ident(
+  def t1 "lf_proof.ml" 214 6773 6783 "lf_proof.ml" 216 6868 6942
+)
+"lf_proof.ml" 213 6737 6762 "lf_proof.ml" 213 6737 6764
+type(
+  Term.pterm
+)
+ident(
+  def t2 "lf_proof.ml" 214 6773 6783 "lf_proof.ml" 216 6868 6942
+)
+"lf_proof.ml" 213 6737 6753 "lf_proof.ml" 213 6737 6765
+type(
+  Term.pterm
+)
+"lf_proof.ml" 213 6737 6766 "lf_proof.ml" 213 6737 6768
+type(
+  Term.pterm
+)
+ident(
+  def t3 "lf_proof.ml" 214 6773 6783 "lf_proof.ml" 216 6868 6942
+)
+"lf_proof.ml" 213 6737 6745 "lf_proof.ml" 213 6737 6769
+type(
+  Term.pterm
+)
+"lf_proof.ml" 214 6773 6783 "lf_proof.ml" 214 6773 6790
+type(
+  Format.formatter ->
+  ((Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 214 6773 6791 "lf_proof.ml" 214 6773 6794
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 92 2414 2474 "lf_proof.ml" 92 2414 2477
+)
+"lf_proof.ml" 214 6773 6795 "lf_proof.ml" 214 6773 6812
+type(
+  ((Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format
+)
+"lf_proof.ml" 215 6813 6826 "lf_proof.ml" 215 6813 6849
+type(
+  Term.name_env ->
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Format.formatter -> lf_proof -> unit
+)
+ident(
+  int_ref pp_print_proof_internal "lf_proof.ml" 92 2414 2422 "lf_proof.ml" 92 2414 2445
+)
+"lf_proof.ml" 215 6813 6850 "lf_proof.ml" 215 6813 6853
+type(
+  Term.name_env
+)
+ident(
+  int_ref env "lf_proof.ml" 92 2414 2446 "lf_proof.ml" 92 2414 2449
+)
+"lf_proof.ml" 215 6813 6855 "lf_proof.ml" 215 6813 6859
+type(
+  int
+)
+ident(
+  int_ref anum "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+)
+"lf_proof.ml" 215 6813 6859 "lf_proof.ml" 215 6813 6860
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"lf_proof.ml" 215 6813 6860 "lf_proof.ml" 215 6813 6861
+type(
+  int
+)
+"lf_proof.ml" 215 6813 6854 "lf_proof.ml" 215 6813 6862
+type(
+  int
+)
+"lf_proof.ml" 215 6813 6863 "lf_proof.ml" 215 6813 6867
+type(
+  int
+)
+ident(
+  int_ref pnum "lf_proof.ml" 92 2414 2455 "lf_proof.ml" 92 2414 2459
+)
+"lf_proof.ml" 216 6868 6883 "lf_proof.ml" 216 6868 6887
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant0 "lf_proof.ml" 211 6670 6681 "lf_proof.ml" 211 6670 6685
+)
+"lf_proof.ml" 216 6868 6887 "lf_proof.ml" 216 6868 6888
+type(
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list -> (Term.pterm * int) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"lf_proof.ml" 216 6868 6897 "lf_proof.ml" 216 6868 6899
+type(
+  Term.pterm
+)
+ident(
+  int_ref t1 "lf_proof.ml" 213 6737 6759 "lf_proof.ml" 213 6737 6761
+)
+"lf_proof.ml" 216 6868 6908 "lf_proof.ml" 216 6868 6910
+type(
+  Term.pterm
+)
+ident(
+  int_ref t2 "lf_proof.ml" 213 6737 6762 "lf_proof.ml" 213 6737 6764
+)
+"lf_proof.ml" 216 6868 6911 "lf_proof.ml" 216 6868 6913
+type(
+  Term.pterm
+)
+ident(
+  int_ref t3 "lf_proof.ml" 213 6737 6766 "lf_proof.ml" 213 6737 6768
+)
+"lf_proof.ml" 216 6868 6900 "lf_proof.ml" 216 6868 6914
+type(
+  Term.pterm
+)
+"lf_proof.ml" 216 6868 6889 "lf_proof.ml" 216 6868 6915
+type(
+  Term.pterm
+)
+"lf_proof.ml" 216 6868 6916 "lf_proof.ml" 216 6868 6920
+type(
+  int
+)
+ident(
+  int_ref anum "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+)
+"lf_proof.ml" 216 6868 6888 "lf_proof.ml" 216 6868 6921
+type(
+  Term.pterm * int
+)
+"lf_proof.ml" 216 6868 6923 "lf_proof.ml" 216 6868 6927
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant1 "lf_proof.ml" 211 6670 6688 "lf_proof.ml" 211 6670 6692
+)
+"lf_proof.ml" 216 6868 6888 "lf_proof.ml" 216 6868 6927
+type(
+  (Term.pterm * int) list
+)
+"lf_proof.ml" 216 6868 6882 "lf_proof.ml" 216 6868 6928
+call(
+  stack
+)
+type(
+  (Term.pterm * int) list
+)
+"lf_proof.ml" 216 6868 6929 "lf_proof.ml" 216 6868 6933
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "lf_proof.ml" 92 2414 2464 "lf_proof.ml" 92 2414 2468
+)
+"lf_proof.ml" 216 6868 6934 "lf_proof.ml" 216 6868 6938
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "lf_proof.ml" 92 2414 2469 "lf_proof.ml" 92 2414 2473
+)
+"lf_proof.ml" 215 6813 6825 "lf_proof.ml" 216 6868 6939
+call(
+  stack
+)
+type(
+  Format.formatter -> lf_proof -> unit
+)
+"lf_proof.ml" 216 6868 6940 "lf_proof.ml" 216 6868 6942
+type(
+  lf_proof
+)
+ident(
+  int_ref pr "lf_proof.ml" 210 6649 6663 "lf_proof.ml" 210 6649 6665
+)
+"lf_proof.ml" 214 6773 6783 "lf_proof.ml" 216 6868 6942
+call(
+  stack
+)
+type(
+  unit
+)
+"lf_proof.ml" 217 6943 6951 "lf_proof.ml" 217 6943 6952
+type(
+  Term.pterm
+)
+"lf_proof.ml" 217 6943 6956 "lf_proof.ml" 217 6943 6961
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"lf_proof.ml" 217 6943 6980 "lf_proof.ml" 217 6943 7008
+type(
+  string
+)
+"lf_proof.ml" 217 6943 6962 "lf_proof.ml" 217 6943 7009
+type(
+  exn
+)
+"lf_proof.ml" 217 6943 6956 "lf_proof.ml" 217 6943 7009
+type(
+  unit
+)
+"lf_proof.ml" 212 6712 6718 "lf_proof.ml" 218 7010 7019
+type(
+  unit
+)
+"lf_proof.ml" 211 6670 6676 "lf_proof.ml" 218 7010 7019
+type(
+  unit
+)
+"lf_proof.ml" 219 7020 7032 "lf_proof.ml" 219 7020 7033
+type(
+  int
+)
+ident(
+  def x "lf_proof.ml" 220 7041 7047 "lf_proof.ml" 231 7496 7505
+)
+"lf_proof.ml" 219 7020 7034 "lf_proof.ml" 219 7020 7036
+type(
+  lf_proof
+)
+ident(
+  def pr "lf_proof.ml" 220 7041 7047 "lf_proof.ml" 231 7496 7505
+)
+"lf_proof.ml" 219 7020 7024 "lf_proof.ml" 219 7020 7037
+type(
+  lf_proof
+)
+"lf_proof.ml" 220 7041 7052 "lf_proof.ml" 220 7041 7056
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant0 "lf_proof.ml" 221 7083 7089 "lf_proof.ml" 231 7496 7505
+)
+"lf_proof.ml" 220 7041 7057 "lf_proof.ml" 220 7041 7058
+type(
+  Term.pterm
+)
+ident(
+  def t "lf_proof.ml" 221 7083 7089 "lf_proof.ml" 231 7496 7505
+)
+"lf_proof.ml" 220 7041 7059 "lf_proof.ml" 220 7041 7063
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant1 "lf_proof.ml" 221 7083 7089 "lf_proof.ml" 231 7496 7505
+)
+"lf_proof.ml" 220 7041 7051 "lf_proof.ml" 220 7041 7064
+type(
+  (Term.pterm * int) list * Term.pterm * (Term.pterm * int) list
+)
+"lf_proof.ml" 220 7041 7067 "lf_proof.ml" 220 7041 7073
+type(
+  (Term.pterm * int) list ->
+  int -> (Term.pterm * int) list * Term.pterm * (Term.pterm * int) list
+)
+ident(
+  int_ref cutAnt "lf_proof.ml" 82 2144 2152 "lf_proof.ml" 82 2144 2158
+)
+"lf_proof.ml" 220 7041 7074 "lf_proof.ml" 220 7041 7077
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant "lf_proof.ml" 92 2414 2460 "lf_proof.ml" 92 2414 2463
+)
+"lf_proof.ml" 220 7041 7078 "lf_proof.ml" 220 7041 7079
+type(
+  int
+)
+ident(
+  int_ref x "lf_proof.ml" 219 7020 7032 "lf_proof.ml" 219 7020 7033
+)
+"lf_proof.ml" 220 7041 7067 "lf_proof.ml" 220 7041 7079
+call(
+  stack
+)
+type(
+  (Term.pterm * int) list * Term.pterm * (Term.pterm * int) list
+)
+"lf_proof.ml" 221 7083 7093 "lf_proof.ml" 221 7083 7094
+type(
+  Term.pterm
+)
+ident(
+  def p "lf_proof.ml" 222 7110 7116 "lf_proof.ml" 231 7496 7505
+)
+"lf_proof.ml" 221 7083 7102 "lf_proof.ml" 221 7083 7106
+type(
+  int
+)
+ident(
+  int_ref pnum "lf_proof.ml" 92 2414 2455 "lf_proof.ml" 92 2414 2459
+)
+"lf_proof.ml" 221 7083 7097 "lf_proof.ml" 221 7083 7106
+type(
+  Term.pterm
+)
+"lf_proof.ml" 222 7110 7128 "lf_proof.ml" 222 7110 7129
+type(
+  Term.pterm
+)
+ident(
+  int_ref t "lf_proof.ml" 220 7041 7057 "lf_proof.ml" 220 7041 7058
+)
+"lf_proof.ml" 223 7135 7156 "lf_proof.ml" 223 7135 7158
+type(
+  Term.pterm
+)
+ident(
+  def t1 "lf_proof.ml" 224 7170 7180 "lf_proof.ml" 229 7391 7422
+)
+"lf_proof.ml" 223 7135 7159 "lf_proof.ml" 223 7135 7161
+type(
+  Term.pterm
+)
+ident(
+  def t2 "lf_proof.ml" 224 7170 7180 "lf_proof.ml" 229 7391 7422
+)
+"lf_proof.ml" 223 7135 7151 "lf_proof.ml" 223 7135 7162
+type(
+  Term.pterm
+)
+"lf_proof.ml" 223 7135 7163 "lf_proof.ml" 223 7135 7165
+type(
+  Term.pterm
+)
+ident(
+  def t3 "lf_proof.ml" 224 7170 7180 "lf_proof.ml" 229 7391 7422
+)
+"lf_proof.ml" 223 7135 7143 "lf_proof.ml" 223 7135 7166
+type(
+  Term.pterm
+)
+"lf_proof.ml" 224 7170 7180 "lf_proof.ml" 224 7170 7187
+type(
+  Format.formatter ->
+  ((Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 224 7170 7188 "lf_proof.ml" 224 7170 7191
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 92 2414 2474 "lf_proof.ml" 92 2414 2477
+)
+"lf_proof.ml" 224 7170 7192 "lf_proof.ml" 224 7170 7209
+type(
+  ((Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format
+)
+"lf_proof.ml" 225 7210 7223 "lf_proof.ml" 225 7210 7246
+type(
+  Term.name_env ->
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Format.formatter -> lf_proof -> unit
+)
+ident(
+  int_ref pp_print_proof_internal "lf_proof.ml" 92 2414 2422 "lf_proof.ml" 92 2414 2445
+)
+"lf_proof.ml" 225 7210 7247 "lf_proof.ml" 225 7210 7250
+type(
+  Term.name_env
+)
+ident(
+  int_ref env "lf_proof.ml" 92 2414 2446 "lf_proof.ml" 92 2414 2449
+)
+"lf_proof.ml" 225 7210 7252 "lf_proof.ml" 225 7210 7256
+type(
+  int
+)
+ident(
+  int_ref anum "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+)
+"lf_proof.ml" 225 7210 7256 "lf_proof.ml" 225 7210 7257
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"lf_proof.ml" 225 7210 7257 "lf_proof.ml" 225 7210 7258
+type(
+  int
+)
+"lf_proof.ml" 225 7210 7251 "lf_proof.ml" 225 7210 7259
+type(
+  int
+)
+"lf_proof.ml" 225 7210 7261 "lf_proof.ml" 225 7210 7265
+type(
+  int
+)
+ident(
+  int_ref pnum "lf_proof.ml" 92 2414 2455 "lf_proof.ml" 92 2414 2459
+)
+"lf_proof.ml" 225 7210 7265 "lf_proof.ml" 225 7210 7266
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"lf_proof.ml" 225 7210 7266 "lf_proof.ml" 225 7210 7267
+type(
+  int
+)
+"lf_proof.ml" 225 7210 7260 "lf_proof.ml" 225 7210 7268
+type(
+  int
+)
+"lf_proof.ml" 225 7210 7270 "lf_proof.ml" 225 7210 7274
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant0 "lf_proof.ml" 220 7041 7052 "lf_proof.ml" 220 7041 7056
+)
+"lf_proof.ml" 225 7210 7274 "lf_proof.ml" 225 7210 7275
+type(
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list -> (Term.pterm * int) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"lf_proof.ml" 226 7276 7299 "lf_proof.ml" 226 7276 7301
+type(
+  Term.pterm
+)
+ident(
+  int_ref t1 "lf_proof.ml" 223 7135 7156 "lf_proof.ml" 223 7135 7158
+)
+"lf_proof.ml" 226 7276 7302 "lf_proof.ml" 226 7276 7303
+type(
+  Term.pterm
+)
+ident(
+  int_ref p "lf_proof.ml" 221 7083 7093 "lf_proof.ml" 221 7083 7094
+)
+"lf_proof.ml" 226 7276 7291 "lf_proof.ml" 226 7276 7304
+type(
+  Term.pterm
+)
+"lf_proof.ml" 226 7276 7305 "lf_proof.ml" 226 7276 7309
+type(
+  int
+)
+ident(
+  int_ref anum "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+)
+"lf_proof.ml" 226 7276 7290 "lf_proof.ml" 226 7276 7310
+type(
+  Term.pterm * int
+)
+"lf_proof.ml" 227 7313 7336 "lf_proof.ml" 227 7313 7338
+type(
+  Term.pterm
+)
+ident(
+  int_ref t2 "lf_proof.ml" 223 7135 7159 "lf_proof.ml" 223 7135 7161
+)
+"lf_proof.ml" 227 7313 7339 "lf_proof.ml" 227 7313 7340
+type(
+  Term.pterm
+)
+ident(
+  int_ref p "lf_proof.ml" 221 7083 7093 "lf_proof.ml" 221 7083 7094
+)
+"lf_proof.ml" 227 7313 7328 "lf_proof.ml" 227 7313 7341
+type(
+  Term.pterm
+)
+"lf_proof.ml" 227 7313 7342 "lf_proof.ml" 227 7313 7346
+type(
+  int
+)
+ident(
+  int_ref anum "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+)
+"lf_proof.ml" 227 7313 7346 "lf_proof.ml" 227 7313 7347
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"lf_proof.ml" 227 7313 7347 "lf_proof.ml" 227 7313 7348
+type(
+  int
+)
+"lf_proof.ml" 227 7313 7342 "lf_proof.ml" 227 7313 7348
+type(
+  int
+)
+"lf_proof.ml" 227 7313 7327 "lf_proof.ml" 227 7313 7349
+type(
+  Term.pterm * int
+)
+"lf_proof.ml" 228 7352 7375 "lf_proof.ml" 228 7352 7376
+type(
+  Term.pterm
+)
+ident(
+  int_ref p "lf_proof.ml" 221 7083 7093 "lf_proof.ml" 221 7083 7094
+)
+"lf_proof.ml" 228 7352 7377 "lf_proof.ml" 228 7352 7379
+type(
+  Term.pterm
+)
+ident(
+  int_ref t3 "lf_proof.ml" 223 7135 7163 "lf_proof.ml" 223 7135 7165
+)
+"lf_proof.ml" 228 7352 7367 "lf_proof.ml" 228 7352 7380
+type(
+  Term.pterm
+)
+"lf_proof.ml" 228 7352 7381 "lf_proof.ml" 228 7352 7385
+type(
+  int
+)
+ident(
+  int_ref anum "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+)
+"lf_proof.ml" 228 7352 7385 "lf_proof.ml" 228 7352 7386
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"lf_proof.ml" 228 7352 7386 "lf_proof.ml" 228 7352 7387
+type(
+  int
+)
+"lf_proof.ml" 228 7352 7381 "lf_proof.ml" 228 7352 7387
+type(
+  int
+)
+"lf_proof.ml" 228 7352 7366 "lf_proof.ml" 228 7352 7388
+type(
+  Term.pterm * int
+)
+"lf_proof.ml" 229 7391 7403 "lf_proof.ml" 229 7391 7407
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant1 "lf_proof.ml" 220 7041 7059 "lf_proof.ml" 220 7041 7063
+)
+"lf_proof.ml" 228 7352 7366 "lf_proof.ml" 229 7391 7407
+type(
+  (Term.pterm * int) list
+)
+"lf_proof.ml" 227 7313 7327 "lf_proof.ml" 229 7391 7407
+type(
+  (Term.pterm * int) list
+)
+"lf_proof.ml" 226 7276 7290 "lf_proof.ml" 229 7391 7407
+type(
+  (Term.pterm * int) list
+)
+"lf_proof.ml" 225 7210 7269 "lf_proof.ml" 229 7391 7408
+call(
+  stack
+)
+type(
+  (Term.pterm * int) list
+)
+"lf_proof.ml" 229 7391 7409 "lf_proof.ml" 229 7391 7413
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "lf_proof.ml" 92 2414 2464 "lf_proof.ml" 92 2414 2468
+)
+"lf_proof.ml" 229 7391 7414 "lf_proof.ml" 229 7391 7418
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "lf_proof.ml" 92 2414 2469 "lf_proof.ml" 92 2414 2473
+)
+"lf_proof.ml" 225 7210 7222 "lf_proof.ml" 229 7391 7419
+call(
+  stack
+)
+type(
+  Format.formatter -> lf_proof -> unit
+)
+"lf_proof.ml" 229 7391 7420 "lf_proof.ml" 229 7391 7422
+type(
+  lf_proof
+)
+ident(
+  int_ref pr "lf_proof.ml" 219 7020 7034 "lf_proof.ml" 219 7020 7036
+)
+"lf_proof.ml" 224 7170 7180 "lf_proof.ml" 229 7391 7422
+call(
+  stack
+)
+type(
+  unit
+)
+"lf_proof.ml" 230 7423 7431 "lf_proof.ml" 230 7423 7432
+type(
+  Term.pterm
+)
+"lf_proof.ml" 230 7423 7436 "lf_proof.ml" 230 7423 7441
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"lf_proof.ml" 230 7423 7460 "lf_proof.ml" 230 7423 7494
+type(
+  string
+)
+"lf_proof.ml" 230 7423 7442 "lf_proof.ml" 230 7423 7495
+type(
+  exn
+)
+"lf_proof.ml" 230 7423 7436 "lf_proof.ml" 230 7423 7495
+type(
+  unit
+)
+"lf_proof.ml" 222 7110 7116 "lf_proof.ml" 231 7496 7505
+type(
+  unit
+)
+"lf_proof.ml" 221 7083 7089 "lf_proof.ml" 231 7496 7505
+type(
+  unit
+)
+"lf_proof.ml" 220 7041 7047 "lf_proof.ml" 231 7496 7505
+type(
+  unit
+)
+"lf_proof.ml" 232 7506 7518 "lf_proof.ml" 232 7506 7519
+type(
+  int
+)
+ident(
+  def x "lf_proof.ml" 233 7532 7538 "lf_proof.ml" 250 8266 8275
+)
+"lf_proof.ml" 232 7506 7520 "lf_proof.ml" 232 7506 7523
+type(
+  lf_proof
+)
+ident(
+  def pr1 "lf_proof.ml" 233 7532 7538 "lf_proof.ml" 250 8266 8275
+)
+"lf_proof.ml" 232 7506 7524 "lf_proof.ml" 232 7506 7527
+type(
+  lf_proof
+)
+ident(
+  def pr2 "lf_proof.ml" 233 7532 7538 "lf_proof.ml" 250 8266 8275
+)
+"lf_proof.ml" 232 7506 7510 "lf_proof.ml" 232 7506 7528
+type(
+  lf_proof
+)
+"lf_proof.ml" 233 7532 7543 "lf_proof.ml" 233 7532 7547
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant0 "lf_proof.ml" 234 7574 7580 "lf_proof.ml" 250 8266 8275
+)
+"lf_proof.ml" 233 7532 7548 "lf_proof.ml" 233 7532 7549
+type(
+  Term.pterm
+)
+ident(
+  def t "lf_proof.ml" 234 7574 7580 "lf_proof.ml" 250 8266 8275
+)
+"lf_proof.ml" 233 7532 7550 "lf_proof.ml" 233 7532 7554
+type(
+  (Term.pterm * int) list
+)
+ident(
+  def ant1 "lf_proof.ml" 234 7574 7580 "lf_proof.ml" 250 8266 8275
+)
+"lf_proof.ml" 233 7532 7542 "lf_proof.ml" 233 7532 7555
+type(
+  (Term.pterm * int) list * Term.pterm * (Term.pterm * int) list
+)
+"lf_proof.ml" 233 7532 7558 "lf_proof.ml" 233 7532 7564
+type(
+  (Term.pterm * int) list ->
+  int -> (Term.pterm * int) list * Term.pterm * (Term.pterm * int) list
+)
+ident(
+  int_ref cutAnt "lf_proof.ml" 82 2144 2152 "lf_proof.ml" 82 2144 2158
+)
+"lf_proof.ml" 233 7532 7565 "lf_proof.ml" 233 7532 7568
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant "lf_proof.ml" 92 2414 2460 "lf_proof.ml" 92 2414 2463
+)
+"lf_proof.ml" 233 7532 7569 "lf_proof.ml" 233 7532 7570
+type(
+  int
+)
+ident(
+  int_ref x "lf_proof.ml" 232 7506 7518 "lf_proof.ml" 232 7506 7519
+)
+"lf_proof.ml" 233 7532 7558 "lf_proof.ml" 233 7532 7570
+call(
+  stack
+)
+type(
+  (Term.pterm * int) list * Term.pterm * (Term.pterm * int) list
+)
+"lf_proof.ml" 234 7574 7584 "lf_proof.ml" 234 7574 7585
+type(
+  Term.pterm
+)
+ident(
+  def p "lf_proof.ml" 235 7601 7607 "lf_proof.ml" 250 8266 8275
+)
+"lf_proof.ml" 234 7574 7593 "lf_proof.ml" 234 7574 7597
+type(
+  int
+)
+ident(
+  int_ref pnum "lf_proof.ml" 92 2414 2455 "lf_proof.ml" 92 2414 2459
+)
+"lf_proof.ml" 234 7574 7588 "lf_proof.ml" 234 7574 7597
+type(
+  Term.pterm
+)
+"lf_proof.ml" 235 7601 7619 "lf_proof.ml" 235 7601 7620
+type(
+  Term.pterm
+)
+ident(
+  int_ref t "lf_proof.ml" 233 7532 7548 "lf_proof.ml" 233 7532 7549
+)
+"lf_proof.ml" 236 7626 7650 "lf_proof.ml" 236 7626 7652
+type(
+  Term.pterm
+)
+ident(
+  def t1 "lf_proof.ml" 237 7664 7674 "lf_proof.ml" 248 8138 8189
+)
+"lf_proof.ml" 236 7626 7653 "lf_proof.ml" 236 7626 7655
+type(
+  Term.pterm
+)
+ident(
+  def t2 "lf_proof.ml" 237 7664 7674 "lf_proof.ml" 248 8138 8189
+)
+"lf_proof.ml" 236 7626 7642 "lf_proof.ml" 236 7626 7656
+type(
+  Term.pterm
+)
+"lf_proof.ml" 236 7626 7657 "lf_proof.ml" 236 7626 7659
+type(
+  Term.pterm
+)
+ident(
+  def t3 "lf_proof.ml" 237 7664 7674 "lf_proof.ml" 248 8138 8189
+)
+"lf_proof.ml" 236 7626 7634 "lf_proof.ml" 236 7626 7660
+type(
+  Term.pterm
+)
+"lf_proof.ml" 237 7664 7674 "lf_proof.ml" 237 7664 7681
+type(
+  Format.formatter ->
+  ((Format.formatter -> lf_proof -> unit) ->
+   lf_proof -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> lf_proof -> unit) ->
+  lf_proof -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"lf_proof.ml" 237 7664 7682 "lf_proof.ml" 237 7664 7685
+type(
+  Format.formatter
+)
+ident(
+  int_ref ppf "lf_proof.ml" 92 2414 2474 "lf_proof.ml" 92 2414 2477
+)
+"lf_proof.ml" 237 7664 7686 "lf_proof.ml" 237 7664 7706
+type(
+  ((Format.formatter -> lf_proof -> unit) ->
+   lf_proof -> (Format.formatter -> lf_proof -> unit) -> lf_proof -> unit,
+   Format.formatter, unit)
+  format
+)
+"lf_proof.ml" 238 7707 7731 "lf_proof.ml" 238 7707 7735
+type(
+  Term.pterm option
+)
+ident(
+  int_ref sucL "lf_proof.ml" 92 2414 2464 "lf_proof.ml" 92 2414 2468
+)
+"lf_proof.ml" 239 7741 7755 "lf_proof.ml" 239 7741 7759
+type(
+  Term.pterm option
+)
+"lf_proof.ml" 240 7763 7779 "lf_proof.ml" 240 7763 7802
+type(
+  Term.name_env ->
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Format.formatter -> lf_proof -> unit
+)
+ident(
+  int_ref pp_print_proof_internal "lf_proof.ml" 92 2414 2422 "lf_proof.ml" 92 2414 2445
+)
+"lf_proof.ml" 240 7763 7803 "lf_proof.ml" 240 7763 7806
+type(
+  Term.name_env
+)
+ident(
+  int_ref env "lf_proof.ml" 92 2414 2446 "lf_proof.ml" 92 2414 2449
+)
+"lf_proof.ml" 240 7763 7808 "lf_proof.ml" 240 7763 7812
+type(
+  int
+)
+ident(
+  int_ref anum "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+)
+"lf_proof.ml" 240 7763 7812 "lf_proof.ml" 240 7763 7813
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"lf_proof.ml" 240 7763 7813 "lf_proof.ml" 240 7763 7814
+type(
+  int
+)
+"lf_proof.ml" 240 7763 7807 "lf_proof.ml" 240 7763 7815
+type(
+  int
+)
+"lf_proof.ml" 240 7763 7816 "lf_proof.ml" 240 7763 7820
+type(
+  int
+)
+ident(
+  int_ref pnum "lf_proof.ml" 92 2414 2455 "lf_proof.ml" 92 2414 2459
+)
+"lf_proof.ml" 241 7821 7840 "lf_proof.ml" 241 7821 7844
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant0 "lf_proof.ml" 233 7532 7543 "lf_proof.ml" 233 7532 7547
+)
+"lf_proof.ml" 241 7821 7844 "lf_proof.ml" 241 7821 7845
+type(
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list -> (Term.pterm * int) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"lf_proof.ml" 241 7821 7846 "lf_proof.ml" 241 7821 7848
+type(
+  Term.pterm
+)
+ident(
+  int_ref t1 "lf_proof.ml" 236 7626 7650 "lf_proof.ml" 236 7626 7652
+)
+"lf_proof.ml" 241 7821 7849 "lf_proof.ml" 241 7821 7853
+type(
+  int
+)
+ident(
+  int_ref anum "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+)
+"lf_proof.ml" 241 7821 7845 "lf_proof.ml" 241 7821 7854
+type(
+  Term.pterm * int
+)
+"lf_proof.ml" 241 7821 7856 "lf_proof.ml" 241 7821 7860
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant1 "lf_proof.ml" 233 7532 7550 "lf_proof.ml" 233 7532 7554
+)
+"lf_proof.ml" 241 7821 7845 "lf_proof.ml" 241 7821 7860
+type(
+  (Term.pterm * int) list
+)
+"lf_proof.ml" 241 7821 7839 "lf_proof.ml" 241 7821 7861
+call(
+  stack
+)
+type(
+  (Term.pterm * int) list
+)
+"lf_proof.ml" 241 7821 7868 "lf_proof.ml" 241 7821 7870
+type(
+  Term.pterm
+)
+ident(
+  int_ref t3 "lf_proof.ml" 236 7626 7657 "lf_proof.ml" 236 7626 7659
+)
+"lf_proof.ml" 241 7821 7862 "lf_proof.ml" 241 7821 7871
+type(
+  Term.pterm option
+)
+"lf_proof.ml" 241 7821 7872 "lf_proof.ml" 241 7821 7874
+type(
+  Term.pterm
+)
+ident(
+  int_ref t2 "lf_proof.ml" 236 7626 7653 "lf_proof.ml" 236 7626 7655
+)
+"lf_proof.ml" 240 7763 7779 "lf_proof.ml" 241 7821 7874
+call(
+  stack
+)
+type(
+  Format.formatter -> lf_proof -> unit
+)
+"lf_proof.ml" 242 7875 7894 "lf_proof.ml" 242 7875 7899
+type(
+  Term.pterm
+)
+ident(
+  def sucLS "lf_proof.ml" 243 7903 7919 "lf_proof.ml" 245 8032 8062
+)
+"lf_proof.ml" 242 7875 7889 "lf_proof.ml" 242 7875 7899
+type(
+  Term.pterm option
+)
+"lf_proof.ml" 243 7903 7919 "lf_proof.ml" 243 7903 7942
+type(
+  Term.name_env ->
+  int ->
+  int ->
+  (Term.pterm * int) list ->
+  Term.pterm option -> Term.pterm -> Format.formatter -> lf_proof -> unit
+)
+ident(
+  int_ref pp_print_proof_internal "lf_proof.ml" 92 2414 2422 "lf_proof.ml" 92 2414 2445
+)
+"lf_proof.ml" 243 7903 7943 "lf_proof.ml" 243 7903 7946
+type(
+  Term.name_env
+)
+ident(
+  int_ref env "lf_proof.ml" 92 2414 2446 "lf_proof.ml" 92 2414 2449
+)
+"lf_proof.ml" 243 7903 7948 "lf_proof.ml" 243 7903 7952
+type(
+  int
+)
+ident(
+  int_ref anum "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+)
+"lf_proof.ml" 243 7903 7952 "lf_proof.ml" 243 7903 7953
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"lf_proof.ml" 243 7903 7953 "lf_proof.ml" 243 7903 7954
+type(
+  int
+)
+"lf_proof.ml" 243 7903 7947 "lf_proof.ml" 243 7903 7955
+type(
+  int
+)
+"lf_proof.ml" 243 7903 7956 "lf_proof.ml" 243 7903 7960
+type(
+  int
+)
+ident(
+  int_ref pnum "lf_proof.ml" 92 2414 2455 "lf_proof.ml" 92 2414 2459
+)
+"lf_proof.ml" 244 7961 7980 "lf_proof.ml" 244 7961 7984
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant0 "lf_proof.ml" 233 7532 7543 "lf_proof.ml" 233 7532 7547
+)
+"lf_proof.ml" 244 7961 7984 "lf_proof.ml" 244 7961 7985
+type(
+  (Term.pterm * int) list ->
+  (Term.pterm * int) list -> (Term.pterm * int) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"lf_proof.ml" 244 7961 7994 "lf_proof.ml" 244 7961 7998
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucR "lf_proof.ml" 92 2414 2469 "lf_proof.ml" 92 2414 2473
+)
+"lf_proof.ml" 244 7961 7999 "lf_proof.ml" 244 7961 8004
+type(
+  Term.pterm
+)
+ident(
+  int_ref sucLS "lf_proof.ml" 242 7875 7894 "lf_proof.ml" 242 7875 7899
+)
+"lf_proof.ml" 244 7961 7986 "lf_proof.ml" 244 7961 8005
+type(
+  Term.pterm
+)
+"lf_proof.ml" 244 7961 8006 "lf_proof.ml" 244 7961 8010
+type(
+  int
+)
+ident(
+  int_ref anum "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+)
+"lf_proof.ml" 244 7961 7985 "lf_proof.ml" 244 7961 8011
+type(
+  Term.pterm * int
+)
+"lf_proof.ml" 244 7961 8014 "lf_proof.ml" 244 7961 8016
+type(
+  Term.pterm
+)
+ident(
+  int_ref t1 "lf_proof.ml" 236 7626 7650 "lf_proof.ml" 236 7626 7652
+)
+"lf_proof.ml" 244 7961 8017 "lf_proof.ml" 244 7961 8021
+type(
+  int
+)
+ident(
+  int_ref anum "lf_proof.ml" 92 2414 2450 "lf_proof.ml" 92 2414 2454
+)
+"lf_proof.ml" 244 7961 8021 "lf_proof.ml" 244 7961 8022
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"lf_proof.ml" 244 7961 8022 "lf_proof.ml" 244 7961 8023
+type(
+  int
+)
+"lf_proof.ml" 244 7961 8017 "lf_proof.ml" 244 7961 8023
+type(
+  int
+)
+"lf_proof.ml" 244 7961 8013 "lf_proof.ml" 244 7961 8024
+type(
+  Term.pterm * int
+)
+"lf_proof.ml" 244 7961 8026 "lf_proof.ml" 244 7961 8030
+type(
+  (Term.pterm * int) list
+)
+ident(
+  int_ref ant1 "lf_proof.ml" 233 7532 7550 "lf_proof.ml" 233 7532 7554
+)
+"lf_proof.ml" 244 7961 8013 "lf_proof.ml" 244 7961 8030
+type(
+  (Term.pterm * int) list
+)
+"lf_proof.ml" 244 7961 7985 "lf_proof.ml" 244 7961 8030
+type(
+  (Term.pter
